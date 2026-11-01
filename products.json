@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T21:03:40.581Z",
+ "updatedAt": "2026-11-01T21:41:19.734Z",
  "products": [
+  {
+   "id": "P1793569272557",
+   "name": "Áo Bomber Dạ kéo 2 lớp CATIMA Unixex Hotrend 2025 AV 51",
+   "cat": "Thời Trang Nam",
+   "price": 395999,
+   "img": "images/P1793569272557-1793569275813.jpg",
+   "link": "https://vt.tiktok.com/ZS9yqQyb4F4fD-2SoLK/"
+  },
   {
    "id": "P1793567013902",
    "name": "Áo sơ mi Thổ Cẩm Cao Cấp - Phong Cách Thời Thượng 2025",
