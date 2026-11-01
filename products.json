@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T19:32:42.270Z",
+ "updatedAt": "2026-11-01T21:03:40.581Z",
  "products": [
+  {
+   "id": "P1793567013902",
+   "name": "Áo sơ mi Thổ Cẩm Cao Cấp - Phong Cách Thời Thượng 2025",
+   "cat": "Thời Trang Nam",
+   "price": 219000,
+   "img": "images/P1793567013902-1793567017303.jpg",
+   "link": "https://vt.tiktok.com/ZS9yqaRoo12bH-aG38U/"
+  },
   {
    "id": "P1793561555752",
    "name": "Quần jean đùi nam cao cấp ANTAVIO chất liệu vải jean",
