@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T18:28:02.433Z",
+ "updatedAt": "2026-11-01T19:30:11.461Z",
  "products": [
+  {
+   "id": "P1793559442444",
+   "name": "Áo Polo Nam Monogram Amio Chất Liệu Cotton AeroPique",
+   "cat": "Thời Trang Nam",
+   "price": 248160,
+   "img": "images/P1793559442444-1793559446213.jpg",
+   "link": "https://vt.tiktok.com/ZS9yqRgchXtYJ-yEg0B/"
+  },
   {
    "id": "P1793557676011",
    "name": "Áo Thun Nam ECOLLECT CT12 Cotton 250g Wash Màu Loang",
