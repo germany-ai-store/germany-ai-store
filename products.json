@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T17:20:58.773Z",
+ "updatedAt": "2026-11-01T17:37:24.614Z",
  "products": [
+  {
+   "id": "P1793554627986",
+   "name": "Áo Thun Nam Cộc Tay Hose Nam Nữ Thể Thao Mát Mẻ",
+   "cat": "Thời Trang Nam",
+   "price": 188999,
+   "img": "images/P1793554627986-1793554632729.jpg",
+   "link": "https://vt.tiktok.com/ZS9yV7hesGCJL-4JaRi/"
+  },
   {
    "id": "P1793553644228",
    "name": "Áo Thun Nam Cotton Áo Phông Mã Thêu ANTAVIO Chất Liệu Vải",
