@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T15:30:49.272Z",
+ "updatedAt": "2026-11-01T15:39:58.786Z",
  "products": [
+  {
+   "id": "P1793547591916",
+   "name": "Áo sơ mi Nam BAMBOO URBAN Menswear ngắn Cộc Tay trơn, chất liệu Bamboo Thoáng Khí, Chống Nhăn, Dáng slim Basic ôm gọn đi làm, công sở, đi chơi Dễ Phối Đồ NO.1025",
+   "cat": "Thời Trang Nam",
+   "price": 288000,
+   "img": "images/P1793547591916-1793547595286.jpg",
+   "link": "https://vt.tiktok.com/ZS9yV5nVtwXQx-ZR7F5/"
+  },
   {
    "id": "P1793547039931",
    "name": "Sơ mi Oxford cao cấp  AZÚCAR Mát mẻ, lịch sự, trẻ trung và siêu thoải mái",
