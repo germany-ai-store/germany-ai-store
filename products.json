@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T16:05:49.009Z",
+ "updatedAt": "2026-11-01T16:17:31.295Z",
  "products": [
+  {
+   "id": "P1793549843242",
+   "name": "TQQ Áo Sơ Mi Nam Kẻ Caro Sợi Fiber ngắn tay K538CB",
+   "cat": "Thời Trang Nam",
+   "price": 259794,
+   "img": "images/P1793549843242-1793549848375.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVQbEQ8c6D-FCMyi/"
+  },
   {
    "id": "P1793549139718",
    "name": "Áo sơ mi nam kẻ sọc dài tay chất liệu Lụa kháng nhăn cao cấp",
