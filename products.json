@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T17:01:02.701Z",
+ "updatedAt": "2026-11-01T17:08:46.878Z",
  "products": [
+  {
+   "id": "P1793552919356",
+   "name": "DEAL Mở Bán -Áo thun lạnh, chất liệu tráng da, cổ tròn, cộc tay",
+   "cat": "Thời Trang Nam",
+   "price": 175000,
+   "img": "images/P1793552919356-1793552923366.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVs6Mtvr1c-NtwTF/"
+  },
   {
    "id": "P1793551928198",
    "name": "Áo Phông Thun Cộc tay Nam Cá Mập Mát Mẻ Dày Dặn",
