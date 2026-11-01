@@ -1,6 +1,15 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T13:04:16.845Z",
- "products": []
+ "updatedAt": "2026-11-01T13:15:51.263Z",
+ "products": [
+  {
+   "id": "P1793538940834",
+   "name": "Áo sơ mi nam dài tay LADOS - 779 chất lụa mềm mịn lịch sự phong cách công sở",
+   "cat": "Thời Trang Nam",
+   "price": 155.48,
+   "img": "images/P1793538940834-1793538948618.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVJNDEDqHM-m3GVL/"
+  }
+ ]
 }
