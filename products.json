@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T15:04:08.072Z",
+ "updatedAt": "2026-11-01T15:30:49.272Z",
  "products": [
+  {
+   "id": "P1793547039931",
+   "name": "Sơ mi Oxford cao cấp  AZÚCAR Mát mẻ, lịch sự, trẻ trung và siêu thoải mái",
+   "cat": "Thời Trang Nam",
+   "price": 193590,
+   "img": "images/P1793547039931-1793547046324.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVPNLktNSU-pu7eZ/"
+  },
   {
    "id": "P1793545438175",
    "name": "Áo sơ mi nam dài tay trơn đẹp 4MEN SM088 lụa chéo hạn chế nhăn, mềm mịn, form tailored rộng công sở trẻ trung",
