@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T18:15:29.655Z",
+ "updatedAt": "2026-11-01T18:28:02.433Z",
  "products": [
+  {
+   "id": "P1793557676011",
+   "name": "Áo Thun Nam ECOLLECT CT12 Cotton 250g Wash Màu Loang",
+   "cat": "Thời Trang Nam",
+   "price": 194370,
+   "img": "images/P1793557676011-1793557678973.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVo9r8vMXq-OW1Hw/"
+  },
   {
    "id": "P1793556923108",
    "name": "Áo Phông Đen Nam BEYOND Dream Tears Nam Nữ Cotton Tự Nhiên",
