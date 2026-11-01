@@ -1,0 +1,23 @@
+{
+ "app": "GERMANY_AI",
+ "version": 3,
+ "updatedAt": "2026-11-01T11:49:10.054Z",
+ "products": [
+  {
+   "id": "P1793532606688",
+   "name": "Áo thun POLO NÓN LÁ PHIÊN BẢN MỚI vải cá sấu sang trọng, lịch lãm, thoáng mát - FREESHIP Extra",
+   "cat": "Thời Trang Nam",
+   "price": 131.879,
+   "img": "images/P1793532606688-1793533743446.jpg",
+   "link": "https://shorten.asia/BxPfwPbB"
+  },
+  {
+   "id": "P1793530898830",
+   "name": "Áo phông SPORTMEN 23 cổ bẻ BASIC CVC vải cá sấu sang trọng, lịch lãm, thoáng mát Menswear",
+   "cat": "Thời Trang Nam",
+   "price": 131.879,
+   "img": "images/P1793530898830-1793533746571.jpg",
+   "link": "https://shorten.asia/sKgfmJP4"
+  }
+ ]
+}
