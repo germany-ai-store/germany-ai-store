@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T15:39:58.786Z",
+ "updatedAt": "2026-11-01T15:59:40.803Z",
  "products": [
+  {
+   "id": "P1793548773422",
+   "name": "Áo sơ mi nam ngắn tay Mattio vải sợi tre, regular fit - dáng suông, tà bằng, mềm mịn",
+   "cat": "Thời Trang Nam",
+   "price": 345000,
+   "img": "images/P1793548773422-1793548777979.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVHCW9VE8m-qQ0bw/"
+  },
   {
    "id": "P1793547591916",
    "name": "Áo sơ mi Nam BAMBOO URBAN Menswear ngắn Cộc Tay trơn, chất liệu Bamboo Thoáng Khí, Chống Nhăn, Dáng slim Basic ôm gọn đi làm, công sở, đi chơi Dễ Phối Đồ NO.1025",
