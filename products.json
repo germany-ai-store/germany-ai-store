@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T19:30:11.461Z",
+ "updatedAt": "2026-11-01T19:32:42.270Z",
  "products": [
+  {
+   "id": "P1793561555752",
+   "name": "Quần jean đùi nam cao cấp ANTAVIO chất liệu vải jean",
+   "cat": "Thời Trang Nam",
+   "price": 180000,
+   "img": "images/P1793561555752-1793561559010.jpg",
+   "link": "https://vt.tiktok.com/ZS9yq2pTH8eEo-YSvqw/"
+  },
   {
    "id": "P1793559442444",
    "name": "Áo Polo Nam Monogram Amio Chất Liệu Cotton AeroPique",
