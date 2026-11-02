@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-01T21:46:46.775Z",
+ "updatedAt": "2026-11-02T11:34:58.786Z",
  "products": [
+  {
+   "id": "P1793619289449",
+   "name": "Áo Sơ Mi - Hoa Văn Hoạ Tiết Thiên Nhiên 2025",
+   "cat": "Thời Trang Nam",
+   "price": 169570,
+   "img": "images/P1793619289449-1793619292612.jpg",
+   "link": "https://vt.tiktok.com/ZS9ypF4GWC4Vk-k0Shz/"
+  },
   {
    "id": "P1793569599976",
    "name": "Áo Khoác Gió Bamber Lót Trần Bông 2 Lớp Cản Gió Chống Nước",
