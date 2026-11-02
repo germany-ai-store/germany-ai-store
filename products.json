@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-02T23:37:32.121Z",
+ "updatedAt": "2026-11-02T23:44:27.751Z",
  "products": [
+  {
+   "id": "P1793663060853",
+   "name": "( BÁN CHẠY ) Áo Thun dáng babytee có size 35kg đến 70kg",
+   "cat": "Thời Trang Nam",
+   "price": 120000,
+   "img": "images/P1793663060853-1793663064447.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGUwmX3n5N-UhK6L/"
+  },
   {
    "id": "P1793662644319",
    "name": "Áo Thun Nữ MiSoul Thêu Chữ KARIN Cotton Mats Mịn",
