@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-02T11:34:58.786Z",
+ "updatedAt": "2026-11-02T21:31:33.760Z",
  "products": [
+  {
+   "id": "P1793655084348",
+   "name": "COMBO 2 Quần Đùi Nam Nice90fashion Chất Liệu Nhung Tăm",
+   "cat": "Thời Trang Nam",
+   "price": 160000,
+   "img": "images/P1793655084348-1793655090386.jpg",
+   "link": "https://vt.tiktok.com/ZS9ysoHSaRK8W-1Uqbz/"
+  },
   {
    "id": "P1793619289449",
    "name": "Áo Sơ Mi - Hoa Văn Hoạ Tiết Thiên Nhiên 2025",
