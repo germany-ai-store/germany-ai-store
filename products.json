@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-02T21:55:58.899Z",
+ "updatedAt": "2026-11-02T22:07:10.865Z",
  "products": [
+  {
+   "id": "P1793657223989",
+   "name": "TAVYSU Sét Bộ Nỉ 2 Da Nam Thu Đông Nhiều Màu Trẻ Trung",
+   "cat": "Thời Trang Nam",
+   "price": 236295,
+   "img": "images/P1793657223989-1793657227227.jpg",
+   "link": "https://vt.tiktok.com/ZS9yG89pYQWA9-681Xg/"
+  },
   {
    "id": "P1793656493393",
    "name": "Quần Short Nam Kaki Cá Sấu Co Giãn 2 Chiều Cao Cấp",
