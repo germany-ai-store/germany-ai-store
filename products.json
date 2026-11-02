@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-02T22:44:51.843Z",
+ "updatedAt": "2026-11-02T23:18:57.749Z",
  "products": [
+  {
+   "id": "P1793661531092",
+   "name": "Áo Phao V Trơn, Lót 3D Cao Cấp Sang Trọng, Tháo Được Mũ",
+   "cat": "Thời Trang Nam",
+   "price": 520000,
+   "img": "images/P1793661531092-1793661534615.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGBgVLjXyM-accgH/"
+  },
   {
    "id": "P1793659484984",
    "name": "Bộ quần áo thể thao nam chất liệu vải nỉ ép 2 da kẻ sọc vai",
