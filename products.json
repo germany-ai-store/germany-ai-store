@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-02T22:07:10.865Z",
+ "updatedAt": "2026-11-02T22:30:08.822Z",
  "products": [
+  {
+   "id": "P1793658602821",
+   "name": "Bộ vest nam cao cấp lịch lãm chuẩn form cho phái mạnh",
+   "cat": "Thời Trang Nam",
+   "price": 663170,
+   "img": "images/P1793658602821-1793658606094.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGYPNS1Yq1-D5u8N/"
+  },
   {
    "id": "P1793657223989",
    "name": "TAVYSU Sét Bộ Nỉ 2 Da Nam Thu Đông Nhiều Màu Trẻ Trung",
