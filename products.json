@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-02T23:18:57.749Z",
+ "updatedAt": "2026-11-02T23:37:32.121Z",
  "products": [
+  {
+   "id": "P1793662644319",
+   "name": "Áo Thun Nữ MiSoul Thêu Chữ KARIN Cotton Mats Mịn",
+   "cat": "Thời Trang Nữ",
+   "price": 98950,
+   "img": "images/P1793662644319-1793662647857.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGDuf1AtLd-R1b6A/"
+  },
   {
    "id": "P1793661531092",
    "name": "Áo Phao V Trơn, Lót 3D Cao Cấp Sang Trọng, Tháo Được Mũ",
