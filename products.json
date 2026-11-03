@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-03T12:35:42.970Z",
+ "updatedAt": "2026-11-03T16:15:58.859Z",
  "products": [
+  {
+   "id": "P1793722551565",
+   "name": "Chân Váy Xếp Ly Kaki Phối Khuy Có Quần Bảo Hộ",
+   "cat": "Thời Trang Nữ",
+   "price": 159390,
+   "img": "images/P1793722551565-1793722554697.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWPEm7EUT3-8x8HK/"
+  },
   {
    "id": "P1793709335768",
    "name": "Áo Sơ Mi Đan Eo Tay Bồng Đính Nơ thiết kết chất vải",
