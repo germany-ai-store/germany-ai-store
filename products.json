@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-03T05:02:02.532Z",
+ "updatedAt": "2026-11-03T11:20:55.130Z",
  "products": [
+  {
+   "id": "P1793704847991",
+   "name": "Áo thun nữ 2 mặt giọt nước và cổ U - vải thun",
+   "cat": "Thời Trang Nữ",
+   "price": 98000,
+   "img": "images/P1793704847991-1793704851504.jpg",
+   "link": "https://vt.tiktok.com/ZS9yn9LrNLem2-xCvI9/"
+  },
   {
    "id": "P1793682115903",
    "name": "HTIQUE  - DEAL mở bán Áo Len Polo Nữ Tay Ngắn Form",
