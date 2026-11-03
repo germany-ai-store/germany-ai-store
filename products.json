@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-03T04:49:19.029Z",
+ "updatedAt": "2026-11-03T04:53:59.175Z",
  "products": [
+  {
+   "id": "P1793681631973",
+   "name": "[Mã 23] ÁO THUN NỮ ÔM SÁT NÁCH CỔ LỌ - CHẤT VẢI",
+   "cat": "Thời Trang Nữ",
+   "price": 97020,
+   "img": "images/P1793681631973-1793681635086.jpg",
+   "link": "https://vt.tiktok.com/ZS9ytAmhWGGPh-Lgcvn/"
+  },
   {
    "id": "P1793667622434",
    "name": "Áo 2Dây Thun Zip Cổ Vuông Dáng Ôm Phối Khuy Thời Trang",
