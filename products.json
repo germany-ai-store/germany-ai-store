@@ -1,8 +1,24 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-03T16:21:50.387Z",
+ "updatedAt": "2026-11-03T16:35:11.596Z",
  "products": [
+  {
+   "id": "P1793723699339",
+   "name": "Đầm thiết kế BEMINE giả áo khoác tay lửng dáng xòe",
+   "cat": "Thời Trang Nữ",
+   "price": 267628,
+   "img": "images/P1793723699339-1793723702257.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWuM5t2sVs-XAWJX/"
+  },
+  {
+   "id": "P1793723304858",
+   "name": "( Tặng Đai) Váy Len Thừng Phối Vải Kaki Hàn Dáng Dài",
+   "cat": "Thời Trang Nữ",
+   "price": 259200,
+   "img": "images/P1793723304858-1793723707151.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWmLMFmHFA-GdkBS/"
+  },
   {
    "id": "P1793722904300",
    "name": "Váy thiết kế Rosy V33 váy dáng dài thanh lịch Nữ Dress",
