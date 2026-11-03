@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-03T16:15:58.859Z",
+ "updatedAt": "2026-11-03T16:21:50.387Z",
  "products": [
+  {
+   "id": "P1793722904300",
+   "name": "Váy thiết kế Rosy V33 váy dáng dài thanh lịch Nữ Dress",
+   "cat": "Thời Trang Nữ",
+   "price": 323350,
+   "img": "images/P1793722904300-1793722907316.jpg",
+   "link": "https://vt.tiktok.com/ZS9yW5E1pdwxX-JiSZ7/"
+  },
   {
    "id": "P1793722551565",
    "name": "Chân Váy Xếp Ly Kaki Phối Khuy Có Quần Bảo Hộ",
