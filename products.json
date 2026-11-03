@@ -1,8 +1,40 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-03T11:20:55.130Z",
+ "updatedAt": "2026-11-03T12:02:25.732Z",
  "products": [
+  {
+   "id": "P1793706982731",
+   "name": "Áo sơ mi hoa phong cách Pháp cổ điển, cổ đứng",
+   "cat": "Thời Trang Nữ",
+   "price": 173913,
+   "img": "images/P1793706982731-1793706986151.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynVjBKhXbq-76zXk/"
+  },
+  {
+   "id": "P1793706349934",
+   "name": "[XẢ KHO] Áo tay dài cổ lọ khoét xoắn ngực tay xỏ ngón",
+   "cat": "Thời Trang Nữ",
+   "price": 81180,
+   "img": "images/P1793706349934-1793706354531.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynX1VbYkBa-zmV9u/"
+  },
+  {
+   "id": "P1793705885141",
+   "name": "[DEAL MỞ BÁN] Áo Thun Nữ Croptop Baby Tee",
+   "cat": "Thời Trang Nam",
+   "price": 89000,
+   "img": "images/P1793705885141-1793707340061.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynQTWaXXn5-CO4qu/"
+  },
+  {
+   "id": "P1793705450203",
+   "name": "Áo Thun Nữ cổ Chéo MUNCCI ATA008 Nhiều Màu",
+   "cat": "Thời Trang Nữ",
+   "price": 82451,
+   "img": "images/P1793705450203-1793705453293.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynxtdggVf9-7vyjJ/"
+  },
   {
    "id": "P1793704847991",
    "name": "Áo thun nữ 2 mặt giọt nước và cổ U - vải thun",
