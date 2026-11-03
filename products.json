@@ -1,8 +1,32 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-03T12:13:53.465Z",
+ "updatedAt": "2026-11-03T12:33:06.669Z",
  "products": [
+  {
+   "id": "P1793708979046",
+   "name": "Áo Polo Nữ Thun cotton VIFA sang xịn mịn phối cổ đẹp",
+   "cat": "Thời Trang Nữ",
+   "price": 135000,
+   "img": "images/P1793708979046-1793708982013.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynsbJMtP2F-JGH5t/"
+  },
+  {
+   "id": "P1793708708660",
+   "name": "Áo Lụa Tay Cánh Dơi lụa Cao Cấp Thiết Kế Thắt Nơ Eo",
+   "cat": "Thời Trang Nữ",
+   "price": 173880,
+   "img": "images/P1793708708660-1793708711814.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynpEgTjUnG-3ZLYc/"
+  },
+  {
+   "id": "P1793708424605",
+   "name": "Sơ mi cổ bèo dây nơ Maize sang trọng, Sơ mi dự tiệc",
+   "cat": "Thời Trang Nữ",
+   "price": 296000,
+   "img": "images/P1793708424605-1793708715352.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynp2wn1tUA-OyTt7/"
+  },
   {
    "id": "P1793708025170",
    "name": "Áo Sơ Mi Nữ Thun Tăm Cổ Tim Áo Tay Dài Voan Bổng",
