@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-03T16:47:50.335Z",
+ "updatedAt": "2026-11-03T17:07:44.625Z",
  "products": [
+  {
+   "id": "P1793725261113",
+   "name": "Đầm thiết kế dành cho nữ (2 Dây Kèm Khoát) xoắn nhẹ",
+   "cat": "Thời Trang Nữ",
+   "price": 234600,
+   "img": "images/P1793725261113-1793725265884.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWQqmQsTsY-71Hu5/"
+  },
   {
    "id": "P1793724450616",
    "name": "Váy Nhung Tay Bồng Phối Nơ Tiểu Thư, Váy Nữ Dáng Chữ A",
