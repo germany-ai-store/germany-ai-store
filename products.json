@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-03T18:40:44.925Z",
+ "updatedAt": "2026-11-03T18:42:38.010Z",
  "products": [
+  {
+   "id": "P1793731351518",
+   "name": "Áo khoác mangto dạ dáng ngắn kèm đai form rộng",
+   "cat": "Thời Trang Nữ",
+   "price": 324000,
+   "img": "images/P1793731351518-1793731354489.jpg",
+   "link": "https://vt.tiktok.com/ZS9yW33DJ4vRb-H7fPS/"
+  },
   {
    "id": "P1793731020785",
    "name": "DELIZ - Cardigan khoác ngoài mùa thu đông cổ V phối",
