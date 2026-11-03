@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-03T00:59:50.735Z",
+ "updatedAt": "2026-11-03T01:00:28.577Z",
  "products": [
+  {
+   "id": "P1793667622434",
+   "name": "T",
+   "cat": "Thời Trang Nam",
+   "price": 1,
+   "img": "images/P1793667622434-1793667625521.jpg",
+   "link": "https://vt.tiktok.com/ZS9yG4rqdAaSQ-1RZ1P/"
+  },
   {
    "id": "P1793666899177",
    "name": "[MÀU MỚI THU ĐÔNG] Áo Thun Tay Lửng Nữ VSS Cổ Tròn",
