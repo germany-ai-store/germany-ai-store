@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-03T04:54:33.492Z",
+ "updatedAt": "2026-11-03T04:59:06.297Z",
  "products": [
+  {
+   "id": "P1793681940197",
+   "name": "(BST Thu Hà Nội) Áo sơ mi dài tay hàng thiết kế chất tơ",
+   "cat": "Thời Trang Nữ",
+   "price": 172000,
+   "img": "images/P1793681940197-1793681943206.jpg",
+   "link": "https://vt.tiktok.com/ZS9ytD5F9VvBV-8V7kY/"
+  },
   {
    "id": "P1793681631973",
    "name": "[Mã 23] ÁO THUN NỮ ÔM SÁT NÁCH CỔ LỌ - CHẤT VẢI",
