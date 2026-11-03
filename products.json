@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-03T17:07:44.625Z",
+ "updatedAt": "2026-11-03T17:22:56.627Z",
  "products": [
+  {
+   "id": "P1793725787596",
+   "name": "Đầm body đầm tay dài xoắn eo sang trảnh Đ189",
+   "cat": "Thời Trang Nữ",
+   "price": 197900,
+   "img": "images/P1793725787596-1793725790999.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWXL4g8ByJ-z9ILc/"
+  },
   {
    "id": "P1793725261113",
    "name": "Đầm thiết kế dành cho nữ (2 Dây Kèm Khoát) xoắn nhẹ",
