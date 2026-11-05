@@ -1,8 +1,24 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-05T15:09:28.925Z",
+ "updatedAt": "2026-11-05T17:00:37.516Z",
  "products": [
+  {
+   "id": "P1793898029523",
+   "name": "[Enter Dragon x Huỳnh Anh] [Phiên Bản nâng cấp]",
+   "cat": "Giày dép",
+   "price": 381999,
+   "img": "images/P1793898029523-1793898033646.jpg",
+   "link": "https://vt.tiktok.com/ZS9yoPTCtTBum-cWLvq/"
+  },
+  {
+   "id": "P1793893155068",
+   "name": "[MALL] Giày Thể Thao Thông Dụng Biti’s Màu Xanh",
+   "cat": "Giày dép",
+   "price": 592200,
+   "img": "images/P1793893155068-1793893158028.jpg",
+   "link": "https://vt.tiktok.com/ZS9yojrJoeYnx-08FtD/"
+  },
   {
    "id": "P1793891362143",
    "name": "Giày Sneaker LEONERVA 808 - Best Seller Giày thể thao",
