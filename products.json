@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-06T16:13:11.000Z",
+ "updatedAt": "2026-11-06T16:47:12.280Z",
  "products": [
+  {
+   "id": "P1793983626194",
+   "name": "Giày lười nam da bò vân cá sấu cao cấp , đế cao su non",
+   "cat": "Giày dép",
+   "price": 309001,
+   "img": "images/P1793983626194-1793983629101.jpg",
+   "link": "https://vt.tiktok.com/ZS9fd7uhe34w2-cr5L8/"
+  },
   {
    "id": "P1793981527684",
    "name": "1025  [MỚI] [MATTREMONS] Giày chạy bộ thoáng khí",
