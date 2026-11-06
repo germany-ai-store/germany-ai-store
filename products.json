@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-05T17:00:37.516Z",
+ "updatedAt": "2026-11-06T14:52:38.241Z",
  "products": [
+  {
+   "id": "P1793976750231",
+   "name": "Giày Nam Sneaker Vải Da Bò Balance Retro QC-1",
+   "cat": "Giày dép",
+   "price": 301220,
+   "img": "images/P1793976750231-1793976753819.jpg",
+   "link": "https://vt.tiktok.com/ZS9fdmJ7GEnqe-fY74s/"
+  },
   {
    "id": "P1793898029523",
    "name": "[Enter Dragon x Huỳnh Anh] [Phiên Bản nâng cấp]",
