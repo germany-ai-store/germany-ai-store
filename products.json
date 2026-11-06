@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-06T14:52:38.241Z",
+ "updatedAt": "2026-11-06T15:37:06.705Z",
  "products": [
+  {
+   "id": "P1793979420112",
+   "name": "GIÀY THỂ THAO UNISEX KAPPA 322M8LW - THOẢI MÁI",
+   "cat": "Giày dép",
+   "price": 569400,
+   "img": "images/P1793979420112-1793979423510.jpg",
+   "link": "https://vt.tiktok.com/ZS9fdXvxBFTPU-fwTfu/"
+  },
   {
    "id": "P1793976750231",
    "name": "Giày Nam Sneaker Vải Da Bò Balance Retro QC-1",
