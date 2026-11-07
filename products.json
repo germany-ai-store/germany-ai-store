@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-06T16:47:12.280Z",
+ "updatedAt": "2026-11-07T11:17:11.428Z",
  "products": [
+  {
+   "id": "P1794050221293",
+   "name": "[Chân Mỏng Lùi 1 Size] Giày Búp Bê Nữ Chấm Bi",
+   "cat": "Giày dép",
+   "price": 145000,
+   "img": "images/P1794050221293-1794050227633.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNrPNgmLmp-p2Sgf/"
+  },
   {
    "id": "P1793983626194",
    "name": "Giày lười nam da bò vân cá sấu cao cấp , đế cao su non",
