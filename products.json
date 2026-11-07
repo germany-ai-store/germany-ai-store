@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T18:28:27.514Z",
+ "updatedAt": "2026-11-07T18:45:25.427Z",
  "products": [
+  {
+   "id": "P1794077118823",
+   "name": "Túi Đeo Chéo CEMMERY Local Brand Chính Hãng Drum",
+   "cat": "Túi",
+   "price": 352800,
+   "img": "images/P1794077118823-1794077121795.jpg",
+   "link": "https://vt.tiktok.com/ZS9fF4j6u4mCS-YcJn7/"
+  },
   {
    "id": "P1794076100440",
    "name": "SHENQI SQ-D26107 - Túi xách hình lưỡi liềm SHENQI phong",
