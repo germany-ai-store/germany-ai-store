@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T21:43:21.392Z",
+ "updatedAt": "2026-11-07T21:54:27.864Z",
  "products": [
+  {
+   "id": "P1794088131761",
+   "name": "Giày Boot Nam Da Bò Cổ Cao Dáng Chelsea Boots Mũi",
+   "cat": "Giày dép",
+   "price": 640000,
+   "img": "images/P1794088131761-1794088134619.jpg",
+   "link": "https://vt.tiktok.com/ZS9fYjUhXFkve-iT874/"
+  },
   {
    "id": "P1794087792971",
    "name": "Giày Nam Chelsea Boots Đế Đỏ Đen Phíp Gót Gỗ Da Bò",
