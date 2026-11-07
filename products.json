@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T18:49:15.312Z",
+ "updatedAt": "2026-11-07T18:56:55.455Z",
  "products": [
+  {
+   "id": "P1794077809111",
+   "name": "[Tặng Charm] Túi xách nữ Size18 cầm tay Đeo chéo dáng",
+   "cat": "Túi",
+   "price": 139899,
+   "img": "images/P1794077809111-1794077812201.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFV4GJQf6S-TWZMS/"
+  },
   {
    "id": "P1794077341797",
    "name": "Túi Trống Du Lịch CEMMERY Local Brand Chính Hãng",
