@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T11:17:11.428Z",
+ "updatedAt": "2026-11-07T13:20:58.951Z",
  "products": [
+  {
+   "id": "P1794057652176",
+   "name": "Giày Dép Cao Gót Nữ mũi vuông đế dẻo thoáng khí mềm",
+   "cat": "Thời Trang Nam",
+   "price": 239000,
+   "img": "images/P1794057652176-1794057655295.jpg",
+   "link": "https://vt.tiktok.com/ZS9fN4ybWdM2c-RBz1s/"
+  },
   {
    "id": "P1794050221293",
    "name": "[Chân Mỏng Lùi 1 Size] Giày Búp Bê Nữ Chấm Bi",
