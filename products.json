@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T20:49:24.930Z",
+ "updatedAt": "2026-11-07T21:15:41.636Z",
  "products": [
+  {
+   "id": "P1794086135290",
+   "name": "[GIÀY DÂY BUỘC] Giày Nam Tăng Chiều Cao 6cm SIGOURNEY",
+   "cat": "Giày dép",
+   "price": 616000,
+   "img": "images/P1794086135290-1794086138253.jpg",
+   "link": "https://vt.tiktok.com/ZS9fY8XrbkNx3-QXIcD/"
+  },
   {
    "id": "P1794084556357",
    "name": "Giày Viboots Summer Loafer Da Bò Lộn Lười Nam Mùa Hè",
