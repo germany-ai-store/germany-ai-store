@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T15:24:52.844Z",
+ "updatedAt": "2026-11-07T16:13:15.644Z",
  "products": [
+  {
+   "id": "P1794067988622",
+   "name": "Giày bốt nữ cổ lửng khoá cạnh phối khuy cá tính da PU",
+   "cat": "Giày dép",
+   "price": 434600,
+   "img": "images/P1794067988622-1794067991631.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFYQrTxJT7-5yYBd/"
+  },
   {
    "id": "P1794063281957",
    "name": "Giày Mocassin QC Cao Cấp- Giày Lười Da Bò- Dập Vân",
