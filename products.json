@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T14:20:44.758Z",
+ "updatedAt": "2026-11-07T14:37:25.008Z",
  "products": [
+  {
+   "id": "P1794062238406",
+   "name": "[NE40-IN] GIÀY SNEAKER IN HOẠ TIẾT NESTY [K01]",
+   "cat": "Giày dép",
+   "price": 175000,
+   "img": "images/P1794062238406-1794062241447.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNcL8m2CrJ-wEgoz/"
+  },
   {
    "id": "P1794060292414",
    "name": "MEYBANNI - C547 - Giày Búp Bê Mũi Tròn Độn Đế 3cm",
