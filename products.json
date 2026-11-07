@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T18:11:53.415Z",
+ "updatedAt": "2026-11-07T18:28:27.514Z",
  "products": [
+  {
+   "id": "P1794076100440",
+   "name": "SHENQI SQ-D26107 - Túi xách hình lưỡi liềm SHENQI phong",
+   "cat": "Túi",
+   "price": 300719,
+   "img": "images/P1794076100440-1794076103335.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFxs9BMCvg-UHdvv/"
+  },
   {
    "id": "P1794075106469",
    "name": "Túi đeo vai mẫu Dooller đi kèm dây đeo vai có thể điều",
