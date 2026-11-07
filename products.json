@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T14:45:48.299Z",
+ "updatedAt": "2026-11-07T14:54:49.977Z",
  "products": [
+  {
+   "id": "P1794063281957",
+   "name": "Giày Mocassin QC Cao Cấp- Giày Lười Da Bò- Dập Vân",
+   "cat": "Thời Trang Nam",
+   "price": 1240000,
+   "img": "images/P1794063281957-1794063285790.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNwS62Jo1V-5cb3V/"
+  },
   {
    "id": "P1794062741873",
    "name": "[NE71] Giày Thể Thao NESTY Comffort Air -Slip On",
