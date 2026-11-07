@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T13:28:26.584Z",
+ "updatedAt": "2026-11-07T13:31:09.013Z",
  "products": [
+  {
+   "id": "P1794058261774",
+   "name": "[ Deal Mở Bán ] - Giày Dép Huyền My - Giày cao gót đế",
+   "cat": "Giày dép",
+   "price": 269000,
+   "img": "images/P1794058261774-1794058264777.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNqRMePg7s-23iu1/"
+  },
   {
    "id": "P1794057652176",
    "name": "Giày Dép Cao Gót Nữ mũi vuông đế dẻo thoáng khí mềm",
