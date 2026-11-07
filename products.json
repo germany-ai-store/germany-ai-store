@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T18:07:40.268Z",
+ "updatedAt": "2026-11-07T18:11:53.415Z",
  "products": [
+  {
+   "id": "P1794075106469",
+   "name": "Túi đeo vai mẫu Dooller đi kèm dây đeo vai có thể điều",
+   "cat": "Túi",
+   "price": 269999,
+   "img": "images/P1794075106469-1794075109794.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFHQarP8Tf-sDF5j/"
+  },
   {
    "id": "P1794074852006",
    "name": "Túi đeo chéo da Murphy Bag màu Trắng - BARAS VIETNAM",
