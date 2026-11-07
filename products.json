@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T13:40:48.820Z",
+ "updatedAt": "2026-11-07T13:58:14.207Z",
  "products": [
+  {
+   "id": "P1794059887576",
+   "name": "Giày Sục Nam Nữ Gat Slip On Panacea Rebel - Màu Ivory",
+   "cat": "Giày dép",
+   "price": 357764,
+   "img": "images/P1794059887576-1794059890457.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNsuXc6Gud-8HNMj/"
+  },
   {
    "id": "P1794058842315",
    "name": "Giày Sục Búp Bê Nữ, Sục Mary Jane Đế Bệt Quai Ngang",
