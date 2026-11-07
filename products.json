@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T20:36:24.093Z",
+ "updatedAt": "2026-11-07T20:49:24.930Z",
  "products": [
+  {
+   "id": "P1794084556357",
+   "name": "Giày Viboots Summer Loafer Da Bò Lộn Lười Nam Mùa Hè",
+   "cat": "Giày dép",
+   "price": 624000,
+   "img": "images/P1794084556357-1794084561231.jpg",
+   "link": "https://vt.tiktok.com/ZS9fYJBjNjwT7-nF7Ea/"
+  },
   {
    "id": "P1794083407943",
    "name": "(Fom to lùi 1 sz) Giày lười công sở đa đan hoạ tiết sang",
