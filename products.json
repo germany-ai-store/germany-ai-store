@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T13:58:14.207Z",
+ "updatedAt": "2026-11-07T14:20:44.758Z",
  "products": [
+  {
+   "id": "P1794060292414",
+   "name": "MEYBANNI - C547 - Giày Búp Bê Mũi Tròn Độn Đế 3cm",
+   "cat": "Giày dép",
+   "price": 196310,
+   "img": "images/P1794060292414-1794061239301.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNGgxnTBQB-xn25f/"
+  },
   {
    "id": "P1794059887576",
    "name": "Giày Sục Nam Nữ Gat Slip On Panacea Rebel - Màu Ivory",
