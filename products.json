@@ -1,8 +1,24 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T19:19:40.718Z",
+ "updatedAt": "2026-11-07T20:36:24.093Z",
  "products": [
+  {
+   "id": "P1794083407943",
+   "name": "(Fom to lùi 1 sz) Giày lười công sở đa đan hoạ tiết sang",
+   "cat": "Giày dép",
+   "price": 525000,
+   "img": "images/P1794083407943-1794083410771.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFK3opsvqJ-nQnkv/"
+  },
+  {
+   "id": "P1794080128654",
+   "name": "Jimmi Túi Xách Nữ Cao Cấp Pretty Bag",
+   "cat": "Túi",
+   "price": 246000,
+   "img": "images/P1794080128654-1794083780850.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFtE3XqwrG-lWVDf/"
+  },
   {
    "id": "P1794079172799",
    "name": "Túi Xách Công Sở Size 24 Hoạ Tiết Hoa Thêu Thanh Lịch",
