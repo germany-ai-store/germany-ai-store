@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T19:13:24.769Z",
+ "updatedAt": "2026-11-07T19:14:46.661Z",
  "products": [
+  {
+   "id": "P1794078880074",
+   "name": "Túi Xách thiết kế phong cách Á Âu Bag Nữ",
+   "cat": "Túi",
+   "price": 99840,
+   "img": "images/P1794078880074-1794078883134.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFpAJWGE7B-dZZia/"
+  },
   {
    "id": "P1794078105995",
    "name": "(Tặng Khăn) Túi xách nữ khoá hoa xách tay, đeo chéo hoạ",
