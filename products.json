@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T16:23:48.721Z",
+ "updatedAt": "2026-11-07T17:41:36.613Z",
  "products": [
+  {
+   "id": "P1794071343467",
+   "name": "Bóp da 12 con giáp chất liệu da bò",
+   "cat": "Túi",
+   "price": 115000,
+   "img": "images/P1794071343467-1794071346483.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFAYYuKFgh-WQEw0/"
+  },
   {
    "id": "P1794068620699",
    "name": "[Kèm Quà Tặng] Bốt cổ cao JEBEESHOES da bò trơn",
