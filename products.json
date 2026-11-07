@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T16:13:15.644Z",
+ "updatedAt": "2026-11-07T16:23:48.721Z",
  "products": [
+  {
+   "id": "P1794068620699",
+   "name": "[Kèm Quà Tặng] Bốt cổ cao JEBEESHOES da bò trơn",
+   "cat": "Giày dép",
+   "price": 628228,
+   "img": "images/P1794068620699-1794068624242.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFjydcesEs-jtsUZ/"
+  },
   {
    "id": "P1794067988622",
    "name": "Giày bốt nữ cổ lửng khoá cạnh phối khuy cá tính da PU",
