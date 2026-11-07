@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T13:31:09.013Z",
+ "updatedAt": "2026-11-07T13:40:48.820Z",
  "products": [
+  {
+   "id": "P1794058842315",
+   "name": "Giày Sục Búp Bê Nữ, Sục Mary Jane Đế Bệt Quai Ngang",
+   "cat": "Giày dép",
+   "price": 167200,
+   "img": "images/P1794058842315-1794058845518.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNbstk4Ms5-LnM1o/"
+  },
   {
    "id": "P1794058261774",
    "name": "[ Deal Mở Bán ] - Giày Dép Huyền My - Giày cao gót đế",
