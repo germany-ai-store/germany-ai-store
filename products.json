@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T18:56:55.455Z",
+ "updatedAt": "2026-11-07T19:13:24.769Z",
  "products": [
+  {
+   "id": "P1794078105995",
+   "name": "(Tặng Khăn) Túi xách nữ khoá hoa xách tay, đeo chéo hoạ",
+   "cat": "Túi",
+   "price": 119998,
+   "img": "images/P1794078105995-1794078109482.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFbYyruCrg-6ghXB/"
+  },
   {
    "id": "P1794077809111",
    "name": "[Tặng Charm] Túi xách nữ Size18 cầm tay Đeo chéo dáng",
