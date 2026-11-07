@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T21:15:41.636Z",
+ "updatedAt": "2026-11-07T21:43:21.392Z",
  "products": [
+  {
+   "id": "P1794087792971",
+   "name": "Giày Nam Chelsea Boots Đế Đỏ Đen Phíp Gót Gỗ Da Bò",
+   "cat": "Giày dép",
+   "price": 983100,
+   "img": "images/P1794087792971-1794087797023.jpg",
+   "link": "https://vt.tiktok.com/ZS9fY2haydSJW-Rqbd7/"
+  },
   {
    "id": "P1794086135290",
    "name": "[GIÀY DÂY BUỘC] Giày Nam Tăng Chiều Cao 6cm SIGOURNEY",
