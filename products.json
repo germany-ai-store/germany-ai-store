@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T19:14:46.661Z",
+ "updatedAt": "2026-11-07T19:19:40.718Z",
  "products": [
+  {
+   "id": "P1794079172799",
+   "name": "Túi Xách Công Sở Size 24 Hoạ Tiết Hoa Thêu Thanh Lịch",
+   "cat": "Túi",
+   "price": 296100,
+   "img": "images/P1794079172799-1794079175790.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFs1FyLhBn-GlfsY/"
+  },
   {
    "id": "P1794078880074",
    "name": "Túi Xách thiết kế phong cách Á Âu Bag Nữ",
