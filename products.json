@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T18:55:42.195Z",
+ "updatedAt": "2026-11-08T19:11:15.939Z",
  "products": [
+  {
+   "id": "P1794165069258",
+   "name": "Chổi Quét Nhà OKwife AGW-4486, Chổi Quét Nhà Thông",
+   "cat": "Gia Dụng",
+   "price": 169000,
+   "img": "images/P1794165069258-1794165072313.jpg",
+   "link": "https://vt.tiktok.com/ZS9fMFaybFde3-fNqH4/"
+  },
   {
    "id": "P1794163429901",
    "name": "Sơ mi nữ lụa dài tay cao cấp công sở hoạ tiết chữ nhiều",
