@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T17:22:53.705Z",
+ "updatedAt": "2026-11-08T17:27:46.364Z",
  "products": [
+  {
+   "id": "P1794158860352",
+   "name": "GUSAN Balo Da BL957 - Balo đựng Laptop Đa năng nhiều",
+   "cat": "Túi",
+   "price": 159000,
+   "img": "images/P1794158860352-1794158863342.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6WTs1HEXh-FystD/"
+  },
   {
    "id": "P1794158567471",
    "name": "GUSAN Túi Xách Du Lịch GS.512B - Da PU Cao Cấp Kích",
