@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T15:59:45.265Z",
+ "updatedAt": "2026-11-08T16:11:34.617Z",
  "products": [
+  {
+   "id": "P1794154287173",
+   "name": "GRAPHICH DENIM- MẶC LÀ CHẤT , PHONG CÁCH TRẺ TRUNG",
+   "cat": "Thời Trang Nam",
+   "price": 683060,
+   "img": "images/P1794154287173-1794154290375.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6CePEYMe5-HedMG/"
+  },
   {
    "id": "P1794153573601",
    "name": "Quần Jean Nam Đắp Vá Cao Cấp - Hàng Vip Hottrend",
