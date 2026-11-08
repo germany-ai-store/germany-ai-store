@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T16:11:34.617Z",
+ "updatedAt": "2026-11-08T16:20:02.622Z",
  "products": [
+  {
+   "id": "P1794154796200",
+   "name": "[ JEAN DENIM GUANGZHOU ] Áo Khoác Jean Xanh Mài",
+   "cat": "Thời Trang Nam",
+   "price": 1057616,
+   "img": "images/P1794154796200-1794154799137.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6XPU2rfBG-qPQ2q/"
+  },
   {
    "id": "P1794154287173",
    "name": "GRAPHICH DENIM- MẶC LÀ CHẤT , PHONG CÁCH TRẺ TRUNG",
