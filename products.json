@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T19:39:56.864Z",
+ "updatedAt": "2026-11-08T19:48:57.845Z",
  "products": [
+  {
+   "id": "P1794167213743",
+   "name": "Cây Lai Bếp Mini KITIMOP KTM-20, Cây Lau Bếp Tự Vắt",
+   "cat": "Gia Dụng",
+   "price": 79000,
+   "img": "images/P1794167213743-1794167218076.jpg",
+   "link": "https://vt.tiktok.com/ZS9fMrmxBwpoo-sOiB8/"
+  },
   {
    "id": "P1794166790840",
    "name": "[SỢI DÀI] Bông Lau Nhà Thay Thế KITIMOP KTM-45 PRO",
