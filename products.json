@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T18:37:11.945Z",
+ "updatedAt": "2026-11-08T18:55:42.195Z",
  "products": [
+  {
+   "id": "P1794163429901",
+   "name": "Sơ mi nữ lụa dài tay cao cấp công sở hoạ tiết chữ nhiều",
+   "cat": "Thời Trang Nữ",
+   "price": 126000,
+   "img": "images/P1794163429901-1794163432781.jpg",
+   "link": "https://vt.tiktok.com/ZS9fMd3amq6Ex-GFC4g/"
+  },
   {
    "id": "P1794162954640",
    "name": "Áo Polo Nữ VIFA cotton cao cấp nhiều màu Women Top",
