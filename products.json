@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T16:20:02.622Z",
+ "updatedAt": "2026-11-08T17:12:51.695Z",
  "products": [
+  {
+   "id": "P1794157965133",
+   "name": "GUSAN Túi Xách Tay Nữ Đeo Chéo EHTH.GS.838Kem",
+   "cat": "Túi",
+   "price": 119000,
+   "img": "images/P1794157965133-1794157968037.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6tB8dR2xo-bgO6w/"
+  },
   {
    "id": "P1794154796200",
    "name": "[ JEAN DENIM GUANGZHOU ] Áo Khoác Jean Xanh Mài",
