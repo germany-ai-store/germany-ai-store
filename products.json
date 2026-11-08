@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T19:48:57.845Z",
+ "updatedAt": "2026-11-08T19:51:00.191Z",
  "products": [
+  {
+   "id": "P1794167453032",
+   "name": "Cây Lau Kính OKwife HD-7309, Cây Gạt Kính Lau Kính Đa",
+   "cat": "Gia Dụng",
+   "price": 159000,
+   "img": "images/P1794167453032-1794167456916.jpg",
+   "link": "https://vt.tiktok.com/ZS9fMhhpXuXxA-tG8qj/"
+  },
   {
    "id": "P1794167213743",
    "name": "Cây Lai Bếp Mini KITIMOP KTM-20, Cây Lau Bếp Tự Vắt",
