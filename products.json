@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T19:19:50.674Z",
+ "updatedAt": "2026-11-08T19:23:20.804Z",
  "products": [
+  {
+   "id": "P1794165794911",
+   "name": "Cây Chà Sàn Nhà Tắm OKwife AGW-3458, Chổi Cọ Sàn",
+   "cat": "Gia Dụng",
+   "price": 59000,
+   "img": "images/P1794165794911-1794165797807.jpg",
+   "link": "https://vt.tiktok.com/ZS9fM2H5NJYwb-nvqWM/"
+  },
   {
    "id": "P1794165584277",
    "name": "Cây Lau Nhà Tự Vắt KITIMOP KTM-45 PRO, Chổi Lau Nhà",
