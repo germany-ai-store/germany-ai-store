@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T19:32:14.186Z",
+ "updatedAt": "2026-11-08T19:39:56.864Z",
  "products": [
+  {
+   "id": "P1794166790840",
+   "name": "[SỢI DÀI] Bông Lau Nhà Thay Thế KITIMOP KTM-45 PRO",
+   "cat": "Gia Dụng",
+   "price": 29000,
+   "img": "images/P1794166790840-1794166793994.jpg",
+   "link": "https://vt.tiktok.com/ZS9fMMrqjwKqU-Q96Yz/"
+  },
   {
    "id": "P1794166297357",
    "name": "Cây Chà Bồn Cầu OKwife AGW-5746, Chổi Cọ Bồn Cầu",
