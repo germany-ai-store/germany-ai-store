@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T19:23:20.804Z",
+ "updatedAt": "2026-11-08T19:28:25.641Z",
  "products": [
+  {
+   "id": "P1794166099372",
+   "name": "Bộ Cây Lau Nhà Tự Vắt KITIMOP SM33 PRO, Thùng Lau",
+   "cat": "Gia Dụng",
+   "price": 279000,
+   "img": "images/P1794166099372-1794166102590.jpg",
+   "link": "https://vt.tiktok.com/ZS9fMjAhuKwAh-eDJCb/"
+  },
   {
    "id": "P1794165794911",
    "name": "Cây Chà Sàn Nhà Tắm OKwife AGW-3458, Chổi Cọ Sàn",
