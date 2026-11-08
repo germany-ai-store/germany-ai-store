@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T17:27:46.364Z",
+ "updatedAt": "2026-11-08T17:44:07.071Z",
  "products": [
+  {
+   "id": "P1794159624342",
+   "name": "T06 - Váy Thiết Kế Evii dành cho nữ, Đầm thiết kế cổ Ve",
+   "cat": "Thời Trang Nữ",
+   "price": 436278,
+   "img": "images/P1794159624342-1794159627222.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6c81SpwKf-B9JbI/"
+  },
   {
    "id": "P1794158860352",
    "name": "GUSAN Balo Da BL957 - Balo đựng Laptop Đa năng nhiều",
