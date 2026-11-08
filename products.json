@@ -1,8 +1,32 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T06:21:57.092Z",
+ "updatedAt": "2026-11-08T15:59:45.265Z",
  "products": [
+  {
+   "id": "P1794153573601",
+   "name": "Quần Jean Nam Đắp Vá Cao Cấp - Hàng Vip Hottrend",
+   "cat": "Thời Trang Nam",
+   "price": 850000,
+   "img": "images/P1794153573601-1794153576881.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6xdskDwys-Qygvk/"
+  },
+  {
+   "id": "P1794153422727",
+   "name": "[ Hàng Mới Về] Quần Jean Nam Cao Cấp- Quần Ống Rộng",
+   "cat": "Thời Trang Nam",
+   "price": 680000,
+   "img": "images/P1794153422727-1794153425969.jpg",
+   "link": "https://vt.tiktok.com/ZS9f69UtVuXrM-mZuHI/"
+  },
+  {
+   "id": "P1794119439067",
+   "name": "Túi xách nữ HERSANI Thêu Phủ Vạn Mũi Kim Độc Đáo",
+   "cat": "Túi",
+   "price": 1032000,
+   "img": "images/P1794119439067-1794153580313.jpg",
+   "link": "https://vt.tiktok.com/ZS9f2nPv2WH3W-1eMTi/"
+  },
   {
    "id": "P1794118814623",
    "name": "[ Giá Mở Bán ] Túi Đeo Chéo Nam DEVENO Da Chống Nước",
