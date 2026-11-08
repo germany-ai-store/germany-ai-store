@@ -1,8 +1,24 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-07T21:56:24.702Z",
+ "updatedAt": "2026-11-08T06:21:57.092Z",
  "products": [
+  {
+   "id": "P1794118814623",
+   "name": "[ Giá Mở Bán ] Túi Đeo Chéo Nam DEVENO Da Chống Nước",
+   "cat": "Túi",
+   "price": 151680,
+   "img": "images/P1794118814623-1794118880104.jpg",
+   "link": "https://vt.tiktok.com/ZS9f2GWk4w3pj-4A2D5/"
+  },
+  {
+   "id": "P1794090377356",
+   "name": "GB&N Giày Thể Thao Da Bò Sáp 001 - Da Thật, Đế Cao Su",
+   "cat": "Giày dép",
+   "price": 462000,
+   "img": "images/P1794090377356-1794118902278.jpg",
+   "link": "https://vt.tiktok.com/ZS9fYBp6uFFUL-IJWNp/"
+  },
   {
    "id": "P1794088578479",
    "name": "giầy Chelsea boot nam hàng kĩ da nam trơn hai mang chun",
