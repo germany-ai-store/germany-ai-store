@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T18:22:10.218Z",
+ "updatedAt": "2026-11-08T18:36:01.561Z",
  "products": [
+  {
+   "id": "P1794162954640",
+   "name": "Áo Polo Nữ VIFA cotton cao cấp nhiều màu Women Top",
+   "cat": "Thời Trang Nữ",
+   "price": 100000,
+   "img": "images/P1794162954640-1794162957704.jpg",
+   "link": "https://vt.tiktok.com/ZS9fMeaMbCpG2-azJye/"
+  },
   {
    "id": "P1794162118707",
    "name": "Jimmi Balo CoupleTrip Jimmi Bag Đựng Laptop 15.6 Inch",
