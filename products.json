@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T19:51:00.191Z",
+ "updatedAt": "2026-11-08T19:55:58.455Z",
  "products": [
+  {
+   "id": "P1794167754872",
+   "name": "Xô Đựng Nước TANK-01, Xô Gấp Gọn Silicon Dẻo, Chậu",
+   "cat": "Gia Dụng",
+   "price": 29000,
+   "img": "",
+   "link": "https://vt.tiktok.com/ZS9fMhEsDBrNC-BLfHO/"
+  },
   {
    "id": "P1794167453032",
    "name": "Cây Lau Kính OKwife HD-7309, Cây Gạt Kính Lau Kính Đa",
