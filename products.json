@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T17:12:51.695Z",
+ "updatedAt": "2026-11-08T17:22:53.705Z",
  "products": [
+  {
+   "id": "P1794158567471",
+   "name": "GUSAN Túi Xách Du Lịch GS.512B - Da PU Cao Cấp Kích",
+   "cat": "Túi",
+   "price": 89000,
+   "img": "images/P1794158567471-1794158570498.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6WYVoJoou-l0sfA/"
+  },
   {
    "id": "P1794157965133",
    "name": "GUSAN Túi Xách Tay Nữ Đeo Chéo EHTH.GS.838Kem",
