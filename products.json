@@ -1,8 +1,32 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-09T06:27:45.502Z",
+ "updatedAt": "2026-11-09T11:55:05.037Z",
  "products": [
+  {
+   "id": "P1794225177442",
+   "name": "[BEST SELLER] Áo polo dài tay cao cấp The Elegant công",
+   "cat": "Thời Trang Nam",
+   "price": 402545,
+   "img": "images/P1794225177442-1794225181007.jpg",
+   "link": "https://vt.tiktok.com/ZS9fkM8RsKEXC-yNzvb/"
+  },
+  {
+   "id": "P1794224983744",
+   "name": "[BEST SELLER] Áo polo nam cao cấp The Elegant công",
+   "cat": "Thời Trang Nam",
+   "price": 386081,
+   "img": "images/P1794224983744-1794224987044.jpg",
+   "link": "https://vt.tiktok.com/ZS9fk6ABLAs1A-XBjBU/"
+  },
+  {
+   "id": "P1794211488470",
+   "name": "Quần gió nam TORANO can phối màu, phom dáng slimfit",
+   "cat": "Thời Trang Nam",
+   "price": 232020,
+   "img": "images/P1794211488470-1794225185700.jpg",
+   "link": "https://vt.tiktok.com/ZS9fhHRP3CC91-IGuTy/"
+  },
   {
    "id": "P1794205657737",
    "name": "[NEW] TORANO SMART DYNAMIC SPORT- SB901- Quần",
