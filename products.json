@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-09T11:56:46.682Z",
+ "updatedAt": "2026-11-09T23:58:59.771Z",
  "products": [
+  {
+   "id": "P1794226092055",
+   "name": "Kệ Chén Bát Đa Năng Model Mới Nhất Chất Liệu Thép",
+   "cat": "Gia Dụng",
+   "price": 298320,
+   "img": "images/P1794226092055-1794268715077.jpg",
+   "link": "https://vt.tiktok.com/ZS9fkhX5EK9Lb-lOlTr/"
+  },
   {
    "id": "P1794225396366",
    "name": "[the Elegant x Đức Thuận] Áo Sơ Mi Nam Dài Tay Cao Cấp",
