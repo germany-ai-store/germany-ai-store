@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-08T19:56:47.019Z",
+ "updatedAt": "2026-11-09T06:27:45.502Z",
  "products": [
+  {
+   "id": "P1794205657737",
+   "name": "[NEW] TORANO SMART DYNAMIC SPORT- SB901- Quần",
+   "cat": "Thời Trang Nam",
+   "price": 164620,
+   "img": "images/P1794205657737-1794205662102.jpg",
+   "link": "https://vt.tiktok.com/ZS9fh6xhf939o-mipNT/"
+  },
   {
    "id": "P1794167754872",
    "name": "Xô Đựng Nước TANK-01, Xô Gấp Gọn Silicon Dẻo, Chậu",
