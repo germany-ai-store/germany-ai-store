@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-09T11:55:05.037Z",
+ "updatedAt": "2026-11-09T11:56:46.682Z",
  "products": [
+  {
+   "id": "P1794225396366",
+   "name": "[the Elegant x Đức Thuận] Áo Sơ Mi Nam Dài Tay Cao Cấp",
+   "cat": "Thời Trang Nam",
+   "price": 386001,
+   "img": "images/P1794225396366-1794225399293.jpg",
+   "link": "https://vt.tiktok.com/ZS9fkMCnH7cGR-ytrCk/"
+  },
   {
    "id": "P1794225177442",
    "name": "[BEST SELLER] Áo polo dài tay cao cấp The Elegant công",
