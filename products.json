@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-10T05:22:22.610Z",
+ "updatedAt": "2026-11-10T05:25:38.295Z",
  "products": [
+  {
+   "id": "P1794288332065",
+   "name": "Áo Khoác Bomber Gió Latis MK CLEVER, Áo Khoác Vải",
+   "cat": "Thời Trang Nam",
+   "price": 480000,
+   "img": "images/P1794288332065-1794288334983.jpg",
+   "link": "https://vt.tiktok.com/ZS9fAar1xRpa5-JhXly/"
+  },
   {
    "id": "P1794288135950",
    "name": "Áo Khoác Bomber NIGHTFALL MK CLEVER Vải Gió Mịn",
