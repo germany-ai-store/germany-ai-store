@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-10T18:48:46.886Z",
+ "updatedAt": "2026-11-10T18:57:42.443Z",
  "products": [
+  {
+   "id": "P1794337054518",
+   "name": "Váy Body Len Nữ Cổ 3 Phân Dài Tay Dáng Ngắn Chất Len",
+   "cat": "Thời Trang Nữ",
+   "price": 147510,
+   "img": "images/P1794337054518-1794337057901.jpg",
+   "link": "https://vt.tiktok.com/ZS9fUEpctb1Fp-K4THv/"
+  },
   {
    "id": "P1794336520674",
    "name": "Áo Giữ Nhiệt Lót Nỉ Lông BigSize Trơn Cổ 3 Phân Dài Tay",
