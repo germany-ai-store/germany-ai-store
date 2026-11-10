@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-10T11:50:23.460Z",
+ "updatedAt": "2026-11-10T18:18:37.168Z",
  "products": [
+  {
+   "id": "P1794334709554",
+   "name": "[DEAL QUÀ TẶNG] KEVA Áo Giữ Nhiệt Lót Lông Cao Cấp",
+   "cat": "Thời Trang Nữ",
+   "price": 243800,
+   "img": "images/P1794334709554-1794334713650.jpg",
+   "link": "https://vt.tiktok.com/ZS9fUvej7SoT6-pPbHp/"
+  },
   {
    "id": "P1794311417204",
    "name": "ÁO KHOÁC PILOT TRẦN BÔNG 3 LỚP 726",
