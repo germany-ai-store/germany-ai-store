@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:28:03.194Z",
+ "updatedAt": "2026-11-11T12:33:54.231Z",
  "products": [
+  {
+   "id": "P1794400157043",
+   "name": "Hộp đựng thực phẩm, trái cây để tủ lạnh 2 lớp, Hộp nhựa",
+   "cat": "Gia Dụng",
+   "price": 90667,
+   "img": "images/P1794400157043-1794400161089.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5jpCy8Tbm-YNg9a/"
+  },
   {
    "id": "P1794399995465",
    "name": "Bô cho bé, Bô gấu, Bệ vệ sinh Hokori có tựa lưng cao c",
