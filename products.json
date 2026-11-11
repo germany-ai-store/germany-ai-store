@@ -1,8 +1,24 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:35:22.907Z",
+ "updatedAt": "2026-11-11T12:47:03.572Z",
  "products": [
+  {
+   "id": "P1794401214267",
+   "name": "Bàn chải giặt đồ, chà chân, chà sàn, vật dụng Làm Sạch",
+   "cat": "Gia Dụng",
+   "price": 16739,
+   "img": "images/P1794401214267-1794401217482.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5rqoXf8b5-xwazx/"
+  },
+  {
+   "id": "P1794400640252",
+   "name": "Khuôn làm kem, chất liệu nhựa nguyên sinh an toàn, kho",
+   "cat": "Gia Dụng",
+   "price": 78000,
+   "img": "images/P1794400640252-1794401220488.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5M8Sj2Udh-mvHEA/"
+  },
   {
    "id": "P1794400516505",
    "name": "Xửng hấp cá, hấp thức ăn, vỉ đồ xôi bánh bao bằng inox",
