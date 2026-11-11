@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T11:41:33.333Z",
+ "updatedAt": "2026-11-11T11:44:46.869Z",
  "products": [
+  {
+   "id": "P1794397480908",
+   "name": "Kệ úp chén, bát 2,3 tầng có nắp đậy nhựa Việt Nhật- đồ",
+   "cat": "Gia Dụng",
+   "price": 360000,
+   "img": "images/P1794397480908-1794397483970.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5R6AUjdnG-IenL2/"
+  },
   {
    "id": "P1794397286874",
    "name": "[ SẢN PHẨM MỚI ] Bộ 6-9-12 hộp lạnh nhựa PP đựng t",
