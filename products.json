@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:06:00.830Z",
+ "updatedAt": "2026-11-11T12:06:56.027Z",
  "products": [
+  {
+   "id": "P1794398809370",
+   "name": "Khay tiện ích 2 tầng 5602 việt nhật để hướng dương, hoa",
+   "cat": "Gia Dụng",
+   "price": 58001,
+   "img": "images/P1794398809370-1794398812496.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5FJxbf7M7-aGhiI/"
+  },
   {
    "id": "P1794398694781",
    "name": "Bình đựng nước có vòi 3.2L Việt Nhật 6785 để tủ lạnh",
