@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T11:53:23.285Z",
+ "updatedAt": "2026-11-11T11:57:08.409Z",
  "products": [
+  {
+   "id": "P1794398221771",
+   "name": "Rổ nhựa 2 lớp đựng trái cây, rau củ quả Hokori Việt Nhật",
+   "cat": "Gia Dụng",
+   "price": 96000,
+   "img": "images/P1794398221771-1794398224792.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5Lh6d9Kqd-HtDWe/"
+  },
   {
    "id": "P1794397996912",
    "name": "Kệ để đồ nhà vệ sinh 3 tầng , kệ gác toilet, phòng tắm",
