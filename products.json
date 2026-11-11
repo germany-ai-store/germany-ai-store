@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:58:59.368Z",
+ "updatedAt": "2026-11-11T13:02:34.625Z",
  "products": [
+  {
+   "id": "P1794402025037",
+   "name": "Bộ Bát đĩa hoa mặt trời Nhựa PP màu trắng sứ - Set bát đ",
+   "cat": "Gia Dụng",
+   "price": 149334,
+   "img": "images/P1794402025037-1794402028094.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5koMmFQ2a-EMoYV/"
+  },
   {
    "id": "P1794401758507",
    "name": "[THẾ GIỚI ĐỒ MẸ & BÉ 2] Chậu tắm ếch cho bé, Làn đi",
