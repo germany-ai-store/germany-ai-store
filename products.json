@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:51:22.048Z",
+ "updatedAt": "2026-11-11T12:58:59.368Z",
  "products": [
+  {
+   "id": "P1794401758507",
+   "name": "[THẾ GIỚI ĐỒ MẸ & BÉ 2] Chậu tắm ếch cho bé, Làn đi",
+   "cat": "Gia Dụng",
+   "price": 202860,
+   "img": "images/P1794401758507-1794401761337.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5khjMfKh5-HVrwj/"
+  },
   {
    "id": "P1794401475927",
    "name": "Giỏ đựng đồ, Rổ gấp gọn thông minh Việt Nhật kèm móc",
