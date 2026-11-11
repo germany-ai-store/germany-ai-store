@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:06:56.027Z",
+ "updatedAt": "2026-11-11T12:10:20.436Z",
  "products": [
+  {
+   "id": "P1794398950688",
+   "name": "Máy say tỏi ớt đa năng tiện lợi có dây rút 3 lưỡi dao",
+   "cat": "Gia Dụng",
+   "price": 78336,
+   "img": "images/P1794398950688-1794398953902.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5FfVtFLYW-XwEAQ/"
+  },
   {
    "id": "P1794398809370",
    "name": "Khay tiện ích 2 tầng 5602 việt nhật để hướng dương, hoa",
