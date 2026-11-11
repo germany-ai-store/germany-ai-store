@@ -1,8 +1,24 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:17:17.454Z",
+ "updatedAt": "2026-11-11T12:21:59.091Z",
  "products": [
+  {
+   "id": "P1794399656656",
+   "name": "Khay nhựa tiện ích 4 ngăn Việt Nhật (5696), khay 4 ngăn",
+   "cat": "Gia Dụng",
+   "price": 42000,
+   "img": "images/P1794399656656-1794399659495.jpg",
+   "link": "https://vt.tiktok.com/ZS9f52SvHsbRY-wPmNZ/"
+  },
+  {
+   "id": "P1794399532664",
+   "name": "Rổ đan mây cỡ nhỏ, cỡ trung, cỡ to, Giỏ có nắp đựng đồ",
+   "cat": "Gia Dụng",
+   "price": 55000,
+   "img": "images/P1794399532664-1794399715561.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5YwTR3Sk4-vAeBD/"
+  },
   {
    "id": "P1794399354887",
    "name": "Khay úp ly có nắp đậy kín, dùng úp ly, úp bình sữa, úp",
