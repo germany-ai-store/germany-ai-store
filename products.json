@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:13:40.183Z",
+ "updatedAt": "2026-11-11T12:17:17.454Z",
  "products": [
+  {
+   "id": "P1794399354887",
+   "name": "Khay úp ly có nắp đậy kín, dùng úp ly, úp bình sữa, úp",
+   "cat": "Gia Dụng",
+   "price": 90000,
+   "img": "images/P1794399354887-1794399358053.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5Yuha16tU-YEx9b/"
+  },
   {
    "id": "P1794399213870",
    "name": "Tủ mỹ phẩm, tủ thuốc, đựng đồ trang sức 4 tầng cao cấp",
