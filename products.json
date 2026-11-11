@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T11:57:08.409Z",
+ "updatedAt": "2026-11-11T12:01:03.881Z",
  "products": [
+  {
+   "id": "P1794398422830",
+   "name": "Kệ góc tam giác để Nhà Tắm Nhà Bếp 2 tầng, 3 tầng V",
+   "cat": "Gia Dụng",
+   "price": 83000,
+   "img": "images/P1794398422830-1794398425638.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5LsRCRRE8-bpLYa/"
+  },
   {
    "id": "P1794398221771",
    "name": "Rổ nhựa 2 lớp đựng trái cây, rau củ quả Hokori Việt Nhật",
