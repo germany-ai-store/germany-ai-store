@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:50:13.492Z",
+ "updatedAt": "2026-11-11T12:51:22.048Z",
  "products": [
+  {
+   "id": "P1794401475927",
+   "name": "Giỏ đựng đồ, Rổ gấp gọn thông minh Việt Nhật kèm móc",
+   "cat": "Gia Dụng",
+   "price": 84267,
+   "img": "images/P1794401475927-1794401478842.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5hH1cxfeV-GLbOo/"
+  },
   {
    "id": "P1794401333722",
    "name": "Dụng cụ vắt cam nhựa có lọc tiện ích Việt Nhật Mã 6905",
