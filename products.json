@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T11:28:07.274Z",
+ "updatedAt": "2026-11-11T11:29:25.619Z",
  "products": [
+  {
+   "id": "P1794396559446",
+   "name": "Kệ gia vị 2 tầng, 3 tầng có chỗ cài dao, để thớt thông minh",
+   "cat": "Gia Dụng",
+   "price": 116917,
+   "img": "images/P1794396559446-1794396562382.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5JHwQyFR8-bbUN7/"
+  },
   {
    "id": "P1794393824217",
    "name": "[ SIÊU SALE ] Bộ 6-9-12 hộp lạnh nhựa PP đựng thực phẩm",
