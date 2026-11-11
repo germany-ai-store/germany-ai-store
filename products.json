@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:47:03.572Z",
+ "updatedAt": "2026-11-11T12:50:13.492Z",
  "products": [
+  {
+   "id": "P1794401333722",
+   "name": "Dụng cụ vắt cam nhựa có lọc tiện ích Việt Nhật Mã 6905",
+   "cat": "Gia Dụng",
+   "price": 40001,
+   "img": "images/P1794401333722-1794401337305.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5hRxvush3-nrPM7/"
+  },
   {
    "id": "P1794401214267",
    "name": "Bàn chải giặt đồ, chà chân, chà sàn, vật dụng Làm Sạch",
