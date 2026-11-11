@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:33:54.231Z",
+ "updatedAt": "2026-11-11T12:35:22.907Z",
  "products": [
+  {
+   "id": "P1794400516505",
+   "name": "Xửng hấp cá, hấp thức ăn, vỉ đồ xôi bánh bao bằng inox",
+   "cat": "Gia Dụng",
+   "price": 100000,
+   "img": "images/P1794400516505-1794400519752.jpg",
+   "link": "https://vt.tiktok.com/ZS9f56GwD8v4a-bZg5H/"
+  },
   {
    "id": "P1794400157043",
    "name": "Hộp đựng thực phẩm, trái cây để tủ lạnh 2 lớp, Hộp nhựa",
