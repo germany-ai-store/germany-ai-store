@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T11:35:19.429Z",
+ "updatedAt": "2026-11-11T11:40:07.840Z",
  "products": [
+  {
+   "id": "P1794397115130",
+   "name": "Lồng bàn 4 tầng cao cấp để thực phẩm, giữ nhiệt, có nắp",
+   "cat": "Gia Dụng",
+   "price": 191744,
+   "img": "images/P1794397115130-1794397118094.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5dYkB8qkU-WEzII/"
+  },
   {
    "id": "P1794396912934",
    "name": "Kệ chén 2,3 tầng, kệ úp bát 2,3 tầng để nhà bếp Việt Nhật",
