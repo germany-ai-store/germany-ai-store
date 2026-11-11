@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T11:49:57.863Z",
+ "updatedAt": "2026-11-11T11:53:23.285Z",
  "products": [
+  {
+   "id": "P1794397996912",
+   "name": "Kệ để đồ nhà vệ sinh 3 tầng , kệ gác toilet, phòng tắm",
+   "cat": "Gia Dụng",
+   "price": 96583,
+   "img": "images/P1794397996912-1794397999828.jpg",
+   "link": "https://vt.tiktok.com/ZS9f58XsFXwmb-0XOys/"
+  },
   {
    "id": "P1794397791769",
    "name": "Ống cắm đũa thìa có móc treo kèm khay cắm dao kéo chính",
