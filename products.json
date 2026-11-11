@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:11:32.510Z",
+ "updatedAt": "2026-11-11T12:13:40.183Z",
  "products": [
+  {
+   "id": "P1794399213870",
+   "name": "Tủ mỹ phẩm, tủ thuốc, đựng đồ trang sức 4 tầng cao cấp",
+   "cat": "Gia Dụng",
+   "price": 27000,
+   "img": "images/P1794399213870-1794399216913.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5Y8QkLcTD-WAH9T/"
+  },
   {
    "id": "P1794399086054",
    "name": "Khay đựng mứt Tết 2026 có nắp, khay đựng bánh kẹo,",
