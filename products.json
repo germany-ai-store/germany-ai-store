@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T11:29:25.619Z",
+ "updatedAt": "2026-11-11T11:32:29.078Z",
  "products": [
+  {
+   "id": "P1794396742625",
+   "name": "Bộ 2,3 lọ đựng gia vị Việt Nhật có nắp đậy thông minh",
+   "cat": "Gia Dụng",
+   "price": 54000,
+   "img": "images/P1794396742625-1794396745563.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5e2G747m6-o726q/"
+  },
   {
    "id": "P1794396559446",
    "name": "Kệ gia vị 2 tầng, 3 tầng có chỗ cài dao, để thớt thông minh",
