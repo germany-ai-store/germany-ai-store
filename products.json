@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:01:03.881Z",
+ "updatedAt": "2026-11-11T12:03:53.794Z",
  "products": [
+  {
+   "id": "P1794398582809",
+   "name": "Kệ đựng đồ đa năng 3 tầng có bánh xe GIỎ LIỀN chính",
+   "cat": "Gia Dụng",
+   "price": 260000,
+   "img": "images/P1794398582809-1794398585768.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5N6eHFeKr-hEK6W/"
+  },
   {
    "id": "P1794398422830",
    "name": "Kệ góc tam giác để Nhà Tắm Nhà Bếp 2 tầng, 3 tầng V",
