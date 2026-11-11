@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T11:32:29.078Z",
+ "updatedAt": "2026-11-11T11:35:19.429Z",
  "products": [
+  {
+   "id": "P1794396912934",
+   "name": "Kệ chén 2,3 tầng, kệ úp bát 2,3 tầng để nhà bếp Việt Nhật",
+   "cat": "Gia Dụng",
+   "price": 138000,
+   "img": "images/P1794396912934-1794396916411.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5eVa6c5Dv-OM2eI/"
+  },
   {
    "id": "P1794396742625",
    "name": "Bộ 2,3 lọ đựng gia vị Việt Nhật có nắp đậy thông minh",
