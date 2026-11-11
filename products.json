@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-10T19:09:07.803Z",
+ "updatedAt": "2026-11-11T05:27:20.243Z",
  "products": [
+  {
+   "id": "P1794374719576",
+   "name": "Áo Phao Nam Nữ Có Mũ - Áo Khoác Phao Suông cao cấp",
+   "cat": "Thời Trang Nữ",
+   "price": 256680,
+   "img": "images/P1794374719576-1794374722903.jpg",
+   "link": "https://vt.tiktok.com/ZS9ff3wG6uFnX-v9hPf/"
+  },
   {
    "id": "P1794337739774",
    "name": "Áo nỉ sweater thêu cún PUPPY - áo nỉ bông Unisex dài tay",
