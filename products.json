@@ -1,8 +1,24 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:21:59.091Z",
+ "updatedAt": "2026-11-11T12:28:03.194Z",
  "products": [
+  {
+   "id": "P1794399995465",
+   "name": "Bô cho bé, Bô gấu, Bệ vệ sinh Hokori có tựa lưng cao c",
+   "cat": "Gia Dụng",
+   "price": 135000,
+   "img": "images/P1794399995465-1794399998281.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5jkMuXoDu-00qX1/"
+  },
+  {
+   "id": "P1794399779820",
+   "name": "Combo 3 Khay đá, vỉ làm đá tủ lạnh nhựa nguyên sinh",
+   "cat": "Gia Dụng",
+   "price": 42667,
+   "img": "images/P1794399779820-1794400001328.jpg",
+   "link": "https://vt.tiktok.com/ZS9f52b1dVMk6-lqDVu/"
+  },
   {
    "id": "P1794399656656",
    "name": "Khay nhựa tiện ích 4 ngăn Việt Nhật (5696), khay 4 ngăn",
