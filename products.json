@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T11:40:07.840Z",
+ "updatedAt": "2026-11-11T11:41:33.333Z",
  "products": [
+  {
+   "id": "P1794397286874",
+   "name": "[ SẢN PHẨM MỚI ] Bộ 6-9-12 hộp lạnh nhựa PP đựng t",
+   "cat": "Gia Dụng",
+   "price": 117334,
+   "img": "images/P1794397286874-1794397289913.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5dgAhLRVG-yRJ2k/"
+  },
   {
    "id": "P1794397115130",
    "name": "Lồng bàn 4 tầng cao cấp để thực phẩm, giữ nhiệt, có nắp",
