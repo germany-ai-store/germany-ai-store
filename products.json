@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T11:44:46.869Z",
+ "updatedAt": "2026-11-11T11:48:33.833Z",
  "products": [
+  {
+   "id": "P1794397624483",
+   "name": "Kệ úp cốc chén 2 tầng, khay trà, khay 2 tầng đa năng cao",
+   "cat": "Gia Dụng",
+   "price": 135000,
+   "img": "images/P1794397624483-1794397627523.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5R4ncx9Ch-t0Nij/"
+  },
   {
    "id": "P1794397480908",
    "name": "Kệ úp chén, bát 2,3 tầng có nắp đậy nhựa Việt Nhật- đồ",
