@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T05:27:20.243Z",
+ "updatedAt": "2026-11-11T05:28:12.943Z",
  "products": [
+  {
+   "id": "P1794374885694",
+   "name": "Áo Phao Béo Nam Nữ",
+   "cat": "Thời Trang Nữ",
+   "price": 247480,
+   "img": "images/P1794374885694-1794374889415.jpg",
+   "link": "https://vt.tiktok.com/ZS9ffTQedpD73-Gq9c8/"
+  },
   {
    "id": "P1794374719576",
    "name": "Áo Phao Nam Nữ Có Mũ - Áo Khoác Phao Suông cao cấp",
