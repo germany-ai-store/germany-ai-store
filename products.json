@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T12:03:53.794Z",
+ "updatedAt": "2026-11-11T12:06:00.830Z",
  "products": [
+  {
+   "id": "P1794398694781",
+   "name": "Bình đựng nước có vòi 3.2L Việt Nhật 6785 để tủ lạnh",
+   "cat": "Gia Dụng",
+   "price": 66836,
+   "img": "images/P1794398694781-1794398697703.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5NVy5N4B5-n5ASM/"
+  },
   {
    "id": "P1794398582809",
    "name": "Kệ đựng đồ đa năng 3 tầng có bánh xe GIỎ LIỀN chính",
