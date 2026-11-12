@@ -42,6 +42,20 @@
             <input type="text" id="storeSearch" oninput="renderStore()" placeholder="Tìm kiếm sản phẩm, thương hiệu..." class="w-full bg-white border border-gray-200 rounded-2xl py-3 pl-11 pr-4 text-sm text-gray-900 focus:outline-none focus:border-amber-400">
         </div>
 
+        <!-- Gian hàng Shopee: ô nhỏ 2 dòng, chữ Xem ngay nằm giữa ngay dưới chữ Gian hàng Shopee -->
+        <div>
+            <button onclick="openShopeeStore()" class="inline-flex items-center rounded-2xl text-white shadow" style="background:linear-gradient(90deg,#ee4d2d,#ff7a45);gap:12px;padding:8px 12px;">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1.9em;height:1.9em;flex-shrink:0;"><path d="M7 8V7a5 5 0 0110 0v1h2.1a1 1 0 011 .9l1 12a1 1 0 01-1 1.1H4a1 1 0 01-1-1.1l1-12a1 1 0 011-.9H7zm2 0h6V7a3 3 0 00-6 0v1z"/></svg>
+                <span class="flex flex-col items-center text-center" style="line-height:1.25;">
+                    <span class="font-black text-sm">Gian hàng Shopee</span>
+                    <span class="text-xs font-bold" style="opacity:.95;">Xem ngay</span>
+                </span>
+                <span class="flex items-center justify-center rounded-full" style="width:26px;height:26px;background:rgba(255,255,255,.25);flex-shrink:0;">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" style="width:14px;height:14px;"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1h5"/></svg>
+                </span>
+            </button>
+        </div>
+
         <!-- Danh mục -->
         <div class="scroll-x flex space-x-2 pb-1" id="storeChips"></div>
 
@@ -57,7 +71,7 @@
                 <h2 class="font-black text-lg text-amber-400">GÓC QUẢN TRỊ</h2>
                 <p class="text-xs text-slate-400">Thêm, sửa, xóa, sắp xếp sản phẩm gian hàng</p>
             </div>
-            <div class="flex flex-col space-y-1.5"><button onclick="showAdmin(false)" class="bg-amber-500 hover:bg-amber-600 text-slate-950 px-3 py-1.5 rounded-xl text-xs font-bold shadow">Thoát Admin</button><button onclick="lockAdminDevice()" class="bg-slate-700 hover:bg-slate-600 text-slate-200 px-3 py-1 rounded-xl text-[10px] font-bold">Khóa máy này</button></div>
+            <div class="flex flex-col space-y-1.5"><button onclick="showAdmin(false)" class="bg-amber-500 hover:bg-amber-600 text-slate-950 px-3 py-1.5 rounded-xl text-xs font-bold shadow">Thoát Admin</button><button onclick="changePin()" class="bg-slate-700 hover:bg-slate-600 text-slate-200 px-3 py-1 rounded-xl text-[10px] font-bold">Đổi mã PIN</button><button onclick="lockAdminDevice()" class="bg-slate-700 hover:bg-slate-600 text-slate-200 px-3 py-1 rounded-xl text-[10px] font-bold">Khóa máy này</button></div>
         </div>
 
         <!-- Kết nối GitHub: tự lưu sản phẩm lên web -->
@@ -93,6 +107,13 @@
             <p class="text-[11px] text-gray-500">Dữ liệu tự lưu trong máy này. Muốn khách thấy sản phẩm khi đưa web lên mạng: bấm "Xuất File Sao Lưu", để file <b>products.json</b> cùng thư mục với index.html trên hosting.</p>
         </div>
 
+        <!-- Sắp xếp danh mục -->
+        <div class="bg-white rounded-2xl p-4 border-2 border-pink-300 shadow-sm space-y-2">
+            <h3 class="font-black text-xs text-pink-800 uppercase">Sắp xếp danh mục trên trang mua hàng</h3>
+            <p class="text-[11px] text-gray-500">Danh mục ở trên cùng sẽ hiện đầu tiên (ngay sau mục Tất Cả). Bấm ▲ ▼ để đổi chỗ.</p>
+            <div class="space-y-1.5" id="catAdminList"></div>
+        </div>
+
         <!-- Form sản phẩm -->
         <div class="bg-white rounded-2xl p-4 border border-gray-200 space-y-3">
             <div class="flex items-center justify-between border-b pb-2">
@@ -119,7 +140,27 @@
                     <button onclick="resetProductForm()" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2.5 rounded-xl">Hủy / Làm mới</button>
                 </div>
             </div>
-            <p class="text-[11px] text-gray-500">Sản phẩm ở trên cùng danh sách sẽ hiện đầu tiên trong gian hàng. Dùng các nút ▲ ▼ để đổi vị trí.</p>
+            <p class="text-[11px] text-gray-500">Sản phẩm ở trên cùng danh sách hiện đầu tiên trong gian hàng. Sản phẩm mới thêm vào sẽ nằm cuối nhóm danh mục của nó, không nhảy lên đầu.</p>
+            <div class="space-y-2">
+                <div class="grid grid-cols-2 gap-2 text-[11px] font-bold">
+                    <select id="adminFilterCat" onchange="setAdminFilter(this.value)" class="border border-gray-300 rounded-lg p-2 bg-white text-gray-900"></select>
+                    <button onclick="sortByCategory()" class="bg-pink-600 hover:bg-pink-700 text-white rounded-lg p-2">Xếp theo thứ tự danh mục</button>
+                </div>
+                <button onclick="selectVisible()" class="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 text-[11px] font-bold rounded-lg py-2">Chọn tất cả sản phẩm đang hiển thị</button>
+                <div id="selBar" class="hidden bg-indigo-50 border border-indigo-300 rounded-xl p-2.5 space-y-2 text-[11px] font-bold">
+                    <p class="text-indigo-900"><span id="selCount">0</span> món đã chọn (giữ nguyên thứ tự với nhau khi chuyển)</p>
+                    <div class="grid grid-cols-3 gap-1.5">
+                        <button onclick="moveSelected('top')" class="bg-indigo-600 text-white rounded-lg py-2">Lên đầu</button>
+                        <button onclick="moveSelected('bottom')" class="bg-indigo-600 text-white rounded-lg py-2">Xuống cuối</button>
+                        <button onclick="clearSelection()" class="bg-gray-300 text-gray-800 rounded-lg py-2">Bỏ chọn</button>
+                    </div>
+                    <div class="flex items-center" style="gap:8px;">
+                        <span class="text-indigo-900">Chuyển đến vị trí</span>
+                        <input type="text" inputmode="numeric" id="selPos" placeholder="số" class="border border-gray-300 rounded-lg p-1.5 bg-white text-gray-900 text-center" style="width:64px;">
+                        <button onclick="moveSelected('pos')" class="bg-indigo-600 text-white rounded-lg px-4 py-1.5">OK</button>
+                    </div>
+                </div>
+            </div>
             <div class="space-y-2" id="adminProductList"></div>
         </div>
     </div>
@@ -128,13 +169,28 @@
         // ===== CẤU HÌNH =====
         // Link gian hàng Shopee của Cụ trên collshp (sửa link ở đây khi cần)
         const SHOPEE_STORE_LINK = "https://collshp.com/germany.ai?view=storefront";
-        // Mã PIN thêm một lớp nữa khi vào Góc Quản Trị. Để trống "" = không cần mã (khuyên dùng khi chỉ máy Cụ được đánh dấu).
-        const ADMIN_PIN = "";
-        const CATS = ["Thời Trang Nam", "Thời Trang Nữ", "Giày dép", "Túi", "Gia Dụng", "Tạp hóa"];
-        const EMOJI = { "Thời Trang Nam": "👔", "Thời Trang Nữ": "👗", "Giày dép": "👟", "Túi": "👜", "Gia Dụng": "🏠", "Tạp hóa": "🛒" };
+        const CATS = ["Thời Trang Nam", "Thời Trang Nữ", "Giày dép", "Túi", "Gia Dụng", "Bách hóa"];
+        const EMOJI = { "Thời Trang Nam": "👔", "Thời Trang Nữ": "👗", "Giày dép": "👟", "Túi": "👜", "Gia Dụng": "🏠", "Bách hóa": "🛒" };
         const K_PRODUCTS = "germany_ai_products";
 
         let products = [];
+        const K_SETTINGS = "germany_ai_settings";
+        // Mã PIN mặc định (đã băm). Khi Cụ bấm "Đổi mã PIN" thì mã mới sẽ thay thế mã này.
+        const DEFAULT_PIN_SALT = "germanyai-hub-2026";
+        const DEFAULT_PIN_HASH = "e0a14d0e5094502b4a18ac7e9f0a39e0b564be4e5f361def2f188615eb702ff3";
+        let settings = { pinHash: DEFAULT_PIN_HASH, pinSalt: DEFAULT_PIN_SALT, catOrder: [], groupAll: false };
+        function normalizeSettings(o) {
+            let r = Object.assign({ pinHash: "", pinSalt: "", catOrder: [], groupAll: false }, o || {});
+            r.catOrder = (r.catOrder || []).map(c => c === "Tạp hóa" ? "Bách hóa" : c);
+            if (!r.pinHash) { r.pinHash = DEFAULT_PIN_HASH; r.pinSalt = DEFAULT_PIN_SALT; }
+            return r;
+        }
+        function saveSettings() { try { localStorage.setItem(K_SETTINGS, JSON.stringify(settings)); } catch (e) {} }
+        function getCatOrder() {
+            let order = (settings.catOrder || []).filter(c => CATS.indexOf(c) > -1);
+            CATS.forEach(c => { if (order.indexOf(c) < 0) order.push(c); });
+            return order;
+        }
         let storeCat = "Tất Cả";
         let pendingImageData = "";
 
@@ -154,6 +210,7 @@
             list.forEach(function(p) {
                 let n = Number(p.price) || 0;
                 if (!Number.isInteger(n)) { p.price = Math.round(n * 1000); fixed = true; }
+                if (p.cat === "Tạp hóa") { p.cat = "Bách hóa"; fixed = true; }
             });
             return fixed;
         }
@@ -165,20 +222,23 @@
         // ===== KHỞI ĐỘNG =====
         // Máy của Cụ: dùng dữ liệu đã lưu trong máy. Máy khách: đọc file products.json đặt cạnh index.html.
         window.onload = async function() {
-            document.getElementById('pfCat').innerHTML = CATS.map(c => `<option value="${c}">${c}</option>`).join("");
             let isAdminDevice = localStorage.getItem("germany_ai_admin_device") === "1";
             let local = localStorage.getItem(K_PRODUCTS) !== null ? lsGet(K_PRODUCTS, []) : null;
+            let localSettings = localStorage.getItem(K_SETTINGS) !== null ? lsGet(K_SETTINGS, null) : null;
             if (isAdminDevice && local) {
                 products = local;
+                settings = normalizeSettings(localSettings);
             } else {
                 // Máy khách: luôn lấy bản mới nhất Cụ đã đưa lên web
                 let remote = await fetchRemoteProducts();
-                if (remote) products = remote;
-                else products = local || [];
+                if (remote) { products = remote.products; settings = normalizeSettings(remote.settings); }
+                else { products = local || []; settings = normalizeSettings(localSettings); }
             }
             let priceFixed = normalizeProducts(products);
+            fillCatSelect();
             renderStore();
             renderAdminProducts();
+            renderCatAdmin();
             fillGHFields();
             if (priceFixed && isAdminDevice) { saveProducts(); schedulePush(); }
         };
@@ -188,16 +248,24 @@
                 let res = await fetch("products.json?t=" + Date.now(), { cache: "no-store" });
                 if (!res.ok) return null;
                 let data = await res.json();
-                return Array.isArray(data) ? data : (data.products || []);
+                if (Array.isArray(data)) return { products: data, settings: null };
+                return { products: data.products || [], settings: data.settings || null };
             } catch (e) { return null; }
+        }
+
+        function fillCatSelect() {
+            let sel = document.getElementById('pfCat');
+            let cur = sel.value;
+            sel.innerHTML = getCatOrder().map(c => `<option value="${c}">${c}</option>`).join("");
+            if (cur) sel.value = cur;
         }
 
         // ===== CỬA HÀNG =====
         function renderStore() {
             let chips = document.getElementById('storeChips');
-            chips.innerHTML = ["Tất Cả"].concat(CATS).map(c =>
+            chips.innerHTML = ["Tất Cả"].concat(getCatOrder()).map(c =>
                 `<button class="chip ${c === storeCat ? 'on' : ''}" onclick="setStoreCat('${c}')">${EMOJI[c] ? `<span style="font-size:15px;line-height:1;">${EMOJI[c]}</span>` : ''}<span>${c}</span></button>`
-            ).join("") + `<button class="chip" style="background:#EE4D2D;border-color:#EE4D2D;color:#fff;" onclick="openShopeeStore()"><svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 8V7a5 5 0 0110 0v1h2.1a1 1 0 011 .9l1 12a1 1 0 01-1 1.1H4a1 1 0 01-1-1.1l1-12a1 1 0 011-.9H7zm2 0h6V7a3 3 0 00-6 0v1z"/></svg><span>Gian hàng Shopee</span><svg style="width:.85em;height:.85em" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1h5"/></svg></button>`;
+            ).join("");
 
             let kw = (document.getElementById('storeSearch').value || "").trim().toLowerCase();
             let list = products.filter(p => (storeCat === "Tất Cả" || p.cat === storeCat) && (!kw || (p.name || "").toLowerCase().includes(kw)));
@@ -229,30 +297,73 @@
         }
 
         // ===== ADMIN =====
-        // Máy của Cụ (đã được đánh dấu): bấm 1 lần vào logo là vào thẳng quản trị.
-        // Máy khác (khách): bấm logo không có tác dụng gì. Lần đầu Cụ bấm nhanh 5 lần liên tiếp để đánh dấu máy này.
+        // Máy của Cụ (đã nhập đúng mã PIN): bấm 1 lần vào logo là vào thẳng quản trị.
+        // Máy khác (khách): bấm logo không có tác dụng gì. Muốn đánh dấu máy mới, bấm nhanh 5 lần liên tiếp rồi nhập mã PIN.
         const K_ADMIN_DEVICE = "germany_ai_admin_device";
         let logoTaps = 0;
         let logoTimer = null;
 
         function openAdminFromLogo() {
-            if (localStorage.getItem(K_ADMIN_DEVICE) === "1") return enterAdmin();
+            if (localStorage.getItem(K_ADMIN_DEVICE) === "1") return showAdmin(true);
             logoTaps++;
             clearTimeout(logoTimer);
             logoTimer = setTimeout(function() { logoTaps = 0; }, 2000);
             if (logoTaps >= 5) {
                 logoTaps = 0;
-                try { localStorage.setItem(K_ADMIN_DEVICE, "1"); } catch (e) {}
-                enterAdmin();
+                unlockAdminDevice();
             }
         }
 
-        function enterAdmin() {
-            if (ADMIN_PIN) {
-                let pin = prompt("Nhập mã quản trị:");
-                if (pin !== ADMIN_PIN) return;
+        function randomSalt() {
+            let a = new Uint8Array(8);
+            if (window.crypto && crypto.getRandomValues) crypto.getRandomValues(a);
+            else for (let i = 0; i < a.length; i++) a[i] = Math.floor(Math.random() * 256);
+            return Array.from(a).map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        // Băm mã PIN (SHA-256 kèm muối) nên file web không lộ mã PIN thật
+        async function hashPin(pin, salt) {
+            let text = salt + ":" + pin;
+            if (window.crypto && crypto.subtle) {
+                let buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+                return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
             }
+            let h = 5381;
+            for (let i = 0; i < text.length; i++) h = ((h << 5) + h + text.charCodeAt(i)) | 0;
+            return "x" + (h >>> 0).toString(16);
+        }
+
+        // Hỏi tạo mã PIN mới (2 lần). Trả về true nếu đã đặt xong.
+        async function askNewPin(title) {
+            let pin = prompt(title + " (4 đến 8 chữ số):");
+            if (pin === null) return false;
+            pin = pin.trim();
+            if (!/^\d{4,8}$/.test(pin)) { alert("Mã PIN phải gồm 4 đến 8 chữ số."); return false; }
+            let again = prompt("Nhập lại mã PIN để xác nhận:");
+            if (again === null || again.trim() !== pin) { alert("Hai lần nhập không khớp."); return false; }
+            settings.pinSalt = randomSalt();
+            settings.pinHash = await hashPin(pin, settings.pinSalt);
+            saveSettings();
+            schedulePush();
+            return true;
+        }
+
+        // Bấm nhanh 5 lần vào logo: có mã PIN thì hỏi mã; chưa có thì tạo mới. Đúng mã thì máy này được đánh dấu là máy admin.
+        async function unlockAdminDevice() {
+            if (settings.pinHash) {
+                let pin = prompt("Nhập mã PIN quản trị:");
+                if (pin === null) return;
+                let h = await hashPin(pin.trim(), settings.pinSalt);
+                if (h !== settings.pinHash) return alert("Sai mã PIN.");
+            } else {
+                if (!(await askNewPin("Chưa có mã PIN. Tạo mã PIN quản trị"))) return;
+            }
+            try { localStorage.setItem(K_ADMIN_DEVICE, "1"); } catch (e) {}
             showAdmin(true);
+        }
+
+        async function changePin() {
+            if (await askNewPin("Nhập mã PIN mới")) alert("Đã đổi mã PIN.");
         }
 
         // Khóa quyền quản trị trên máy này (dùng khi cho người khác mượn máy)
@@ -262,10 +373,36 @@
             showAdmin(false);
         }
 
+        // ===== SẮP XẾP DANH MỤC =====
+        function renderCatAdmin() {
+            let box = document.getElementById('catAdminList');
+            if (!box) return;
+            box.innerHTML = getCatOrder().map((c, i) => `
+                <div class="flex items-center justify-between p-2 border rounded-xl bg-gray-50 text-xs">
+                    <span class="font-bold text-gray-800">${i + 1}. ${EMOJI[c] || ''} ${esc(c)}</span>
+                    <span class="flex" style="gap:4px;">
+                        <button onclick="moveCat('${esc(c)}',-1)" class="bg-slate-700 text-white px-3 py-1.5 rounded">▲</button>
+                        <button onclick="moveCat('${esc(c)}',1)" class="bg-slate-700 text-white px-3 py-1.5 rounded">▼</button>
+                    </span>
+                </div>`).join("");
+        }
+
+        function moveCat(name, dir) {
+            let order = getCatOrder();
+            let i = order.indexOf(name), j = i + dir;
+            if (i < 0 || j < 0 || j >= order.length) return;
+            order.splice(j, 0, order.splice(i, 1)[0]);
+            settings.catOrder = order;
+            saveSettings();
+            fillCatSelect();
+            renderCatAdmin();
+            schedulePush();
+        }
+
         function showAdmin(on) {
             document.getElementById('adminView').classList.toggle('hidden', !on);
             document.getElementById('shopView').classList.toggle('hidden', on);
-            if (on) renderAdminProducts(); else renderStore();
+            if (on) { renderAdminProducts(); renderCatAdmin(); } else renderStore();
             window.scrollTo(0, 0);
         }
 
@@ -322,7 +459,9 @@
                 let idx = products.findIndex(p => p.id === id);
                 if (idx > -1) { if (!img) data.img = products[idx].img; products[idx] = data; }
             } else {
-                products.unshift(data);
+                let last = -1;
+                products.forEach((q, i) => { if (q.cat === data.cat) last = i; });
+                if (last > -1) products.splice(last + 1, 0, data); else products.push(data);
             }
             if (!saveProducts()) { products = backup; return; }
             resetProductForm();
@@ -350,38 +489,108 @@
         function deleteProduct(id) {
             if (!confirm("Xóa sản phẩm này khỏi cửa hàng?")) return;
             products = products.filter(p => p.id !== id);
+            selected.delete(id);
             saveProducts();
             renderAdminProducts();
             schedulePush();
         }
 
         // ===== SẮP XẾP VỊ TRÍ SẢN PHẨM =====
-        // dir: -1 = lên 1 bậc, 1 = xuống 1 bậc, 'top' = lên đầu, 'bottom' = xuống cuối
+        let selected = new Set();
+        let adminFilter = "all";
+
+        function visibleProducts() { return adminFilter === "all" ? products : products.filter(p => p.cat === adminFilter); }
+        function commitOrder() { saveProducts(); renderAdminProducts(); schedulePush(); }
+        function setAdminFilter(v) { adminFilter = v; renderAdminProducts(); }
+
+        function updateSelBar() {
+            document.getElementById('selCount').innerText = selected.size;
+            document.getElementById('selBar').classList.toggle('hidden', selected.size === 0);
+        }
+        function toggleSel(id, on) { if (on) selected.add(id); else selected.delete(id); updateSelBar(); }
+        function clearSelection() { selected.clear(); renderAdminProducts(); }
+        function selectVisible() { visibleProducts().forEach(p => selected.add(p.id)); renderAdminProducts(); }
+
+        // dir: -1 / 1 = lên / xuống 1 bậc so với món kế bên đang hiển thị; 'top' / 'bottom' = đầu / cuối cả danh sách
         function moveProduct(id, dir) {
             let i = products.findIndex(p => p.id === id);
             if (i < 0) return;
+            let vis = visibleProducts();
+            let vi = vis.findIndex(p => p.id === id);
+            let nb = (dir === 'top' || dir === 'bottom') ? null : vis[vi + dir];
+            if (dir !== 'top' && dir !== 'bottom' && !nb) return;
             let item = products.splice(i, 1)[0];
-            let j;
-            if (dir === 'top') j = 0;
-            else if (dir === 'bottom') j = products.length;
-            else j = Math.max(0, Math.min(products.length, i + dir));
-            products.splice(j, 0, item);
-            saveProducts();
-            renderAdminProducts();
-            schedulePush();
+            if (dir === 'top') products.unshift(item);
+            else if (dir === 'bottom') products.push(item);
+            else {
+                let j = products.findIndex(p => p.id === nb.id);
+                products.splice(dir < 0 ? j : j + 1, 0, item);
+            }
+            commitOrder();
+        }
+
+        // Gõ số vị trí cho từng món (số 1 = đầu tiên)
+        function movePos(id) {
+            let n = parsePrice(document.getElementById('pos_' + id).value);
+            if (!n) return alert("Hãy gõ số vị trí muốn chuyển đến (ví dụ 3).");
+            let i = products.findIndex(p => p.id === id);
+            if (i < 0) return;
+            let item = products.splice(i, 1)[0];
+            products.splice(Math.max(0, Math.min(products.length, n - 1)), 0, item);
+            commitOrder();
+        }
+
+        // Chuyển cả loạt món đã tick: giữ nguyên thứ tự với nhau
+        function moveSelected(where) {
+            if (selected.size === 0) return;
+            let items = products.filter(p => selected.has(p.id));
+            let rest = products.filter(p => !selected.has(p.id));
+            let k;
+            if (where === 'top') k = 0;
+            else if (where === 'bottom') k = rest.length;
+            else {
+                let n = parsePrice(document.getElementById('selPos').value);
+                if (!n) return alert("Hãy gõ số vị trí muốn chuyển đến (ví dụ 1).");
+                k = Math.max(0, Math.min(rest.length, n - 1));
+            }
+            products = rest.slice(0, k).concat(items, rest.slice(k));
+            selected.clear();
+            document.getElementById('selPos').value = "";
+            commitOrder();
+        }
+
+        // Xếp lại một lần toàn bộ sản phẩm theo thứ tự danh mục ở thẻ phía trên (quần áo, giày dép lên đầu...)
+        function sortByCategory() {
+            if (!confirm("Xếp lại toàn bộ sản phẩm theo thứ tự danh mục? Trong mỗi danh mục vẫn giữ nguyên thứ tự hiện có.")) return;
+            let ord = getCatOrder();
+            let rank = c => { let i = ord.indexOf(c); return i < 0 ? ord.length : i; };
+            products = products.map((p, i) => ({ p: p, i: i })).sort((a, b) => rank(a.p.cat) - rank(b.p.cat) || a.i - b.i).map(x => x.p);
+            commitOrder();
         }
 
         function renderAdminProducts() {
             document.getElementById('prodCount').innerText = products.length + " sản phẩm";
+            let sel = document.getElementById('adminFilterCat');
+            if (sel) {
+                sel.innerHTML = `<option value="all">Tất cả danh mục (${products.length})</option>` + getCatOrder().map(c =>
+                    `<option value="${c}">${c} (${products.filter(p => p.cat === c).length})</option>`).join("");
+                sel.value = adminFilter;
+            }
+            selected.forEach(id => { if (!products.some(p => p.id === id)) selected.delete(id); });
+            updateSelBar();
             let box = document.getElementById('adminProductList');
             if (products.length === 0) {
                 box.innerHTML = `<p class="text-center text-gray-400 text-xs py-6">Chưa có sản phẩm nào. Thêm sản phẩm ở form phía trên.</p>`;
                 return;
             }
-            box.innerHTML = products.map((p, idx) => `
+            box.innerHTML = products.map((p, idx) => {
+                if (adminFilter !== "all" && p.cat !== adminFilter) return "";
+                let id = esc(p.id);
+                return `
                 <div class="p-2.5 border rounded-xl bg-gray-50 space-y-2">
-                    <div class="flex items-center space-x-3">
-                        <span class="text-[11px] font-black text-gray-400 w-5 text-center">${idx + 1}</span>
+                    <div class="flex items-center" style="gap:10px;">
+                        <input type="checkbox" ${selected.has(p.id) ? 'checked' : ''} onchange="toggleSel('${id}', this.checked)" style="width:20px;height:20px;flex-shrink:0;">
+                        <span class="text-[11px] font-black text-gray-400 text-center" style="width:26px;flex-shrink:0;">${idx + 1}</span>
                         <img src="${esc(imgFor(p))}" class="w-14 h-14 rounded-lg object-cover bg-gray-200 shrink-0" onerror="this.style.visibility='hidden'">
                         <div class="flex-1 min-w-0 text-xs">
                             <p class="font-bold text-gray-900 truncate">${esc(p.name)}</p>
@@ -390,15 +599,20 @@
                         </div>
                     </div>
                     <div class="grid grid-cols-6 gap-1 text-[11px] font-bold">
-                        <button onclick="moveProduct('${esc(p.id)}','top')" class="bg-slate-700 text-white py-1.5 rounded col-span-1" title="Lên đầu">⤒</button>
-                        <button onclick="moveProduct('${esc(p.id)}',-1)" class="bg-slate-700 text-white py-1.5 rounded col-span-1" title="Lên 1 bậc">▲</button>
-                        <button onclick="moveProduct('${esc(p.id)}',1)" class="bg-slate-700 text-white py-1.5 rounded col-span-1" title="Xuống 1 bậc">▼</button>
-                        <button onclick="moveProduct('${esc(p.id)}','bottom')" class="bg-slate-700 text-white py-1.5 rounded col-span-1" title="Xuống cuối">⤓</button>
-                        <button onclick="editProduct('${esc(p.id)}')" class="bg-blue-600 text-white py-1.5 rounded col-span-1">Sửa</button>
-                        <button onclick="deleteProduct('${esc(p.id)}')" class="bg-red-600 text-white py-1.5 rounded col-span-1">Xóa</button>
+                        <button onclick="moveProduct('${id}','top')" class="bg-slate-700 text-white py-1.5 rounded" title="Lên đầu">⤒</button>
+                        <button onclick="moveProduct('${id}',-1)" class="bg-slate-700 text-white py-1.5 rounded" title="Lên 1 bậc">▲</button>
+                        <button onclick="moveProduct('${id}',1)" class="bg-slate-700 text-white py-1.5 rounded" title="Xuống 1 bậc">▼</button>
+                        <button onclick="moveProduct('${id}','bottom')" class="bg-slate-700 text-white py-1.5 rounded" title="Xuống cuối">⤓</button>
+                        <button onclick="editProduct('${id}')" class="bg-blue-600 text-white py-1.5 rounded">Sửa</button>
+                        <button onclick="deleteProduct('${id}')" class="bg-red-600 text-white py-1.5 rounded">Xóa</button>
                     </div>
-                </div>
-            `).join("");
+                    <div class="flex items-center text-[11px] font-bold" style="gap:8px;">
+                        <span class="text-gray-600">Đến vị trí</span>
+                        <input type="text" inputmode="numeric" id="pos_${id}" placeholder="số" class="border border-gray-300 rounded-lg p-1.5 bg-white text-gray-900 text-center" style="width:64px;">
+                        <button onclick="movePos('${id}')" class="bg-emerald-600 text-white rounded-lg px-4 py-1.5">OK</button>
+                    </div>
+                </div>`;
+            }).join("") || `<p class="text-center text-gray-400 text-xs py-6">Danh mục này chưa có sản phẩm.</p>`;
         }
 
         // ===== KẾT NỐI GITHUB: TỰ LƯU SẢN PHẨM VÀ ẢNH LÊN WEB =====
@@ -529,7 +743,7 @@
                     }
                 }
                 if (changed) saveProducts();
-                let json = JSON.stringify({ app: "GERMANY_AI", version: 3, updatedAt: new Date().toISOString(), products: products }, null, 1);
+                let json = JSON.stringify({ app: "GERMANY_AI", version: 4, updatedAt: new Date().toISOString(), settings: settings, products: products }, null, 1);
                 await ghPutFile("products.json", utf8ToB64(json), "Cập nhật danh sách sản phẩm");
                 renderAdminProducts();
                 setSyncStatus("Đã lưu lên GitHub lúc " + new Date().toLocaleTimeString('vi-VN') + ". Web khách cập nhật sau khoảng 1-2 phút.", 'green');
@@ -546,16 +760,20 @@
             let remote = await fetchRemoteProducts();
             if (!remote) return alert("Chưa đọc được products.json trên web. Hãy chắc là trang đã được đưa lên mạng và đã có sản phẩm.");
             tempImages = {};
-            products = remote;
+            products = remote.products;
+            settings = normalizeSettings(remote.settings);
             normalizeProducts(products);
             saveProducts();
+            saveSettings();
+            fillCatSelect();
             renderAdminProducts();
-            alert("Đã tải " + remote.length + " sản phẩm từ web về.");
+            renderCatAdmin();
+            alert("Đã tải " + products.length + " sản phẩm từ web về.");
         }
 
         // ===== SAO LƯU / KHÔI PHỤC =====
         function exportBackup() {
-            let payload = JSON.stringify({ app: "GERMANY_AI", version: 2, exportedAt: new Date().toISOString(), products: products });
+            let payload = JSON.stringify({ app: "GERMANY_AI", version: 3, exportedAt: new Date().toISOString(), settings: settings, products: products });
             try {
                 let blob = new Blob([payload], { type: "application/json" });
                 let a = document.createElement('a');
@@ -583,9 +801,12 @@
                     if (!Array.isArray(list)) throw new Error("sai file");
                     if (!confirm("Nhập dữ liệu sẽ ghi đè sản phẩm hiện có trên máy này. Tiếp tục?")) return;
                     products = list;
+                    if (!Array.isArray(obj) && obj.settings) { settings = normalizeSettings(obj.settings); saveSettings(); }
                     normalizeProducts(products);
                     if (!saveProducts()) return;
+                    fillCatSelect();
                     renderAdminProducts();
+                    renderCatAdmin();
                     schedulePush();
                     alert("Khôi phục thành công " + list.length + " sản phẩm!");
                 } catch (err) {
