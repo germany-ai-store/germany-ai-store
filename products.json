@@ -1,7 +1,13 @@
 {
  "app": "GERMANY_AI",
- "version": 3,
- "updatedAt": "2026-11-12T05:12:32.304Z",
+ "version": 4,
+ "updatedAt": "2026-11-12T12:54:44.750Z",
+ "settings": {
+  "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
+  "pinSalt": "436ff09be75b3a24",
+  "catOrder": [],
+  "groupAll": false
+ },
  "products": [
   {
    "id": "P1794402225797",
