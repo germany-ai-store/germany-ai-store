@@ -1,8 +1,16 @@
 {
  "app": "GERMANY_AI",
  "version": 3,
- "updatedAt": "2026-11-11T13:02:34.625Z",
+ "updatedAt": "2026-11-12T05:12:32.304Z",
  "products": [
+  {
+   "id": "P1794402225797",
+   "name": "Khuôn ép xôi hình hoa hồng, nhựa cao cấp chính hãng",
+   "cat": "Gia Dụng",
+   "price": 42667,
+   "img": "images/P1794402225797-1794460348544.jpg",
+   "link": "https://vt.tiktok.com/ZS9f5B4sx6j15-t3GB4/"
+  },
   {
    "id": "P1794402025037",
    "name": "Bộ Bát đĩa hoa mặt trời Nhựa PP màu trắng sứ - Set bát đ",
