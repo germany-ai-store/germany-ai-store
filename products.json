@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-12T12:56:04.310Z",
+ "updatedAt": "2026-11-12T13:04:46.501Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -63,6 +63,14 @@
    "price": 402545,
    "img": "images/P1794225177442-1794225181007.jpg",
    "link": "https://vt.tiktok.com/ZS9fkM8RsKEXC-yNzvb/"
+  },
+  {
+   "id": "P1793888018041",
+   "name": "[ONMAX] Giày thể thao Thời Trang SmallSaiboat",
+   "cat": "Giày dép",
+   "price": 2031376,
+   "img": "images/P1793888018041-1793888021753.jpg",
+   "link": "https://vt.tiktok.com/ZS9yEwfbuwoWW-nP3G9/"
   },
   {
    "id": "P1794224983744",
@@ -871,14 +879,6 @@
    "price": 452844,
    "img": "images/P1793889952088-1793889955049.jpg",
    "link": "https://vt.tiktok.com/ZS9yoe18wYatu-pTRJa/"
-  },
-  {
-   "id": "P1793888018041",
-   "name": "[ONMAX] Giày thể thao Thời Trang SmallSaiboat",
-   "cat": "Giày dép",
-   "price": 2031376,
-   "img": "images/P1793888018041-1793888021753.jpg",
-   "link": "https://vt.tiktok.com/ZS9yEwfbuwoWW-nP3G9/"
   },
   {
    "id": "P1794162118707",
