@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-13T16:13:48.634Z",
+ "updatedAt": "2026-11-13T16:15:46.089Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -1447,6 +1447,14 @@
    "price": 164500,
    "img": "images/P1794586378567-1794586381429.jpg",
    "link": "https://vt.tiktok.com/ZS9fXGdChAm35-Kj1TR/"
+  },
+  {
+   "id": "P1794586506961",
+   "name": "Nước hoa bỏ túi cho nam Perfume Romano hương Attitu",
+   "cat": "Bách hóa",
+   "price": 42000,
+   "img": "images/P1794586506961-1794586509977.jpg",
+   "link": "https://vt.tiktok.com/ZS9fXGaq3CJXM-AARND/"
   }
  ]
 }
