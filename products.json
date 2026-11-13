@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-13T16:11:44.880Z",
+ "updatedAt": "2026-11-13T16:13:48.634Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -1439,6 +1439,14 @@
    "price": 83000,
    "img": "images/P1794586297086-1794586301450.jpg",
    "link": "https://vt.tiktok.com/ZS9fXspQgRSeB-TEOD8/"
+  },
+  {
+   "id": "P1794586378567",
+   "name": "Sữa tắm Dưỡng Thể cho nam Romano hương nước hoa",
+   "cat": "Bách hóa",
+   "price": 164500,
+   "img": "images/P1794586378567-1794586381429.jpg",
+   "link": "https://vt.tiktok.com/ZS9fXGdChAm35-Kj1TR/"
   }
  ]
 }
