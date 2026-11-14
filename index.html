@@ -6,28 +6,39 @@
     <title>GERMANY AI - Premium Hub</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; -webkit-tap-highlight-color: transparent; background:#f4f4f5; color:#111827; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; -webkit-tap-highlight-color: transparent; background:#F8F9FA; color:#18181B; }
         .hidden { display:none !important; }
-        .chip { white-space:nowrap; padding:8px 16px; border-radius:9999px; font-size:13px; font-weight:700; background:#ffffff; border:1px solid #e5e7eb; color:#111827; display:flex; align-items:center; gap:6px; }
-        .chip.on { background:#f5c242; color:#111; border-color:#f5c242; }
+        .chip { white-space:nowrap; padding:8px 16px; border-radius:9999px; font-size:13px; font-weight:600; background:#ffffff; border:1px solid #E5E7EB; color:#18181B; display:flex; align-items:center; gap:6px; }
+        .chip.on { background:#F5C242; color:#18181B; border-color:#F5C242; }
         .scroll-x { overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
         .scroll-x::-webkit-scrollbar { display:none; }
-        .pcard { background:#ffffff; border-radius:14px; overflow:hidden; box-shadow:0 1px 3px rgba(0,0,0,.08); cursor:pointer; display:flex; flex-direction:column; }
+        .pcard { background:#ffffff; border-radius:14px; overflow:hidden; border:1px solid #F1F1F3; cursor:pointer; display:flex; flex-direction:column; }
         .pcard:active { transform:scale(.98); }
-        .pname { color:#111827; font-size:14px; font-weight:600; line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+        .pname { color:#18181B; font-size:14px; font-weight:600; line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
         .pprice { color:#e8284a; font-size:18px; font-weight:800; }
         .logo-fallback { background: linear-gradient(135deg,#3a0a14,#6b1520 50%,#3a0a14); }
         .gold-text { background: linear-gradient(90deg,#ff7a6b,#f5a623,#ffd54a); -webkit-background-clip:text; background-clip:text; color:transparent; }
+        .nav-btn { color:#9ca3af; font-weight:600; }
+        .nav-btn.active { color:#8F6B1F; font-weight:800; border-top:2px solid #8F6B1F; }
+        .sec-card { background:#ffffff; border-radius:18px; padding:22px; border:1px solid #F1F1F3; }
+        .sec-num { color:#A8832E; font-weight:700; font-size:12px; letter-spacing:.2em; margin-bottom:6px; }
+        .sec-title { color:#8F6B1F; font-weight:800; font-size:16px; line-height:1.4; margin-bottom:10px; }
+        .slogan { text-align:center; color:#8F6B1F; font-weight:800; font-size:12.5px; letter-spacing:.14em; line-height:1.8; padding:8px 10px 0; }
+        .share-btn { width:100%; display:flex; align-items:center; justify-content:center; gap:8px; background:#ffffff; border:1.5px solid #C9A961; color:#8F6B1F; font-weight:800; font-size:14px; padding:13px 16px; border-radius:14px; }
+        .share-btn:active { background:#FBF6E8; }
+        .kw { color:#0A0A0A; font-weight:700; }
+        .brand { color:#000000; font-weight:800; }
+        .sec-body { color:#374151; font-size:14.5px; line-height:1.75; font-weight:400; }
         .ico { width:1em; height:1em; display:inline-block; vertical-align:-0.125em; flex-shrink:0; }
     </style>
 </head>
-<body class="min-h-screen pb-10">
+<body class="min-h-screen pb-28">
 
-    <!-- ===================== GIAN HÀNG (KHÁCH) ===================== -->
+    <!-- ===================== KHU KHÁCH: 3 TAB ===================== -->
     <div id="shopView" class="max-w-md mx-auto p-3 space-y-3">
 
-        <!-- Logo thương hiệu: bấm vào để vào Góc Quản Trị -->
-        <div onclick="openAdminFromLogo()" class="rounded-2xl overflow-hidden shadow-md border border-amber-500/40 cursor-pointer" style="background:#3a0a14;">
+        <!-- Logo thương hiệu (hiện ở cả 3 tab). Bấm nhanh 5 lần để vào Góc Quản Trị -->
+        <div onclick="openAdminFromLogo()" class="rounded-2xl overflow-hidden cursor-pointer" style="background:#3a0a14;">
             <img src="logo.png" alt="GERMANY AI Premium Hub" class="w-full block" onerror="this.style.display='none';document.getElementById('logoFallback').style.display='block';">
             <div id="logoFallback" class="logo-fallback text-center py-7 px-3" style="display:none;">
                 <div class="h-1 w-3/4 mx-auto rounded-full mb-3" style="background:linear-gradient(90deg,transparent,#e9b949,transparent);"></div>
@@ -36,31 +47,118 @@
             </div>
         </div>
 
-        <!-- Tìm kiếm -->
-        <div class="relative">
-            <svg class="ico absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-            <input type="text" id="storeSearch" oninput="renderStore()" placeholder="Tìm kiếm sản phẩm, thương hiệu..." class="w-full bg-white border border-gray-200 rounded-2xl py-3 pl-11 pr-4 text-sm text-gray-900 focus:outline-none focus:border-amber-400">
-        </div>
+        <!-- ========== TAB 1: TRANG CHỦ ========== -->
+        <div id="tabHome" class="space-y-4">
+            <div>
+                <p class="slogan">CHUẨN MỰC CỦA NHÀ TIÊU DÙNG THÔNG THÁI &amp; CÓ GU</p>
+                <div style="width:36px;height:2px;background:#C9A961;margin:10px auto 0;"></div>
+            </div>
 
-        <!-- Gian hàng Shopee: ô nhỏ 2 dòng, chữ Xem ngay nằm giữa ngay dưới chữ Gian hàng Shopee -->
-        <div>
-            <button onclick="openShopeeStore()" class="inline-flex items-center rounded-2xl text-white shadow" style="background:linear-gradient(90deg,#ee4d2d,#ff7a45);gap:12px;padding:8px 12px;">
-                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1.9em;height:1.9em;flex-shrink:0;"><path d="M7 8V7a5 5 0 0110 0v1h2.1a1 1 0 011 .9l1 12a1 1 0 01-1 1.1H4a1 1 0 01-1-1.1l1-12a1 1 0 011-.9H7zm2 0h6V7a3 3 0 00-6 0v1z"/></svg>
-                <span class="flex flex-col items-center text-center" style="line-height:1.25;">
-                    <span class="font-black text-sm">Gian hàng Shopee</span>
-                    <span class="text-xs font-bold" style="opacity:.95;">Xem ngay</span>
-                </span>
-                <span class="flex items-center justify-center rounded-full" style="width:26px;height:26px;background:rgba(255,255,255,.25);flex-shrink:0;">
-                    <svg viewBox="0 0 24 24" aria-hidden="true" style="width:14px;height:14px;"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1h5"/></svg>
-                </span>
+            <div class="sec-card">
+                <h3 class="sec-title">1. Hợp tác tuyển chọn khắt khe — Kết nối trực tiếp tận gốc</h3>
+                <p class="sec-body"><span class="brand">GERMANY AI PREMIUM HUB</span> là hệ sinh thái mua sắm do chúng tôi tuyển chọn, <span class="kw">hợp tác giới thiệu sản phẩm cùng Shopee, TikTok Shop</span> và các nhãn hàng, đơn vị cung ứng uy tín. Chúng tôi không bán hàng trực tiếp và <span class="kw">không thu bất kỳ phí trung gian nào</span> — khi lựa chọn tại đây, bạn được dẫn thẳng tới gian hàng gốc để mua sắm với đầy đủ các chính sách bảo vệ người tiêu dùng từ nền tảng (như <span class="kw">đồng kiểm khi nhận hàng, hỗ trợ đổi trả</span>, theo chính sách áp dụng của sàn và shop).</p>
+            </div>
+
+            <div class="sec-card">
+                <h3 class="sec-title">2. Lọc bỏ hàng trôi nổi — Bảo chứng chất lượng ở mọi phân khúc</h3>
+                <p class="sec-body">Thị trường hiện nay không thiếu cảnh hàng xưởng trà trộn, hay hàng giả, hàng nhái trôi nổi kém chất lượng. Giữa ma trận nhập nhèm đó, <span class="brand">GERMANY AI PREMIUM HUB</span> chủ động sàng lọc kỹ lưỡng từ những nguồn uy tín. Có những sản phẩm <span class="kw">dù mới ra mắt hoặc ít lượt đánh giá</span> trên sàn do phân khúc giá cao, hay <span class="kw">những món đồ bình dân nhưng đạt độ hoàn thiện vượt mong đợi</span>, tất cả đều được chúng tôi kiểm chứng qua thực tế và các kênh tin cậy — đảm bảo mang đến cho bạn những lựa chọn xứng tầm thay vì phó mặc tiền bạc cho may rủi.</p>
+            </div>
+
+            <div class="sec-card">
+                <h3 class="sec-title">3. Gu thẩm mỹ tinh tường — Dấu ấn của người "biết chơi, biết chọn"</h3>
+                <p class="sec-body">Đẳng cấp của người tiêu dùng không nằm ở việc chi thật nhiều tiền, mà nằm ở <span class="kw">mắt nhìn tinh đời để chọn đúng món đồ chuẩn chất</span>. Những sản phẩm xuất hiện tại <span class="brand">GERMANY AI PREMIUM HUB</span> — dù ở phân khúc nào — đều phải sở hữu đường nét thiết kế sắc sảo, công năng thực tế và <span class="kw">dấu ấn thương hiệu rõ ràng</span>. Thứ mà người sành sỏi chỉ cần lướt mắt qua là nhận diện ngay được phong cách và sự chỉn chu của người dùng. Lựa chọn sản phẩm tại đây chính là cách bạn khẳng định ngầm đầy tinh tế: mình là <span class="kw">người có gu, hiểu giá trị thật</span> và thực sự "biết chọn đồ".</p>
+            </div>
+
+            <div class="sec-card">
+                <h3 class="sec-title">4. Kiến thức, Kinh nghiệm và Trải nghiệm thực tế</h3>
+                <p class="sec-body">Sự khác biệt giữa một người mua hàng bình thường và một nhà tiêu dùng thông thái nằm ở <span class="kw">kiến thức, kinh nghiệm và sự trải nghiệm</span>. Nhận diện giá trị thực tế của sản phẩm, không sa bẫy những lời quảng cáo quá đà và <span class="kw">tự mình kiểm chứng</span> chính là bản lĩnh của người mua sắm hiện đại.</p>
+            </div>
+
+            <div class="rounded-2xl p-4 text-center" style="background:linear-gradient(160deg,#4a161c 0%,#67242b 100%);padding:26px 22px;">
+                <h3 class="font-black" style="color:#E6CF9A;font-size:16px;line-height:1.45;margin-bottom:10px;">Hãy là một nhà tiêu dùng thông thái và sành sỏi!</h3>
+                <p style="color:#F5EEDC;font-size:14.5px;line-height:1.75;font-weight:400;">Đừng lãng phí tiền bạc cho những sản phẩm trôi nổi, mập mờ xuất xứ — GERMANY AI PREMIUM HUB đã tuyển chọn khắt khe và sẵn sàng kết nối bạn trực tiếp với những nguồn hàng chuẩn mực nhất để nâng tầm trải nghiệm và khẳng định phong cách riêng!</p>
+            </div>
+
+            <button onclick="shareSite()" class="share-btn">
+                <svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px;"><circle cx="18" cy="5" r="2.8" fill="currentColor"/><circle cx="6" cy="12" r="2.8" fill="currentColor"/><circle cx="18" cy="19" r="2.8" fill="currentColor"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M8.2 10.8l7.6-4.4M8.2 13.2l7.6 4.4"/></svg>
+                Chia sẻ GERMANY AI cho bạn bè
             </button>
         </div>
 
-        <!-- Danh mục -->
-        <div class="scroll-x flex space-x-2 pb-1" id="storeChips"></div>
+        <!-- ========== TAB 2: PREMIUM HUB (SẢN PHẨM) ========== -->
+        <div id="tabShop" class="hidden space-y-3">
+            <!-- Tìm kiếm -->
+            <div class="relative">
+                <svg class="ico absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                <input type="text" id="storeSearch" oninput="renderStore()" placeholder="Tìm kiếm sản phẩm, thương hiệu..." class="w-full bg-white border border-gray-200 rounded-2xl py-3 pl-11 pr-4 text-sm text-gray-900 focus:outline-none focus:border-amber-400">
+            </div>
 
-        <!-- Sản phẩm -->
-        <div class="grid grid-cols-2 gap-2.5" id="storeGrid"></div>
+            <!-- Bộ sưu tập mở rộng: bấm là sang trang collshp của Cụ -->
+            <div>
+                <button onclick="openShopeeStore()" class="inline-flex items-center rounded-2xl shadow" style="background:linear-gradient(100deg,#4a0e17 0%,#7b1d1d 45%,#b8862b 100%);gap:14px;padding:10px 12px 10px 18px;border:1px solid rgba(233,185,73,.55);">
+                    <span class="flex flex-col items-center text-center" style="line-height:1.3;">
+                        <span style="color:#fdf3d8;font-weight:900;font-size:15px;letter-spacing:.6px;">BỘ SƯU TẬP MỞ RỘNG</span>
+                        <span style="color:#f1dfae;font-weight:400;font-size:11.5px;margin-top:2px;">Khám phá thêm sản phẩm</span>
+                    </span>
+                    <span class="flex items-center justify-center" style="width:30px;height:30px;border-radius:8px;background:#e9b949;flex-shrink:0;">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" style="width:16px;height:16px;color:#4a0e17;"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1h5"/></svg>
+                    </span>
+                </button>
+            </div>
+
+            <!-- Danh mục -->
+            <div class="scroll-x flex space-x-2 pb-1" id="storeChips"></div>
+
+            <!-- Sản phẩm -->
+            <div class="grid grid-cols-2 gap-2.5" id="storeGrid"></div>
+        </div>
+
+        <!-- ========== TAB 3: CỘNG ĐỒNG ========== -->
+        <div id="tabCommunity" class="hidden space-y-3">
+            <div class="sec-card">
+                <h3 class="sec-title" style="letter-spacing:.04em;">CHIA SẺ TRẢI NGHIỆM — LAN TỎA YÊU THƯƠNG</h3>
+                <p class="sec-body">Bạn vừa chọn được món đồ ưng ý, hay không may gặp sản phẩm chưa như kỳ vọng? Hãy chia sẻ lại cho chúng tôi, kèm ảnh thực tế nếu có. Chúng tôi đồng cảm với bạn và sẽ xem xét kỹ. Sản phẩm nhận nhiều phản hồi chưa tốt sẽ được gỡ khỏi GERMANY AI PREMIUM HUB, để những người đến sau không phải gặp lại điều tương tự. Mỗi lời chia sẻ của bạn là một món quà dành cho cộng đồng.</p>
+            </div>
+
+            <div class="sec-card">
+                <textarea id="fbText" rows="5" placeholder="Viết chia sẻ của bạn ở đây (tên sản phẩm, shop, trải nghiệm thực tế...)" class="w-full bg-white border border-gray-200 rounded-xl p-3 text-sm text-gray-900 focus:outline-none focus:border-amber-400" style="resize:none;"></textarea>
+                <button onclick="sendFeedback()" class="w-full mt-3 text-white font-black text-sm py-3 rounded-xl shadow" style="background:linear-gradient(100deg,#4a0e17 0%,#7b1d1d 45%,#b8862b 100%);color:#fdf3d8;">Gửi qua Zalo</button>
+                <p class="text-center text-gray-500 mt-2" style="font-size:12px;line-height:1.5;">Nội dung tự sao chép và mở Zalo của Admin. Bạn dán vào khung chat và gửi kèm ảnh chụp nhé.</p>
+                <p id="fbDone" class="hidden text-center font-bold mt-2" style="color:#0f7a4a;font-size:13px;line-height:1.5;">✓ Đã chuyển sang Zalo. Cảm ơn bạn đã lan tỏa yêu thương cùng cộng đồng GERMANY AI.</p>
+            </div>
+
+            <div class="sec-card text-center" style="background:linear-gradient(160deg,#4a161c 0%,#67242b 100%);border-color:#67242b;">
+                <p class="font-black" style="color:#F2DFA6;font-size:14px;">Admin GERMANY AI — Zalo: <span id="zaloDisplay">0968 994 164</span></p>
+                <p class="mt-1" style="color:#EADFC8;font-size:12px;line-height:1.5;">Admin không bao giờ yêu cầu bạn chuyển tiền, đưa mật khẩu hay mã OTP.</p>
+                <div id="zaloQrBox" class="hidden mt-3">
+                    <img id="zaloQr" alt="Mã QR Zalo của Admin" style="width:160px;height:160px;object-fit:contain;margin:0 auto;display:block;border-radius:12px;" onerror="document.getElementById('zaloQrBox').classList.add('hidden')" onload="document.getElementById('zaloQrBox').classList.remove('hidden')">
+                    <p class="mt-1" style="color:#EADFC8;font-size:12px;">Hoặc quét mã QR để kết bạn Zalo</p>
+                </div>
+            </div>
+
+            <button onclick="shareSite()" class="share-btn">
+                <svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px;"><circle cx="18" cy="5" r="2.8" fill="currentColor"/><circle cx="6" cy="12" r="2.8" fill="currentColor"/><circle cx="18" cy="19" r="2.8" fill="currentColor"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M8.2 10.8l7.6-4.4M8.2 13.2l7.6 4.4"/></svg>
+                Chia sẻ GERMANY AI cho bạn bè
+            </button>
+        </div>
+    </div>
+
+    <!-- Thanh 3 tab dưới đáy -->
+    <div id="navBar" class="fixed bottom-0 left-0 right-0 mx-auto z-50 bg-white border-t border-gray-200" style="max-width:448px;">
+        <div class="flex justify-around items-center" style="height:62px;">
+            <button onclick="showTab(1)" id="nav1" class="nav-btn active flex flex-col items-center justify-center w-full h-full text-xs">
+                <svg class="w-5 h-5 mb-1" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                <span>Trang chủ</span>
+            </button>
+            <button onclick="showTab(2)" id="nav2" class="nav-btn flex flex-col items-center justify-center w-full h-full text-xs">
+                <svg class="w-5 h-5 mb-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"></path></svg>
+                <span>Premium Hub</span>
+            </button>
+            <button onclick="showTab(3)" id="nav3" class="nav-btn flex flex-col items-center justify-center w-full h-full text-xs">
+                <svg class="w-5 h-5 mb-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.433 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path></svg>
+                <span>Cộng đồng</span>
+            </button>
+        </div>
     </div>
 
     <!-- ===================== GÓC QUẢN TRỊ ===================== -->
@@ -105,6 +203,16 @@
             </div>
             <input type="file" id="importFile" accept=".json,application/json" class="hidden" onchange="importBackup(event)">
             <p class="text-[11px] text-gray-500">Dữ liệu tự lưu trong máy này. Muốn khách thấy sản phẩm khi đưa web lên mạng: bấm "Xuất File Sao Lưu", để file <b>products.json</b> cùng thư mục với index.html trên hosting.</p>
+        </div>
+
+        <!-- Liên hệ Zalo -->
+        <div class="bg-white rounded-2xl p-4 border-2 border-sky-300 shadow-sm space-y-2">
+            <h3 class="font-black text-xs text-sky-800 uppercase">Liên hệ Zalo (hiện ở tab Cộng đồng)</h3>
+            <div class="flex items-center" style="gap:8px;">
+                <input type="text" inputmode="numeric" id="zaloInput" placeholder="Số Zalo, ví dụ 0968994164" class="flex-1 border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900 text-xs">
+                <button onclick="saveZalo()" class="bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs rounded-lg px-4 py-2.5">Lưu số</button>
+            </div>
+            <p class="text-[11px] text-gray-500">Số này công khai trên web và dùng cho nút "Gửi qua Zalo". Muốn hiện mã QR, Cụ chụp mã QR Zalo của mình, đặt tên <b>zalo-qr.png</b> và tải lên GitHub cùng thư mục với index.html. Chưa có file thì không hiện QR.</p>
         </div>
 
         <!-- Sắp xếp danh mục -->
@@ -178,9 +286,13 @@
         // Mã PIN mặc định (đã băm). Khi Cụ bấm "Đổi mã PIN" thì mã mới sẽ thay thế mã này.
         const DEFAULT_PIN_SALT = "germanyai-hub-2026";
         const DEFAULT_PIN_HASH = "e0a14d0e5094502b4a18ac7e9f0a39e0b564be4e5f361def2f188615eb702ff3";
-        let settings = { pinHash: DEFAULT_PIN_HASH, pinSalt: DEFAULT_PIN_SALT, catOrder: [], groupAll: false };
+        const DEFAULT_ZALO = "0968994164";
+        // Tab mở đầu khi khách vào web: 1 = Trang chủ, 2 = Premium Hub, 3 = Cộng đồng
+        const DEFAULT_TAB = 1;
+        let settings = { pinHash: DEFAULT_PIN_HASH, pinSalt: DEFAULT_PIN_SALT, catOrder: [], groupAll: false, zalo: DEFAULT_ZALO };
         function normalizeSettings(o) {
-            let r = Object.assign({ pinHash: "", pinSalt: "", catOrder: [], groupAll: false }, o || {});
+            let r = Object.assign({ pinHash: "", pinSalt: "", catOrder: [], groupAll: false, zalo: DEFAULT_ZALO }, o || {});
+            if (!r.zalo) r.zalo = DEFAULT_ZALO;
             r.catOrder = (r.catOrder || []).map(c => c === "Tạp hóa" ? "Bách hóa" : c);
             if (!r.pinHash) { r.pinHash = DEFAULT_PIN_HASH; r.pinSalt = DEFAULT_PIN_SALT; }
             return r;
@@ -239,6 +351,8 @@
             renderStore();
             renderAdminProducts();
             renderCatAdmin();
+            renderCommunity();
+            showTab(DEFAULT_TAB);
             fillGHFields();
             if (priceFixed && isAdminDevice) { saveProducts(); schedulePush(); }
         };
@@ -373,6 +487,73 @@
             showAdmin(false);
         }
 
+        // ===== 3 TAB + TAB CỘNG ĐỒNG (ZALO) =====
+        function showTab(n) {
+            let ids = ['tabHome', 'tabShop', 'tabCommunity'];
+            for (let i = 1; i <= 3; i++) {
+                document.getElementById(ids[i - 1]).classList.toggle('hidden', i !== n);
+                document.getElementById('nav' + i).classList.toggle('active', i === n);
+            }
+            if (n === 2) renderStore();
+            window.scrollTo(0, 0);
+        }
+
+        function zaloDigits() { return String(settings.zalo || DEFAULT_ZALO).replace(/\D/g, ""); }
+        function zaloPretty() {
+            let d = zaloDigits();
+            return d.length === 10 ? d.slice(0, 4) + " " + d.slice(4, 7) + " " + d.slice(7) : d;
+        }
+
+        function renderCommunity() {
+            let el = document.getElementById('zaloDisplay');
+            if (el) el.innerText = zaloPretty();
+            let inp = document.getElementById('zaloInput');
+            if (inp && !inp.value) inp.value = zaloDigits();
+            let qr = document.getElementById('zaloQr');
+            if (qr && !qr.getAttribute('src')) qr.src = "zalo-qr.png";
+        }
+
+        function saveZalo() {
+            let d = String(document.getElementById('zaloInput').value || "").replace(/\D/g, "");
+            if (d.length < 9 || d.length > 11) return alert("Số Zalo chưa đúng. Hãy nhập 9 đến 11 chữ số.");
+            settings.zalo = d;
+            saveSettings();
+            renderCommunity();
+            schedulePush();
+            alert("Đã lưu số Zalo.");
+        }
+
+        // Chia sẻ link trang web: mở khung chia sẻ của điện thoại (Zalo, Messenger, Facebook...), không có thì sao chép link
+        async function shareSite() {
+            let url = location.origin + location.pathname;
+            let data = { title: "GERMANY AI PREMIUM HUB", text: "GERMANY AI PREMIUM HUB - trang tuyển chọn sản phẩm Shopee, TikTok Shop. Bạn xem thử nhé!", url: url };
+            if (navigator.share) {
+                try { await navigator.share(data); return; }
+                catch (e) { if (e && e.name === "AbortError") return; }
+            }
+            let ok = false;
+            try { if (navigator.clipboard && navigator.clipboard.writeText) { await navigator.clipboard.writeText(url); ok = true; } } catch (e) {}
+            if (!ok) {
+                try {
+                    let ta = document.createElement('textarea');
+                    ta.value = url; ta.style.position = 'fixed'; ta.style.opacity = '0';
+                    document.body.appendChild(ta); ta.select(); ok = document.execCommand('copy'); document.body.removeChild(ta);
+                } catch (e) {}
+            }
+            alert(ok ? "Đã sao chép link GERMANY AI. Bạn dán gửi cho bạn bè qua Zalo, Messenger nhé!" : "Link web: " + url);
+        }
+
+        // Khách viết chia sẻ -> tự sao chép nội dung và mở Zalo của Admin để dán và gửi kèm ảnh
+        function sendFeedback() {
+            let ta = document.getElementById('fbText');
+            let text = ta.value.trim();
+            if (!text) return alert("Bạn hãy viết vài dòng chia sẻ trước nhé.");
+            try { ta.select(); ta.setSelectionRange(0, 99999); document.execCommand('copy'); } catch (e) {}
+            try { if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text); } catch (e) {}
+            window.open("https://zalo.me/" + zaloDigits(), "_blank");
+            document.getElementById('fbDone').classList.remove('hidden');
+        }
+
         // ===== SẮP XẾP DANH MỤC =====
         function renderCatAdmin() {
             let box = document.getElementById('catAdminList');
@@ -402,6 +583,7 @@
         function showAdmin(on) {
             document.getElementById('adminView').classList.toggle('hidden', !on);
             document.getElementById('shopView').classList.toggle('hidden', on);
+            document.getElementById('navBar').classList.toggle('hidden', on);
             if (on) { renderAdminProducts(); renderCatAdmin(); } else renderStore();
             window.scrollTo(0, 0);
         }
@@ -768,6 +950,8 @@
             fillCatSelect();
             renderAdminProducts();
             renderCatAdmin();
+            document.getElementById('zaloInput').value = "";
+            renderCommunity();
             alert("Đã tải " + products.length + " sản phẩm từ web về.");
         }
 
