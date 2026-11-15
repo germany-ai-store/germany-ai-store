@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-15T13:22:46.154Z",
+ "updatedAt": "2026-11-15T13:46:57.483Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -1584,6 +1584,22 @@
    "price": 263178,
    "img": "images/P1794748959960-1794748963033.jpg",
    "link": "https://vt.tiktok.com/ZS9ft8pbQseCU-vC2Ck/"
+  },
+  {
+   "id": "P1794749280308",
+   "name": "Thực Phẩm Bổ Sung Sữa Hạt Ngũ Cốc B’fast Canxi - Túi",
+   "cat": "Bách hóa",
+   "price": 74579,
+   "img": "images/P1794749280308-1794750215248.jpg",
+   "link": "https://vt.tiktok.com/ZS9ftL4ToAaxJ-EkEcP/"
+  },
+  {
+   "id": "P1794750212008",
+   "name": "Combo 6 nước mắm Nam Ngư chai 750ml",
+   "cat": "Bách hóa",
+   "price": 272238,
+   "img": "images/P1794750212008-1794750218006.jpg",
+   "link": "https://vt.tiktok.com/ZS9ftYBkC9CL1-zuvni/"
   }
  ]
 }
