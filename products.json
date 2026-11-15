@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-15T14:07:38.561Z",
+ "updatedAt": "2026-11-15T14:34:41.133Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -368,6 +368,14 @@
    "price": 601140,
    "img": "images/P1794575158980-1794575162121.jpg",
    "link": "https://vt.tiktok.com/ZS9fX2yR73VyQ-xaQFt/"
+  },
+  {
+   "id": "P1794753220941",
+   "name": "Áo Sơ Mi Nam Màu Lam In Hoạ Tiết Thời Trang Thanh Lịch",
+   "cat": "Thời Trang Nam",
+   "price": 209300,
+   "img": "images/P1794753220941-1794753224344.jpg",
+   "link": "https://vt.tiktok.com/ZS9ftB4wNbSM3-hVL9k/"
   },
   {
    "id": "P1794374885694",
@@ -1624,6 +1632,14 @@
    "price": 167275,
    "img": "images/P1794751526988-1794751533122.jpg",
    "link": "https://vt.tiktok.com/ZS9ft6EQepe1Y-asLXm/"
+  },
+  {
+   "id": "P1794751736260",
+   "name": "Combo 4 Xốt muối ớt CHIN-SU đỏ / xanh chai x 200gr",
+   "cat": "Bách hóa",
+   "price": 100113,
+   "img": "images/P1794751736260-1794753277569.jpg",
+   "link": "https://vt.tiktok.com/ZS9ftMQ7hsuTs-CGK1q/"
   }
  ]
 }
