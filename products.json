@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-15T13:46:57.483Z",
+ "updatedAt": "2026-11-15T14:07:38.561Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -1600,6 +1600,30 @@
    "price": 272238,
    "img": "images/P1794750212008-1794750218006.jpg",
    "link": "https://vt.tiktok.com/ZS9ftYBkC9CL1-zuvni/"
+  },
+  {
+   "id": "P1794750505948",
+   "name": "Combo 6 Nước mắm Nam Ngư Nhãn Vàng 650ml - Chai",
+   "cat": "Bách hóa",
+   "price": 253998,
+   "img": "images/P1794750505948-1794751241549.jpg",
+   "link": "https://vt.tiktok.com/ZS9ft2LT9ak16-OceBF/"
+  },
+  {
+   "id": "P1794751238240",
+   "name": "[KOL] Combo 4/6 Chai Nước tương Tam Thái Tử Nhất ca",
+   "cat": "Bách hóa",
+   "price": 149073,
+   "img": "images/P1794751238240-1794751529899.jpg",
+   "link": "https://vt.tiktok.com/ZS9ft68fXTDJ5-OzJWO/"
+  },
+  {
+   "id": "P1794751526988",
+   "name": "Combo 2 Nước mắm CHIN-SU 365 40N chai x 700ml",
+   "cat": "Bách hóa",
+   "price": 167275,
+   "img": "images/P1794751526988-1794751533122.jpg",
+   "link": "https://vt.tiktok.com/ZS9ft6EQepe1Y-asLXm/"
   }
  ]
 }
