@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-15T18:24:53.937Z",
+ "updatedAt": "2026-11-16T04:58:20.389Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -410,6 +410,14 @@
    "link": "https://vt.tiktok.com/ZS9ftyDJ1Yh1d-AfLwA/"
   },
   {
+   "id": "P1794794972311",
+   "name": "Quần Jogger Túi Hộp Quần Bò Nam Phong Cách Bụi Vải",
+   "cat": "Thời Trang Nam",
+   "price": 219880,
+   "img": "images/P1794794972311-1794804866378.jpg",
+   "link": "https://vt.tiktok.com/ZS9fW55aq4gv1-fOrD1/"
+  },
+  {
    "id": "P1794374885694",
    "name": "Áo Phao Béo Nam Nữ TNT’S Cổ Cao Chần Bông 3 Lớp",
    "cat": "Thời Trang Nữ",
@@ -752,6 +760,14 @@
    "price": 119000,
    "img": "images/P1794496049073-1794496052524.jpg",
    "link": "https://vt.tiktok.com/ZS9f9N2cjdjWy-JBtUn/"
+  },
+  {
+   "id": "P1794804863451",
+   "name": "Quần jeans baggy thêu chữ nổi dáng baggy  size S-5XL",
+   "cat": "Thời Trang Nữ",
+   "price": 175000,
+   "img": "images/P1794804863451-1794804869828.jpg",
+   "link": "https://vt.tiktok.com/ZS9fWEU4qhwfE-9TjWS/"
   },
   {
    "id": "P1794090377356",
@@ -1704,6 +1720,14 @@
    "price": 69999,
    "img": "images/P1794766300250-1794766303372.jpg",
    "link": "https://vt.tiktok.com/ZS9ftoPWP372y-eYzwT/"
+  },
+  {
+   "id": "P1794768506988",
+   "name": "Sữa Tắm Nước Hoa CINDY BLOOM Hương Thơm Ngọt N",
+   "cat": "Bách hóa",
+   "price": 142200,
+   "img": "images/P1794768506988-1794804872832.jpg",
+   "link": "https://vt.tiktok.com/ZS9fn87xdXVhH-xNBWd/"
   }
  ]
 }
