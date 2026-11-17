@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-17T18:48:39.669Z",
+ "updatedAt": "2026-11-17T18:51:42.326Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -1816,6 +1816,14 @@
    "price": 129000,
    "img": "images/P1794941311680-1794941316406.jpg",
    "link": "https://vt.tiktok.com/ZS9fKEhr1MvXs-cYL8k/"
+  },
+  {
+   "id": "P1794941495543",
+   "name": "Tranh DORAEMON cực cute, chất liệu fomex bồi mika g",
+   "cat": "Bách hóa",
+   "price": 125000,
+   "img": "images/P1794941495543-1794941498587.jpg",
+   "link": "https://vt.tiktok.com/ZS9fKEWtd1SRf-OmYH3/"
   }
  ]
 }
