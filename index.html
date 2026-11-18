@@ -11,6 +11,7 @@
         .chip { white-space:nowrap; padding:8px 16px; border-radius:9999px; font-size:13px; font-weight:600; background:#ffffff; border:1px solid #E5E7EB; color:#18181B; display:flex; align-items:center; gap:6px; }
         .chip.on { background:#F5C242; color:#18181B; border-color:#F5C242; }
         .scroll-x { overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+        .sticky-chips { position:sticky; top:0; z-index:30; background:#F8F9FA; padding:8px 0; }
         .scroll-x::-webkit-scrollbar { display:none; }
         .pcard { background:#ffffff; border-radius:14px; overflow:hidden; border:1px solid #F1F1F3; cursor:pointer; display:flex; flex-direction:column; }
         .pcard:active { transform:scale(.98); }
@@ -18,8 +19,8 @@
         .pprice { color:#e8284a; font-size:18px; font-weight:800; }
         .logo-fallback { background: linear-gradient(135deg,#3a0a14,#6b1520 50%,#3a0a14); }
         .gold-text { background: linear-gradient(90deg,#ff7a6b,#f5a623,#ffd54a); -webkit-background-clip:text; background-clip:text; color:transparent; }
-        .nav-btn { color:#9ca3af; font-weight:600; }
-        .nav-btn.active { color:#8F6B1F; font-weight:800; border-top:2px solid #8F6B1F; }
+        .nav-btn { color:rgba(245,238,220,.62); font-weight:600; border-top:2px solid transparent; }
+        .nav-btn.active { color:#F5C242; font-weight:800; border-top:2px solid #F5C242; }
         .sec-card { background:#ffffff; border-radius:18px; padding:22px; border:1px solid #F1F1F3; }
         .sec-num { color:#A8832E; font-weight:700; font-size:12px; letter-spacing:.2em; margin-bottom:6px; }
         .sec-title { color:#7A5714; font-weight:800; font-size:16px; line-height:1.4; margin-bottom:10px; }
@@ -88,7 +89,7 @@
             </div>
 
             <!-- Danh mục -->
-            <div class="scroll-x flex space-x-2 pb-1" id="storeChips"></div>
+            <div class="scroll-x sticky-chips flex space-x-2" id="storeChips"></div>
 
             <!-- Sản phẩm -->
             <div class="grid grid-cols-2 gap-2.5" id="storeGrid"></div>
@@ -125,7 +126,7 @@
     </div>
 
     <!-- Thanh 3 tab dưới đáy -->
-    <div id="navBar" class="fixed bottom-0 left-0 right-0 mx-auto z-50 bg-white border-t border-gray-200" style="max-width:448px;">
+    <div id="navBar" class="fixed bottom-0 left-0 right-0 mx-auto z-50" style="max-width:448px;background:linear-gradient(180deg,#5a1d24 0%,#4a161c 100%);border-top:1px solid rgba(233,185,73,.45);">
         <div class="flex justify-around items-center" style="height:62px;">
             <button onclick="showTab(1)" id="nav1" class="nav-btn active flex flex-col items-center justify-center w-full h-full text-xs">
                 <svg class="w-5 h-5 mb-1" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
@@ -235,6 +236,7 @@
                     <select id="adminFilterCat" onchange="setAdminFilter(this.value)" class="border border-gray-300 rounded-lg p-2 bg-white text-gray-900"></select>
                     <button onclick="sortByCategory()" class="bg-pink-600 hover:bg-pink-700 text-white rounded-lg p-2">Xếp theo thứ tự danh mục</button>
                 </div>
+                <button onclick="interleaveByCategory()" class="w-full bg-pink-100 hover:bg-pink-200 text-pink-900 text-[11px] font-bold rounded-lg py-2">Xếp xen kẽ các danh mục (1 nam, 1 nữ, 1 giày... lặp lại)</button>
                 <button onclick="selectVisible()" class="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 text-[11px] font-bold rounded-lg py-2">Chọn tất cả sản phẩm đang hiển thị</button>
                 <div id="selBar" class="hidden bg-indigo-50 border border-indigo-300 rounded-xl p-2.5 space-y-2 text-[11px] font-bold">
                     <p class="text-indigo-900"><span id="selCount">0</span> món đã chọn (giữ nguyên thứ tự với nhau khi chuyển)</p>
@@ -258,8 +260,8 @@
         // ===== CẤU HÌNH =====
         // Link gian hàng Shopee của Cụ trên collshp (sửa link ở đây khi cần)
         const SHOPEE_STORE_LINK = "https://collshp.com/germany.ai?view=storefront";
-        const CATS = ["Thời Trang Nam", "Thời Trang Nữ", "Giày dép", "Túi", "Gia Dụng", "Bách hóa"];
-        const EMOJI = { "Thời Trang Nam": "👔", "Thời Trang Nữ": "👗", "Giày dép": "👟", "Túi": "👜", "Gia Dụng": "🏠", "Bách hóa": "🛒" };
+        const CATS = ["Thời Trang Nam", "Thời Trang Nữ", "Giày dép", "Túi", "Gia Dụng", "Bách hóa", "Tranh ảnh"];
+        const EMOJI = { "Thời Trang Nam": "👔", "Thời Trang Nữ": "👗", "Giày dép": "👟", "Túi": "👜", "Gia Dụng": "🏠", "Bách hóa": "🛒", "Tranh ảnh": "🖼️" };
         const K_PRODUCTS = "germany_ai_products";
 
         let products = [];
@@ -728,6 +730,23 @@
             let ord = getCatOrder();
             let rank = c => { let i = ord.indexOf(c); return i < 0 ? ord.length : i; };
             products = products.map((p, i) => ({ p: p, i: i })).sort((a, b) => rank(a.p.cat) - rank(b.p.cat) || a.i - b.i).map(x => x.p);
+            commitOrder();
+        }
+
+        // Xếp xen kẽ: lần lượt mỗi danh mục 1 món rồi lặp lại, khách thấy nhiều loại hàng ngay màn hình đầu
+        function interleaveByCategory() {
+            if (!confirm("Xếp xen kẽ các danh mục? Thứ tự danh mục theo thẻ phía trên, trong mỗi danh mục vẫn giữ thứ tự hiện có.")) return;
+            let ord = getCatOrder();
+            let groups = ord.map(c => products.filter(p => p.cat === c));
+            let others = products.filter(p => ord.indexOf(p.cat) < 0);
+            if (others.length) groups.push(others);
+            let out = [];
+            let more = true;
+            for (let r = 0; more; r++) {
+                more = false;
+                groups.forEach(g => { if (r < g.length) { out.push(g[r]); more = true; } });
+            }
+            products = out;
             commitOrder();
         }
 
