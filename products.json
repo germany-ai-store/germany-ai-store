@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-25T23:23:30.371Z",
+ "updatedAt": "2026-11-26T00:16:53.122Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -1985,6 +1985,14 @@
    "price": 109000,
    "img": "images/P1795648950559-1795648958184.jpg",
    "link": "https://vt.tiktok.com/ZS9PXr4YXeuvh-cTf2e/"
+  },
+  {
+   "id": "P1795652206925",
+   "name": "Áo Thun Nam Street Dog Club Form Boxy Unisex In Lun",
+   "cat": "Thời Trang Nam",
+   "price": 139000,
+   "img": "images/P1795652206925-1795652209909.jpg",
+   "link": "https://vt.tiktok.com/ZS9PXfGKkbU2R-7Q5wS/"
   }
  ]
 }
