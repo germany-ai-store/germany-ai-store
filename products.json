@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-26T12:48:24.262Z",
+ "updatedAt": "2026-11-26T16:33:56.313Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -1849,6 +1849,14 @@
    "price": 65900,
    "img": "images/P1795349842548-1795349845490.jpg",
    "link": "https://vt.tiktok.com/ZS9PST3up1Br2-fRWPk/"
+  },
+  {
+   "id": "P1795710829680",
+   "name": "Kéo Cắt Gà Cộng Lực Đa Năng Cao Cấp KingKong Nhật",
+   "cat": "Gia Dụng",
+   "price": 233520,
+   "img": "images/P1795710829680-1795710832606.jpg",
+   "link": "https://vt.tiktok.com/ZS9PqPB4bMVHg-Iuj5C/"
   },
   {
    "id": "P1794753349673",
