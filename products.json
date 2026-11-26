@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-26T18:14:07.825Z",
+ "updatedAt": "2026-11-26T18:14:28.561Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -25,14 +25,6 @@
    "price": 303761,
    "img": "images/P1794492213973-1794492218421.jpg",
    "link": "https://vt.tiktok.com/ZS9fHwuxcoMva-B5srr/"
-  },
-  {
-   "id": "P1794311417204",
-   "name": "ÁO KHOÁC PILOT TRẦN BÔNG 3 LỚP 726",
-   "cat": "Thời Trang Nam",
-   "price": 1850000,
-   "img": "images/P1794311417204-1794311420080.jpg",
-   "link": "https://vt.tiktok.com/ZS9fDV64RgCAH-5PxMc/"
   },
   {
    "id": "P1794374885694",
@@ -137,6 +129,14 @@
    "price": 76000,
    "img": "images/P1794585771149-1794585774138.jpg",
    "link": "https://vt.tiktok.com/ZS9fXpUq6hxEu-n6hjg/"
+  },
+  {
+   "id": "P1794311417204",
+   "name": "ÁO KHOÁC PILOT TRẦN BÔNG 3 LỚP 726",
+   "cat": "Thời Trang Nam",
+   "price": 1850000,
+   "img": "images/P1794311417204-1794311420080.jpg",
+   "link": "https://vt.tiktok.com/ZS9fDV64RgCAH-5PxMc/"
   },
   {
    "id": "P1794337054518",
