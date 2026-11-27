@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T06:24:02.229Z",
+ "updatedAt": "2026-11-27T06:25:21.843Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -505,7 +505,8 @@
    "cat": "Thời Trang Nam",
    "price": 232020,
    "img": "images/P1794211488470-1794225185700.jpg",
-   "link": "https://vt.tiktok.com/ZS9fhHRP3CC91-IGuTy/"
+   "link": "https://vt.tiktok.com/ZS9fhHRP3CC91-IGuTy/",
+   "type": "Quần nam"
   },
   {
    "id": "P1794162954640",
@@ -561,7 +562,8 @@
    "cat": "Thời Trang Nam",
    "price": 164620,
    "img": "images/P1794205657737-1794205662102.jpg",
-   "link": "https://vt.tiktok.com/ZS9fh6xhf939o-mipNT/"
+   "link": "https://vt.tiktok.com/ZS9fh6xhf939o-mipNT/",
+   "type": "Quần nam"
   },
   {
    "id": "P1794159938644",
@@ -1004,7 +1006,8 @@
    "cat": "Thời Trang Nam",
    "price": 160550,
    "img": "images/P1793656493393-1793656496469.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGd5VtHsMe-3Lv9M/"
+   "link": "https://vt.tiktok.com/ZS9yGd5VtHsMe-3Lv9M/",
+   "type": "Quần nam"
   },
   {
    "id": "P1793723699339",
@@ -1044,7 +1047,8 @@
    "cat": "Thời Trang Nam",
    "price": 160000,
    "img": "images/P1793655084348-1793655090386.jpg",
-   "link": "https://vt.tiktok.com/ZS9ysoHSaRK8W-1Uqbz/"
+   "link": "https://vt.tiktok.com/ZS9ysoHSaRK8W-1Uqbz/",
+   "type": "Quần nam"
   },
   {
    "id": "P1793723304858",
@@ -1230,7 +1234,8 @@
    "cat": "Thời Trang Nam",
    "price": 180000,
    "img": "images/P1793561555752-1793561559010.jpg",
-   "link": "https://vt.tiktok.com/ZS9yq2pTH8eEo-YSvqw/"
+   "link": "https://vt.tiktok.com/ZS9yq2pTH8eEo-YSvqw/",
+   "type": "Quần nam"
   },
   {
    "id": "P1793708708660",
@@ -1832,7 +1837,8 @@
    "cat": "Thời Trang Nam",
    "price": 601140,
    "img": "images/P1794575158980-1794575162121.jpg",
-   "link": "https://vt.tiktok.com/ZS9fX2yR73VyQ-xaQFt/"
+   "link": "https://vt.tiktok.com/ZS9fX2yR73VyQ-xaQFt/",
+   "type": "Quần nam"
   },
   {
    "id": "P1794804863451",
@@ -1957,7 +1963,8 @@
    "cat": "Thời Trang Nam",
    "price": 219880,
    "img": "images/P1794794972311-1794804866378.jpg",
-   "link": "https://vt.tiktok.com/ZS9fW55aq4gv1-fOrD1/"
+   "link": "https://vt.tiktok.com/ZS9fW55aq4gv1-fOrD1/",
+   "type": "Quần nam"
   },
   {
    "id": "P1795538727523",
@@ -2007,7 +2014,8 @@
    "cat": "Thời Trang Nam",
    "price": 137999,
    "img": "images/P1795539199221-1795539202354.jpg",
-   "link": "https://vt.tiktok.com/ZS9Pu48JUPPyr-AzaYX/"
+   "link": "https://vt.tiktok.com/ZS9Pu48JUPPyr-AzaYX/",
+   "type": "Quần nam"
   },
   {
    "id": "P1795648079654",
