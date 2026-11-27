@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T06:09:21.861Z",
+ "updatedAt": "2026-11-27T06:12:13.231Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -1945,7 +1945,8 @@
    "cat": "Thời Trang Nam",
    "price": 308000,
    "img": "images/P1794935867295-1794935870170.jpg",
-   "link": "https://vt.tiktok.com/ZS9fKqKKcvDhu-EOdvd/"
+   "link": "https://vt.tiktok.com/ZS9fKqKKcvDhu-EOdvd/",
+   "type": "Áo khoác"
   },
   {
    "id": "P1795539241459",
