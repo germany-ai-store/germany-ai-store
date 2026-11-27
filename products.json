@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T06:13:14.468Z",
+ "updatedAt": "2026-11-27T06:13:24.576Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -18,6 +18,14 @@
   "zalo": "0968994164"
  },
  "products": [
+  {
+   "id": "P1793569272557",
+   "name": "Áo Bomber Dạ kéo 2 lớp CATIMA Unixex Hotrend 2025 AV 51",
+   "cat": "Thời Trang Nam",
+   "price": 395999,
+   "img": "images/P1793569272557-1793569275813.jpg",
+   "link": "https://vt.tiktok.com/ZS9yqQyb4F4fD-2SoLK/"
+  },
   {
    "id": "P1793569599976",
    "name": "Áo Khoác Gió Bamber Lót Trần Bông 2 Lớp Cản Gió Chống Nước",
@@ -1129,14 +1137,6 @@
    "price": 263178,
    "img": "images/P1794748959960-1794748963033.jpg",
    "link": "https://vt.tiktok.com/ZS9ft8pbQseCU-vC2Ck/"
-  },
-  {
-   "id": "P1793569272557",
-   "name": "Áo Bomber Dạ kéo 2 lớp CATIMA Unixex Hotrend 2025 AV 51",
-   "cat": "Thời Trang Nam",
-   "price": 395999,
-   "img": "images/P1793569272557-1793569275813.jpg",
-   "link": "https://vt.tiktok.com/ZS9yqQyb4F4fD-2SoLK/"
   },
   {
    "id": "P1793709335768",
