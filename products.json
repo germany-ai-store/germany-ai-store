@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:30:33.701Z",
+ "updatedAt": "2026-11-27T16:31:03.572Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -937,14 +937,6 @@
    "link": "https://vt.tiktok.com/ZS9ffTQedpD73-Gq9c8/"
   },
   {
-   "id": "P1793888018041",
-   "name": "[ONMAX] Giày thể thao Thời Trang SmallSaiboat",
-   "cat": "Giày dép",
-   "price": 2031376,
-   "img": "images/P1793888018041-1793888021753.jpg",
-   "link": "https://vt.tiktok.com/ZS9yEwfbuwoWW-nP3G9/"
-  },
-  {
    "id": "P1794162118707",
    "name": "Jimmi Balo CoupleTrip Jimmi Bag Đựng Laptop 15.6 Inch",
    "cat": "Túi",
@@ -992,6 +984,14 @@
    "price": 462000,
    "img": "images/P1794090377356-1794118902278.jpg",
    "link": "https://vt.tiktok.com/ZS9fYBp6uFFUL-IJWNp/"
+  },
+  {
+   "id": "P1793888018041",
+   "name": "[ONMAX] Giày thể thao Thời Trang SmallSaiboat",
+   "cat": "Giày dép",
+   "price": 2031376,
+   "img": "images/P1793888018041-1793888021753.jpg",
+   "link": "https://vt.tiktok.com/ZS9yEwfbuwoWW-nP3G9/"
   },
   {
    "id": "P1794161012042",
