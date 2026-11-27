@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T06:25:21.843Z",
+ "updatedAt": "2026-11-27T06:26:37.550Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -676,7 +676,8 @@
    "cat": "Thời Trang Nam",
    "price": 683060,
    "img": "images/P1794154287173-1794154290375.jpg",
-   "link": "https://vt.tiktok.com/ZS9f6CePEYMe5-HedMG/"
+   "link": "https://vt.tiktok.com/ZS9f6CePEYMe5-HedMG/",
+   "type": "Quần nam"
   },
   {
    "id": "P1793768284918",
@@ -724,7 +725,8 @@
    "cat": "Thời Trang Nam",
    "price": 850000,
    "img": "images/P1794153573601-1794153576881.jpg",
-   "link": "https://vt.tiktok.com/ZS9f6xdskDwys-Qygvk/"
+   "link": "https://vt.tiktok.com/ZS9f6xdskDwys-Qygvk/",
+   "type": "Quần nam"
   },
   {
    "id": "P1793731351518",
@@ -772,7 +774,8 @@
    "cat": "Thời Trang Nam",
    "price": 680000,
    "img": "images/P1794153422727-1794153425969.jpg",
-   "link": "https://vt.tiktok.com/ZS9f69UtVuXrM-mZuHI/"
+   "link": "https://vt.tiktok.com/ZS9f69UtVuXrM-mZuHI/",
+   "type": "Quần nam"
   },
   {
    "id": "P1793731020785",
