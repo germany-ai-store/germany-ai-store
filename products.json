@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:27:03.556Z",
+ "updatedAt": "2026-11-27T16:27:14.223Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -18,6 +18,15 @@
   "zalo": "0968994164"
  },
  "products": [
+  {
+   "id": "P1793731351518",
+   "name": "Áo khoác mangto dạ dáng ngắn kèm đai form rộng",
+   "cat": "Thời Trang Nữ",
+   "type": "Áo khoác nữ",
+   "price": 324000,
+   "img": "images/P1793731351518-1793731354489.jpg",
+   "link": "https://vt.tiktok.com/ZS9yW33DJ4vRb-H7fPS/"
+  },
   {
    "id": "P1794163429901",
    "name": "Sơ mi nữ lụa dài tay cao cấp công sở hoạ tiết chữ nhiều",
@@ -997,15 +1006,6 @@
    "img": "images/P1794211488470-1794225185700.jpg",
    "link": "https://vt.tiktok.com/ZS9fhHRP3CC91-IGuTy/",
    "type": "Quần nam"
-  },
-  {
-   "id": "P1793731351518",
-   "name": "Áo khoác mangto dạ dáng ngắn kèm đai form rộng",
-   "cat": "Thời Trang Nữ",
-   "type": "Áo khoác nữ",
-   "price": 324000,
-   "img": "images/P1793731351518-1793731354489.jpg",
-   "link": "https://vt.tiktok.com/ZS9yW33DJ4vRb-H7fPS/"
   },
   {
    "id": "P1794062741873",
