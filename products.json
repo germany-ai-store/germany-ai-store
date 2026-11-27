@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:26:32.903Z",
+ "updatedAt": "2026-11-27T16:26:50.734Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -18,6 +18,96 @@
   "zalo": "0968994164"
  },
  "products": [
+  {
+   "id": "P1794337054518",
+   "name": "Váy Body Len Nữ Cổ 3 Phân Dài Tay Dáng Ngắn Chất Len",
+   "cat": "Thời Trang Nữ",
+   "price": 147510,
+   "img": "images/P1794337054518-1794337057901.jpg",
+   "link": "https://vt.tiktok.com/ZS9fUEpctb1Fp-K4THv/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1794159938644",
+   "name": "{HÀNG SẴN} T08 - Váy Thiết Kế Evii dành cho nữ, Đầm",
+   "cat": "Thời Trang Nữ",
+   "price": 436278,
+   "img": "images/P1794159938644-1794162126392.jpg",
+   "link": "https://vt.tiktok.com/ZS9f63ehUKx7Y-H8PsU/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1794159624342",
+   "name": "T06 - Váy Thiết Kế Evii dành cho nữ, Đầm thiết kế cổ Ve",
+   "cat": "Thời Trang Nữ",
+   "price": 436278,
+   "img": "images/P1794159624342-1794159627222.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6c81SpwKf-B9JbI/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1793725787596",
+   "name": "Đầm body đầm tay dài xoắn eo sang trảnh Đ189",
+   "cat": "Thời Trang Nữ",
+   "price": 197900,
+   "img": "images/P1793725787596-1793725790999.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWXL4g8ByJ-z9ILc/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1793725261113",
+   "name": "Đầm thiết kế dành cho nữ (2 Dây Kèm Khoát) xoắn nhẹ",
+   "cat": "Thời Trang Nữ",
+   "price": 234600,
+   "img": "images/P1793725261113-1793725265884.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWQqmQsTsY-71Hu5/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1793724450616",
+   "name": "Váy Nhung Tay Bồng Phối Nơ Tiểu Thư, Váy Nữ Dáng Chữ A",
+   "cat": "Thời Trang Nữ",
+   "price": 232276,
+   "img": "images/P1793724450616-1793724456699.jpg",
+   "link": "https://vt.tiktok.com/ZS9yW9ycn5bD9-SrWWp/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1793723699339",
+   "name": "Đầm thiết kế BEMINE giả áo khoác tay lửng dáng xòe",
+   "cat": "Thời Trang Nữ",
+   "price": 267628,
+   "img": "images/P1793723699339-1793723702257.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWuM5t2sVs-XAWJX/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1793723304858",
+   "name": "( Tặng Đai) Váy Len Thừng Phối Vải Kaki Hàn Dáng Dài",
+   "cat": "Thời Trang Nữ",
+   "price": 259200,
+   "img": "images/P1793723304858-1793723707151.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWmLMFmHFA-GdkBS/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1793722904300",
+   "name": "Váy thiết kế Rosy V33 váy dáng dài thanh lịch Nữ Dress",
+   "cat": "Thời Trang Nữ",
+   "price": 323350,
+   "img": "images/P1793722904300-1793722907316.jpg",
+   "link": "https://vt.tiktok.com/ZS9yW5E1pdwxX-JiSZ7/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1793722551565",
+   "name": "Chân Váy Xếp Ly Kaki Phối Khuy Có Quần Bảo Hộ",
+   "cat": "Thời Trang Nữ",
+   "price": 159390,
+   "img": "images/P1793722551565-1793722554697.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWPEm7EUT3-8x8HK/",
+   "type": "Váy đầm"
+  },
   {
    "id": "P1794162954640",
    "name": "Áo Polo Nữ VIFA cotton cao cấp nhiều màu Women Top",
@@ -300,15 +390,6 @@
    "img": "images/P1793569599976-1793569603115.jpg",
    "link": "https://vt.tiktok.com/ZS9yqCkrde9cd-7Nq4t/",
    "type": "Áo khoác"
-  },
-  {
-   "id": "P1794337054518",
-   "name": "Váy Body Len Nữ Cổ 3 Phân Dài Tay Dáng Ngắn Chất Len",
-   "cat": "Thời Trang Nữ",
-   "price": 147510,
-   "img": "images/P1794337054518-1794337057901.jpg",
-   "link": "https://vt.tiktok.com/ZS9fUEpctb1Fp-K4THv/",
-   "type": "Váy đầm"
   },
   {
    "id": "P1793556923108",
@@ -708,15 +789,6 @@
    "link": "https://vt.tiktok.com/ZS9fkMCnH7cGR-ytrCk/"
   },
   {
-   "id": "P1794159938644",
-   "name": "{HÀNG SẴN} T08 - Váy Thiết Kế Evii dành cho nữ, Đầm",
-   "cat": "Thời Trang Nữ",
-   "price": 436278,
-   "img": "images/P1794159938644-1794162126392.jpg",
-   "link": "https://vt.tiktok.com/ZS9f63ehUKx7Y-H8PsU/",
-   "type": "Váy đầm"
-  },
-  {
    "id": "P1794068620699",
    "name": "[Kèm Quà Tặng] Bốt cổ cao JEBEESHOES da bò trơn",
    "cat": "Giày dép",
@@ -764,15 +836,6 @@
    "img": "images/P1794225177442-1794225181007.jpg",
    "link": "https://vt.tiktok.com/ZS9fkM8RsKEXC-yNzvb/",
    "type": "Áo thun"
-  },
-  {
-   "id": "P1794159624342",
-   "name": "T06 - Váy Thiết Kế Evii dành cho nữ, Đầm thiết kế cổ Ve",
-   "cat": "Thời Trang Nữ",
-   "price": 436278,
-   "img": "images/P1794159624342-1794159627222.jpg",
-   "link": "https://vt.tiktok.com/ZS9f6c81SpwKf-B9JbI/",
-   "type": "Váy đầm"
   },
   {
    "id": "P1794067988622",
@@ -1014,15 +1077,6 @@
    "type": "Quần nam"
   },
   {
-   "id": "P1793725787596",
-   "name": "Đầm body đầm tay dài xoắn eo sang trảnh Đ189",
-   "cat": "Thời Trang Nữ",
-   "price": 197900,
-   "img": "images/P1793725787596-1793725790999.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWXL4g8ByJ-z9ILc/",
-   "type": "Váy đầm"
-  },
-  {
    "id": "P1794059887576",
    "name": "Giày Sục Nam Nữ Gat Slip On Panacea Rebel - Màu Ivory",
    "cat": "Giày dép",
@@ -1062,15 +1116,6 @@
    "img": "images/P1794153573601-1794153576881.jpg",
    "link": "https://vt.tiktok.com/ZS9f6xdskDwys-Qygvk/",
    "type": "Quần nam"
-  },
-  {
-   "id": "P1793725261113",
-   "name": "Đầm thiết kế dành cho nữ (2 Dây Kèm Khoát) xoắn nhẹ",
-   "cat": "Thời Trang Nữ",
-   "price": 234600,
-   "img": "images/P1793725261113-1793725265884.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWQqmQsTsY-71Hu5/",
-   "type": "Váy đầm"
   },
   {
    "id": "P1794058842315",
@@ -1114,15 +1159,6 @@
    "type": "Quần nam"
   },
   {
-   "id": "P1793724450616",
-   "name": "Váy Nhung Tay Bồng Phối Nơ Tiểu Thư, Váy Nữ Dáng Chữ A",
-   "cat": "Thời Trang Nữ",
-   "price": 232276,
-   "img": "images/P1793724450616-1793724456699.jpg",
-   "link": "https://vt.tiktok.com/ZS9yW9ycn5bD9-SrWWp/",
-   "type": "Váy đầm"
-  },
-  {
    "id": "P1794058261774",
    "name": "[ Deal Mở Bán ] - Giày Dép Huyền My - Giày cao gót đế",
    "cat": "Giày dép",
@@ -1162,15 +1198,6 @@
    "img": "images/P1793659484984-1793659488192.jpg",
    "link": "https://vt.tiktok.com/ZS9yG68gSth4B-V9iqN/",
    "type": "Bộ nỉ"
-  },
-  {
-   "id": "P1793723699339",
-   "name": "Đầm thiết kế BEMINE giả áo khoác tay lửng dáng xòe",
-   "cat": "Thời Trang Nữ",
-   "price": 267628,
-   "img": "images/P1793723699339-1793723702257.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWuM5t2sVs-XAWJX/",
-   "type": "Váy đầm"
   },
   {
    "id": "P1794057652176",
@@ -1214,15 +1241,6 @@
    "link": "https://vt.tiktok.com/ZS9yGYPNS1Yq1-D5u8N/"
   },
   {
-   "id": "P1793723304858",
-   "name": "( Tặng Đai) Váy Len Thừng Phối Vải Kaki Hàn Dáng Dài",
-   "cat": "Thời Trang Nữ",
-   "price": 259200,
-   "img": "images/P1793723304858-1793723707151.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWmLMFmHFA-GdkBS/",
-   "type": "Váy đầm"
-  },
-  {
    "id": "P1794050221293",
    "name": "[Chân Mỏng Lùi 1 Size] Giày Búp Bê Nữ Chấm Bi",
    "cat": "Giày dép",
@@ -1256,15 +1274,6 @@
    "type": "Bộ nỉ"
   },
   {
-   "id": "P1793722904300",
-   "name": "Váy thiết kế Rosy V33 váy dáng dài thanh lịch Nữ Dress",
-   "cat": "Thời Trang Nữ",
-   "price": 323350,
-   "img": "images/P1793722904300-1793722907316.jpg",
-   "link": "https://vt.tiktok.com/ZS9yW5E1pdwxX-JiSZ7/",
-   "type": "Váy đầm"
-  },
-  {
    "id": "P1793983626194",
    "name": "Giày lười nam da bò vân cá sấu cao cấp , đế cao su non",
    "cat": "Giày dép",
@@ -1296,15 +1305,6 @@
    "img": "images/P1793656493393-1793656496469.jpg",
    "link": "https://vt.tiktok.com/ZS9yGd5VtHsMe-3Lv9M/",
    "type": "Quần nam"
-  },
-  {
-   "id": "P1793722551565",
-   "name": "Chân Váy Xếp Ly Kaki Phối Khuy Có Quần Bảo Hộ",
-   "cat": "Thời Trang Nữ",
-   "price": 159390,
-   "img": "images/P1793722551565-1793722554697.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWPEm7EUT3-8x8HK/",
-   "type": "Váy đầm"
   },
   {
    "id": "P1793981527684",
