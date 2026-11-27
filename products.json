@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:32:51.816Z",
+ "updatedAt": "2026-11-27T16:33:25.779Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -28,456 +28,6 @@
    "type": "Áo khoác"
   },
   {
-   "id": "P1793569599976",
-   "name": "Áo Khoác Gió Bamber Lót Trần Bông 2 Lớp Cản Gió Chống Nước",
-   "cat": "Thời Trang Nam",
-   "price": 195699,
-   "img": "images/P1793569599976-1793569603115.jpg",
-   "link": "https://vt.tiktok.com/ZS9yqCkrde9cd-7Nq4t/",
-   "type": "Áo khoác"
-  },
-  {
-   "id": "P1793661531092",
-   "name": "Áo Phao V Trơn, Lót 3D Cao Cấp Sang Trọng, Tháo Được Mũ",
-   "cat": "Thời Trang Nam",
-   "price": 520000,
-   "img": "images/P1793661531092-1793661534615.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGBgVLjXyM-accgH/",
-   "type": "Áo khoác"
-  },
-  {
-   "id": "P1794492213973",
-   "name": "Áo Khoác Bomber Trần Bông 3 Lớp Hoạ Tiết Công - Th",
-   "cat": "Thời Trang Nam",
-   "price": 303761,
-   "img": "images/P1794492213973-1794492218421.jpg",
-   "link": "https://vt.tiktok.com/ZS9fHwuxcoMva-B5srr/",
-   "type": "Áo khoác"
-  },
-  {
-   "id": "P1794310901570",
-   "name": "ÁO KHOÁC PILOT ALPHA BOMBER NAM NHIỀU HÌNH",
-   "cat": "Thời Trang Nam",
-   "price": 1200000,
-   "img": "images/P1794310901570-1794310904426.jpg",
-   "link": "https://vt.tiktok.com/ZS9fD412aRWE6-Bw5ju/",
-   "type": "Áo khoác"
-  },
-  {
-   "id": "P1794311417204",
-   "name": "ÁO KHOÁC PILOT TRẦN BÔNG 3 LỚP 726",
-   "cat": "Thời Trang Nam",
-   "price": 1850000,
-   "img": "images/P1794311417204-1794311420080.jpg",
-   "link": "https://vt.tiktok.com/ZS9fDV64RgCAH-5PxMc/",
-   "type": "Áo khoác"
-  },
-  {
-   "id": "P1794288332065",
-   "name": "Áo Khoác Bomber Gió Latis MK CLEVER, Áo Khoác Vải",
-   "cat": "Thời Trang Nam",
-   "price": 480000,
-   "img": "images/P1794288332065-1794288334983.jpg",
-   "link": "https://vt.tiktok.com/ZS9fAar1xRpa5-JhXly/",
-   "type": "Áo khoác"
-  },
-  {
-   "id": "P1794288135950",
-   "name": "Áo Khoác Bomber NIGHTFALL MK CLEVER Vải Gió Mịn",
-   "cat": "Thời Trang Nam",
-   "price": 387345,
-   "img": "images/P1794288135950-1794288138928.jpg",
-   "link": "https://vt.tiktok.com/ZS9fA54gCwL3c-ggL4K/",
-   "type": "Áo khoác"
-  },
-  {
-   "id": "P1794154796200",
-   "name": "[ JEAN DENIM GUANGZHOU ] Áo Khoác Jean Xanh Mài",
-   "cat": "Thời Trang Nam",
-   "price": 1057616,
-   "img": "images/P1794154796200-1794154799137.jpg",
-   "link": "https://vt.tiktok.com/ZS9f6XPU2rfBG-qPQ2q/",
-   "type": "Áo khoác"
-  },
-  {
-   "id": "P1794492641618",
-   "name": "Áo Khoác Bomber Trần Bông 3 Lớp Hoạ Tiết Vương Miện -",
-   "cat": "Thời Trang Nam",
-   "price": 303761,
-   "img": "images/P1794492641618-1794492644654.jpg",
-   "link": "https://vt.tiktok.com/ZS9fHKbggt2Ls-shUy3/",
-   "type": "Áo khoác"
-  },
-  {
-   "id": "P1794493580455",
-   "name": "Áo Khoác Gió Nam 2 Lớp Hoạ Tiết Sư Tử New 2027",
-   "cat": "Thời Trang Nam",
-   "price": 312550,
-   "img": "images/P1794493580455-1794493583574.jpg",
-   "link": "https://vt.tiktok.com/ZS9f91MMApUxX-rw3UZ/",
-   "type": "Áo khoác"
-  },
-  {
-   "id": "P1794935867295",
-   "name": "AK566 Áo khoác mùa đông trần phao cho nam in hình 3d",
-   "cat": "Thời Trang Nam",
-   "price": 308000,
-   "img": "images/P1794935867295-1794935870170.jpg",
-   "link": "https://vt.tiktok.com/ZS9fKqKKcvDhu-EOdvd/",
-   "type": "Áo khoác"
-  },
-  {
-   "id": "P1793659484984",
-   "name": "Bộ quần áo thể thao nam chất liệu vải nỉ ép 2 da kẻ sọc vai",
-   "cat": "Thời Trang Nam",
-   "price": 287100,
-   "img": "images/P1793659484984-1793659488192.jpg",
-   "link": "https://vt.tiktok.com/ZS9yG68gSth4B-V9iqN/",
-   "type": "Bộ nỉ"
-  },
-  {
-   "id": "P1793657223989",
-   "name": "TAVYSU Sét Bộ Nỉ 2 Da Nam Thu Đông Nhiều Màu Trẻ Trung",
-   "cat": "Thời Trang Nam",
-   "price": 236295,
-   "img": "images/P1793657223989-1793657227227.jpg",
-   "link": "https://vt.tiktok.com/ZS9yG89pYQWA9-681Xg/",
-   "type": "Bộ nỉ"
-  },
-  {
-   "id": "P1795648079654",
-   "name": "Áo Hoodie Nam Dài Tay, Cổ Tròn, In Hình, Hàng Mới Về",
-   "cat": "Thời Trang Nam",
-   "price": 175750,
-   "img": "images/P1795648079654-1795648953857.jpg",
-   "link": "https://vt.tiktok.com/ZS9PX6rHEdyEQ-ELF3M/",
-   "type": "Bộ nỉ"
-  },
-  {
-   "id": "P1794225177442",
-   "name": "[BEST SELLER] Áo polo dài tay cao cấp The Elegant công",
-   "cat": "Thời Trang Nam",
-   "price": 402545,
-   "img": "images/P1794225177442-1794225181007.jpg",
-   "link": "https://vt.tiktok.com/ZS9fkM8RsKEXC-yNzvb/",
-   "type": "Áo thun"
-  },
-  {
-   "id": "P1794224983744",
-   "name": "[BEST SELLER] Áo polo nam cao cấp The Elegant công",
-   "cat": "Thời Trang Nam",
-   "price": 386081,
-   "img": "images/P1794224983744-1794224987044.jpg",
-   "link": "https://vt.tiktok.com/ZS9fk6ABLAs1A-XBjBU/",
-   "type": "Áo thun"
-  },
-  {
-   "id": "P1793559442444",
-   "name": "Áo Polo Nam Monogram Amio Chất Liệu Cotton AeroPique",
-   "cat": "Thời Trang Nam",
-   "price": 248160,
-   "img": "images/P1793559442444-1793559446213.jpg",
-   "link": "https://vt.tiktok.com/ZS9yqRgchXtYJ-yEg0B/",
-   "type": "Áo thun"
-  },
-  {
-   "id": "P1793557676011",
-   "name": "Áo Thun Nam ECOLLECT CT12 Cotton 250g Wash Màu Loang",
-   "cat": "Thời Trang Nam",
-   "price": 194370,
-   "img": "images/P1793557676011-1793557678973.jpg",
-   "link": "https://vt.tiktok.com/ZS9yVo9r8vMXq-OW1Hw/",
-   "type": "Áo thun"
-  },
-  {
-   "id": "P1793554627986",
-   "name": "Áo Thun Nam Cộc Tay Hose Nam Nữ Thể Thao Mát Mẻ",
-   "cat": "Thời Trang Nam",
-   "price": 188999,
-   "img": "images/P1793554627986-1793554632729.jpg",
-   "link": "https://vt.tiktok.com/ZS9yV7hesGCJL-4JaRi/",
-   "type": "Áo thun"
-  },
-  {
-   "id": "P1793553644228",
-   "name": "Áo Thun Nam Cotton Áo Phông Mã Thêu ANTAVIO Chất Liệu Vải",
-   "cat": "Thời Trang Nam",
-   "price": 160080,
-   "img": "images/P1793553644228-1793553655472.jpg",
-   "link": "https://vt.tiktok.com/ZS9yVtfD3Q6jr-wT79P/",
-   "type": "Áo thun"
-  },
-  {
-   "id": "P1793552919356",
-   "name": "DEAL Mở Bán -Áo thun lạnh, chất liệu tráng da, cổ tròn, cộc tay",
-   "cat": "Thời Trang Nam",
-   "price": 175000,
-   "img": "images/P1793552919356-1793552923366.jpg",
-   "link": "https://vt.tiktok.com/ZS9yVs6Mtvr1c-NtwTF/",
-   "type": "Áo thun"
-  },
-  {
-   "id": "P1793551928198",
-   "name": "Áo Phông Thun Cộc tay Nam Cá Mập Mát Mẻ Dày Dặn",
-   "cat": "Thời Trang Nam",
-   "price": 188999,
-   "img": "images/P1793551928198-1793551933775.jpg",
-   "link": "https://vt.tiktok.com/ZS9yVqK6b5LaF-Yo2OS/",
-   "type": "Áo thun"
-  },
-  {
-   "id": "P1793551312618",
-   "name": "Áo Phông Nam, Áo Thun Nam ANTAVIO Chất Liệu Vải Cotton",
-   "cat": "Thời Trang Nam",
-   "price": 164680,
-   "img": "images/P1793551312618-1793552166920.jpg",
-   "link": "https://vt.tiktok.com/ZS9yVVcs8eDFr-JuiAx/",
-   "type": "Áo thun"
-  },
-  {
-   "id": "P1794225396366",
-   "name": "[the Elegant x Đức Thuận] Áo Sơ Mi Nam Dài Tay Cao Cấp",
-   "cat": "Thời Trang Nam",
-   "type": "Áo sơ mi",
-   "price": 386001,
-   "img": "images/P1794225396366-1794225399293.jpg",
-   "link": "https://vt.tiktok.com/ZS9fkMCnH7cGR-ytrCk/"
-  },
-  {
-   "id": "P1793619289449",
-   "name": "Áo Sơ Mi - Hoa Văn Hoạ Tiết Thiên Nhiên 2025",
-   "cat": "Thời Trang Nam",
-   "price": 169570,
-   "img": "images/P1793619289449-1793619292612.jpg",
-   "link": "https://vt.tiktok.com/ZS9ypF4GWC4Vk-k0Shz/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793567013902",
-   "name": "Áo sơ mi Thổ Cẩm Cao Cấp - Phong Cách Thời Thượng 2025",
-   "cat": "Thời Trang Nam",
-   "price": 219000,
-   "img": "images/P1793567013902-1793567017303.jpg",
-   "link": "https://vt.tiktok.com/ZS9yqaRoo12bH-aG38U/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793549843242",
-   "name": "TQQ Áo Sơ Mi Nam Kẻ Caro Sợi Fiber ngắn tay K538CB",
-   "cat": "Thời Trang Nam",
-   "price": 259794,
-   "img": "images/P1793549843242-1793552187990.jpg",
-   "link": "https://vt.tiktok.com/ZS9yVQbEQ8c6D-FCMyi/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793549139718",
-   "name": "Áo sơ mi nam kẻ sọc dài tay chất liệu Lụa kháng nhăn cao cấp",
-   "cat": "Thời Trang Nam",
-   "price": 349000,
-   "img": "images/P1793549139718-1793552208748.jpg",
-   "link": "https://vt.tiktok.com/ZS9yV9gJ2j2r8-3kVdm/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793548773422",
-   "name": "Áo sơ mi nam ngắn tay Mattio vải sợi tre, regular fit - dáng suông, tà bằng, mềm mịn",
-   "cat": "Thời Trang Nam",
-   "price": 345000,
-   "img": "images/P1793548773422-1793552240559.jpg",
-   "link": "https://vt.tiktok.com/ZS9yVHCW9VE8m-qQ0bw/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793547591916",
-   "name": "Áo sơ mi Nam BAMBOO URBAN Menswear ngắn Cộc Tay trơn, chất liệu Bamboo Thoáng Khí, Chống Nhăn, Dáng slim Basic ôm gọn đi làm, công sở, đi chơi Dễ Phối Đồ NO.1025",
-   "cat": "Thời Trang Nam",
-   "price": 288000,
-   "img": "images/P1793547591916-1793552277720.jpg",
-   "link": "https://vt.tiktok.com/ZS9yV5nVtwXQx-ZR7F5/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793547039931",
-   "name": "Sơ mi Oxford cao cấp  AZÚCAR Mát mẻ, lịch sự, trẻ trung và siêu thoải mái",
-   "cat": "Thời Trang Nam",
-   "price": 193590,
-   "img": "images/P1793547039931-1793552299749.jpg",
-   "link": "https://vt.tiktok.com/ZS9yVPNLktNSU-pu7eZ/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793545438175",
-   "name": "Áo sơ mi nam dài tay trơn đẹp 4MEN SM088 lụa chéo hạn chế nhăn, mềm mịn, form tailored rộng công sở trẻ trung",
-   "cat": "Thời Trang Nam",
-   "price": 255000,
-   "img": "images/P1793545438175-1793552381727.jpg",
-   "link": "https://vt.tiktok.com/ZS9yVDL3jGCH9-BApY1/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793538940834",
-   "name": "Áo sơ mi nam dài tay LADOS - 779 chất lụa mềm mịn lịch sự phong cách công sở",
-   "cat": "Thời Trang Nam",
-   "price": 157170,
-   "img": "images/P1793538940834-1793552459603.jpg",
-   "link": "https://vt.tiktok.com/ZS9yVJNDEDqHM-m3GVL/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1794753220941",
-   "name": "Áo Sơ Mi Nam Màu Lam In Hoạ Tiết Thời Trang Thanh Lịch",
-   "cat": "Thời Trang Nam",
-   "price": 209300,
-   "img": "images/P1794753220941-1794753224344.jpg",
-   "link": "https://vt.tiktok.com/ZS9ftB4wNbSM3-hVL9k/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1794753349673",
-   "name": "Áo sơ mi nam ,Áo sơ mi nam in hoạ tiết ,Áo sơ mi nam p",
-   "cat": "Thời Trang Nam",
-   "price": 209300,
-   "img": "images/P1794753349673-1794754522197.jpg",
-   "link": "https://vt.tiktok.com/ZS9ftSY5ecc8t-cs26k/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1794754104069",
-   "name": "sơ mi hoa hồng sang trọng quý tộc vải lụa mềm hoạ tiết",
-   "cat": "Thời Trang Nam",
-   "price": 291100,
-   "img": "images/P1794754104069-1794754525569.jpg",
-   "link": "https://vt.tiktok.com/ZS9ftDrmq1MNK-lr7eN/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1794754519364",
-   "name": "Sơ mi lụa hoa hồng màu kem phom body phong cách la",
-   "cat": "Thời Trang Nam",
-   "price": 311100,
-   "img": "images/P1794754519364-1794754764835.jpg",
-   "link": "https://vt.tiktok.com/ZS9ftU5pGPvUS-nPT4W/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1794754842458",
-   "name": "Sơ mi nam hoa văn nổi vải gấm tuyết sang trọng lịch lãm",
-   "cat": "Thời Trang Nam",
-   "price": 381100,
-   "img": "images/P1794754842458-1794754845345.jpg",
-   "link": "https://vt.tiktok.com/ZS9ftyDJ1Yh1d-AfLwA/",
-   "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793658602821",
-   "name": "Bộ vest nam cao cấp lịch lãm chuẩn form cho phái mạnh",
-   "cat": "Thời Trang Nam",
-   "type": "Bộ vest",
-   "price": 663170,
-   "img": "images/P1793658602821-1793658606094.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGYPNS1Yq1-D5u8N/"
-  },
-  {
-   "id": "P1794211488470",
-   "name": "Quần gió nam TORANO can phối màu, phom dáng slimfit",
-   "cat": "Thời Trang Nam",
-   "price": 232020,
-   "img": "images/P1794211488470-1794225185700.jpg",
-   "link": "https://vt.tiktok.com/ZS9fhHRP3CC91-IGuTy/",
-   "type": "Quần nam"
-  },
-  {
-   "id": "P1794205657737",
-   "name": "[NEW] TORANO SMART DYNAMIC SPORT- SB901- Quần",
-   "cat": "Thời Trang Nam",
-   "price": 164620,
-   "img": "images/P1794205657737-1794205662102.jpg",
-   "link": "https://vt.tiktok.com/ZS9fh6xhf939o-mipNT/",
-   "type": "Quần nam"
-  },
-  {
-   "id": "P1794154287173",
-   "name": "GRAPHICH DENIM- MẶC LÀ CHẤT , PHONG CÁCH TRẺ TRUNG",
-   "cat": "Thời Trang Nam",
-   "price": 683060,
-   "img": "images/P1794154287173-1794154290375.jpg",
-   "link": "https://vt.tiktok.com/ZS9f6CePEYMe5-HedMG/",
-   "type": "Quần nam"
-  },
-  {
-   "id": "P1794153573601",
-   "name": "Quần Jean Nam Đắp Vá Cao Cấp - Hàng Vip Hottrend",
-   "cat": "Thời Trang Nam",
-   "price": 850000,
-   "img": "images/P1794153573601-1794153576881.jpg",
-   "link": "https://vt.tiktok.com/ZS9f6xdskDwys-Qygvk/",
-   "type": "Quần nam"
-  },
-  {
-   "id": "P1794153422727",
-   "name": "[ Hàng Mới Về] Quần Jean Nam Cao Cấp- Quần Ống Rộng",
-   "cat": "Thời Trang Nam",
-   "price": 680000,
-   "img": "images/P1794153422727-1794153425969.jpg",
-   "link": "https://vt.tiktok.com/ZS9f69UtVuXrM-mZuHI/",
-   "type": "Quần nam"
-  },
-  {
-   "id": "P1793656493393",
-   "name": "Quần Short Nam Kaki Cá Sấu Co Giãn 2 Chiều Cao Cấp",
-   "cat": "Thời Trang Nam",
-   "price": 160550,
-   "img": "images/P1793656493393-1793656496469.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGd5VtHsMe-3Lv9M/",
-   "type": "Quần nam"
-  },
-  {
-   "id": "P1793655084348",
-   "name": "COMBO 2 Quần Đùi Nam Nice90fashion Chất Liệu Nhung Tăm",
-   "cat": "Thời Trang Nam",
-   "price": 160000,
-   "img": "images/P1793655084348-1793655090386.jpg",
-   "link": "https://vt.tiktok.com/ZS9ysoHSaRK8W-1Uqbz/",
-   "type": "Quần nam"
-  },
-  {
-   "id": "P1793561555752",
-   "name": "Quần jean đùi nam cao cấp ANTAVIO chất liệu vải jean",
-   "cat": "Thời Trang Nam",
-   "price": 180000,
-   "img": "images/P1793561555752-1793561559010.jpg",
-   "link": "https://vt.tiktok.com/ZS9yq2pTH8eEo-YSvqw/",
-   "type": "Quần nam"
-  },
-  {
-   "id": "P1794575158980",
-   "name": "Quần Jean Nam Rách Va Hot Trend QJ-2980",
-   "cat": "Thời Trang Nam",
-   "price": 601140,
-   "img": "images/P1794575158980-1794575162121.jpg",
-   "link": "https://vt.tiktok.com/ZS9fX2yR73VyQ-xaQFt/",
-   "type": "Quần nam"
-  },
-  {
-   "id": "P1794794972311",
-   "name": "Quần Jogger Túi Hộp Quần Bò Nam Phong Cách Bụi Vải",
-   "cat": "Thời Trang Nam",
-   "price": 219880,
-   "img": "images/P1794794972311-1794804866378.jpg",
-   "link": "https://vt.tiktok.com/ZS9fW55aq4gv1-fOrD1/",
-   "type": "Quần nam"
-  },
-  {
-   "id": "P1795539199221",
-   "name": "Quần Jogger UNISEX Vải Thun Chân Cua co giãn màu đen",
-   "cat": "Thời Trang Nam",
-   "price": 137999,
-   "img": "images/P1795539199221-1795539202354.jpg",
-   "link": "https://vt.tiktok.com/ZS9Pu48JUPPyr-AzaYX/",
-   "type": "Quần nam"
-  },
-  {
    "id": "P1794804863451",
    "name": "Quần jeans baggy thêu chữ nổi dáng baggy  size S-5XL",
    "cat": "Thời Trang Nữ",
@@ -487,447 +37,6 @@
    "type": "Quần nữ"
   },
   {
-   "id": "P1794805206988",
-   "name": "2.D18 [ Lên Nguyễn Store ] Quần Jean (Bò) Nữ, Lưng C",
-   "cat": "Thời Trang Nữ",
-   "price": 258999,
-   "img": "images/P1794805206988-1794805209862.jpg",
-   "link": "https://vt.tiktok.com/ZS9fWok9KfFkw-nT2Ej/",
-   "type": "Quần nữ"
-  },
-  {
-   "id": "P1794805350770",
-   "name": "Lên Nguyễn Store Quần Jean Nữ Dài Xám Rách/ Xám Trơn",
-   "cat": "Thời Trang Nữ",
-   "price": 228999,
-   "img": "images/P1794805350770-1794805353649.jpg",
-   "link": "https://vt.tiktok.com/ZS9fWovoVagrr-JrA62/",
-   "type": "Quần nữ"
-  },
-  {
-   "id": "P1794829108252",
-   "name": "[ BigSize Hàng Cao Cấp ] Quần Jogger Hàng Umi Hàn C",
-   "cat": "Thời Trang Nữ",
-   "price": 129500,
-   "img": "images/P1794829108252-1794829112875.jpg",
-   "link": "https://vt.tiktok.com/ZS9fvjpVkPPV5-6pZex/",
-   "type": "Quần nữ"
-  },
-  {
-   "id": "P1795451065517",
-   "name": "( Deal Mở Bán Bí In Chữ Vàng) Quần Jean Ông Thụng Ô",
-   "cat": "Thời Trang Nữ",
-   "price": 204585,
-   "img": "images/P1795451065517-1795451896465.jpg",
-   "link": "https://vt.tiktok.com/ZS9PPLf7MUNQp-yEmyk/",
-   "type": "Quần nữ"
-  },
-  {
-   "id": "P1795539241459",
-   "name": "Quần Jogger UNISEX Vải Thun Chân Cua co giãn màu đen",
-   "cat": "Thời Trang Nữ",
-   "price": 137999,
-   "img": "images/P1795539241459-1795539244997.jpg",
-   "link": "https://vt.tiktok.com/ZS9Pu4PHpxJtN-XKNam/",
-   "type": "Quần nữ"
-  },
-  {
-   "id": "P1794335048890",
-   "name": "KEVA Áo Lót Áo Bra Nữ Chất Su Gân Mỏng Không Gọng",
-   "cat": "Thời Trang Nữ",
-   "price": 129000,
-   "img": "images/P1794335048890-1794335051833.jpg",
-   "link": "https://vt.tiktok.com/ZS9fUc8cJEbB7-ImK7e/",
-   "type": "Đồ lót"
-  },
-  {
-   "id": "P1793731351518",
-   "name": "Áo khoác mangto dạ dáng ngắn kèm đai form rộng",
-   "cat": "Thời Trang Nữ",
-   "type": "Áo khoác nữ",
-   "price": 324000,
-   "img": "images/P1793731351518-1793731354489.jpg",
-   "link": "https://vt.tiktok.com/ZS9yW33DJ4vRb-H7fPS/"
-  },
-  {
-   "id": "P1794163429901",
-   "name": "Sơ mi nữ lụa dài tay cao cấp công sở hoạ tiết chữ nhiều",
-   "cat": "Thời Trang Nữ",
-   "price": 126000,
-   "img": "images/P1794163429901-1794163432781.jpg",
-   "link": "https://vt.tiktok.com/ZS9fMd3amq6Ex-GFC4g/",
-   "type": "Sơ mi nữ"
-  },
-  {
-   "id": "P1793768284918",
-   "name": "Áo Sơ Mi Nữ Cổ Đức Tay Dài Không Có Giãn LP114",
-   "cat": "Thời Trang Nữ",
-   "price": 189999,
-   "img": "images/P1793768284918-1793768288987.jpg",
-   "link": "https://vt.tiktok.com/ZS9yvttMtWruL-4x4b0/",
-   "type": "Sơ mi nữ"
-  },
-  {
-   "id": "P1793709335768",
-   "name": "Áo Sơ Mi Đan Eo Tay Bồng Đính Nơ thiết kết chất vải",
-   "cat": "Thời Trang Nữ",
-   "price": 165000,
-   "img": "images/P1793709335768-1793709338839.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynGVQxqcpp-NhqMM/",
-   "type": "Sơ mi nữ"
-  },
-  {
-   "id": "P1793708424605",
-   "name": "Sơ mi cổ bèo dây nơ Maize sang trọng, Sơ mi dự tiệc",
-   "cat": "Thời Trang Nữ",
-   "price": 296000,
-   "img": "images/P1793708424605-1793708715352.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynp2wn1tUA-OyTt7/",
-   "type": "Sơ mi nữ"
-  },
-  {
-   "id": "P1793708025170",
-   "name": "Áo Sơ Mi Nữ Thun Tăm Cổ Tim Áo Tay Dài Voan Bổng",
-   "cat": "Thời Trang Nữ",
-   "price": 140000,
-   "img": "images/P1793708025170-1793708028274.jpg",
-   "link": "https://vt.tiktok.com/ZS9yng8dTDu31-nHsEg/",
-   "type": "Sơ mi nữ"
-  },
-  {
-   "id": "P1793707490516",
-   "name": "Sơ mi tơ nữ tay dài thiết kế MQ Boutique sọc dệt nhũ",
-   "cat": "Thời Trang Nữ",
-   "price": 179100,
-   "img": "images/P1793707490516-1793707493622.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynq5veqDLV-lkJAt/",
-   "type": "Sơ mi nữ"
-  },
-  {
-   "id": "P1793706982731",
-   "name": "Áo sơ mi hoa phong cách Pháp cổ điển, cổ đứng",
-   "cat": "Thời Trang Nữ",
-   "price": 173913,
-   "img": "images/P1793706982731-1793706986151.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynVjBKhXbq-76zXk/",
-   "type": "Sơ mi nữ"
-  },
-  {
-   "id": "P1793681940197",
-   "name": "(BST Thu Hà Nội) Áo sơ mi dài tay hàng thiết kế chất tơ",
-   "cat": "Thời Trang Nữ",
-   "type": "Sơ mi nữ",
-   "price": 172000,
-   "img": "images/P1793681940197-1793681943206.jpg",
-   "link": "https://vt.tiktok.com/ZS9ytD5F9VvBV-8V7kY/"
-  },
-  {
-   "id": "P1794337054518",
-   "name": "Váy Body Len Nữ Cổ 3 Phân Dài Tay Dáng Ngắn Chất Len",
-   "cat": "Thời Trang Nữ",
-   "price": 147510,
-   "img": "images/P1794337054518-1794337057901.jpg",
-   "link": "https://vt.tiktok.com/ZS9fUEpctb1Fp-K4THv/",
-   "type": "Váy đầm"
-  },
-  {
-   "id": "P1794159938644",
-   "name": "{HÀNG SẴN} T08 - Váy Thiết Kế Evii dành cho nữ, Đầm",
-   "cat": "Thời Trang Nữ",
-   "price": 436278,
-   "img": "images/P1794159938644-1794162126392.jpg",
-   "link": "https://vt.tiktok.com/ZS9f63ehUKx7Y-H8PsU/",
-   "type": "Váy đầm"
-  },
-  {
-   "id": "P1794159624342",
-   "name": "T06 - Váy Thiết Kế Evii dành cho nữ, Đầm thiết kế cổ Ve",
-   "cat": "Thời Trang Nữ",
-   "price": 436278,
-   "img": "images/P1794159624342-1794159627222.jpg",
-   "link": "https://vt.tiktok.com/ZS9f6c81SpwKf-B9JbI/",
-   "type": "Váy đầm"
-  },
-  {
-   "id": "P1793725787596",
-   "name": "Đầm body đầm tay dài xoắn eo sang trảnh Đ189",
-   "cat": "Thời Trang Nữ",
-   "price": 197900,
-   "img": "images/P1793725787596-1793725790999.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWXL4g8ByJ-z9ILc/",
-   "type": "Váy đầm"
-  },
-  {
-   "id": "P1793725261113",
-   "name": "Đầm thiết kế dành cho nữ (2 Dây Kèm Khoát) xoắn nhẹ",
-   "cat": "Thời Trang Nữ",
-   "price": 234600,
-   "img": "images/P1793725261113-1793725265884.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWQqmQsTsY-71Hu5/",
-   "type": "Váy đầm"
-  },
-  {
-   "id": "P1793724450616",
-   "name": "Váy Nhung Tay Bồng Phối Nơ Tiểu Thư, Váy Nữ Dáng Chữ A",
-   "cat": "Thời Trang Nữ",
-   "price": 232276,
-   "img": "images/P1793724450616-1793724456699.jpg",
-   "link": "https://vt.tiktok.com/ZS9yW9ycn5bD9-SrWWp/",
-   "type": "Váy đầm"
-  },
-  {
-   "id": "P1793723699339",
-   "name": "Đầm thiết kế BEMINE giả áo khoác tay lửng dáng xòe",
-   "cat": "Thời Trang Nữ",
-   "price": 267628,
-   "img": "images/P1793723699339-1793723702257.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWuM5t2sVs-XAWJX/",
-   "type": "Váy đầm"
-  },
-  {
-   "id": "P1793723304858",
-   "name": "( Tặng Đai) Váy Len Thừng Phối Vải Kaki Hàn Dáng Dài",
-   "cat": "Thời Trang Nữ",
-   "price": 259200,
-   "img": "images/P1793723304858-1793723707151.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWmLMFmHFA-GdkBS/",
-   "type": "Váy đầm"
-  },
-  {
-   "id": "P1793722904300",
-   "name": "Váy thiết kế Rosy V33 váy dáng dài thanh lịch Nữ Dress",
-   "cat": "Thời Trang Nữ",
-   "price": 323350,
-   "img": "images/P1793722904300-1793722907316.jpg",
-   "link": "https://vt.tiktok.com/ZS9yW5E1pdwxX-JiSZ7/",
-   "type": "Váy đầm"
-  },
-  {
-   "id": "P1793722551565",
-   "name": "Chân Váy Xếp Ly Kaki Phối Khuy Có Quần Bảo Hộ",
-   "cat": "Thời Trang Nữ",
-   "price": 159390,
-   "img": "images/P1793722551565-1793722554697.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWPEm7EUT3-8x8HK/",
-   "type": "Váy đầm"
-  },
-  {
-   "id": "P1794162954640",
-   "name": "Áo Polo Nữ VIFA cotton cao cấp nhiều màu Women Top",
-   "cat": "Thời Trang Nữ",
-   "price": 100000,
-   "img": "images/P1794162954640-1794162957704.jpg",
-   "link": "https://vt.tiktok.com/ZS9fMeaMbCpG2-azJye/",
-   "type": "Áo thun nữ"
-  },
-  {
-   "id": "P1793708979046",
-   "name": "Áo Polo Nữ Thun cotton VIFA sang xịn mịn phối cổ đẹp",
-   "cat": "Thời Trang Nữ",
-   "price": 135000,
-   "img": "images/P1793708979046-1793708982013.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynsbJMtP2F-JGH5t/",
-   "type": "Áo thun nữ"
-  },
-  {
-   "id": "P1793708708660",
-   "name": "Áo Lụa Tay Cánh Dơi lụa Cao Cấp Thiết Kế Thắt Nơ Eo",
-   "cat": "Thời Trang Nữ",
-   "price": 173880,
-   "img": "images/P1793708708660-1793708711814.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynpEgTjUnG-3ZLYc/",
-   "type": "Áo thun nữ"
-  },
-  {
-   "id": "P1793705885141",
-   "name": "[DEAL MỞ BÁN] Áo Thun Nữ Croptop Baby Tee",
-   "cat": "Thời Trang Nữ",
-   "price": 89000,
-   "img": "images/P1793705885141-1793707340061.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynQTWaXXn5-CO4qu/",
-   "type": "Áo thun nữ"
-  },
-  {
-   "id": "P1793705450203",
-   "name": "Áo Thun Nữ cổ Chéo MUNCCI ATA008 Nhiều Màu",
-   "cat": "Thời Trang Nữ",
-   "price": 82451,
-   "img": "images/P1793705450203-1793705453293.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynxtdggVf9-7vyjJ/",
-   "type": "Áo thun nữ"
-  },
-  {
-   "id": "P1793704847991",
-   "name": "Áo thun nữ 2 mặt giọt nước và cổ U - vải thun",
-   "cat": "Thời Trang Nữ",
-   "price": 98000,
-   "img": "images/P1793704847991-1793704851504.jpg",
-   "link": "https://vt.tiktok.com/ZS9yn9LrNLem2-xCvI9/",
-   "type": "Áo thun nữ"
-  },
-  {
-   "id": "P1793682115903",
-   "name": "HTIQUE  - DEAL mở bán Áo Len Polo Nữ Tay Ngắn Form",
-   "cat": "Thời Trang Nữ",
-   "price": 206099,
-   "img": "images/P1793682115903-1795101536387.jpg",
-   "link": "https://vt.tiktok.com/ZS9ytUrjQdVX6-F6O3W/",
-   "type": "Áo thun nữ"
-  },
-  {
-   "id": "P1793681631973",
-   "name": "[Mã 23] ÁO THUN NỮ ÔM SÁT NÁCH CỔ LỌ - CHẤT VẢI",
-   "cat": "Thời Trang Nữ",
-   "price": 97020,
-   "img": "images/P1793681631973-1793681635086.jpg",
-   "link": "https://vt.tiktok.com/ZS9ytAmhWGGPh-Lgcvn/",
-   "type": "Áo thun nữ"
-  },
-  {
-   "id": "P1793667622434",
-   "name": "Áo 2Dây Thun Zip Cổ Vuông Dáng Ôm Phối Khuy Thời Trang",
-   "cat": "Thời Trang Nữ",
-   "price": 116000,
-   "img": "images/P1793667622434-1793681341485.jpg",
-   "link": "https://vt.tiktok.com/ZS9yG4rqdAaSQ-1RZ1P/",
-   "type": "Áo thun nữ"
-  },
-  {
-   "id": "P1793666899177",
-   "name": "[MÀU MỚI THU ĐÔNG] Áo Thun Tay Lửng Nữ VSS Cổ Tròn",
-   "cat": "Thời Trang Nữ",
-   "price": 109000,
-   "img": "images/P1793666899177-1793666902138.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGQoCABTWe-7QPOS/",
-   "type": "Áo thun nữ"
-  },
-  {
-   "id": "P1793663060853",
-   "name": "(BÁN CHẠY) Áo Thun dáng babytee có size 35kg đến 70kg",
-   "cat": "Thời Trang Nữ",
-   "price": 120000,
-   "img": "images/P1793663060853-1793663064447.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGUwmX3n5N-UhK6L/",
-   "type": "Áo thun nữ"
-  },
-  {
-   "id": "P1793662644319",
-   "name": "Áo Thun Nữ MiSoul Thêu Chữ KARIN Cotton Mats Mịn",
-   "cat": "Thời Trang Nữ",
-   "price": 98950,
-   "img": "images/P1793662644319-1793662647857.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGDuf1AtLd-R1b6A/",
-   "type": "Áo thun nữ"
-  },
-  {
-   "id": "P1794337739774",
-   "name": "Áo nỉ sweater thêu cún PUPPY - áo nỉ bông Unisex dài tay",
-   "cat": "Thời Trang Nữ",
-   "price": 139000,
-   "img": "images/P1794337739774-1794337742725.jpg",
-   "link": "https://vt.tiktok.com/ZS9fy1xse4cLP-SZw4a/",
-   "type": "Áo dài tay"
-  },
-  {
-   "id": "P1794336520674",
-   "name": "Áo Giữ Nhiệt Lót Nỉ Lông BigSize Trơn Cổ 3 Phân Dài Tay",
-   "cat": "Thời Trang Nữ",
-   "price": 108999,
-   "img": "images/P1794336520674-1794336523590.jpg",
-   "link": "https://vt.tiktok.com/ZS9fUKrPBfvEy-lhKZq/",
-   "type": "Áo dài tay"
-  },
-  {
-   "id": "P1794336093853",
-   "name": "Áo Cổ Lọ Giữ Nhiệt Lót Lông Dài Tay BigSize Misoul, Áo",
-   "cat": "Thời Trang Nữ",
-   "price": 139000,
-   "img": "images/P1794336093853-1794336097166.jpg",
-   "link": "https://vt.tiktok.com/ZS9fUTwVhRhFU-78tD2/",
-   "type": "Áo dài tay"
-  },
-  {
-   "id": "P1794334709554",
-   "name": "[DEAL QUÀ TẶNG] KEVA Áo Giữ Nhiệt Lót Lông Cao Cấp",
-   "cat": "Thời Trang Nữ",
-   "price": 243800,
-   "img": "images/P1794334709554-1794334713650.jpg",
-   "link": "https://vt.tiktok.com/ZS9fUvej7SoT6-pPbHp/",
-   "type": "Áo dài tay"
-  },
-  {
-   "id": "P1793731020785",
-   "name": "DELIZ - Cardigan khoác ngoài mùa thu đông cổ V phối",
-   "cat": "Thời Trang Nữ",
-   "price": 289800,
-   "img": "images/P1793731020785-1793731023758.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWc3Uv4sjB-MI75R/",
-   "type": "Áo dài tay"
-  },
-  {
-   "id": "P1793730778017",
-   "name": "Áo Khoác Nỉ Nữ Dài Tay Form Rộng Chất Nỉ 2da Dày Dặn",
-   "cat": "Thời Trang Nữ",
-   "price": 135000,
-   "img": "images/P1793730778017-1793730783964.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWcdryJJx4-ahmmn/",
-   "type": "Áo dài tay"
-  },
-  {
-   "id": "P1793706349934",
-   "name": "[XẢ KHO] Áo tay dài cổ lọ khoét xoắn ngực tay xỏ ngón",
-   "cat": "Thời Trang Nữ",
-   "price": 81180,
-   "img": "images/P1793706349934-1793706354531.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynX1VbYkBa-zmV9u/",
-   "type": "Áo dài tay"
-  },
-  {
-   "id": "P1793666486813",
-   "name": "Áo Thun Nữ Dài Tay MUNCCI ATA001 Lệch Vai Chất Thun",
-   "cat": "Thời Trang Nữ",
-   "price": 157520,
-   "img": "images/P1793666486813-1793666490903.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGxs3stRHF-zKSVs/",
-   "type": "Áo dài tay"
-  },
-  {
-   "id": "P1794496049073",
-   "name": "[LÓT LÔNG] Áo Giữ Nhiệt Dài Tay Thêu Justdun PQ1 - A",
-   "cat": "Thời Trang Nữ",
-   "price": 119000,
-   "img": "images/P1794496049073-1794496052524.jpg",
-   "link": "https://vt.tiktok.com/ZS9f9N2cjdjWy-JBtUn/",
-   "type": "Áo dài tay"
-  },
-  {
-   "id": "P1795451892425",
-   "name": "[ Giảm Giá] Áo Sweater Tom& Jerry Chất Nỉ Hàn Lót Lông",
-   "cat": "Thời Trang Nữ",
-   "price": 96250,
-   "img": "images/P1795451892425-1795451900026.jpg",
-   "link": "https://vt.tiktok.com/ZS9PPFCJhuoPY-oeOkd/",
-   "type": "Áo dài tay"
-  },
-  {
-   "id": "P1795538727523",
-   "name": "Áo Sweater UNISEX Nam Nữ In hình dễ thương Form 40",
-   "cat": "Thời Trang Nữ",
-   "price": 137999,
-   "img": "images/P1795538727523-1795538731434.jpg",
-   "link": "https://vt.tiktok.com/ZS9PuCoDBschR-cPeYO/",
-   "type": "Áo dài tay"
-  },
-  {
-   "id": "P1795649004015",
-   "name": "Áo sweater nỉ lót bông 2 lớp form rộng Gấu nhiều mầu",
-   "cat": "Thời Trang Nữ",
-   "price": 109000,
-   "img": "images/P1795649004015-1795649007230.jpg",
-   "link": "https://vt.tiktok.com/ZS9PXh8BaE9RK-v0NDk/",
-   "type": "Áo dài tay"
-  },
-  {
    "id": "P1794374885694",
    "name": "Áo Phao Béo Nam Nữ TNT’S Cổ Cao Chần Bông 3 Lớp",
    "cat": "Đồ đôi & Unisex",
@@ -935,6 +44,14 @@
    "price": 239000,
    "img": "images/P1794374885694-1794374889415.jpg",
    "link": "https://vt.tiktok.com/ZS9ffTQedpD73-Gq9c8/"
+  },
+  {
+   "id": "P1794090377356",
+   "name": "GB&N Giày Thể Thao Da Bò Sáp 001 - Da Thật, Đế Cao Su",
+   "cat": "Giày dép",
+   "price": 462000,
+   "img": "images/P1794090377356-1794118902278.jpg",
+   "link": "https://vt.tiktok.com/ZS9fYBp6uFFUL-IJWNp/"
   },
   {
    "id": "P1794162118707",
@@ -969,6 +86,24 @@
    "link": "https://vt.tiktok.com/ZS9fXgsceAGPR-eLuRZ/"
   },
   {
+   "id": "P1793569599976",
+   "name": "Áo Khoác Gió Bamber Lót Trần Bông 2 Lớp Cản Gió Chống Nước",
+   "cat": "Thời Trang Nam",
+   "price": 195699,
+   "img": "images/P1793569599976-1793569603115.jpg",
+   "link": "https://vt.tiktok.com/ZS9yqCkrde9cd-7Nq4t/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794805206988",
+   "name": "2.D18 [ Lên Nguyễn Store ] Quần Jean (Bò) Nữ, Lưng C",
+   "cat": "Thời Trang Nữ",
+   "price": 258999,
+   "img": "images/P1794805206988-1794805209862.jpg",
+   "link": "https://vt.tiktok.com/ZS9fWok9KfFkw-nT2Ej/",
+   "type": "Quần nữ"
+  },
+  {
    "id": "P1793556923108",
    "name": "Áo Phông Đen Nam BEYOND Dream Tears Nam Nữ Cotton Tự Nhiên",
    "cat": "Đồ đôi & Unisex",
@@ -978,12 +113,12 @@
    "link": "https://vt.tiktok.com/ZS9yVKPaMR5Ta-CPE4l/"
   },
   {
-   "id": "P1794090377356",
-   "name": "GB&N Giày Thể Thao Da Bò Sáp 001 - Da Thật, Đế Cao Su",
+   "id": "P1794088578479",
+   "name": "giầy Chelsea boot nam hàng kĩ da nam trơn hai mang chun",
    "cat": "Giày dép",
-   "price": 462000,
-   "img": "images/P1794090377356-1794118902278.jpg",
-   "link": "https://vt.tiktok.com/ZS9fYBp6uFFUL-IJWNp/"
+   "price": 169000,
+   "img": "images/P1794088578479-1794088581581.jpg",
+   "link": "https://vt.tiktok.com/ZS9fY6Xdks6Qa-A3ZRB/"
   },
   {
    "id": "P1794161012042",
@@ -1018,6 +153,24 @@
    "link": "https://vt.tiktok.com/ZS9fXpUq6hxEu-n6hjg/"
   },
   {
+   "id": "P1793661531092",
+   "name": "Áo Phao V Trơn, Lót 3D Cao Cấp Sang Trọng, Tháo Được Mũ",
+   "cat": "Thời Trang Nam",
+   "price": 520000,
+   "img": "images/P1793661531092-1793661534615.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGBgVLjXyM-accgH/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794805350770",
+   "name": "Lên Nguyễn Store Quần Jean Nữ Dài Xám Rách/ Xám Trơn",
+   "cat": "Thời Trang Nữ",
+   "price": 228999,
+   "img": "images/P1794805350770-1794805353649.jpg",
+   "link": "https://vt.tiktok.com/ZS9fWovoVagrr-JrA62/",
+   "type": "Quần nữ"
+  },
+  {
    "id": "P1795538688631",
    "name": "Áo Sweater UNISEX Nam Nữ In hình dễ thương Form 40",
    "cat": "Đồ đôi & Unisex",
@@ -1027,12 +180,12 @@
    "link": "https://vt.tiktok.com/ZS9PuCuPgn8Rv-fRA6T/"
   },
   {
-   "id": "P1794088578479",
-   "name": "giầy Chelsea boot nam hàng kĩ da nam trơn hai mang chun",
+   "id": "P1794088131761",
+   "name": "Giày Boot Nam Da Bò Cổ Cao Dáng Chelsea Boots Mũi",
    "cat": "Giày dép",
-   "price": 169000,
-   "img": "images/P1794088578479-1794088581581.jpg",
-   "link": "https://vt.tiktok.com/ZS9fY6Xdks6Qa-A3ZRB/"
+   "price": 640000,
+   "img": "images/P1794088131761-1794088134619.jpg",
+   "link": "https://vt.tiktok.com/ZS9fYjUhXFkve-iT874/"
   },
   {
    "id": "P1794158860352",
@@ -1067,6 +220,24 @@
    "link": "https://vt.tiktok.com/ZS9fXs1NKcGoj-M0zi6/"
   },
   {
+   "id": "P1794492213973",
+   "name": "Áo Khoác Bomber Trần Bông 3 Lớp Hoạ Tiết Công - Th",
+   "cat": "Thời Trang Nam",
+   "price": 303761,
+   "img": "images/P1794492213973-1794492218421.jpg",
+   "link": "https://vt.tiktok.com/ZS9fHwuxcoMva-B5srr/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794829108252",
+   "name": "[ BigSize Hàng Cao Cấp ] Quần Jogger Hàng Umi Hàn C",
+   "cat": "Thời Trang Nữ",
+   "price": 129500,
+   "img": "images/P1794829108252-1794829112875.jpg",
+   "link": "https://vt.tiktok.com/ZS9fvjpVkPPV5-6pZex/",
+   "type": "Quần nữ"
+  },
+  {
    "id": "P1795648950559",
    "name": "Áo sweater nỉ lót bông 2 lớp form rộng Gấu nhiều mầu",
    "cat": "Đồ đôi & Unisex",
@@ -1076,12 +247,12 @@
    "link": "https://vt.tiktok.com/ZS9PXr4YXeuvh-cTf2e/"
   },
   {
-   "id": "P1794088131761",
-   "name": "Giày Boot Nam Da Bò Cổ Cao Dáng Chelsea Boots Mũi",
+   "id": "P1794087792971",
+   "name": "Giày Nam Chelsea Boots Đế Đỏ Đen Phíp Gót Gỗ Da Bò",
    "cat": "Giày dép",
-   "price": 640000,
-   "img": "images/P1794088131761-1794088134619.jpg",
-   "link": "https://vt.tiktok.com/ZS9fYjUhXFkve-iT874/"
+   "price": 983100,
+   "img": "images/P1794087792971-1794087797023.jpg",
+   "link": "https://vt.tiktok.com/ZS9fY2haydSJW-Rqbd7/"
   },
   {
    "id": "P1794158567471",
@@ -1116,6 +287,24 @@
    "link": "https://vt.tiktok.com/ZS9fXsy5RJUXE-10SDC/"
   },
   {
+   "id": "P1794310901570",
+   "name": "ÁO KHOÁC PILOT ALPHA BOMBER NAM NHIỀU HÌNH",
+   "cat": "Thời Trang Nam",
+   "price": 1200000,
+   "img": "images/P1794310901570-1794310904426.jpg",
+   "link": "https://vt.tiktok.com/ZS9fD412aRWE6-Bw5ju/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1795451065517",
+   "name": "( Deal Mở Bán Bí In Chữ Vàng) Quần Jean Ông Thụng Ô",
+   "cat": "Thời Trang Nữ",
+   "price": 204585,
+   "img": "images/P1795451065517-1795451896465.jpg",
+   "link": "https://vt.tiktok.com/ZS9PPLf7MUNQp-yEmyk/",
+   "type": "Quần nữ"
+  },
+  {
    "id": "P1795652206925",
    "name": "Áo Thun Nam Street Dog Club Form Boxy Unisex In Lun",
    "cat": "Đồ đôi & Unisex",
@@ -1125,12 +314,12 @@
    "link": "https://vt.tiktok.com/ZS9PXfGKkbU2R-7Q5wS/"
   },
   {
-   "id": "P1794087792971",
-   "name": "Giày Nam Chelsea Boots Đế Đỏ Đen Phíp Gót Gỗ Da Bò",
+   "id": "P1794086135290",
+   "name": "[GIÀY DÂY BUỘC] Giày Nam Tăng Chiều Cao 6cm SIGOURNEY",
    "cat": "Giày dép",
-   "price": 983100,
-   "img": "images/P1794087792971-1794087797023.jpg",
-   "link": "https://vt.tiktok.com/ZS9fY2haydSJW-Rqbd7/"
+   "price": 616000,
+   "img": "images/P1794086135290-1794086138253.jpg",
+   "link": "https://vt.tiktok.com/ZS9fY8XrbkNx3-QXIcD/"
   },
   {
    "id": "P1794157965133",
@@ -1165,12 +354,22 @@
    "link": "https://vt.tiktok.com/ZS9fXspQgRSeB-TEOD8/"
   },
   {
-   "id": "P1794086135290",
-   "name": "[GIÀY DÂY BUỘC] Giày Nam Tăng Chiều Cao 6cm SIGOURNEY",
-   "cat": "Giày dép",
-   "price": 616000,
-   "img": "images/P1794086135290-1794086138253.jpg",
-   "link": "https://vt.tiktok.com/ZS9fY8XrbkNx3-QXIcD/"
+   "id": "P1794311417204",
+   "name": "ÁO KHOÁC PILOT TRẦN BÔNG 3 LỚP 726",
+   "cat": "Thời Trang Nam",
+   "price": 1850000,
+   "img": "images/P1794311417204-1794311420080.jpg",
+   "link": "https://vt.tiktok.com/ZS9fDV64RgCAH-5PxMc/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1795539241459",
+   "name": "Quần Jogger UNISEX Vải Thun Chân Cua co giãn màu đen",
+   "cat": "Thời Trang Nữ",
+   "price": 137999,
+   "img": "images/P1795539241459-1795539244997.jpg",
+   "link": "https://vt.tiktok.com/ZS9Pu4PHpxJtN-XKNam/",
+   "type": "Quần nữ"
   },
   {
    "id": "P1793888018041",
@@ -1213,6 +412,24 @@
    "link": "https://vt.tiktok.com/ZS9fXGdChAm35-Kj1TR/"
   },
   {
+   "id": "P1794288332065",
+   "name": "Áo Khoác Bomber Gió Latis MK CLEVER, Áo Khoác Vải",
+   "cat": "Thời Trang Nam",
+   "price": 480000,
+   "img": "images/P1794288332065-1794288334983.jpg",
+   "link": "https://vt.tiktok.com/ZS9fAar1xRpa5-JhXly/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794335048890",
+   "name": "KEVA Áo Lót Áo Bra Nữ Chất Su Gân Mỏng Không Gọng",
+   "cat": "Thời Trang Nữ",
+   "price": 129000,
+   "img": "images/P1794335048890-1794335051833.jpg",
+   "link": "https://vt.tiktok.com/ZS9fUc8cJEbB7-ImK7e/",
+   "type": "Đồ lót"
+  },
+  {
    "id": "P1794084556357",
    "name": "Giày Viboots Summer Loafer Da Bò Lộn Lười Nam Mùa Hè",
    "cat": "Giày dép",
@@ -1251,6 +468,24 @@
    "price": 42000,
    "img": "images/P1794586506961-1794586509977.jpg",
    "link": "https://vt.tiktok.com/ZS9fXGaq3CJXM-AARND/"
+  },
+  {
+   "id": "P1794288135950",
+   "name": "Áo Khoác Bomber NIGHTFALL MK CLEVER Vải Gió Mịn",
+   "cat": "Thời Trang Nam",
+   "price": 387345,
+   "img": "images/P1794288135950-1794288138928.jpg",
+   "link": "https://vt.tiktok.com/ZS9fA54gCwL3c-ggL4K/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1793731351518",
+   "name": "Áo khoác mangto dạ dáng ngắn kèm đai form rộng",
+   "cat": "Thời Trang Nữ",
+   "type": "Áo khoác nữ",
+   "price": 324000,
+   "img": "images/P1793731351518-1793731354489.jpg",
+   "link": "https://vt.tiktok.com/ZS9yW33DJ4vRb-H7fPS/"
   },
   {
    "id": "P1794083407943",
@@ -1293,44 +528,30 @@
    "link": "https://vt.tiktok.com/ZS9fXGW6mEbVu-nNDSk/"
   },
   {
+   "id": "P1794154796200",
+   "name": "[ JEAN DENIM GUANGZHOU ] Áo Khoác Jean Xanh Mài",
+   "cat": "Thời Trang Nam",
+   "price": 1057616,
+   "img": "images/P1794154796200-1794154799137.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6XPU2rfBG-qPQ2q/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794163429901",
+   "name": "Sơ mi nữ lụa dài tay cao cấp công sở hoạ tiết chữ nhiều",
+   "cat": "Thời Trang Nữ",
+   "price": 126000,
+   "img": "images/P1794163429901-1794163432781.jpg",
+   "link": "https://vt.tiktok.com/ZS9fMd3amq6Ex-GFC4g/",
+   "type": "Sơ mi nữ"
+  },
+  {
    "id": "P1794063281957",
    "name": "Giày Mocassin QC Cao Cấp- Giày Lười Da Bò- Dập Vân",
    "cat": "Giày dép",
    "price": 1240000,
    "img": "images/P1794063281957-1794063285790.jpg",
    "link": "https://vt.tiktok.com/ZS9fNwS62Jo1V-5cb3V/"
-  },
-  {
-   "id": "P1794062238406",
-   "name": "[NE40-IN] GIÀY SNEAKER IN HOẠ TIẾT NESTY [K01]",
-   "cat": "Giày dép",
-   "price": 175000,
-   "img": "images/P1794062238406-1794062241447.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNcL8m2CrJ-wEgoz/"
-  },
-  {
-   "id": "P1794062741873",
-   "name": "[NE71] Giày Thể Thao NESTY Comffort Air -Slip On",
-   "cat": "Giày dép",
-   "price": 521640,
-   "img": "images/P1794062741873-1794062745107.jpg",
-   "link": "https://vt.tiktok.com/ZS9fN3VbA4xQr-EaftU/"
-  },
-  {
-   "id": "P1793983626194",
-   "name": "Giày lười nam da bò vân cá sấu cao cấp , đế cao su non",
-   "cat": "Giày dép",
-   "price": 309001,
-   "img": "images/P1793983626194-1793983629101.jpg",
-   "link": "https://vt.tiktok.com/ZS9fd7uhe34w2-cr5L8/"
-  },
-  {
-   "id": "P1794068620699",
-   "name": "[Kèm Quà Tặng] Bốt cổ cao JEBEESHOES da bò trơn",
-   "cat": "Giày dép",
-   "price": 628228,
-   "img": "images/P1794068620699-1794068624242.jpg",
-   "link": "https://vt.tiktok.com/ZS9fFjydcesEs-jtsUZ/"
   },
   {
    "id": "P1794079172799",
@@ -1365,12 +586,30 @@
    "link": "https://vt.tiktok.com/ZS9fXtFkpY8Et-nFXiB/"
   },
   {
-   "id": "P1794067988622",
-   "name": "Giày bốt nữ cổ lửng khoá cạnh phối khuy cá tính da PU",
+   "id": "P1794492641618",
+   "name": "Áo Khoác Bomber Trần Bông 3 Lớp Hoạ Tiết Vương Miện -",
+   "cat": "Thời Trang Nam",
+   "price": 303761,
+   "img": "images/P1794492641618-1794492644654.jpg",
+   "link": "https://vt.tiktok.com/ZS9fHKbggt2Ls-shUy3/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1793768284918",
+   "name": "Áo Sơ Mi Nữ Cổ Đức Tay Dài Không Có Giãn LP114",
+   "cat": "Thời Trang Nữ",
+   "price": 189999,
+   "img": "images/P1793768284918-1793768288987.jpg",
+   "link": "https://vt.tiktok.com/ZS9yvttMtWruL-4x4b0/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1794062238406",
+   "name": "[NE40-IN] GIÀY SNEAKER IN HOẠ TIẾT NESTY [K01]",
    "cat": "Giày dép",
-   "price": 434600,
-   "img": "images/P1794067988622-1794067991631.jpg",
-   "link": "https://vt.tiktok.com/ZS9fFYQrTxJT7-5yYBd/"
+   "price": 175000,
+   "img": "images/P1794062238406-1794062241447.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNcL8m2CrJ-wEgoz/"
   },
   {
    "id": "P1794078880074",
@@ -1379,6 +618,14 @@
    "price": 99840,
    "img": "images/P1794078880074-1794078883134.jpg",
    "link": "https://vt.tiktok.com/ZS9fFpAJWGE7B-dZZia/"
+  },
+  {
+   "id": "P1795342704662",
+   "name": "50 set tranh chủ đề hoa sen, tranh phật, đồ decor phòng",
+   "cat": "Tranh ảnh",
+   "price": 99000,
+   "img": "images/P1795342704662-1795342707744.jpg",
+   "link": "https://vt.tiktok.com/ZS9PS9CwHUXn2-Hi5LB/"
   },
   {
    "id": "P1794399995465",
@@ -1397,20 +644,38 @@
    "link": "https://vt.tiktok.com/ZS9fVBvmUkU5E-UOJXF/"
   },
   {
+   "id": "P1794493580455",
+   "name": "Áo Khoác Gió Nam 2 Lớp Hoạ Tiết Sư Tử New 2027",
+   "cat": "Thời Trang Nam",
+   "price": 312550,
+   "img": "images/P1794493580455-1794493583574.jpg",
+   "link": "https://vt.tiktok.com/ZS9f91MMApUxX-rw3UZ/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1793709335768",
+   "name": "Áo Sơ Mi Đan Eo Tay Bồng Đính Nơ thiết kết chất vải",
+   "cat": "Thời Trang Nữ",
+   "price": 165000,
+   "img": "images/P1793709335768-1793709338839.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynGVQxqcpp-NhqMM/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1794062741873",
+   "name": "[NE71] Giày Thể Thao NESTY Comffort Air -Slip On",
+   "cat": "Giày dép",
+   "price": 521640,
+   "img": "images/P1794062741873-1794062745107.jpg",
+   "link": "https://vt.tiktok.com/ZS9fN3VbA4xQr-EaftU/"
+  },
+  {
    "id": "P1794078105995",
    "name": "(Tặng Khăn) Túi xách nữ khoá hoa xách tay, đeo chéo hoạ",
    "cat": "Túi",
    "price": 119998,
    "img": "images/P1794078105995-1794078109482.jpg",
    "link": "https://vt.tiktok.com/ZS9fFbYyruCrg-6ghXB/"
-  },
-  {
-   "id": "P1795342704662",
-   "name": "50 set tranh chủ đề hoa sen, tranh phật, đồ decor phòng",
-   "cat": "Tranh ảnh",
-   "price": 99000,
-   "img": "images/P1795342704662-1795342707744.jpg",
-   "link": "https://vt.tiktok.com/ZS9PS9CwHUXn2-Hi5LB/"
   },
   {
    "id": "P1795336286225",
@@ -1437,6 +702,32 @@
    "link": "https://vt.tiktok.com/ZS9fVxyom45WK-O2GZf/"
   },
   {
+   "id": "P1794935867295",
+   "name": "AK566 Áo khoác mùa đông trần phao cho nam in hình 3d",
+   "cat": "Thời Trang Nam",
+   "price": 308000,
+   "img": "images/P1794935867295-1794935870170.jpg",
+   "link": "https://vt.tiktok.com/ZS9fKqKKcvDhu-EOdvd/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1793708424605",
+   "name": "Sơ mi cổ bèo dây nơ Maize sang trọng, Sơ mi dự tiệc",
+   "cat": "Thời Trang Nữ",
+   "price": 296000,
+   "img": "images/P1793708424605-1793708715352.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynp2wn1tUA-OyTt7/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1793983626194",
+   "name": "Giày lười nam da bò vân cá sấu cao cấp , đế cao su non",
+   "cat": "Giày dép",
+   "price": 309001,
+   "img": "images/P1793983626194-1793983629101.jpg",
+   "link": "https://vt.tiktok.com/ZS9fd7uhe34w2-cr5L8/"
+  },
+  {
    "id": "P1794077809111",
    "name": "[Tặng Charm] Túi xách nữ Size18 cầm tay Đeo chéo dáng",
    "cat": "Túi",
@@ -1459,6 +750,32 @@
    "price": 189000,
    "img": "images/P1794633052394-1794633141599.jpg",
    "link": "https://vt.tiktok.com/ZS9fqFq4GP8nN-MYyPC/"
+  },
+  {
+   "id": "P1793659484984",
+   "name": "Bộ quần áo thể thao nam chất liệu vải nỉ ép 2 da kẻ sọc vai",
+   "cat": "Thời Trang Nam",
+   "price": 287100,
+   "img": "images/P1793659484984-1793659488192.jpg",
+   "link": "https://vt.tiktok.com/ZS9yG68gSth4B-V9iqN/",
+   "type": "Bộ nỉ"
+  },
+  {
+   "id": "P1793708025170",
+   "name": "Áo Sơ Mi Nữ Thun Tăm Cổ Tim Áo Tay Dài Voan Bổng",
+   "cat": "Thời Trang Nữ",
+   "price": 140000,
+   "img": "images/P1793708025170-1793708028274.jpg",
+   "link": "https://vt.tiktok.com/ZS9yng8dTDu31-nHsEg/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1794068620699",
+   "name": "[Kèm Quà Tặng] Bốt cổ cao JEBEESHOES da bò trơn",
+   "cat": "Giày dép",
+   "price": 628228,
+   "img": "images/P1794068620699-1794068624242.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFjydcesEs-jtsUZ/"
   },
   {
    "id": "P1794077341797",
@@ -1485,12 +802,30 @@
    "link": "https://vt.tiktok.com/ZS9fqYrNWXEqh-ReqZo/"
   },
   {
-   "id": "P1794060292414",
-   "name": "MEYBANNI - C547 - Giày Búp Bê Mũi Tròn Độn Đế 3cm",
+   "id": "P1793657223989",
+   "name": "TAVYSU Sét Bộ Nỉ 2 Da Nam Thu Đông Nhiều Màu Trẻ Trung",
+   "cat": "Thời Trang Nam",
+   "price": 236295,
+   "img": "images/P1793657223989-1793657227227.jpg",
+   "link": "https://vt.tiktok.com/ZS9yG89pYQWA9-681Xg/",
+   "type": "Bộ nỉ"
+  },
+  {
+   "id": "P1793707490516",
+   "name": "Sơ mi tơ nữ tay dài thiết kế MQ Boutique sọc dệt nhũ",
+   "cat": "Thời Trang Nữ",
+   "price": 179100,
+   "img": "images/P1793707490516-1793707493622.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynq5veqDLV-lkJAt/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1794067988622",
+   "name": "Giày bốt nữ cổ lửng khoá cạnh phối khuy cá tính da PU",
    "cat": "Giày dép",
-   "price": 196310,
-   "img": "images/P1794060292414-1794061239301.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNGgxnTBQB-xn25f/"
+   "price": 434600,
+   "img": "images/P1794067988622-1794067991631.jpg",
+   "link": "https://vt.tiktok.com/ZS9fFYQrTxJT7-5yYBd/"
   },
   {
    "id": "P1794077118823",
@@ -1517,12 +852,30 @@
    "link": "https://vt.tiktok.com/ZS9fbkDJTCc5D-Sh0th/"
   },
   {
-   "id": "P1794059887576",
-   "name": "Giày Sục Nam Nữ Gat Slip On Panacea Rebel - Màu Ivory",
+   "id": "P1795648079654",
+   "name": "Áo Hoodie Nam Dài Tay, Cổ Tròn, In Hình, Hàng Mới Về",
+   "cat": "Thời Trang Nam",
+   "price": 175750,
+   "img": "images/P1795648079654-1795648953857.jpg",
+   "link": "https://vt.tiktok.com/ZS9PX6rHEdyEQ-ELF3M/",
+   "type": "Bộ nỉ"
+  },
+  {
+   "id": "P1793706982731",
+   "name": "Áo sơ mi hoa phong cách Pháp cổ điển, cổ đứng",
+   "cat": "Thời Trang Nữ",
+   "price": 173913,
+   "img": "images/P1793706982731-1793706986151.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynVjBKhXbq-76zXk/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1794060292414",
+   "name": "MEYBANNI - C547 - Giày Búp Bê Mũi Tròn Độn Đế 3cm",
    "cat": "Giày dép",
-   "price": 357764,
-   "img": "images/P1794059887576-1794059890457.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNsuXc6Gud-8HNMj/"
+   "price": 196310,
+   "img": "images/P1794060292414-1794061239301.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNGgxnTBQB-xn25f/"
   },
   {
    "id": "P1794076100440",
@@ -1549,12 +902,30 @@
    "link": "https://vt.tiktok.com/ZS9fbk3k1e1PR-MfEdv/"
   },
   {
-   "id": "P1794058842315",
-   "name": "Giày Sục Búp Bê Nữ, Sục Mary Jane Đế Bệt Quai Ngang",
+   "id": "P1794225177442",
+   "name": "[BEST SELLER] Áo polo dài tay cao cấp The Elegant công",
+   "cat": "Thời Trang Nam",
+   "price": 402545,
+   "img": "images/P1794225177442-1794225181007.jpg",
+   "link": "https://vt.tiktok.com/ZS9fkM8RsKEXC-yNzvb/",
+   "type": "Áo thun"
+  },
+  {
+   "id": "P1793681940197",
+   "name": "(BST Thu Hà Nội) Áo sơ mi dài tay hàng thiết kế chất tơ",
+   "cat": "Thời Trang Nữ",
+   "type": "Sơ mi nữ",
+   "price": 172000,
+   "img": "images/P1793681940197-1793681943206.jpg",
+   "link": "https://vt.tiktok.com/ZS9ytD5F9VvBV-8V7kY/"
+  },
+  {
+   "id": "P1794059887576",
+   "name": "Giày Sục Nam Nữ Gat Slip On Panacea Rebel - Màu Ivory",
    "cat": "Giày dép",
-   "price": 167200,
-   "img": "images/P1794058842315-1794058845518.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNbstk4Ms5-LnM1o/"
+   "price": 357764,
+   "img": "images/P1794059887576-1794059890457.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNsuXc6Gud-8HNMj/"
   },
   {
    "id": "P1794075106469",
@@ -1581,12 +952,30 @@
    "link": "https://vt.tiktok.com/ZS9fbBfhYkhB8-vpxVp/"
   },
   {
-   "id": "P1794058261774",
-   "name": "[ Deal Mở Bán ] - Giày Dép Huyền My - Giày cao gót đế",
+   "id": "P1794224983744",
+   "name": "[BEST SELLER] Áo polo nam cao cấp The Elegant công",
+   "cat": "Thời Trang Nam",
+   "price": 386081,
+   "img": "images/P1794224983744-1794224987044.jpg",
+   "link": "https://vt.tiktok.com/ZS9fk6ABLAs1A-XBjBU/",
+   "type": "Áo thun"
+  },
+  {
+   "id": "P1794337054518",
+   "name": "Váy Body Len Nữ Cổ 3 Phân Dài Tay Dáng Ngắn Chất Len",
+   "cat": "Thời Trang Nữ",
+   "price": 147510,
+   "img": "images/P1794337054518-1794337057901.jpg",
+   "link": "https://vt.tiktok.com/ZS9fUEpctb1Fp-K4THv/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1794058842315",
+   "name": "Giày Sục Búp Bê Nữ, Sục Mary Jane Đế Bệt Quai Ngang",
    "cat": "Giày dép",
-   "price": 269000,
-   "img": "images/P1794058261774-1794058264777.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNqRMePg7s-23iu1/"
+   "price": 167200,
+   "img": "images/P1794058842315-1794058845518.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNbstk4Ms5-LnM1o/"
   },
   {
    "id": "P1794074852006",
@@ -1613,12 +1002,30 @@
    "link": "https://vt.tiktok.com/ZS9fsgwDxwqDt-dRLuS/"
   },
   {
-   "id": "P1794057652176",
-   "name": "Giày Dép Cao Gót Nữ mũi vuông đế dẻo thoáng khí mềm",
+   "id": "P1793559442444",
+   "name": "Áo Polo Nam Monogram Amio Chất Liệu Cotton AeroPique",
+   "cat": "Thời Trang Nam",
+   "price": 248160,
+   "img": "images/P1793559442444-1793559446213.jpg",
+   "link": "https://vt.tiktok.com/ZS9yqRgchXtYJ-yEg0B/",
+   "type": "Áo thun"
+  },
+  {
+   "id": "P1794159938644",
+   "name": "{HÀNG SẴN} T08 - Váy Thiết Kế Evii dành cho nữ, Đầm",
+   "cat": "Thời Trang Nữ",
+   "price": 436278,
+   "img": "images/P1794159938644-1794162126392.jpg",
+   "link": "https://vt.tiktok.com/ZS9f63ehUKx7Y-H8PsU/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1794058261774",
+   "name": "[ Deal Mở Bán ] - Giày Dép Huyền My - Giày cao gót đế",
    "cat": "Giày dép",
-   "price": 239000,
-   "img": "images/P1794057652176-1794057655295.jpg",
-   "link": "https://vt.tiktok.com/ZS9fN4ybWdM2c-RBz1s/"
+   "price": 269000,
+   "img": "images/P1794058261774-1794058264777.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNqRMePg7s-23iu1/"
   },
   {
    "id": "P1794071343467",
@@ -1645,12 +1052,30 @@
    "link": "https://vt.tiktok.com/ZS9fGn88toVd3-FranN/"
   },
   {
-   "id": "P1794050221293",
-   "name": "[Chân Mỏng Lùi 1 Size] Giày Búp Bê Nữ Chấm Bi",
+   "id": "P1793557676011",
+   "name": "Áo Thun Nam ECOLLECT CT12 Cotton 250g Wash Màu Loang",
+   "cat": "Thời Trang Nam",
+   "price": 194370,
+   "img": "images/P1793557676011-1793557678973.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVo9r8vMXq-OW1Hw/",
+   "type": "Áo thun"
+  },
+  {
+   "id": "P1794159624342",
+   "name": "T06 - Váy Thiết Kế Evii dành cho nữ, Đầm thiết kế cổ Ve",
+   "cat": "Thời Trang Nữ",
+   "price": 436278,
+   "img": "images/P1794159624342-1794159627222.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6c81SpwKf-B9JbI/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1794057652176",
+   "name": "Giày Dép Cao Gót Nữ mũi vuông đế dẻo thoáng khí mềm",
    "cat": "Giày dép",
-   "price": 145000,
-   "img": "images/P1794050221293-1794050227633.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNrPNgmLmp-p2Sgf/"
+   "price": 239000,
+   "img": "images/P1794057652176-1794057655295.jpg",
+   "link": "https://vt.tiktok.com/ZS9fN4ybWdM2c-RBz1s/"
   },
   {
    "id": "P1794398694781",
@@ -1669,6 +1094,32 @@
    "link": "https://vt.tiktok.com/ZS9fGnvJEMdMf-Awfim/"
   },
   {
+   "id": "P1793554627986",
+   "name": "Áo Thun Nam Cộc Tay Hose Nam Nữ Thể Thao Mát Mẻ",
+   "cat": "Thời Trang Nam",
+   "price": 188999,
+   "img": "images/P1793554627986-1793554632729.jpg",
+   "link": "https://vt.tiktok.com/ZS9yV7hesGCJL-4JaRi/",
+   "type": "Áo thun"
+  },
+  {
+   "id": "P1793725787596",
+   "name": "Đầm body đầm tay dài xoắn eo sang trảnh Đ189",
+   "cat": "Thời Trang Nữ",
+   "price": 197900,
+   "img": "images/P1793725787596-1793725790999.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWXL4g8ByJ-z9ILc/",
+   "type": "Váy đầm"
+  },
+  {
+   "id": "P1794050221293",
+   "name": "[Chân Mỏng Lùi 1 Size] Giày Búp Bê Nữ Chấm Bi",
+   "cat": "Giày dép",
+   "price": 145000,
+   "img": "images/P1794050221293-1794050227633.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNrPNgmLmp-p2Sgf/"
+  },
+  {
    "id": "P1794398582809",
    "name": "Kệ đựng đồ đa năng 3 tầng có bánh xe GIỎ LIỀN chính",
    "cat": "Gia Dụng",
@@ -1683,6 +1134,24 @@
    "price": 138620,
    "img": "images/P1794748189873-1794748194838.jpg",
    "link": "https://vt.tiktok.com/ZS9ftdaKwg7Lw-8thY3/"
+  },
+  {
+   "id": "P1793553644228",
+   "name": "Áo Thun Nam Cotton Áo Phông Mã Thêu ANTAVIO Chất Liệu Vải",
+   "cat": "Thời Trang Nam",
+   "price": 160080,
+   "img": "images/P1793553644228-1793553655472.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVtfD3Q6jr-wT79P/",
+   "type": "Áo thun"
+  },
+  {
+   "id": "P1793725261113",
+   "name": "Đầm thiết kế dành cho nữ (2 Dây Kèm Khoát) xoắn nhẹ",
+   "cat": "Thời Trang Nữ",
+   "price": 234600,
+   "img": "images/P1793725261113-1793725265884.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWQqmQsTsY-71Hu5/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1793981527684",
@@ -1709,6 +1178,24 @@
    "link": "https://vt.tiktok.com/ZS9ftR9FhdR3E-mQ7Ue/"
   },
   {
+   "id": "P1793552919356",
+   "name": "DEAL Mở Bán -Áo thun lạnh, chất liệu tráng da, cổ tròn, cộc tay",
+   "cat": "Thời Trang Nam",
+   "price": 175000,
+   "img": "images/P1793552919356-1793552923366.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVs6Mtvr1c-NtwTF/",
+   "type": "Áo thun"
+  },
+  {
+   "id": "P1793724450616",
+   "name": "Váy Nhung Tay Bồng Phối Nơ Tiểu Thư, Váy Nữ Dáng Chữ A",
+   "cat": "Thời Trang Nữ",
+   "price": 232276,
+   "img": "images/P1793724450616-1793724456699.jpg",
+   "link": "https://vt.tiktok.com/ZS9yW9ycn5bD9-SrWWp/",
+   "type": "Váy đầm"
+  },
+  {
    "id": "P1793979420112",
    "name": "GIÀY THỂ THAO UNISEX KAPPA 322M8LW - THOẢI MÁI",
    "cat": "Giày dép",
@@ -1731,6 +1218,24 @@
    "price": 263178,
    "img": "images/P1794748959960-1794748963033.jpg",
    "link": "https://vt.tiktok.com/ZS9ft8pbQseCU-vC2Ck/"
+  },
+  {
+   "id": "P1793551928198",
+   "name": "Áo Phông Thun Cộc tay Nam Cá Mập Mát Mẻ Dày Dặn",
+   "cat": "Thời Trang Nam",
+   "price": 188999,
+   "img": "images/P1793551928198-1793551933775.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVqK6b5LaF-Yo2OS/",
+   "type": "Áo thun"
+  },
+  {
+   "id": "P1793723699339",
+   "name": "Đầm thiết kế BEMINE giả áo khoác tay lửng dáng xòe",
+   "cat": "Thời Trang Nữ",
+   "price": 267628,
+   "img": "images/P1793723699339-1793723702257.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWuM5t2sVs-XAWJX/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1793976750231",
@@ -1757,6 +1262,24 @@
    "link": "https://vt.tiktok.com/ZS9ftL4ToAaxJ-EkEcP/"
   },
   {
+   "id": "P1793551312618",
+   "name": "Áo Phông Nam, Áo Thun Nam ANTAVIO Chất Liệu Vải Cotton",
+   "cat": "Thời Trang Nam",
+   "price": 164680,
+   "img": "images/P1793551312618-1793552166920.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVVcs8eDFr-JuiAx/",
+   "type": "Áo thun"
+  },
+  {
+   "id": "P1793723304858",
+   "name": "( Tặng Đai) Váy Len Thừng Phối Vải Kaki Hàn Dáng Dài",
+   "cat": "Thời Trang Nữ",
+   "price": 259200,
+   "img": "images/P1793723304858-1793723707151.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWmLMFmHFA-GdkBS/",
+   "type": "Váy đầm"
+  },
+  {
    "id": "P1793898029523",
    "name": "[Enter Dragon x Huỳnh Anh] [Phiên Bản nâng cấp]",
    "cat": "Giày dép",
@@ -1779,6 +1302,24 @@
    "price": 272238,
    "img": "images/P1794750212008-1794750218006.jpg",
    "link": "https://vt.tiktok.com/ZS9ftYBkC9CL1-zuvni/"
+  },
+  {
+   "id": "P1794225396366",
+   "name": "[the Elegant x Đức Thuận] Áo Sơ Mi Nam Dài Tay Cao Cấp",
+   "cat": "Thời Trang Nam",
+   "type": "Áo sơ mi",
+   "price": 386001,
+   "img": "images/P1794225396366-1794225399293.jpg",
+   "link": "https://vt.tiktok.com/ZS9fkMCnH7cGR-ytrCk/"
+  },
+  {
+   "id": "P1793722904300",
+   "name": "Váy thiết kế Rosy V33 váy dáng dài thanh lịch Nữ Dress",
+   "cat": "Thời Trang Nữ",
+   "price": 323350,
+   "img": "images/P1793722904300-1793722907316.jpg",
+   "link": "https://vt.tiktok.com/ZS9yW5E1pdwxX-JiSZ7/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1793893155068",
@@ -1805,6 +1346,24 @@
    "link": "https://vt.tiktok.com/ZS9ft2LT9ak16-OceBF/"
   },
   {
+   "id": "P1793619289449",
+   "name": "Áo Sơ Mi - Hoa Văn Hoạ Tiết Thiên Nhiên 2025",
+   "cat": "Thời Trang Nam",
+   "price": 169570,
+   "img": "images/P1793619289449-1793619292612.jpg",
+   "link": "https://vt.tiktok.com/ZS9ypF4GWC4Vk-k0Shz/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1793722551565",
+   "name": "Chân Váy Xếp Ly Kaki Phối Khuy Có Quần Bảo Hộ",
+   "cat": "Thời Trang Nữ",
+   "price": 159390,
+   "img": "images/P1793722551565-1793722554697.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWPEm7EUT3-8x8HK/",
+   "type": "Váy đầm"
+  },
+  {
    "id": "P1793891362143",
    "name": "Giày Sneaker LEONERVA 808 - Best Seller Giày thể thao",
    "cat": "Giày dép",
@@ -1827,6 +1386,24 @@
    "price": 149073,
    "img": "images/P1794751238240-1794751529899.jpg",
    "link": "https://vt.tiktok.com/ZS9ft68fXTDJ5-OzJWO/"
+  },
+  {
+   "id": "P1793567013902",
+   "name": "Áo sơ mi Thổ Cẩm Cao Cấp - Phong Cách Thời Thượng 2025",
+   "cat": "Thời Trang Nam",
+   "price": 219000,
+   "img": "images/P1793567013902-1793567017303.jpg",
+   "link": "https://vt.tiktok.com/ZS9yqaRoo12bH-aG38U/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1794162954640",
+   "name": "Áo Polo Nữ VIFA cotton cao cấp nhiều màu Women Top",
+   "cat": "Thời Trang Nữ",
+   "price": 100000,
+   "img": "images/P1794162954640-1794162957704.jpg",
+   "link": "https://vt.tiktok.com/ZS9fMeaMbCpG2-azJye/",
+   "type": "Áo thun nữ"
   },
   {
    "id": "P1793889952088",
@@ -1853,6 +1430,24 @@
    "link": "https://vt.tiktok.com/ZS9ft6EQepe1Y-asLXm/"
   },
   {
+   "id": "P1793549843242",
+   "name": "TQQ Áo Sơ Mi Nam Kẻ Caro Sợi Fiber ngắn tay K538CB",
+   "cat": "Thời Trang Nam",
+   "price": 259794,
+   "img": "images/P1793549843242-1793552187990.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVQbEQ8c6D-FCMyi/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1793708979046",
+   "name": "Áo Polo Nữ Thun cotton VIFA sang xịn mịn phối cổ đẹp",
+   "cat": "Thời Trang Nữ",
+   "price": 135000,
+   "img": "images/P1793708979046-1793708982013.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynsbJMtP2F-JGH5t/",
+   "type": "Áo thun nữ"
+  },
+  {
    "id": "P1794715714933",
    "name": "giày lười da nam hàng kĩ dập vân cá sấu ma síc chuông",
    "cat": "Giày dép",
@@ -1875,6 +1470,24 @@
    "price": 100113,
    "img": "images/P1794751736260-1794753277569.jpg",
    "link": "https://vt.tiktok.com/ZS9ftMQ7hsuTs-CGK1q/"
+  },
+  {
+   "id": "P1793549139718",
+   "name": "Áo sơ mi nam kẻ sọc dài tay chất liệu Lụa kháng nhăn cao cấp",
+   "cat": "Thời Trang Nam",
+   "price": 349000,
+   "img": "images/P1793549139718-1793552208748.jpg",
+   "link": "https://vt.tiktok.com/ZS9yV9gJ2j2r8-3kVdm/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1793708708660",
+   "name": "Áo Lụa Tay Cánh Dơi lụa Cao Cấp Thiết Kế Thắt Nơ Eo",
+   "cat": "Thời Trang Nữ",
+   "price": 173880,
+   "img": "images/P1793708708660-1793708711814.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynpEgTjUnG-3ZLYc/",
+   "type": "Áo thun nữ"
   },
   {
    "id": "P1794925466126",
@@ -1901,6 +1514,24 @@
    "link": "https://vt.tiktok.com/ZS9fttD5CQvqt-MB8ZJ/"
   },
   {
+   "id": "P1793548773422",
+   "name": "Áo sơ mi nam ngắn tay Mattio vải sợi tre, regular fit - dáng suông, tà bằng, mềm mịn",
+   "cat": "Thời Trang Nam",
+   "price": 345000,
+   "img": "images/P1793548773422-1793552240559.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVHCW9VE8m-qQ0bw/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1793705885141",
+   "name": "[DEAL MỞ BÁN] Áo Thun Nữ Croptop Baby Tee",
+   "cat": "Thời Trang Nữ",
+   "price": 89000,
+   "img": "images/P1793705885141-1793707340061.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynQTWaXXn5-CO4qu/",
+   "type": "Áo thun nữ"
+  },
+  {
    "id": "P1794929137566",
    "name": "( Giày cao ) Giày thể thao đế cao quen hàng full hộp nữ",
    "cat": "Giày dép",
@@ -1923,6 +1554,24 @@
    "price": 447876,
    "img": "images/P1794763217391-1794763220283.jpg",
    "link": "https://vt.tiktok.com/ZS9ftWcCHBDeb-Is5Hg/"
+  },
+  {
+   "id": "P1793547591916",
+   "name": "Áo sơ mi Nam BAMBOO URBAN Menswear ngắn Cộc Tay trơn, chất liệu Bamboo Thoáng Khí, Chống Nhăn, Dáng slim Basic ôm gọn đi làm, công sở, đi chơi Dễ Phối Đồ NO.1025",
+   "cat": "Thời Trang Nam",
+   "price": 288000,
+   "img": "images/P1793547591916-1793552277720.jpg",
+   "link": "https://vt.tiktok.com/ZS9yV5nVtwXQx-ZR7F5/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1793705450203",
+   "name": "Áo Thun Nữ cổ Chéo MUNCCI ATA008 Nhiều Màu",
+   "cat": "Thời Trang Nữ",
+   "price": 82451,
+   "img": "images/P1793705450203-1793705453293.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynxtdggVf9-7vyjJ/",
+   "type": "Áo thun nữ"
   },
   {
    "id": "P1795444826452",
@@ -1949,6 +1598,24 @@
    "link": "https://vt.tiktok.com/ZS9ftvjutCGBv-gFmd1/"
   },
   {
+   "id": "P1793547039931",
+   "name": "Sơ mi Oxford cao cấp  AZÚCAR Mát mẻ, lịch sự, trẻ trung và siêu thoải mái",
+   "cat": "Thời Trang Nam",
+   "price": 193590,
+   "img": "images/P1793547039931-1793552299749.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVPNLktNSU-pu7eZ/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1793704847991",
+   "name": "Áo thun nữ 2 mặt giọt nước và cổ U - vải thun",
+   "cat": "Thời Trang Nữ",
+   "price": 98000,
+   "img": "images/P1793704847991-1793704851504.jpg",
+   "link": "https://vt.tiktok.com/ZS9yn9LrNLem2-xCvI9/",
+   "type": "Áo thun nữ"
+  },
+  {
    "id": "P1794393824217",
    "name": "[ SIÊU SALE ] Bộ 6-9-12 hộp lạnh nhựa PP đựng thực phẩm",
    "cat": "Gia Dụng",
@@ -1963,6 +1630,24 @@
    "price": 69999,
    "img": "images/P1794766300250-1794766303372.jpg",
    "link": "https://vt.tiktok.com/ZS9ftoPWP372y-eYzwT/"
+  },
+  {
+   "id": "P1793545438175",
+   "name": "Áo sơ mi nam dài tay trơn đẹp 4MEN SM088 lụa chéo hạn chế nhăn, mềm mịn, form tailored rộng công sở trẻ trung",
+   "cat": "Thời Trang Nam",
+   "price": 255000,
+   "img": "images/P1793545438175-1793552381727.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVDL3jGCH9-BApY1/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1793682115903",
+   "name": "HTIQUE  - DEAL mở bán Áo Len Polo Nữ Tay Ngắn Form",
+   "cat": "Thời Trang Nữ",
+   "price": 206099,
+   "img": "images/P1793682115903-1795101536387.jpg",
+   "link": "https://vt.tiktok.com/ZS9ytUrjQdVX6-F6O3W/",
+   "type": "Áo thun nữ"
   },
   {
    "id": "P1794226092055",
@@ -1981,6 +1666,24 @@
    "link": "https://vt.tiktok.com/ZS9fn87xdXVhH-xNBWd/"
   },
   {
+   "id": "P1793538940834",
+   "name": "Áo sơ mi nam dài tay LADOS - 779 chất lụa mềm mịn lịch sự phong cách công sở",
+   "cat": "Thời Trang Nam",
+   "price": 157170,
+   "img": "images/P1793538940834-1793552459603.jpg",
+   "link": "https://vt.tiktok.com/ZS9yVJNDEDqHM-m3GVL/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1793681631973",
+   "name": "[Mã 23] ÁO THUN NỮ ÔM SÁT NÁCH CỔ LỌ - CHẤT VẢI",
+   "cat": "Thời Trang Nữ",
+   "price": 97020,
+   "img": "images/P1793681631973-1793681635086.jpg",
+   "link": "https://vt.tiktok.com/ZS9ytAmhWGGPh-Lgcvn/",
+   "type": "Áo thun nữ"
+  },
+  {
    "id": "P1794167754872",
    "name": "Xô Đựng Nước TANK-01, Xô Gấp Gọn Silicon Dẻo, Chậu",
    "cat": "Gia Dụng",
@@ -1995,6 +1698,24 @@
    "price": 174800,
    "img": "images/P1795340912107-1795340915857.jpg",
    "link": "https://vt.tiktok.com/ZS9PS5Q69MkDP-QohLj/"
+  },
+  {
+   "id": "P1794753220941",
+   "name": "Áo Sơ Mi Nam Màu Lam In Hoạ Tiết Thời Trang Thanh Lịch",
+   "cat": "Thời Trang Nam",
+   "price": 209300,
+   "img": "images/P1794753220941-1794753224344.jpg",
+   "link": "https://vt.tiktok.com/ZS9ftB4wNbSM3-hVL9k/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1793667622434",
+   "name": "Áo 2Dây Thun Zip Cổ Vuông Dáng Ôm Phối Khuy Thời Trang",
+   "cat": "Thời Trang Nữ",
+   "price": 116000,
+   "img": "images/P1793667622434-1793681341485.jpg",
+   "link": "https://vt.tiktok.com/ZS9yG4rqdAaSQ-1RZ1P/",
+   "type": "Áo thun nữ"
   },
   {
    "id": "P1794167453032",
@@ -2013,6 +1734,24 @@
    "link": "https://vt.tiktok.com/ZS9PPDJDb11wo-pwRBt/"
   },
   {
+   "id": "P1794753349673",
+   "name": "Áo sơ mi nam ,Áo sơ mi nam in hoạ tiết ,Áo sơ mi nam p",
+   "cat": "Thời Trang Nam",
+   "price": 209300,
+   "img": "images/P1794753349673-1794754522197.jpg",
+   "link": "https://vt.tiktok.com/ZS9ftSY5ecc8t-cs26k/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1793666899177",
+   "name": "[MÀU MỚI THU ĐÔNG] Áo Thun Tay Lửng Nữ VSS Cổ Tròn",
+   "cat": "Thời Trang Nữ",
+   "price": 109000,
+   "img": "images/P1793666899177-1793666902138.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGQoCABTWe-7QPOS/",
+   "type": "Áo thun nữ"
+  },
+  {
    "id": "P1794167213743",
    "name": "Cây Lai Bếp Mini KITIMOP KTM-20, Cây Lau Bếp Tự Vắt",
    "cat": "Gia Dụng",
@@ -2027,6 +1766,24 @@
    "price": 10000,
    "img": "images/P1795456582577-1795456586152.jpg",
    "link": "https://vt.tiktok.com/ZS9PPUwU9G1Lm-sxJoo/"
+  },
+  {
+   "id": "P1794754104069",
+   "name": "sơ mi hoa hồng sang trọng quý tộc vải lụa mềm hoạ tiết",
+   "cat": "Thời Trang Nam",
+   "price": 291100,
+   "img": "images/P1794754104069-1794754525569.jpg",
+   "link": "https://vt.tiktok.com/ZS9ftDrmq1MNK-lr7eN/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1793663060853",
+   "name": "(BÁN CHẠY) Áo Thun dáng babytee có size 35kg đến 70kg",
+   "cat": "Thời Trang Nữ",
+   "price": 120000,
+   "img": "images/P1793663060853-1793663064447.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGUwmX3n5N-UhK6L/",
+   "type": "Áo thun nữ"
   },
   {
    "id": "P1794166790840",
@@ -2045,12 +1802,48 @@
    "link": "https://vt.tiktok.com/ZS9PPfUVDQ2K2-NhWPc/"
   },
   {
+   "id": "P1794754519364",
+   "name": "Sơ mi lụa hoa hồng màu kem phom body phong cách la",
+   "cat": "Thời Trang Nam",
+   "price": 311100,
+   "img": "images/P1794754519364-1794754764835.jpg",
+   "link": "https://vt.tiktok.com/ZS9ftU5pGPvUS-nPT4W/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1793662644319",
+   "name": "Áo Thun Nữ MiSoul Thêu Chữ KARIN Cotton Mats Mịn",
+   "cat": "Thời Trang Nữ",
+   "price": 98950,
+   "img": "images/P1793662644319-1793662647857.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGDuf1AtLd-R1b6A/",
+   "type": "Áo thun nữ"
+  },
+  {
    "id": "P1794166297357",
    "name": "Cây Chà Bồn Cầu OKwife AGW-5746, Chổi Cọ Bồn Cầu",
    "cat": "Gia Dụng",
    "price": 49000,
    "img": "images/P1794166297357-1794166300386.jpg",
    "link": "https://vt.tiktok.com/ZS9fMjo2MbAmK-F9gDZ/"
+  },
+  {
+   "id": "P1794754842458",
+   "name": "Sơ mi nam hoa văn nổi vải gấm tuyết sang trọng lịch lãm",
+   "cat": "Thời Trang Nam",
+   "price": 381100,
+   "img": "images/P1794754842458-1794754845345.jpg",
+   "link": "https://vt.tiktok.com/ZS9ftyDJ1Yh1d-AfLwA/",
+   "type": "Áo sơ mi"
+  },
+  {
+   "id": "P1794337739774",
+   "name": "Áo nỉ sweater thêu cún PUPPY - áo nỉ bông Unisex dài tay",
+   "cat": "Thời Trang Nữ",
+   "price": 139000,
+   "img": "images/P1794337739774-1794337742725.jpg",
+   "link": "https://vt.tiktok.com/ZS9fy1xse4cLP-SZw4a/",
+   "type": "Áo dài tay"
   },
   {
    "id": "P1794166099372",
@@ -2061,12 +1854,48 @@
    "link": "https://vt.tiktok.com/ZS9fMjAhuKwAh-eDJCb/"
   },
   {
+   "id": "P1793658602821",
+   "name": "Bộ vest nam cao cấp lịch lãm chuẩn form cho phái mạnh",
+   "cat": "Thời Trang Nam",
+   "type": "Bộ vest",
+   "price": 663170,
+   "img": "images/P1793658602821-1793658606094.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGYPNS1Yq1-D5u8N/"
+  },
+  {
+   "id": "P1794336520674",
+   "name": "Áo Giữ Nhiệt Lót Nỉ Lông BigSize Trơn Cổ 3 Phân Dài Tay",
+   "cat": "Thời Trang Nữ",
+   "price": 108999,
+   "img": "images/P1794336520674-1794336523590.jpg",
+   "link": "https://vt.tiktok.com/ZS9fUKrPBfvEy-lhKZq/",
+   "type": "Áo dài tay"
+  },
+  {
    "id": "P1794165794911",
    "name": "Cây Chà Sàn Nhà Tắm OKwife AGW-3458, Chổi Cọ Sàn",
    "cat": "Gia Dụng",
    "price": 59000,
    "img": "images/P1794165794911-1794165797807.jpg",
    "link": "https://vt.tiktok.com/ZS9fM2H5NJYwb-nvqWM/"
+  },
+  {
+   "id": "P1794211488470",
+   "name": "Quần gió nam TORANO can phối màu, phom dáng slimfit",
+   "cat": "Thời Trang Nam",
+   "price": 232020,
+   "img": "images/P1794211488470-1794225185700.jpg",
+   "link": "https://vt.tiktok.com/ZS9fhHRP3CC91-IGuTy/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1794336093853",
+   "name": "Áo Cổ Lọ Giữ Nhiệt Lót Lông Dài Tay BigSize Misoul, Áo",
+   "cat": "Thời Trang Nữ",
+   "price": 139000,
+   "img": "images/P1794336093853-1794336097166.jpg",
+   "link": "https://vt.tiktok.com/ZS9fUTwVhRhFU-78tD2/",
+   "type": "Áo dài tay"
   },
   {
    "id": "P1794165584277",
@@ -2077,12 +1906,48 @@
    "link": "https://vt.tiktok.com/ZS9fMY3tvBjxY-9NVkB/"
   },
   {
+   "id": "P1794205657737",
+   "name": "[NEW] TORANO SMART DYNAMIC SPORT- SB901- Quần",
+   "cat": "Thời Trang Nam",
+   "price": 164620,
+   "img": "images/P1794205657737-1794205662102.jpg",
+   "link": "https://vt.tiktok.com/ZS9fh6xhf939o-mipNT/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1794334709554",
+   "name": "[DEAL QUÀ TẶNG] KEVA Áo Giữ Nhiệt Lót Lông Cao Cấp",
+   "cat": "Thời Trang Nữ",
+   "price": 243800,
+   "img": "images/P1794334709554-1794334713650.jpg",
+   "link": "https://vt.tiktok.com/ZS9fUvej7SoT6-pPbHp/",
+   "type": "Áo dài tay"
+  },
+  {
    "id": "P1794165069258",
    "name": "Chổi Quét Nhà OKwife AGW-4486, Chổi Quét Nhà Thông",
    "cat": "Gia Dụng",
    "price": 169000,
    "img": "images/P1794165069258-1794165072313.jpg",
    "link": "https://vt.tiktok.com/ZS9fMFaybFde3-fNqH4/"
+  },
+  {
+   "id": "P1794154287173",
+   "name": "GRAPHICH DENIM- MẶC LÀ CHẤT , PHONG CÁCH TRẺ TRUNG",
+   "cat": "Thời Trang Nam",
+   "price": 683060,
+   "img": "images/P1794154287173-1794154290375.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6CePEYMe5-HedMG/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1793731020785",
+   "name": "DELIZ - Cardigan khoác ngoài mùa thu đông cổ V phối",
+   "cat": "Thời Trang Nữ",
+   "price": 289800,
+   "img": "images/P1793731020785-1793731023758.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWc3Uv4sjB-MI75R/",
+   "type": "Áo dài tay"
   },
   {
    "id": "P1795349668319",
@@ -2093,6 +1958,24 @@
    "link": "https://vt.tiktok.com/ZS9PSTAu8t3HU-l6l0G/"
   },
   {
+   "id": "P1794153573601",
+   "name": "Quần Jean Nam Đắp Vá Cao Cấp - Hàng Vip Hottrend",
+   "cat": "Thời Trang Nam",
+   "price": 850000,
+   "img": "images/P1794153573601-1794153576881.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6xdskDwys-Qygvk/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1793730778017",
+   "name": "Áo Khoác Nỉ Nữ Dài Tay Form Rộng Chất Nỉ 2da Dày Dặn",
+   "cat": "Thời Trang Nữ",
+   "price": 135000,
+   "img": "images/P1793730778017-1793730783964.jpg",
+   "link": "https://vt.tiktok.com/ZS9yWcdryJJx4-ahmmn/",
+   "type": "Áo dài tay"
+  },
+  {
    "id": "P1795349842548",
    "name": "Ổ Chia Điện Thông Minh Đa Năng 2500W Hotech Chống",
    "cat": "Gia Dụng",
@@ -2101,12 +1984,129 @@
    "link": "https://vt.tiktok.com/ZS9PST3up1Br2-fRWPk/"
   },
   {
+   "id": "P1794153422727",
+   "name": "[ Hàng Mới Về] Quần Jean Nam Cao Cấp- Quần Ống Rộng",
+   "cat": "Thời Trang Nam",
+   "price": 680000,
+   "img": "images/P1794153422727-1794153425969.jpg",
+   "link": "https://vt.tiktok.com/ZS9f69UtVuXrM-mZuHI/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1793706349934",
+   "name": "[XẢ KHO] Áo tay dài cổ lọ khoét xoắn ngực tay xỏ ngón",
+   "cat": "Thời Trang Nữ",
+   "price": 81180,
+   "img": "images/P1793706349934-1793706354531.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynX1VbYkBa-zmV9u/",
+   "type": "Áo dài tay"
+  },
+  {
    "id": "P1795710829680",
    "name": "Kéo Cắt Gà Cộng Lực Đa Năng Cao Cấp KingKong Nhật",
    "cat": "Gia Dụng",
    "price": 233520,
    "img": "images/P1795710829680-1795710832606.jpg",
    "link": "https://vt.tiktok.com/ZS9PqPB4bMVHg-Iuj5C/"
+  },
+  {
+   "id": "P1793656493393",
+   "name": "Quần Short Nam Kaki Cá Sấu Co Giãn 2 Chiều Cao Cấp",
+   "cat": "Thời Trang Nam",
+   "price": 160550,
+   "img": "images/P1793656493393-1793656496469.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGd5VtHsMe-3Lv9M/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1793666486813",
+   "name": "Áo Thun Nữ Dài Tay MUNCCI ATA001 Lệch Vai Chất Thun",
+   "cat": "Thời Trang Nữ",
+   "price": 157520,
+   "img": "images/P1793666486813-1793666490903.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGxs3stRHF-zKSVs/",
+   "type": "Áo dài tay"
+  },
+  {
+   "id": "P1793655084348",
+   "name": "COMBO 2 Quần Đùi Nam Nice90fashion Chất Liệu Nhung Tăm",
+   "cat": "Thời Trang Nam",
+   "price": 160000,
+   "img": "images/P1793655084348-1793655090386.jpg",
+   "link": "https://vt.tiktok.com/ZS9ysoHSaRK8W-1Uqbz/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1794496049073",
+   "name": "[LÓT LÔNG] Áo Giữ Nhiệt Dài Tay Thêu Justdun PQ1 - A",
+   "cat": "Thời Trang Nữ",
+   "price": 119000,
+   "img": "images/P1794496049073-1794496052524.jpg",
+   "link": "https://vt.tiktok.com/ZS9f9N2cjdjWy-JBtUn/",
+   "type": "Áo dài tay"
+  },
+  {
+   "id": "P1793561555752",
+   "name": "Quần jean đùi nam cao cấp ANTAVIO chất liệu vải jean",
+   "cat": "Thời Trang Nam",
+   "price": 180000,
+   "img": "images/P1793561555752-1793561559010.jpg",
+   "link": "https://vt.tiktok.com/ZS9yq2pTH8eEo-YSvqw/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1795451892425",
+   "name": "[ Giảm Giá] Áo Sweater Tom& Jerry Chất Nỉ Hàn Lót Lông",
+   "cat": "Thời Trang Nữ",
+   "price": 96250,
+   "img": "images/P1795451892425-1795451900026.jpg",
+   "link": "https://vt.tiktok.com/ZS9PPFCJhuoPY-oeOkd/",
+   "type": "Áo dài tay"
+  },
+  {
+   "id": "P1794575158980",
+   "name": "Quần Jean Nam Rách Va Hot Trend QJ-2980",
+   "cat": "Thời Trang Nam",
+   "price": 601140,
+   "img": "images/P1794575158980-1794575162121.jpg",
+   "link": "https://vt.tiktok.com/ZS9fX2yR73VyQ-xaQFt/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1795538727523",
+   "name": "Áo Sweater UNISEX Nam Nữ In hình dễ thương Form 40",
+   "cat": "Thời Trang Nữ",
+   "price": 137999,
+   "img": "images/P1795538727523-1795538731434.jpg",
+   "link": "https://vt.tiktok.com/ZS9PuCoDBschR-cPeYO/",
+   "type": "Áo dài tay"
+  },
+  {
+   "id": "P1794794972311",
+   "name": "Quần Jogger Túi Hộp Quần Bò Nam Phong Cách Bụi Vải",
+   "cat": "Thời Trang Nam",
+   "price": 219880,
+   "img": "images/P1794794972311-1794804866378.jpg",
+   "link": "https://vt.tiktok.com/ZS9fW55aq4gv1-fOrD1/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1795649004015",
+   "name": "Áo sweater nỉ lót bông 2 lớp form rộng Gấu nhiều mầu",
+   "cat": "Thời Trang Nữ",
+   "price": 109000,
+   "img": "images/P1795649004015-1795649007230.jpg",
+   "link": "https://vt.tiktok.com/ZS9PXh8BaE9RK-v0NDk/",
+   "type": "Áo dài tay"
+  },
+  {
+   "id": "P1795539199221",
+   "name": "Quần Jogger UNISEX Vải Thun Chân Cua co giãn màu đen",
+   "cat": "Thời Trang Nam",
+   "price": 137999,
+   "img": "images/P1795539199221-1795539202354.jpg",
+   "link": "https://vt.tiktok.com/ZS9Pu48JUPPyr-AzaYX/",
+   "type": "Quần nam"
   }
  ]
 }
