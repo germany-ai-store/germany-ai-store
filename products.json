@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:26:50.734Z",
+ "updatedAt": "2026-11-27T16:27:03.556Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -18,6 +18,78 @@
   "zalo": "0968994164"
  },
  "products": [
+  {
+   "id": "P1794163429901",
+   "name": "Sơ mi nữ lụa dài tay cao cấp công sở hoạ tiết chữ nhiều",
+   "cat": "Thời Trang Nữ",
+   "price": 126000,
+   "img": "images/P1794163429901-1794163432781.jpg",
+   "link": "https://vt.tiktok.com/ZS9fMd3amq6Ex-GFC4g/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1793768284918",
+   "name": "Áo Sơ Mi Nữ Cổ Đức Tay Dài Không Có Giãn LP114",
+   "cat": "Thời Trang Nữ",
+   "price": 189999,
+   "img": "images/P1793768284918-1793768288987.jpg",
+   "link": "https://vt.tiktok.com/ZS9yvttMtWruL-4x4b0/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1793709335768",
+   "name": "Áo Sơ Mi Đan Eo Tay Bồng Đính Nơ thiết kết chất vải",
+   "cat": "Thời Trang Nữ",
+   "price": 165000,
+   "img": "images/P1793709335768-1793709338839.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynGVQxqcpp-NhqMM/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1793708424605",
+   "name": "Sơ mi cổ bèo dây nơ Maize sang trọng, Sơ mi dự tiệc",
+   "cat": "Thời Trang Nữ",
+   "price": 296000,
+   "img": "images/P1793708424605-1793708715352.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynp2wn1tUA-OyTt7/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1793708025170",
+   "name": "Áo Sơ Mi Nữ Thun Tăm Cổ Tim Áo Tay Dài Voan Bổng",
+   "cat": "Thời Trang Nữ",
+   "price": 140000,
+   "img": "images/P1793708025170-1793708028274.jpg",
+   "link": "https://vt.tiktok.com/ZS9yng8dTDu31-nHsEg/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1793707490516",
+   "name": "Sơ mi tơ nữ tay dài thiết kế MQ Boutique sọc dệt nhũ",
+   "cat": "Thời Trang Nữ",
+   "price": 179100,
+   "img": "images/P1793707490516-1793707493622.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynq5veqDLV-lkJAt/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1793706982731",
+   "name": "Áo sơ mi hoa phong cách Pháp cổ điển, cổ đứng",
+   "cat": "Thời Trang Nữ",
+   "price": 173913,
+   "img": "images/P1793706982731-1793706986151.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynVjBKhXbq-76zXk/",
+   "type": "Sơ mi nữ"
+  },
+  {
+   "id": "P1793681940197",
+   "name": "(BST Thu Hà Nội) Áo sơ mi dài tay hàng thiết kế chất tơ",
+   "cat": "Thời Trang Nữ",
+   "type": "Sơ mi nữ",
+   "price": 172000,
+   "img": "images/P1793681940197-1793681943206.jpg",
+   "link": "https://vt.tiktok.com/ZS9ytD5F9VvBV-8V7kY/"
+  },
   {
    "id": "P1794337054518",
    "name": "Váy Body Len Nữ Cổ 3 Phân Dài Tay Dáng Ngắn Chất Len",
@@ -682,15 +754,6 @@
    "type": "Áo khoác"
   },
   {
-   "id": "P1794163429901",
-   "name": "Sơ mi nữ lụa dài tay cao cấp công sở hoạ tiết chữ nhiều",
-   "cat": "Thời Trang Nữ",
-   "price": 126000,
-   "img": "images/P1794163429901-1794163432781.jpg",
-   "link": "https://vt.tiktok.com/ZS9fMd3amq6Ex-GFC4g/",
-   "type": "Sơ mi nữ"
-  },
-  {
    "id": "P1794084556357",
    "name": "Giày Viboots Summer Loafer Da Bò Lộn Lười Nam Mùa Hè",
    "cat": "Giày dép",
@@ -885,15 +948,6 @@
    "img": "images/P1794224983744-1794224987044.jpg",
    "link": "https://vt.tiktok.com/ZS9fk6ABLAs1A-XBjBU/",
    "type": "Áo thun"
-  },
-  {
-   "id": "P1793768284918",
-   "name": "Áo Sơ Mi Nữ Cổ Đức Tay Dài Không Có Giãn LP114",
-   "cat": "Thời Trang Nữ",
-   "price": 189999,
-   "img": "images/P1793768284918-1793768288987.jpg",
-   "link": "https://vt.tiktok.com/ZS9yvttMtWruL-4x4b0/",
-   "type": "Sơ mi nữ"
   },
   {
    "id": "P1794063281957",
@@ -1340,15 +1394,6 @@
    "type": "Quần nam"
   },
   {
-   "id": "P1793709335768",
-   "name": "Áo Sơ Mi Đan Eo Tay Bồng Đính Nơ thiết kết chất vải",
-   "cat": "Thời Trang Nữ",
-   "price": 165000,
-   "img": "images/P1793709335768-1793709338839.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynGVQxqcpp-NhqMM/",
-   "type": "Sơ mi nữ"
-  },
-  {
    "id": "P1793979420112",
    "name": "GIÀY THỂ THAO UNISEX KAPPA 322M8LW - THOẢI MÁI",
    "cat": "Giày dép",
@@ -1448,15 +1493,6 @@
    "type": "Quần nam"
   },
   {
-   "id": "P1793708424605",
-   "name": "Sơ mi cổ bèo dây nơ Maize sang trọng, Sơ mi dự tiệc",
-   "cat": "Thời Trang Nữ",
-   "price": 296000,
-   "img": "images/P1793708424605-1793708715352.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynp2wn1tUA-OyTt7/",
-   "type": "Sơ mi nữ"
-  },
-  {
    "id": "P1793893155068",
    "name": "[MALL] Giày Thể Thao Thông Dụng Biti’s Màu Xanh",
    "cat": "Giày dép",
@@ -1488,15 +1524,6 @@
    "img": "images/P1793559442444-1793559446213.jpg",
    "link": "https://vt.tiktok.com/ZS9yqRgchXtYJ-yEg0B/",
    "type": "Áo thun"
-  },
-  {
-   "id": "P1793708025170",
-   "name": "Áo Sơ Mi Nữ Thun Tăm Cổ Tim Áo Tay Dài Voan Bổng",
-   "cat": "Thời Trang Nữ",
-   "price": 140000,
-   "img": "images/P1793708025170-1793708028274.jpg",
-   "link": "https://vt.tiktok.com/ZS9yng8dTDu31-nHsEg/",
-   "type": "Sơ mi nữ"
   },
   {
    "id": "P1793891362143",
@@ -1532,15 +1559,6 @@
    "type": "Áo thun"
   },
   {
-   "id": "P1793707490516",
-   "name": "Sơ mi tơ nữ tay dài thiết kế MQ Boutique sọc dệt nhũ",
-   "cat": "Thời Trang Nữ",
-   "price": 179100,
-   "img": "images/P1793707490516-1793707493622.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynq5veqDLV-lkJAt/",
-   "type": "Sơ mi nữ"
-  },
-  {
    "id": "P1793889952088",
    "name": "[NE70] - Giày Sneaker Nam Nữ NESTY Classic",
    "cat": "Giày dép",
@@ -1572,15 +1590,6 @@
    "img": "images/P1793554627986-1793554632729.jpg",
    "link": "https://vt.tiktok.com/ZS9yV7hesGCJL-4JaRi/",
    "type": "Áo thun"
-  },
-  {
-   "id": "P1793706982731",
-   "name": "Áo sơ mi hoa phong cách Pháp cổ điển, cổ đứng",
-   "cat": "Thời Trang Nữ",
-   "price": 173913,
-   "img": "images/P1793706982731-1793706986151.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynVjBKhXbq-76zXk/",
-   "type": "Sơ mi nữ"
   },
   {
    "id": "P1794715714933",
@@ -1763,15 +1772,6 @@
    "img": "images/P1793549139718-1793552208748.jpg",
    "link": "https://vt.tiktok.com/ZS9yV9gJ2j2r8-3kVdm/",
    "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793681940197",
-   "name": "(BST Thu Hà Nội) Áo sơ mi dài tay hàng thiết kế chất tơ",
-   "cat": "Thời Trang Nữ",
-   "type": "Sơ mi nữ",
-   "price": 172000,
-   "img": "images/P1793681940197-1793681943206.jpg",
-   "link": "https://vt.tiktok.com/ZS9ytD5F9VvBV-8V7kY/"
   },
   {
    "id": "P1794167754872",
