@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:22:22.042Z",
+ "updatedAt": "2026-11-27T16:23:45.684Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -426,7 +426,8 @@
    "cat": "Thời Trang Nữ",
    "price": 126000,
    "img": "images/P1794163429901-1794163432781.jpg",
-   "link": "https://vt.tiktok.com/ZS9fMd3amq6Ex-GFC4g/"
+   "link": "https://vt.tiktok.com/ZS9fMd3amq6Ex-GFC4g/",
+   "type": "Sơ mi nữ"
   },
   {
    "id": "P1794084556357",
@@ -656,7 +657,8 @@
    "cat": "Thời Trang Nữ",
    "price": 189999,
    "img": "images/P1793768284918-1793768288987.jpg",
-   "link": "https://vt.tiktok.com/ZS9yvttMtWruL-4x4b0/"
+   "link": "https://vt.tiktok.com/ZS9yvttMtWruL-4x4b0/",
+   "type": "Sơ mi nữ"
   },
   {
    "id": "P1794063281957",
@@ -1188,7 +1190,8 @@
    "cat": "Thời Trang Nữ",
    "price": 165000,
    "img": "images/P1793709335768-1793709338839.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynGVQxqcpp-NhqMM/"
+   "link": "https://vt.tiktok.com/ZS9ynGVQxqcpp-NhqMM/",
+   "type": "Sơ mi nữ"
   },
   {
    "id": "P1793979420112",
@@ -1311,7 +1314,8 @@
    "cat": "Thời Trang Nữ",
    "price": 296000,
    "img": "images/P1793708424605-1793708715352.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynp2wn1tUA-OyTt7/"
+   "link": "https://vt.tiktok.com/ZS9ynp2wn1tUA-OyTt7/",
+   "type": "Sơ mi nữ"
   },
   {
    "id": "P1793893155068",
@@ -1352,7 +1356,8 @@
    "cat": "Thời Trang Nữ",
    "price": 140000,
    "img": "images/P1793708025170-1793708028274.jpg",
-   "link": "https://vt.tiktok.com/ZS9yng8dTDu31-nHsEg/"
+   "link": "https://vt.tiktok.com/ZS9yng8dTDu31-nHsEg/",
+   "type": "Sơ mi nữ"
   },
   {
    "id": "P1793891362143",
@@ -1393,7 +1398,8 @@
    "cat": "Thời Trang Nữ",
    "price": 179100,
    "img": "images/P1793707490516-1793707493622.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynq5veqDLV-lkJAt/"
+   "link": "https://vt.tiktok.com/ZS9ynq5veqDLV-lkJAt/",
+   "type": "Sơ mi nữ"
   },
   {
    "id": "P1793889952088",
@@ -1434,7 +1440,8 @@
    "cat": "Thời Trang Nữ",
    "price": 173913,
    "img": "images/P1793706982731-1793706986151.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynVjBKhXbq-76zXk/"
+   "link": "https://vt.tiktok.com/ZS9ynVjBKhXbq-76zXk/",
+   "type": "Sơ mi nữ"
   },
   {
    "id": "P1794715714933",
