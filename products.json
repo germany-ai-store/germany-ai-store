@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:18:28.963Z",
+ "updatedAt": "2026-11-27T16:20:31.253Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -100,7 +100,8 @@
    "cat": "Thời Trang Nữ",
    "price": 147510,
    "img": "images/P1794337054518-1794337057901.jpg",
-   "link": "https://vt.tiktok.com/ZS9fUEpctb1Fp-K4THv/"
+   "link": "https://vt.tiktok.com/ZS9fUEpctb1Fp-K4THv/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1793556923108",
@@ -538,7 +539,8 @@
    "cat": "Thời Trang Nữ",
    "price": 436278,
    "img": "images/P1794159938644-1794162126392.jpg",
-   "link": "https://vt.tiktok.com/ZS9f63ehUKx7Y-H8PsU/"
+   "link": "https://vt.tiktok.com/ZS9f63ehUKx7Y-H8PsU/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1794068620699",
@@ -595,7 +597,8 @@
    "cat": "Thời Trang Nữ",
    "price": 436278,
    "img": "images/P1794159624342-1794159627222.jpg",
-   "link": "https://vt.tiktok.com/ZS9f6c81SpwKf-B9JbI/"
+   "link": "https://vt.tiktok.com/ZS9f6c81SpwKf-B9JbI/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1794067988622",
@@ -858,7 +861,8 @@
    "cat": "Thời Trang Nữ",
    "price": 197900,
    "img": "images/P1793725787596-1793725790999.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWXL4g8ByJ-z9ILc/"
+   "link": "https://vt.tiktok.com/ZS9yWXL4g8ByJ-z9ILc/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1794059887576",
@@ -907,7 +911,8 @@
    "cat": "Thời Trang Nữ",
    "price": 234600,
    "img": "images/P1793725261113-1793725265884.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWQqmQsTsY-71Hu5/"
+   "link": "https://vt.tiktok.com/ZS9yWQqmQsTsY-71Hu5/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1794058842315",
@@ -956,7 +961,8 @@
    "cat": "Thời Trang Nữ",
    "price": 232276,
    "img": "images/P1793724450616-1793724456699.jpg",
-   "link": "https://vt.tiktok.com/ZS9yW9ycn5bD9-SrWWp/"
+   "link": "https://vt.tiktok.com/ZS9yW9ycn5bD9-SrWWp/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1794058261774",
@@ -1005,7 +1011,8 @@
    "cat": "Thời Trang Nữ",
    "price": 267628,
    "img": "images/P1793723699339-1793723702257.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWuM5t2sVs-XAWJX/"
+   "link": "https://vt.tiktok.com/ZS9yWuM5t2sVs-XAWJX/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1794057652176",
@@ -1054,7 +1061,8 @@
    "cat": "Thời Trang Nữ",
    "price": 259200,
    "img": "images/P1793723304858-1793723707151.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWmLMFmHFA-GdkBS/"
+   "link": "https://vt.tiktok.com/ZS9yWmLMFmHFA-GdkBS/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1794050221293",
@@ -1095,7 +1103,8 @@
    "cat": "Thời Trang Nữ",
    "price": 323350,
    "img": "images/P1793722904300-1793722907316.jpg",
-   "link": "https://vt.tiktok.com/ZS9yW5E1pdwxX-JiSZ7/"
+   "link": "https://vt.tiktok.com/ZS9yW5E1pdwxX-JiSZ7/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1793983626194",
@@ -1136,7 +1145,8 @@
    "cat": "Thời Trang Nữ",
    "price": 159390,
    "img": "images/P1793722551565-1793722554697.jpg",
-   "link": "https://vt.tiktok.com/ZS9yWPEm7EUT3-8x8HK/"
+   "link": "https://vt.tiktok.com/ZS9yWPEm7EUT3-8x8HK/",
+   "type": "Váy đầm"
   },
   {
    "id": "P1793981527684",
