@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T06:15:56.600Z",
+ "updatedAt": "2026-11-27T06:17:36.155Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -51,7 +51,8 @@
    "cat": "Thời Trang Nam",
    "price": 303761,
    "img": "images/P1794492213973-1794492218421.jpg",
-   "link": "https://vt.tiktok.com/ZS9fHwuxcoMva-B5srr/"
+   "link": "https://vt.tiktok.com/ZS9fHwuxcoMva-B5srr/",
+   "type": "Áo khoác"
   },
   {
    "id": "P1794374885694",
@@ -278,7 +279,8 @@
    "cat": "Thời Trang Nam",
    "price": 387345,
    "img": "images/P1794288135950-1794288138928.jpg",
-   "link": "https://vt.tiktok.com/ZS9fA54gCwL3c-ggL4K/"
+   "link": "https://vt.tiktok.com/ZS9fA54gCwL3c-ggL4K/",
+   "type": "Áo khoác"
   },
   {
    "id": "P1794336093853",
@@ -614,7 +616,8 @@
    "cat": "Thời Trang Nam",
    "price": 1057616,
    "img": "images/P1794154796200-1794154799137.jpg",
-   "link": "https://vt.tiktok.com/ZS9f6XPU2rfBG-qPQ2q/"
+   "link": "https://vt.tiktok.com/ZS9f6XPU2rfBG-qPQ2q/",
+   "type": "Áo khoác"
   },
   {
    "id": "P1794159624342",
@@ -1767,7 +1770,8 @@
    "cat": "Thời Trang Nam",
    "price": 303761,
    "img": "images/P1794492641618-1794492644654.jpg",
-   "link": "https://vt.tiktok.com/ZS9fHKbggt2Ls-shUy3/"
+   "link": "https://vt.tiktok.com/ZS9fHKbggt2Ls-shUy3/",
+   "type": "Áo khoác"
   },
   {
    "id": "P1793662644319",
@@ -1791,7 +1795,8 @@
    "cat": "Thời Trang Nam",
    "price": 312550,
    "img": "images/P1794493580455-1794493583574.jpg",
-   "link": "https://vt.tiktok.com/ZS9f91MMApUxX-rw3UZ/"
+   "link": "https://vt.tiktok.com/ZS9f91MMApUxX-rw3UZ/",
+   "type": "Áo khoác"
   },
   {
    "id": "P1794496049073",
