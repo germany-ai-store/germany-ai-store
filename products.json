@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:35:08.149Z",
+ "updatedAt": "2026-11-27T20:03:42.715Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -151,15 +151,6 @@
    "price": 76000,
    "img": "images/P1794585771149-1794585774138.jpg",
    "link": "https://vt.tiktok.com/ZS9fXpUq6hxEu-n6hjg/"
-  },
-  {
-   "id": "P1793661531092",
-   "name": "Áo Phao V Trơn, Lót 3D Cao Cấp Sang Trọng, Tháo Được Mũ",
-   "cat": "Thời Trang Nam",
-   "price": 520000,
-   "img": "images/P1793661531092-1793661534615.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGBgVLjXyM-accgH/",
-   "type": "Áo khoác"
   },
   {
    "id": "P1794805350770",
