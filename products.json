@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T06:31:01.976Z",
+ "updatedAt": "2026-11-27T06:32:04.376Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -57,11 +57,11 @@
   {
    "id": "P1794374885694",
    "name": "Áo Phao Béo Nam Nữ TNT’S Cổ Cao Chần Bông 3 Lớp",
-   "cat": "Thời Trang Nữ",
+   "cat": "Thời Trang Nam",
+   "type": "Áo khoác",
    "price": 239000,
    "img": "images/P1794374885694-1794374889415.jpg",
-   "link": "https://vt.tiktok.com/ZS9ffTQedpD73-Gq9c8/",
-   "type": "Áo khoác"
+   "link": "https://vt.tiktok.com/ZS9ffTQedpD73-Gq9c8/"
   },
   {
    "id": "P1793888018041",
