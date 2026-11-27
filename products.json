@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:27:20.825Z",
+ "updatedAt": "2026-11-27T16:27:28.846Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -1942,15 +1942,6 @@
    "type": "Quần nam"
   },
   {
-   "id": "P1794804863451",
-   "name": "Quần jeans baggy thêu chữ nổi dáng baggy  size S-5XL",
-   "cat": "Thời Trang Nữ",
-   "price": 175000,
-   "img": "images/P1794804863451-1794804869828.jpg",
-   "link": "https://vt.tiktok.com/ZS9fWEU4qhwfE-9TjWS/",
-   "type": "Quần nữ"
-  },
-  {
    "id": "P1794165069258",
    "name": "Chổi Quét Nhà OKwife AGW-4486, Chổi Quét Nhà Thông",
    "cat": "Gia Dụng",
@@ -1966,15 +1957,6 @@
    "img": "images/P1794753220941-1794753224344.jpg",
    "link": "https://vt.tiktok.com/ZS9ftB4wNbSM3-hVL9k/",
    "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1794805206988",
-   "name": "2.D18 [ Lên Nguyễn Store ] Quần Jean (Bò) Nữ, Lưng C",
-   "cat": "Thời Trang Nữ",
-   "price": 258999,
-   "img": "images/P1794805206988-1794805209862.jpg",
-   "link": "https://vt.tiktok.com/ZS9fWok9KfFkw-nT2Ej/",
-   "type": "Quần nữ"
   },
   {
    "id": "P1795349668319",
@@ -1994,15 +1976,6 @@
    "type": "Áo sơ mi"
   },
   {
-   "id": "P1794805350770",
-   "name": "Lên Nguyễn Store Quần Jean Nữ Dài Xám Rách/ Xám Trơn",
-   "cat": "Thời Trang Nữ",
-   "price": 228999,
-   "img": "images/P1794805350770-1794805353649.jpg",
-   "link": "https://vt.tiktok.com/ZS9fWovoVagrr-JrA62/",
-   "type": "Quần nữ"
-  },
-  {
    "id": "P1795349842548",
    "name": "Ổ Chia Điện Thông Minh Đa Năng 2500W Hotech Chống",
    "cat": "Gia Dụng",
@@ -2020,15 +1993,6 @@
    "type": "Áo sơ mi"
   },
   {
-   "id": "P1794829108252",
-   "name": "[ BigSize Hàng Cao Cấp ] Quần Jogger Hàng Umi Hàn C",
-   "cat": "Thời Trang Nữ",
-   "price": 129500,
-   "img": "images/P1794829108252-1794829112875.jpg",
-   "link": "https://vt.tiktok.com/ZS9fvjpVkPPV5-6pZex/",
-   "type": "Quần nữ"
-  },
-  {
    "id": "P1795710829680",
    "name": "Kéo Cắt Gà Cộng Lực Đa Năng Cao Cấp KingKong Nhật",
    "cat": "Gia Dụng",
@@ -2044,15 +2008,6 @@
    "img": "images/P1794754519364-1794754764835.jpg",
    "link": "https://vt.tiktok.com/ZS9ftU5pGPvUS-nPT4W/",
    "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1795451065517",
-   "name": "( Deal Mở Bán Bí In Chữ Vàng) Quần Jean Ông Thụng Ô",
-   "cat": "Thời Trang Nữ",
-   "price": 204585,
-   "img": "images/P1795451065517-1795451896465.jpg",
-   "link": "https://vt.tiktok.com/ZS9PPLf7MUNQp-yEmyk/",
-   "type": "Quần nữ"
   },
   {
    "id": "P1794754842458",
@@ -2082,15 +2037,6 @@
    "type": "Áo khoác"
   },
   {
-   "id": "P1795539241459",
-   "name": "Quần Jogger UNISEX Vải Thun Chân Cua co giãn màu đen",
-   "cat": "Thời Trang Nữ",
-   "price": 137999,
-   "img": "images/P1795539241459-1795539244997.jpg",
-   "link": "https://vt.tiktok.com/ZS9Pu4PHpxJtN-XKNam/",
-   "type": "Quần nữ"
-  },
-  {
    "id": "P1795539199221",
    "name": "Quần Jogger UNISEX Vải Thun Chân Cua co giãn màu đen",
    "cat": "Thời Trang Nam",
@@ -2107,6 +2053,60 @@
    "img": "images/P1795648079654-1795648953857.jpg",
    "link": "https://vt.tiktok.com/ZS9PX6rHEdyEQ-ELF3M/",
    "type": "Bộ nỉ"
+  },
+  {
+   "id": "P1794804863451",
+   "name": "Quần jeans baggy thêu chữ nổi dáng baggy  size S-5XL",
+   "cat": "Thời Trang Nữ",
+   "price": 175000,
+   "img": "images/P1794804863451-1794804869828.jpg",
+   "link": "https://vt.tiktok.com/ZS9fWEU4qhwfE-9TjWS/",
+   "type": "Quần nữ"
+  },
+  {
+   "id": "P1794805206988",
+   "name": "2.D18 [ Lên Nguyễn Store ] Quần Jean (Bò) Nữ, Lưng C",
+   "cat": "Thời Trang Nữ",
+   "price": 258999,
+   "img": "images/P1794805206988-1794805209862.jpg",
+   "link": "https://vt.tiktok.com/ZS9fWok9KfFkw-nT2Ej/",
+   "type": "Quần nữ"
+  },
+  {
+   "id": "P1794805350770",
+   "name": "Lên Nguyễn Store Quần Jean Nữ Dài Xám Rách/ Xám Trơn",
+   "cat": "Thời Trang Nữ",
+   "price": 228999,
+   "img": "images/P1794805350770-1794805353649.jpg",
+   "link": "https://vt.tiktok.com/ZS9fWovoVagrr-JrA62/",
+   "type": "Quần nữ"
+  },
+  {
+   "id": "P1794829108252",
+   "name": "[ BigSize Hàng Cao Cấp ] Quần Jogger Hàng Umi Hàn C",
+   "cat": "Thời Trang Nữ",
+   "price": 129500,
+   "img": "images/P1794829108252-1794829112875.jpg",
+   "link": "https://vt.tiktok.com/ZS9fvjpVkPPV5-6pZex/",
+   "type": "Quần nữ"
+  },
+  {
+   "id": "P1795451065517",
+   "name": "( Deal Mở Bán Bí In Chữ Vàng) Quần Jean Ông Thụng Ô",
+   "cat": "Thời Trang Nữ",
+   "price": 204585,
+   "img": "images/P1795451065517-1795451896465.jpg",
+   "link": "https://vt.tiktok.com/ZS9PPLf7MUNQp-yEmyk/",
+   "type": "Quần nữ"
+  },
+  {
+   "id": "P1795539241459",
+   "name": "Quần Jogger UNISEX Vải Thun Chân Cua co giãn màu đen",
+   "cat": "Thời Trang Nữ",
+   "price": 137999,
+   "img": "images/P1795539241459-1795539244997.jpg",
+   "link": "https://vt.tiktok.com/ZS9Pu4PHpxJtN-XKNam/",
+   "type": "Quần nữ"
   }
  ]
 }
