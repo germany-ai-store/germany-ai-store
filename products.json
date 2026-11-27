@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:26:08.368Z",
+ "updatedAt": "2026-11-27T16:26:32.903Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -18,6 +18,114 @@
   "zalo": "0968994164"
  },
  "products": [
+  {
+   "id": "P1794162954640",
+   "name": "Áo Polo Nữ VIFA cotton cao cấp nhiều màu Women Top",
+   "cat": "Thời Trang Nữ",
+   "price": 100000,
+   "img": "images/P1794162954640-1794162957704.jpg",
+   "link": "https://vt.tiktok.com/ZS9fMeaMbCpG2-azJye/",
+   "type": "Áo thun nữ"
+  },
+  {
+   "id": "P1793708979046",
+   "name": "Áo Polo Nữ Thun cotton VIFA sang xịn mịn phối cổ đẹp",
+   "cat": "Thời Trang Nữ",
+   "price": 135000,
+   "img": "images/P1793708979046-1793708982013.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynsbJMtP2F-JGH5t/",
+   "type": "Áo thun nữ"
+  },
+  {
+   "id": "P1793708708660",
+   "name": "Áo Lụa Tay Cánh Dơi lụa Cao Cấp Thiết Kế Thắt Nơ Eo",
+   "cat": "Thời Trang Nữ",
+   "price": 173880,
+   "img": "images/P1793708708660-1793708711814.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynpEgTjUnG-3ZLYc/",
+   "type": "Áo thun nữ"
+  },
+  {
+   "id": "P1793705885141",
+   "name": "[DEAL MỞ BÁN] Áo Thun Nữ Croptop Baby Tee",
+   "cat": "Thời Trang Nữ",
+   "price": 89000,
+   "img": "images/P1793705885141-1793707340061.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynQTWaXXn5-CO4qu/",
+   "type": "Áo thun nữ"
+  },
+  {
+   "id": "P1793705450203",
+   "name": "Áo Thun Nữ cổ Chéo MUNCCI ATA008 Nhiều Màu",
+   "cat": "Thời Trang Nữ",
+   "price": 82451,
+   "img": "images/P1793705450203-1793705453293.jpg",
+   "link": "https://vt.tiktok.com/ZS9ynxtdggVf9-7vyjJ/",
+   "type": "Áo thun nữ"
+  },
+  {
+   "id": "P1793704847991",
+   "name": "Áo thun nữ 2 mặt giọt nước và cổ U - vải thun",
+   "cat": "Thời Trang Nữ",
+   "price": 98000,
+   "img": "images/P1793704847991-1793704851504.jpg",
+   "link": "https://vt.tiktok.com/ZS9yn9LrNLem2-xCvI9/",
+   "type": "Áo thun nữ"
+  },
+  {
+   "id": "P1793682115903",
+   "name": "HTIQUE  - DEAL mở bán Áo Len Polo Nữ Tay Ngắn Form",
+   "cat": "Thời Trang Nữ",
+   "price": 206099,
+   "img": "images/P1793682115903-1795101536387.jpg",
+   "link": "https://vt.tiktok.com/ZS9ytUrjQdVX6-F6O3W/",
+   "type": "Áo thun nữ"
+  },
+  {
+   "id": "P1793681631973",
+   "name": "[Mã 23] ÁO THUN NỮ ÔM SÁT NÁCH CỔ LỌ - CHẤT VẢI",
+   "cat": "Thời Trang Nữ",
+   "price": 97020,
+   "img": "images/P1793681631973-1793681635086.jpg",
+   "link": "https://vt.tiktok.com/ZS9ytAmhWGGPh-Lgcvn/",
+   "type": "Áo thun nữ"
+  },
+  {
+   "id": "P1793667622434",
+   "name": "Áo 2Dây Thun Zip Cổ Vuông Dáng Ôm Phối Khuy Thời Trang",
+   "cat": "Thời Trang Nữ",
+   "price": 116000,
+   "img": "images/P1793667622434-1793681341485.jpg",
+   "link": "https://vt.tiktok.com/ZS9yG4rqdAaSQ-1RZ1P/",
+   "type": "Áo thun nữ"
+  },
+  {
+   "id": "P1793666899177",
+   "name": "[MÀU MỚI THU ĐÔNG] Áo Thun Tay Lửng Nữ VSS Cổ Tròn",
+   "cat": "Thời Trang Nữ",
+   "price": 109000,
+   "img": "images/P1793666899177-1793666902138.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGQoCABTWe-7QPOS/",
+   "type": "Áo thun nữ"
+  },
+  {
+   "id": "P1793663060853",
+   "name": "(BÁN CHẠY) Áo Thun dáng babytee có size 35kg đến 70kg",
+   "cat": "Thời Trang Nữ",
+   "price": 120000,
+   "img": "images/P1793663060853-1793663064447.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGUwmX3n5N-UhK6L/",
+   "type": "Áo thun nữ"
+  },
+  {
+   "id": "P1793662644319",
+   "name": "Áo Thun Nữ MiSoul Thêu Chữ KARIN Cotton Mats Mịn",
+   "cat": "Thời Trang Nữ",
+   "price": 98950,
+   "img": "images/P1793662644319-1793662647857.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGDuf1AtLd-R1b6A/",
+   "type": "Áo thun nữ"
+  },
   {
    "id": "P1794337739774",
    "name": "Áo nỉ sweater thêu cún PUPPY - áo nỉ bông Unisex dài tay",
@@ -549,15 +657,6 @@
    "img": "images/P1794288135950-1794288138928.jpg",
    "link": "https://vt.tiktok.com/ZS9fA54gCwL3c-ggL4K/",
    "type": "Áo khoác"
-  },
-  {
-   "id": "P1794162954640",
-   "name": "Áo Polo Nữ VIFA cotton cao cấp nhiều màu Women Top",
-   "cat": "Thời Trang Nữ",
-   "price": 100000,
-   "img": "images/P1794162954640-1794162957704.jpg",
-   "link": "https://vt.tiktok.com/ZS9fMeaMbCpG2-azJye/",
-   "type": "Áo thun nữ"
   },
   {
    "id": "P1794083407943",
@@ -1283,15 +1382,6 @@
    "type": "Áo sơ mi"
   },
   {
-   "id": "P1793708979046",
-   "name": "Áo Polo Nữ Thun cotton VIFA sang xịn mịn phối cổ đẹp",
-   "cat": "Thời Trang Nữ",
-   "price": 135000,
-   "img": "images/P1793708979046-1793708982013.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynsbJMtP2F-JGH5t/",
-   "type": "Áo thun nữ"
-  },
-  {
    "id": "P1793976750231",
    "name": "Giày Nam Sneaker Vải Da Bò Balance Retro QC-1",
    "cat": "Giày dép",
@@ -1323,15 +1413,6 @@
    "img": "images/P1793567013902-1793567017303.jpg",
    "link": "https://vt.tiktok.com/ZS9yqaRoo12bH-aG38U/",
    "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793708708660",
-   "name": "Áo Lụa Tay Cánh Dơi lụa Cao Cấp Thiết Kế Thắt Nơ Eo",
-   "cat": "Thời Trang Nữ",
-   "price": 173880,
-   "img": "images/P1793708708660-1793708711814.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynpEgTjUnG-3ZLYc/",
-   "type": "Áo thun nữ"
   },
   {
    "id": "P1793898029523",
@@ -1568,15 +1649,6 @@
    "type": "Áo thun"
   },
   {
-   "id": "P1793705885141",
-   "name": "[DEAL MỞ BÁN] Áo Thun Nữ Croptop Baby Tee",
-   "cat": "Thời Trang Nữ",
-   "price": 89000,
-   "img": "images/P1793705885141-1793707340061.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynQTWaXXn5-CO4qu/",
-   "type": "Áo thun nữ"
-  },
-  {
    "id": "P1794929137566",
    "name": "( Giày cao ) Giày thể thao đế cao quen hàng full hộp nữ",
    "cat": "Giày dép",
@@ -1608,15 +1680,6 @@
    "img": "images/P1793551928198-1793551933775.jpg",
    "link": "https://vt.tiktok.com/ZS9yVqK6b5LaF-Yo2OS/",
    "type": "Áo thun"
-  },
-  {
-   "id": "P1793705450203",
-   "name": "Áo Thun Nữ cổ Chéo MUNCCI ATA008 Nhiều Màu",
-   "cat": "Thời Trang Nữ",
-   "price": 82451,
-   "img": "images/P1793705450203-1793705453293.jpg",
-   "link": "https://vt.tiktok.com/ZS9ynxtdggVf9-7vyjJ/",
-   "type": "Áo thun nữ"
   },
   {
    "id": "P1795444826452",
@@ -1652,15 +1715,6 @@
    "type": "Áo thun"
   },
   {
-   "id": "P1793704847991",
-   "name": "Áo thun nữ 2 mặt giọt nước và cổ U - vải thun",
-   "cat": "Thời Trang Nữ",
-   "price": 98000,
-   "img": "images/P1793704847991-1793704851504.jpg",
-   "link": "https://vt.tiktok.com/ZS9yn9LrNLem2-xCvI9/",
-   "type": "Áo thun nữ"
-  },
-  {
    "id": "P1794393824217",
    "name": "[ SIÊU SALE ] Bộ 6-9-12 hộp lạnh nhựa PP đựng thực phẩm",
    "cat": "Gia Dụng",
@@ -1684,15 +1738,6 @@
    "img": "images/P1793549843242-1793552187990.jpg",
    "link": "https://vt.tiktok.com/ZS9yVQbEQ8c6D-FCMyi/",
    "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793682115903",
-   "name": "HTIQUE  - DEAL mở bán Áo Len Polo Nữ Tay Ngắn Form",
-   "cat": "Thời Trang Nữ",
-   "price": 206099,
-   "img": "images/P1793682115903-1795101536387.jpg",
-   "link": "https://vt.tiktok.com/ZS9ytUrjQdVX6-F6O3W/",
-   "type": "Áo thun nữ"
   },
   {
    "id": "P1794226092055",
@@ -1754,15 +1799,6 @@
    "type": "Áo sơ mi"
   },
   {
-   "id": "P1793681631973",
-   "name": "[Mã 23] ÁO THUN NỮ ÔM SÁT NÁCH CỔ LỌ - CHẤT VẢI",
-   "cat": "Thời Trang Nữ",
-   "price": 97020,
-   "img": "images/P1793681631973-1793681635086.jpg",
-   "link": "https://vt.tiktok.com/ZS9ytAmhWGGPh-Lgcvn/",
-   "type": "Áo thun nữ"
-  },
-  {
    "id": "P1794167453032",
    "name": "Cây Lau Kính OKwife HD-7309, Cây Gạt Kính Lau Kính Đa",
    "cat": "Gia Dụng",
@@ -1788,15 +1824,6 @@
    "type": "Áo sơ mi"
   },
   {
-   "id": "P1793667622434",
-   "name": "Áo 2Dây Thun Zip Cổ Vuông Dáng Ôm Phối Khuy Thời Trang",
-   "cat": "Thời Trang Nữ",
-   "price": 116000,
-   "img": "images/P1793667622434-1793681341485.jpg",
-   "link": "https://vt.tiktok.com/ZS9yG4rqdAaSQ-1RZ1P/",
-   "type": "Áo thun nữ"
-  },
-  {
    "id": "P1794167213743",
    "name": "Cây Lai Bếp Mini KITIMOP KTM-20, Cây Lau Bếp Tự Vắt",
    "cat": "Gia Dụng",
@@ -1820,15 +1847,6 @@
    "img": "images/P1793547039931-1793552299749.jpg",
    "link": "https://vt.tiktok.com/ZS9yVPNLktNSU-pu7eZ/",
    "type": "Áo sơ mi"
-  },
-  {
-   "id": "P1793666899177",
-   "name": "[MÀU MỚI THU ĐÔNG] Áo Thun Tay Lửng Nữ VSS Cổ Tròn",
-   "cat": "Thời Trang Nữ",
-   "price": 109000,
-   "img": "images/P1793666899177-1793666902138.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGQoCABTWe-7QPOS/",
-   "type": "Áo thun nữ"
   },
   {
    "id": "P1794166790840",
@@ -1873,15 +1891,6 @@
    "type": "Áo sơ mi"
   },
   {
-   "id": "P1793663060853",
-   "name": "(BÁN CHẠY) Áo Thun dáng babytee có size 35kg đến 70kg",
-   "cat": "Thời Trang Nữ",
-   "price": 120000,
-   "img": "images/P1793663060853-1793663064447.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGUwmX3n5N-UhK6L/",
-   "type": "Áo thun nữ"
-  },
-  {
    "id": "P1794166099372",
    "name": "Bộ Cây Lau Nhà Tự Vắt KITIMOP SM33 PRO, Thùng Lau",
    "cat": "Gia Dụng",
@@ -1897,15 +1906,6 @@
    "img": "images/P1794492641618-1794492644654.jpg",
    "link": "https://vt.tiktok.com/ZS9fHKbggt2Ls-shUy3/",
    "type": "Áo khoác"
-  },
-  {
-   "id": "P1793662644319",
-   "name": "Áo Thun Nữ MiSoul Thêu Chữ KARIN Cotton Mats Mịn",
-   "cat": "Thời Trang Nữ",
-   "price": 98950,
-   "img": "images/P1793662644319-1793662647857.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGDuf1AtLd-R1b6A/",
-   "type": "Áo thun nữ"
   },
   {
    "id": "P1794165794911",
