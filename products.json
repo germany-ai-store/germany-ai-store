@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T06:12:53.242Z",
+ "updatedAt": "2026-11-27T06:13:14.468Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -18,6 +18,14 @@
   "zalo": "0968994164"
  },
  "products": [
+  {
+   "id": "P1793569599976",
+   "name": "Áo Khoác Gió Bamber Lót Trần Bông 2 Lớp Cản Gió Chống Nước",
+   "cat": "Thời Trang Nam",
+   "price": 195699,
+   "img": "images/P1793569599976-1793569603115.jpg",
+   "link": "https://vt.tiktok.com/ZS9yqCkrde9cd-7Nq4t/"
+  },
   {
    "id": "P1793661531092",
    "name": "Áo Phao V Trơn, Lót 3D Cao Cấp Sang Trọng, Tháo Được Mũ",
@@ -1089,14 +1097,6 @@
    "price": 214797,
    "img": "images/P1794748531302-1794748534314.jpg",
    "link": "https://vt.tiktok.com/ZS9ftR9FhdR3E-mQ7Ue/"
-  },
-  {
-   "id": "P1793569599976",
-   "name": "Áo Khoác Gió Bamber Lót Trần Bông 2 Lớp Cản Gió Chống Nước",
-   "cat": "Thời Trang Nam",
-   "price": 195699,
-   "img": "images/P1793569599976-1793569603115.jpg",
-   "link": "https://vt.tiktok.com/ZS9yqCkrde9cd-7Nq4t/"
   },
   {
    "id": "P1793722551565",
