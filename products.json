@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:29:48.510Z",
+ "updatedAt": "2026-11-27T16:30:33.701Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -18,6 +18,114 @@
   "zalo": "0968994164"
  },
  "products": [
+  {
+   "id": "P1793569272557",
+   "name": "Áo Bomber Dạ kéo 2 lớp CATIMA Unixex Hotrend 2025 AV 51",
+   "cat": "Thời Trang Nam",
+   "price": 395999,
+   "img": "images/P1793569272557-1793569275813.jpg",
+   "link": "https://vt.tiktok.com/ZS9yqQyb4F4fD-2SoLK/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1793569599976",
+   "name": "Áo Khoác Gió Bamber Lót Trần Bông 2 Lớp Cản Gió Chống Nước",
+   "cat": "Thời Trang Nam",
+   "price": 195699,
+   "img": "images/P1793569599976-1793569603115.jpg",
+   "link": "https://vt.tiktok.com/ZS9yqCkrde9cd-7Nq4t/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1793661531092",
+   "name": "Áo Phao V Trơn, Lót 3D Cao Cấp Sang Trọng, Tháo Được Mũ",
+   "cat": "Thời Trang Nam",
+   "price": 520000,
+   "img": "images/P1793661531092-1793661534615.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGBgVLjXyM-accgH/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794492213973",
+   "name": "Áo Khoác Bomber Trần Bông 3 Lớp Hoạ Tiết Công - Th",
+   "cat": "Thời Trang Nam",
+   "price": 303761,
+   "img": "images/P1794492213973-1794492218421.jpg",
+   "link": "https://vt.tiktok.com/ZS9fHwuxcoMva-B5srr/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794310901570",
+   "name": "ÁO KHOÁC PILOT ALPHA BOMBER NAM NHIỀU HÌNH",
+   "cat": "Thời Trang Nam",
+   "price": 1200000,
+   "img": "images/P1794310901570-1794310904426.jpg",
+   "link": "https://vt.tiktok.com/ZS9fD412aRWE6-Bw5ju/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794311417204",
+   "name": "ÁO KHOÁC PILOT TRẦN BÔNG 3 LỚP 726",
+   "cat": "Thời Trang Nam",
+   "price": 1850000,
+   "img": "images/P1794311417204-1794311420080.jpg",
+   "link": "https://vt.tiktok.com/ZS9fDV64RgCAH-5PxMc/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794288332065",
+   "name": "Áo Khoác Bomber Gió Latis MK CLEVER, Áo Khoác Vải",
+   "cat": "Thời Trang Nam",
+   "price": 480000,
+   "img": "images/P1794288332065-1794288334983.jpg",
+   "link": "https://vt.tiktok.com/ZS9fAar1xRpa5-JhXly/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794288135950",
+   "name": "Áo Khoác Bomber NIGHTFALL MK CLEVER Vải Gió Mịn",
+   "cat": "Thời Trang Nam",
+   "price": 387345,
+   "img": "images/P1794288135950-1794288138928.jpg",
+   "link": "https://vt.tiktok.com/ZS9fA54gCwL3c-ggL4K/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794154796200",
+   "name": "[ JEAN DENIM GUANGZHOU ] Áo Khoác Jean Xanh Mài",
+   "cat": "Thời Trang Nam",
+   "price": 1057616,
+   "img": "images/P1794154796200-1794154799137.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6XPU2rfBG-qPQ2q/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794492641618",
+   "name": "Áo Khoác Bomber Trần Bông 3 Lớp Hoạ Tiết Vương Miện -",
+   "cat": "Thời Trang Nam",
+   "price": 303761,
+   "img": "images/P1794492641618-1794492644654.jpg",
+   "link": "https://vt.tiktok.com/ZS9fHKbggt2Ls-shUy3/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794493580455",
+   "name": "Áo Khoác Gió Nam 2 Lớp Hoạ Tiết Sư Tử New 2027",
+   "cat": "Thời Trang Nam",
+   "price": 312550,
+   "img": "images/P1794493580455-1794493583574.jpg",
+   "link": "https://vt.tiktok.com/ZS9f91MMApUxX-rw3UZ/",
+   "type": "Áo khoác"
+  },
+  {
+   "id": "P1794935867295",
+   "name": "AK566 Áo khoác mùa đông trần phao cho nam in hình 3d",
+   "cat": "Thời Trang Nam",
+   "price": 308000,
+   "img": "images/P1794935867295-1794935870170.jpg",
+   "link": "https://vt.tiktok.com/ZS9fKqKKcvDhu-EOdvd/",
+   "type": "Áo khoác"
+  },
   {
    "id": "P1793659484984",
    "name": "Bộ quần áo thể thao nam chất liệu vải nỉ ép 2 da kẻ sọc vai",
@@ -820,15 +928,6 @@
    "type": "Áo dài tay"
   },
   {
-   "id": "P1793569272557",
-   "name": "Áo Bomber Dạ kéo 2 lớp CATIMA Unixex Hotrend 2025 AV 51",
-   "cat": "Thời Trang Nam",
-   "price": 395999,
-   "img": "images/P1793569272557-1793569275813.jpg",
-   "link": "https://vt.tiktok.com/ZS9yqQyb4F4fD-2SoLK/",
-   "type": "Áo khoác"
-  },
-  {
    "id": "P1794374885694",
    "name": "Áo Phao Béo Nam Nữ TNT’S Cổ Cao Chần Bông 3 Lớp",
    "cat": "Đồ đôi & Unisex",
@@ -876,15 +975,6 @@
    "price": 178000,
    "img": "images/P1794585556104-1794585559261.jpg",
    "link": "https://vt.tiktok.com/ZS9fXgsceAGPR-eLuRZ/"
-  },
-  {
-   "id": "P1793569599976",
-   "name": "Áo Khoác Gió Bamber Lót Trần Bông 2 Lớp Cản Gió Chống Nước",
-   "cat": "Thời Trang Nam",
-   "price": 195699,
-   "img": "images/P1793569599976-1793569603115.jpg",
-   "link": "https://vt.tiktok.com/ZS9yqCkrde9cd-7Nq4t/",
-   "type": "Áo khoác"
   },
   {
    "id": "P1793556923108",
@@ -936,15 +1026,6 @@
    "link": "https://vt.tiktok.com/ZS9fXpUq6hxEu-n6hjg/"
   },
   {
-   "id": "P1793661531092",
-   "name": "Áo Phao V Trơn, Lót 3D Cao Cấp Sang Trọng, Tháo Được Mũ",
-   "cat": "Thời Trang Nam",
-   "price": 520000,
-   "img": "images/P1793661531092-1793661534615.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGBgVLjXyM-accgH/",
-   "type": "Áo khoác"
-  },
-  {
    "id": "P1795538688631",
    "name": "Áo Sweater UNISEX Nam Nữ In hình dễ thương Form 40",
    "cat": "Đồ đôi & Unisex",
@@ -992,15 +1073,6 @@
    "price": 69000,
    "img": "images/P1794585995503-1794585998873.jpg",
    "link": "https://vt.tiktok.com/ZS9fXs1NKcGoj-M0zi6/"
-  },
-  {
-   "id": "P1794492213973",
-   "name": "Áo Khoác Bomber Trần Bông 3 Lớp Hoạ Tiết Công - Th",
-   "cat": "Thời Trang Nam",
-   "price": 303761,
-   "img": "images/P1794492213973-1794492218421.jpg",
-   "link": "https://vt.tiktok.com/ZS9fHwuxcoMva-B5srr/",
-   "type": "Áo khoác"
   },
   {
    "id": "P1795648950559",
@@ -1052,15 +1124,6 @@
    "link": "https://vt.tiktok.com/ZS9fXsy5RJUXE-10SDC/"
   },
   {
-   "id": "P1794310901570",
-   "name": "ÁO KHOÁC PILOT ALPHA BOMBER NAM NHIỀU HÌNH",
-   "cat": "Thời Trang Nam",
-   "price": 1200000,
-   "img": "images/P1794310901570-1794310904426.jpg",
-   "link": "https://vt.tiktok.com/ZS9fD412aRWE6-Bw5ju/",
-   "type": "Áo khoác"
-  },
-  {
    "id": "P1795652206925",
    "name": "Áo Thun Nam Street Dog Club Form Boxy Unisex In Lun",
    "cat": "Đồ đôi & Unisex",
@@ -1110,15 +1173,6 @@
    "link": "https://vt.tiktok.com/ZS9fXspQgRSeB-TEOD8/"
   },
   {
-   "id": "P1794311417204",
-   "name": "ÁO KHOÁC PILOT TRẦN BÔNG 3 LỚP 726",
-   "cat": "Thời Trang Nam",
-   "price": 1850000,
-   "img": "images/P1794311417204-1794311420080.jpg",
-   "link": "https://vt.tiktok.com/ZS9fDV64RgCAH-5PxMc/",
-   "type": "Áo khoác"
-  },
-  {
    "id": "P1794086135290",
    "name": "[GIÀY DÂY BUỘC] Giày Nam Tăng Chiều Cao 6cm SIGOURNEY",
    "cat": "Giày dép",
@@ -1159,15 +1213,6 @@
    "link": "https://vt.tiktok.com/ZS9fXGdChAm35-Kj1TR/"
   },
   {
-   "id": "P1794288332065",
-   "name": "Áo Khoác Bomber Gió Latis MK CLEVER, Áo Khoác Vải",
-   "cat": "Thời Trang Nam",
-   "price": 480000,
-   "img": "images/P1794288332065-1794288334983.jpg",
-   "link": "https://vt.tiktok.com/ZS9fAar1xRpa5-JhXly/",
-   "type": "Áo khoác"
-  },
-  {
    "id": "P1794084556357",
    "name": "Giày Viboots Summer Loafer Da Bò Lộn Lười Nam Mùa Hè",
    "cat": "Giày dép",
@@ -1206,15 +1251,6 @@
    "price": 42000,
    "img": "images/P1794586506961-1794586509977.jpg",
    "link": "https://vt.tiktok.com/ZS9fXGaq3CJXM-AARND/"
-  },
-  {
-   "id": "P1794288135950",
-   "name": "Áo Khoác Bomber NIGHTFALL MK CLEVER Vải Gió Mịn",
-   "cat": "Thời Trang Nam",
-   "price": 387345,
-   "img": "images/P1794288135950-1794288138928.jpg",
-   "link": "https://vt.tiktok.com/ZS9fA54gCwL3c-ggL4K/",
-   "type": "Áo khoác"
   },
   {
    "id": "P1794083407943",
@@ -1439,15 +1475,6 @@
    "price": 78000,
    "img": "images/P1794633238448-1794633241617.jpg",
    "link": "https://vt.tiktok.com/ZS9fqYrNWXEqh-ReqZo/"
-  },
-  {
-   "id": "P1794154796200",
-   "name": "[ JEAN DENIM GUANGZHOU ] Áo Khoác Jean Xanh Mài",
-   "cat": "Thời Trang Nam",
-   "price": 1057616,
-   "img": "images/P1794154796200-1794154799137.jpg",
-   "link": "https://vt.tiktok.com/ZS9f6XPU2rfBG-qPQ2q/",
-   "type": "Áo khoác"
   },
   {
    "id": "P1794060292414",
@@ -2034,30 +2061,12 @@
    "link": "https://vt.tiktok.com/ZS9fMjAhuKwAh-eDJCb/"
   },
   {
-   "id": "P1794492641618",
-   "name": "Áo Khoác Bomber Trần Bông 3 Lớp Hoạ Tiết Vương Miện -",
-   "cat": "Thời Trang Nam",
-   "price": 303761,
-   "img": "images/P1794492641618-1794492644654.jpg",
-   "link": "https://vt.tiktok.com/ZS9fHKbggt2Ls-shUy3/",
-   "type": "Áo khoác"
-  },
-  {
    "id": "P1794165794911",
    "name": "Cây Chà Sàn Nhà Tắm OKwife AGW-3458, Chổi Cọ Sàn",
    "cat": "Gia Dụng",
    "price": 59000,
    "img": "images/P1794165794911-1794165797807.jpg",
    "link": "https://vt.tiktok.com/ZS9fM2H5NJYwb-nvqWM/"
-  },
-  {
-   "id": "P1794493580455",
-   "name": "Áo Khoác Gió Nam 2 Lớp Hoạ Tiết Sư Tử New 2027",
-   "cat": "Thời Trang Nam",
-   "price": 312550,
-   "img": "images/P1794493580455-1794493583574.jpg",
-   "link": "https://vt.tiktok.com/ZS9f91MMApUxX-rw3UZ/",
-   "type": "Áo khoác"
   },
   {
    "id": "P1794165584277",
@@ -2098,15 +2107,6 @@
    "price": 233520,
    "img": "images/P1795710829680-1795710832606.jpg",
    "link": "https://vt.tiktok.com/ZS9PqPB4bMVHg-Iuj5C/"
-  },
-  {
-   "id": "P1794935867295",
-   "name": "AK566 Áo khoác mùa đông trần phao cho nam in hình 3d",
-   "cat": "Thời Trang Nam",
-   "price": 308000,
-   "img": "images/P1794935867295-1794935870170.jpg",
-   "link": "https://vt.tiktok.com/ZS9fKqKKcvDhu-EOdvd/",
-   "type": "Áo khoác"
   }
  ]
 }
