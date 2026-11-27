@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:31:32.790Z",
+ "updatedAt": "2026-11-27T16:31:40.204Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -1341,6 +1341,14 @@
    "link": "https://vt.tiktok.com/ZS9fXtFkpY8Et-nFXiB/"
   },
   {
+   "id": "P1794062238406",
+   "name": "[NE40-IN] GIÀY SNEAKER IN HOẠ TIẾT NESTY [K01]",
+   "cat": "Giày dép",
+   "price": 175000,
+   "img": "images/P1794062238406-1794062241447.jpg",
+   "link": "https://vt.tiktok.com/ZS9fNcL8m2CrJ-wEgoz/"
+  },
+  {
    "id": "P1794067988622",
    "name": "Giày bốt nữ cổ lửng khoá cạnh phối khuy cá tính da PU",
    "cat": "Giày dép",
@@ -1443,14 +1451,6 @@
    "price": 189000,
    "img": "images/P1794633052394-1794633141599.jpg",
    "link": "https://vt.tiktok.com/ZS9fqFq4GP8nN-MYyPC/"
-  },
-  {
-   "id": "P1794062238406",
-   "name": "[NE40-IN] GIÀY SNEAKER IN HOẠ TIẾT NESTY [K01]",
-   "cat": "Giày dép",
-   "price": 175000,
-   "img": "images/P1794062238406-1794062241447.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNcL8m2CrJ-wEgoz/"
   },
   {
    "id": "P1794077341797",
