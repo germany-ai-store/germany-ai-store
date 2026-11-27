@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T06:22:59.037Z",
+ "updatedAt": "2026-11-27T06:24:02.229Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -858,7 +858,8 @@
    "cat": "Thời Trang Nam",
    "price": 287100,
    "img": "images/P1793659484984-1793659488192.jpg",
-   "link": "https://vt.tiktok.com/ZS9yG68gSth4B-V9iqN/"
+   "link": "https://vt.tiktok.com/ZS9yG68gSth4B-V9iqN/",
+   "type": "Bộ nỉ"
   },
   {
    "id": "P1793725787596",
@@ -954,7 +955,8 @@
    "cat": "Thời Trang Nam",
    "price": 236295,
    "img": "images/P1793657223989-1793657227227.jpg",
-   "link": "https://vt.tiktok.com/ZS9yG89pYQWA9-681Xg/"
+   "link": "https://vt.tiktok.com/ZS9yG89pYQWA9-681Xg/",
+   "type": "Bộ nỉ"
   },
   {
    "id": "P1793724450616",
@@ -2014,7 +2016,7 @@
    "price": 175750,
    "img": "images/P1795648079654-1795648953857.jpg",
    "link": "https://vt.tiktok.com/ZS9PX6rHEdyEQ-ELF3M/",
-   "type": "Áo nỉ"
+   "type": "Bộ nỉ"
   },
   {
    "id": "P1795648950559",
