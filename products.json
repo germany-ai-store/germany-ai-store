@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-27T16:27:46.690Z",
+ "updatedAt": "2026-11-27T16:28:12.201Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -18,6 +18,105 @@
   "zalo": "0968994164"
  },
  "products": [
+  {
+   "id": "P1794211488470",
+   "name": "Quần gió nam TORANO can phối màu, phom dáng slimfit",
+   "cat": "Thời Trang Nam",
+   "price": 232020,
+   "img": "images/P1794211488470-1794225185700.jpg",
+   "link": "https://vt.tiktok.com/ZS9fhHRP3CC91-IGuTy/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1794205657737",
+   "name": "[NEW] TORANO SMART DYNAMIC SPORT- SB901- Quần",
+   "cat": "Thời Trang Nam",
+   "price": 164620,
+   "img": "images/P1794205657737-1794205662102.jpg",
+   "link": "https://vt.tiktok.com/ZS9fh6xhf939o-mipNT/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1794154287173",
+   "name": "GRAPHICH DENIM- MẶC LÀ CHẤT , PHONG CÁCH TRẺ TRUNG",
+   "cat": "Thời Trang Nam",
+   "price": 683060,
+   "img": "images/P1794154287173-1794154290375.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6CePEYMe5-HedMG/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1794153573601",
+   "name": "Quần Jean Nam Đắp Vá Cao Cấp - Hàng Vip Hottrend",
+   "cat": "Thời Trang Nam",
+   "price": 850000,
+   "img": "images/P1794153573601-1794153576881.jpg",
+   "link": "https://vt.tiktok.com/ZS9f6xdskDwys-Qygvk/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1794153422727",
+   "name": "[ Hàng Mới Về] Quần Jean Nam Cao Cấp- Quần Ống Rộng",
+   "cat": "Thời Trang Nam",
+   "price": 680000,
+   "img": "images/P1794153422727-1794153425969.jpg",
+   "link": "https://vt.tiktok.com/ZS9f69UtVuXrM-mZuHI/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1793656493393",
+   "name": "Quần Short Nam Kaki Cá Sấu Co Giãn 2 Chiều Cao Cấp",
+   "cat": "Thời Trang Nam",
+   "price": 160550,
+   "img": "images/P1793656493393-1793656496469.jpg",
+   "link": "https://vt.tiktok.com/ZS9yGd5VtHsMe-3Lv9M/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1793655084348",
+   "name": "COMBO 2 Quần Đùi Nam Nice90fashion Chất Liệu Nhung Tăm",
+   "cat": "Thời Trang Nam",
+   "price": 160000,
+   "img": "images/P1793655084348-1793655090386.jpg",
+   "link": "https://vt.tiktok.com/ZS9ysoHSaRK8W-1Uqbz/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1793561555752",
+   "name": "Quần jean đùi nam cao cấp ANTAVIO chất liệu vải jean",
+   "cat": "Thời Trang Nam",
+   "price": 180000,
+   "img": "images/P1793561555752-1793561559010.jpg",
+   "link": "https://vt.tiktok.com/ZS9yq2pTH8eEo-YSvqw/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1794575158980",
+   "name": "Quần Jean Nam Rách Va Hot Trend QJ-2980",
+   "cat": "Thời Trang Nam",
+   "price": 601140,
+   "img": "images/P1794575158980-1794575162121.jpg",
+   "link": "https://vt.tiktok.com/ZS9fX2yR73VyQ-xaQFt/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1794794972311",
+   "name": "Quần Jogger Túi Hộp Quần Bò Nam Phong Cách Bụi Vải",
+   "cat": "Thời Trang Nam",
+   "price": 219880,
+   "img": "images/P1794794972311-1794804866378.jpg",
+   "link": "https://vt.tiktok.com/ZS9fW55aq4gv1-fOrD1/",
+   "type": "Quần nam"
+  },
+  {
+   "id": "P1795539199221",
+   "name": "Quần Jogger UNISEX Vải Thun Chân Cua co giãn màu đen",
+   "cat": "Thời Trang Nam",
+   "price": 137999,
+   "img": "images/P1795539199221-1795539202354.jpg",
+   "link": "https://vt.tiktok.com/ZS9Pu48JUPPyr-AzaYX/",
+   "type": "Quần nam"
+  },
   {
    "id": "P1794804863451",
    "name": "Quần jeans baggy thêu chữ nổi dáng baggy  size S-5XL",
@@ -1053,15 +1152,6 @@
    "link": "https://vt.tiktok.com/ZS9fVxyom45WK-O2GZf/"
   },
   {
-   "id": "P1794211488470",
-   "name": "Quần gió nam TORANO can phối màu, phom dáng slimfit",
-   "cat": "Thời Trang Nam",
-   "price": 232020,
-   "img": "images/P1794211488470-1794225185700.jpg",
-   "link": "https://vt.tiktok.com/ZS9fhHRP3CC91-IGuTy/",
-   "type": "Quần nam"
-  },
-  {
    "id": "P1794062741873",
    "name": "[NE71] Giày Thể Thao NESTY Comffort Air -Slip On",
    "cat": "Giày dép",
@@ -1092,15 +1182,6 @@
    "price": 189000,
    "img": "images/P1794633052394-1794633141599.jpg",
    "link": "https://vt.tiktok.com/ZS9fqFq4GP8nN-MYyPC/"
-  },
-  {
-   "id": "P1794205657737",
-   "name": "[NEW] TORANO SMART DYNAMIC SPORT- SB901- Quần",
-   "cat": "Thời Trang Nam",
-   "price": 164620,
-   "img": "images/P1794205657737-1794205662102.jpg",
-   "link": "https://vt.tiktok.com/ZS9fh6xhf939o-mipNT/",
-   "type": "Quần nam"
   },
   {
    "id": "P1794062238406",
@@ -1176,15 +1257,6 @@
    "link": "https://vt.tiktok.com/ZS9fbkDJTCc5D-Sh0th/"
   },
   {
-   "id": "P1794154287173",
-   "name": "GRAPHICH DENIM- MẶC LÀ CHẤT , PHONG CÁCH TRẺ TRUNG",
-   "cat": "Thời Trang Nam",
-   "price": 683060,
-   "img": "images/P1794154287173-1794154290375.jpg",
-   "link": "https://vt.tiktok.com/ZS9f6CePEYMe5-HedMG/",
-   "type": "Quần nam"
-  },
-  {
    "id": "P1794059887576",
    "name": "Giày Sục Nam Nữ Gat Slip On Panacea Rebel - Màu Ivory",
    "cat": "Giày dép",
@@ -1217,15 +1289,6 @@
    "link": "https://vt.tiktok.com/ZS9fbk3k1e1PR-MfEdv/"
   },
   {
-   "id": "P1794153573601",
-   "name": "Quần Jean Nam Đắp Vá Cao Cấp - Hàng Vip Hottrend",
-   "cat": "Thời Trang Nam",
-   "price": 850000,
-   "img": "images/P1794153573601-1794153576881.jpg",
-   "link": "https://vt.tiktok.com/ZS9f6xdskDwys-Qygvk/",
-   "type": "Quần nam"
-  },
-  {
    "id": "P1794058842315",
    "name": "Giày Sục Búp Bê Nữ, Sục Mary Jane Đế Bệt Quai Ngang",
    "cat": "Giày dép",
@@ -1256,15 +1319,6 @@
    "price": 106000,
    "img": "images/P1794655615145-1794655618002.jpg",
    "link": "https://vt.tiktok.com/ZS9fbBfhYkhB8-vpxVp/"
-  },
-  {
-   "id": "P1794153422727",
-   "name": "[ Hàng Mới Về] Quần Jean Nam Cao Cấp- Quần Ống Rộng",
-   "cat": "Thời Trang Nam",
-   "price": 680000,
-   "img": "images/P1794153422727-1794153425969.jpg",
-   "link": "https://vt.tiktok.com/ZS9f69UtVuXrM-mZuHI/",
-   "type": "Quần nam"
   },
   {
    "id": "P1794058261774",
@@ -1406,15 +1460,6 @@
    "link": "https://vt.tiktok.com/ZS9ftdaKwg7Lw-8thY3/"
   },
   {
-   "id": "P1793656493393",
-   "name": "Quần Short Nam Kaki Cá Sấu Co Giãn 2 Chiều Cao Cấp",
-   "cat": "Thời Trang Nam",
-   "price": 160550,
-   "img": "images/P1793656493393-1793656496469.jpg",
-   "link": "https://vt.tiktok.com/ZS9yGd5VtHsMe-3Lv9M/",
-   "type": "Quần nam"
-  },
-  {
    "id": "P1793981527684",
    "name": "1025  [MỚI] [MATTREMONS] Giày chạy bộ thoáng khí",
    "cat": "Giày dép",
@@ -1437,15 +1482,6 @@
    "price": 214797,
    "img": "images/P1794748531302-1794748534314.jpg",
    "link": "https://vt.tiktok.com/ZS9ftR9FhdR3E-mQ7Ue/"
-  },
-  {
-   "id": "P1793655084348",
-   "name": "COMBO 2 Quần Đùi Nam Nice90fashion Chất Liệu Nhung Tăm",
-   "cat": "Thời Trang Nam",
-   "price": 160000,
-   "img": "images/P1793655084348-1793655090386.jpg",
-   "link": "https://vt.tiktok.com/ZS9ysoHSaRK8W-1Uqbz/",
-   "type": "Quần nam"
   },
   {
    "id": "P1793979420112",
@@ -1536,15 +1572,6 @@
    "price": 272238,
    "img": "images/P1794750212008-1794750218006.jpg",
    "link": "https://vt.tiktok.com/ZS9ftYBkC9CL1-zuvni/"
-  },
-  {
-   "id": "P1793561555752",
-   "name": "Quần jean đùi nam cao cấp ANTAVIO chất liệu vải jean",
-   "cat": "Thời Trang Nam",
-   "price": 180000,
-   "img": "images/P1793561555752-1793561559010.jpg",
-   "link": "https://vt.tiktok.com/ZS9yq2pTH8eEo-YSvqw/",
-   "type": "Quần nam"
   },
   {
    "id": "P1793893155068",
@@ -1987,15 +2014,6 @@
    "link": "https://vt.tiktok.com/ZS9fMY3tvBjxY-9NVkB/"
   },
   {
-   "id": "P1794575158980",
-   "name": "Quần Jean Nam Rách Va Hot Trend QJ-2980",
-   "cat": "Thời Trang Nam",
-   "price": 601140,
-   "img": "images/P1794575158980-1794575162121.jpg",
-   "link": "https://vt.tiktok.com/ZS9fX2yR73VyQ-xaQFt/",
-   "type": "Quần nam"
-  },
-  {
    "id": "P1794165069258",
    "name": "Chổi Quét Nhà OKwife AGW-4486, Chổi Quét Nhà Thông",
    "cat": "Gia Dụng",
@@ -2073,15 +2091,6 @@
    "type": "Áo sơ mi"
   },
   {
-   "id": "P1794794972311",
-   "name": "Quần Jogger Túi Hộp Quần Bò Nam Phong Cách Bụi Vải",
-   "cat": "Thời Trang Nam",
-   "price": 219880,
-   "img": "images/P1794794972311-1794804866378.jpg",
-   "link": "https://vt.tiktok.com/ZS9fW55aq4gv1-fOrD1/",
-   "type": "Quần nam"
-  },
-  {
    "id": "P1794935867295",
    "name": "AK566 Áo khoác mùa đông trần phao cho nam in hình 3d",
    "cat": "Thời Trang Nam",
@@ -2089,15 +2098,6 @@
    "img": "images/P1794935867295-1794935870170.jpg",
    "link": "https://vt.tiktok.com/ZS9fKqKKcvDhu-EOdvd/",
    "type": "Áo khoác"
-  },
-  {
-   "id": "P1795539199221",
-   "name": "Quần Jogger UNISEX Vải Thun Chân Cua co giãn màu đen",
-   "cat": "Thời Trang Nam",
-   "price": 137999,
-   "img": "images/P1795539199221-1795539202354.jpg",
-   "link": "https://vt.tiktok.com/ZS9Pu48JUPPyr-AzaYX/",
-   "type": "Quần nam"
   },
   {
    "id": "P1795648079654",
