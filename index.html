@@ -57,8 +57,8 @@
 
             <div class="sec-card">
                 <h3 class="sec-title">Hợp tác gợi ý nguồn hàng uy tín — Kết nối trực tiếp gian hàng gốc</h3>
-                <p class="sec-body"><span class="brand">GERMANY AI PREMIUM HUB</span> là hệ sinh thái mua sắm do chúng tôi tuyển chọn, <span class="kw">hợp tác giới thiệu sản phẩm cùng Shopee, TikTok Shop</span> và các nhãn hàng, đơn vị cung ứng uy tín. Chúng tôi <span class="kw">không bán hàng trực tiếp</span> và <span class="kw">không thu bất kỳ phí trung gian nào</span> — khi lựa chọn tại đây, bạn được <span class="kw">dẫn thẳng tới gian hàng gốc</span> để tự do mua sắm và hưởng đầy đủ các chính sách bảo vệ người tiêu dùng <span class="kw">như đồng kiểm, bảo hành, đổi trả</span> theo <span class="kw">đúng quy định minh bạch của sàn và shop</span>.</p>
-                <p class="sec-body" style="margin-top:12px;">Giữa thị trường đa dạng hiện nay, <span class="brand">GERMANY AI PREMIUM HUB</span> đóng vai trò như một cầu nối, giúp bạn tiết kiệm thời gian tìm kiếm bằng cách <span class="kw">gợi ý những nguồn hàng uy tín, thông tin rõ ràng</span> và có giá trị sử dụng thiết thực. Tuy nhiên, <span class="kw">mỗi người đều có một góc nhìn, sở thích và tiêu chuẩn trải nghiệm khác nhau</span> — một sản phẩm có thể rất hợp với người này nhưng chưa chắc đã trọn vẹn với người khác. Chúng tôi mang đến những gợi ý chất lượng để bạn có thêm cơ sở tham khảo khách quan, chủ động trải nghiệm và tự mình <span class="kw">đưa ra quyết định mua sắm xứng đáng nhất</span>!</p>
+                <p class="sec-body"><span class="brand">GERMANY AI PREMIUM HUB</span> là hệ sinh thái mua sắm do chúng tôi tuyển chọn, hợp tác giới thiệu sản phẩm cùng Shopee, TikTok Shop và các nhãn hàng, đơn vị cung ứng uy tín. Chúng tôi <span class="kw">không bán hàng trực tiếp</span> và <span class="kw">không thu bất kỳ phí trung gian nào</span> — khi lựa chọn tại đây, bạn được dẫn thẳng tới gian hàng gốc để tự do mua sắm và hưởng đầy đủ các chính sách bảo vệ người tiêu dùng như <span class="kw">đồng kiểm, bảo hành, đổi trả</span> theo đúng quy định minh bạch của sàn và shop.</p>
+                <p class="sec-body" style="margin-top:12px;">Giữa thị trường đa dạng hiện nay, <span class="brand">GERMANY AI PREMIUM HUB</span> đóng vai trò như một cầu nối, giúp bạn tiết kiệm thời gian tìm kiếm bằng cách giới thiệu sản phẩm uy tín, được sàng lọc kỹ lưỡng theo nhu cầu thực tế và xu hướng tiêu dùng mới nhất — giúp bạn dễ dàng <span class="kw">chọn đúng món đồ chất lượng với mức giá hợp lý</span> ngay từ lần chạm đầu tiên.</p>
             </div>
 
             <button onclick="shareSite()" class="share-btn">
@@ -72,7 +72,7 @@
             <!-- Tìm kiếm -->
             <div class="relative">
                 <svg class="ico absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-                <input type="text" id="storeSearch" oninput="renderStore()" placeholder="Tìm kiếm sản phẩm, thương hiệu..." class="w-full bg-white border border-gray-200 rounded-2xl py-3 pl-11 pr-4 text-sm text-gray-900 focus:outline-none focus:border-amber-400">
+                <input type="text" id="storeSearch" oninput="storeLimit=40;renderStore()" placeholder="Tìm kiếm sản phẩm, thương hiệu..." class="w-full bg-white border border-gray-200 rounded-2xl py-3 pl-11 pr-4 text-sm text-gray-900 focus:outline-none focus:border-amber-400">
             </div>
 
             <!-- Bộ sưu tập mở rộng: bấm là sang trang collshp của Cụ -->
@@ -93,6 +93,7 @@
 
             <!-- Sản phẩm -->
             <div class="grid grid-cols-2 gap-2.5" id="storeGrid"></div>
+            <button id="storeMore" onclick="showMoreStore()" class="hidden w-full bg-white border border-gray-200 text-gray-800 font-bold text-sm rounded-2xl py-3">Xem thêm sản phẩm</button>
         </div>
 
         <!-- ========== TAB 3: CỘNG ĐỒNG ========== -->
@@ -154,6 +155,13 @@
             <div class="flex flex-col space-y-1.5"><button onclick="showAdmin(false)" class="bg-amber-500 hover:bg-amber-600 text-slate-950 px-3 py-1.5 rounded-xl text-xs font-bold shadow">Thoát Admin</button><button onclick="changePin()" class="bg-slate-700 hover:bg-slate-600 text-slate-200 px-3 py-1 rounded-xl text-[10px] font-bold">Đổi mã PIN</button><button onclick="lockAdminDevice()" class="bg-slate-700 hover:bg-slate-600 text-slate-200 px-3 py-1 rounded-xl text-[10px] font-bold">Khóa máy này</button></div>
         </div>
 
+        <!-- Hai tab của admin -->
+        <div class="grid grid-cols-2 gap-2 text-xs font-bold">
+            <button id="adminTabHub" onclick="showAdminTab('hub')" class="py-2.5 rounded-xl bg-slate-900 text-white">Premium Hub (sản phẩm)</button>
+            <button id="adminTabSet" onclick="showAdminTab('settings')" class="py-2.5 rounded-xl bg-white text-gray-700 border border-gray-300">Thiết lập</button>
+        </div>
+
+        <div id="adminSettings" class="hidden space-y-4">
         <!-- Kết nối GitHub: tự lưu sản phẩm lên web -->
         <div class="bg-white rounded-2xl p-4 border-2 border-indigo-400 shadow-sm space-y-2">
             <div class="flex items-center justify-between">
@@ -204,55 +212,98 @@
             <div class="space-y-1.5" id="catAdminList"></div>
         </div>
 
-        <!-- Form sản phẩm -->
-        <div class="bg-white rounded-2xl p-4 border border-gray-200 space-y-3">
-            <div class="flex items-center justify-between border-b pb-2">
-                <h3 class="font-bold text-sm text-gray-900">Quản lý sản phẩm</h3>
-                <span class="text-[10px] bg-gray-100 text-gray-600 font-bold px-2 py-1 rounded" id="prodCount">0 sản phẩm</span>
-            </div>
-            <div class="bg-amber-50 border border-amber-300 rounded-xl p-3 space-y-2 text-xs">
-                <p class="font-black text-amber-900" id="prodFormTitle">+ Thêm sản phẩm mới</p>
-                <input type="hidden" id="pfId">
-                <input type="text" id="pfName" placeholder="Tên sản phẩm..." class="w-full border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900">
-                <div class="grid grid-cols-2 gap-2">
-                    <select id="pfCat" class="border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900"></select>
-                    <input type="text" inputmode="numeric" id="pfPrice" oninput="formatPriceInput(this)" placeholder="Giá bán, ví dụ 157.170" class="border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900">
-                </div>
-                <div class="space-y-1">
-                    <label class="font-bold text-gray-700">Ảnh sản phẩm: chọn ảnh từ máy (khuyên dùng)</label>
-                    <input type="file" id="pfImgFile" accept="image/*" onchange="handleProductImageFile(event)" class="w-full text-[11px] text-gray-700">
-                    <input type="text" id="pfImgUrl" placeholder="Link ảnh .jpg/.png (không bắt buộc nếu đã chọn ảnh từ máy)" class="w-full border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900" oninput="previewProductImage(this.value)">
-                    <img id="pfImgPreview" class="hidden w-24 h-24 object-cover rounded-lg border" alt="Xem trước">
-                </div>
-                <input type="text" id="pfLink" placeholder="Link sản phẩm TikTok / Facebook / Shopee (khách bấm vào là nhảy sang)..." class="w-full border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900">
-                <div class="grid grid-cols-2 gap-2">
-                    <button onclick="saveProduct()" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2.5 rounded-xl shadow">Lưu sản phẩm</button>
-                    <button onclick="resetProductForm()" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2.5 rounded-xl">Hủy / Làm mới</button>
-                </div>
-            </div>
-            <p class="text-[11px] text-gray-500">Sản phẩm ở trên cùng danh sách hiện đầu tiên trong gian hàng. Sản phẩm mới thêm vào sẽ nằm cuối nhóm danh mục của nó, không nhảy lên đầu.</p>
-            <div class="space-y-2">
-                <div class="grid grid-cols-2 gap-2 text-[11px] font-bold">
-                    <select id="adminFilterCat" onchange="setAdminFilter(this.value)" class="border border-gray-300 rounded-lg p-2 bg-white text-gray-900"></select>
-                    <button onclick="sortByCategory()" class="bg-pink-600 hover:bg-pink-700 text-white rounded-lg p-2">Xếp theo thứ tự danh mục</button>
-                </div>
-                <button onclick="interleaveByCategory()" class="w-full bg-pink-100 hover:bg-pink-200 text-pink-900 text-[11px] font-bold rounded-lg py-2">Xếp xen kẽ các danh mục (1 nam, 1 nữ, 1 giày... lặp lại)</button>
-                <button onclick="selectVisible()" class="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 text-[11px] font-bold rounded-lg py-2">Chọn tất cả sản phẩm đang hiển thị</button>
-                <div id="selBar" class="hidden bg-indigo-50 border border-indigo-300 rounded-xl p-2.5 space-y-2 text-[11px] font-bold">
-                    <p class="text-indigo-900"><span id="selCount">0</span> món đã chọn (giữ nguyên thứ tự với nhau khi chuyển)</p>
-                    <div class="grid grid-cols-3 gap-1.5">
-                        <button onclick="moveSelected('top')" class="bg-indigo-600 text-white rounded-lg py-2">Lên đầu</button>
-                        <button onclick="moveSelected('bottom')" class="bg-indigo-600 text-white rounded-lg py-2">Xuống cuối</button>
-                        <button onclick="clearSelection()" class="bg-gray-300 text-gray-800 rounded-lg py-2">Bỏ chọn</button>
-                    </div>
+        </div>
+
+        <!-- ===== TAB PREMIUM HUB: quản lý sản phẩm ===== -->
+        <div id="adminHub" class="space-y-3">
+            <div id="hubBar" style="position:sticky;top:0;z-index:40;background:#F8F9FA;padding:6px 0 4px;">
+                <div class="bg-white rounded-2xl p-3 border border-gray-200 space-y-2">
                     <div class="flex items-center" style="gap:8px;">
-                        <span class="text-indigo-900">Chuyển đến vị trí</span>
-                        <input type="text" inputmode="numeric" id="selPos" placeholder="số" class="border border-gray-300 rounded-lg p-1.5 bg-white text-gray-900 text-center" style="width:64px;">
-                        <button onclick="moveSelected('pos')" class="bg-indigo-600 text-white rounded-lg px-4 py-1.5">OK</button>
+                        <input type="text" id="adminSearch" oninput="onAdminSearch()" placeholder="Tìm theo tên hoặc loại, ví dụ: áo thun" class="flex-1 border border-gray-300 rounded-xl p-2.5 text-sm bg-white text-gray-900" style="min-width:0;">
+                        <button onclick="openProdModal(null)" class="bg-red-600 hover:bg-red-700 text-white font-black text-xs rounded-xl px-3 py-3" style="white-space:nowrap;">+ Thêm</button>
+                    </div>
+                    <div id="adminCatChips" class="scroll-x flex" style="gap:6px;"></div>
+                    <div id="adminTypeChips" class="scroll-x flex items-center hidden" style="gap:6px;"></div>
+                    <div class="flex items-center justify-between text-[11px]">
+                        <span id="hubSummary" class="text-gray-500 font-semibold"></span>
+                        <button onclick="selectVisible()" class="font-bold text-indigo-700 underline">Chọn tất cả kết quả</button>
                     </div>
                 </div>
             </div>
-            <div class="space-y-2" id="adminProductList"></div>
+
+            <div class="space-y-1.5" id="adminProductList"></div>
+            <button id="adminMore" onclick="showMoreAdmin()" class="hidden w-full bg-white border border-gray-300 text-gray-800 text-xs font-bold rounded-xl py-3">Xem thêm</button>
+
+            <div class="bg-white rounded-2xl p-3 border border-gray-200 space-y-2">
+                <p class="text-[11px] font-black text-gray-700 uppercase">Sắp xếp cả kho hàng</p>
+                <div class="grid grid-cols-2 gap-2 text-[11px] font-bold">
+                    <button onclick="sortByCategory()" class="bg-pink-600 hover:bg-pink-700 text-white rounded-lg py-2.5">Xếp theo thứ tự danh mục</button>
+                    <button onclick="interleaveByCategory()" class="bg-pink-100 hover:bg-pink-200 text-pink-900 rounded-lg py-2.5">Xếp xen kẽ danh mục</button>
+                </div>
+                <p class="text-[10px] text-gray-500">Thứ tự danh mục đặt ở tab Thiết lập. Món mới thêm sẽ nằm cuối nhóm danh mục của nó.</p>
+            </div>
+            <div id="selSpacer" class="hidden" style="height:300px;"></div>
+
+            <!-- Thanh thao tác khi tick nhiều sản phẩm -->
+            <div id="selBar" class="hidden" style="position:fixed;left:0;right:0;bottom:0;z-index:60;max-width:448px;margin:0 auto;background:#ffffff;border-top:2px solid #6366f1;box-shadow:0 -4px 14px rgba(0,0,0,.18);padding:10px 12px;max-height:62vh;overflow-y:auto;">
+                <div class="flex items-center justify-between text-xs font-black text-indigo-900">
+                    <span><span id="selCount">0</span> món đã chọn</span>
+                    <button onclick="clearSelection()" class="bg-gray-200 text-gray-800 rounded-lg px-3 py-1.5 text-[11px] font-bold">Bỏ chọn</button>
+                </div>
+                <div class="grid grid-cols-3 gap-1.5 mt-2 text-[11px] font-bold">
+                    <button onclick="moveSelected('top')" class="bg-indigo-600 text-white rounded-lg py-2">Lên đầu</button>
+                    <button onclick="moveSelected('bottom')" class="bg-indigo-600 text-white rounded-lg py-2">Xuống cuối</button>
+                    <button onclick="deleteSelected()" class="bg-red-600 text-white rounded-lg py-2">Xóa</button>
+                </div>
+                <div class="flex items-center mt-2 text-[11px] font-bold" style="gap:6px;">
+                    <span class="text-gray-700" style="width:92px;flex-shrink:0;">Đến vị trí số</span>
+                    <input type="text" inputmode="numeric" id="selPos" placeholder="số" class="border border-gray-300 rounded-lg p-1.5 bg-white text-gray-900 text-center" style="width:70px;">
+                    <button onclick="moveSelected('pos')" class="bg-indigo-600 text-white rounded-lg px-4 py-1.5">OK</button>
+                </div>
+                <div class="flex items-center mt-2 text-[11px] font-bold" style="gap:6px;">
+                    <span class="text-gray-700" style="width:92px;flex-shrink:0;">Đổi danh mục</span>
+                    <select id="selCat" class="flex-1 border border-gray-300 rounded-lg p-1.5 bg-white text-gray-900" style="min-width:0;"></select>
+                    <button onclick="changeCatSelected()" class="bg-indigo-600 text-white rounded-lg px-4 py-1.5">OK</button>
+                </div>
+                <div class="flex items-center mt-2 text-[11px] font-bold" style="gap:6px;">
+                    <span class="text-gray-700" style="width:92px;flex-shrink:0;">Gán loại</span>
+                    <input type="text" id="selType" list="pfTypeList" placeholder="ví dụ: Áo thun (để trống = xóa loại)" class="flex-1 border border-gray-300 rounded-lg p-1.5 bg-white text-gray-900" style="min-width:0;">
+                    <button onclick="setTypeSelected()" class="bg-indigo-600 text-white rounded-lg px-4 py-1.5">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== Cửa sổ thêm / sửa sản phẩm ===== -->
+    <div id="prodModal" class="hidden fixed inset-0 flex items-end justify-center" style="z-index:70;background:rgba(0,0,0,.55);">
+        <div class="bg-white w-full space-y-2 text-xs" style="max-width:448px;max-height:92vh;overflow-y:auto;border-radius:22px 22px 0 0;padding:16px;">
+            <div class="flex items-center justify-between">
+                <p class="font-black text-sm text-gray-900" id="prodFormTitle">+ Thêm sản phẩm mới</p>
+                <button onclick="closeProdModal()" class="bg-gray-100 text-gray-600 rounded-full font-bold" style="width:30px;height:30px;">✕</button>
+            </div>
+            <input type="hidden" id="pfId">
+            <input type="text" id="pfName" placeholder="Tên sản phẩm..." class="w-full border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900">
+            <div class="grid grid-cols-2 gap-2">
+                <select id="pfCat" class="border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900"></select>
+                <input type="text" id="pfType" list="pfTypeList" placeholder="Loại (tùy chọn): Áo thun..." class="border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900">
+            </div>
+            <datalist id="pfTypeList"></datalist>
+            <div class="grid grid-cols-2 gap-2">
+                <input type="text" inputmode="numeric" id="pfPrice" oninput="formatPriceInput(this)" placeholder="Giá bán, ví dụ 157.170" class="border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900">
+                <input type="text" inputmode="numeric" id="pfPos" placeholder="Vị trí số (để trống = tự xếp)" class="border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900">
+            </div>
+            <div class="space-y-1">
+                <label class="font-bold text-gray-700">Ảnh sản phẩm: chọn ảnh từ máy (khuyên dùng)</label>
+                <input type="file" id="pfImgFile" accept="image/*" onchange="handleProductImageFile(event)" class="w-full text-[11px] text-gray-700">
+                <input type="text" id="pfImgUrl" placeholder="Link ảnh .jpg/.png (không bắt buộc nếu đã chọn ảnh từ máy)" class="w-full border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900" oninput="previewProductImage(this.value)">
+                <img id="pfImgPreview" class="hidden w-24 h-24 object-cover rounded-lg border" alt="Xem trước">
+            </div>
+            <input type="text" id="pfLink" placeholder="Link sản phẩm TikTok / Facebook / Shopee (khách bấm vào là nhảy sang)..." class="w-full border border-gray-300 rounded-lg p-2.5 bg-white text-gray-900">
+            <div class="grid grid-cols-2 gap-2">
+                <button onclick="saveProduct()" class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-xl shadow">Lưu sản phẩm</button>
+                <button onclick="closeProdModal()" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 rounded-xl">Hủy</button>
+            </div>
+            <button id="pfDelBtn" onclick="deleteFromModal()" class="hidden w-full bg-white border border-red-300 text-red-600 font-bold py-2.5 rounded-xl">Xóa sản phẩm này</button>
         </div>
     </div>
 
@@ -260,8 +311,8 @@
         // ===== CẤU HÌNH =====
         // Link gian hàng Shopee của Cụ trên collshp (sửa link ở đây khi cần)
         const SHOPEE_STORE_LINK = "https://collshp.com/germany.ai?view=storefront";
-        const CATS = ["Thời Trang Nam", "Thời Trang Nữ", "Giày dép", "Túi", "Gia Dụng", "Bách hóa", "Tranh ảnh"];
-        const EMOJI = { "Thời Trang Nam": "👔", "Thời Trang Nữ": "👗", "Giày dép": "👟", "Túi": "👜", "Gia Dụng": "🏠", "Bách hóa": "🛒", "Tranh ảnh": "🖼️" };
+        const CATS = ["Thời Trang Nam", "Thời Trang Nữ", "Đồ đôi & Unisex", "Giày dép", "Túi", "Gia Dụng", "Bách hóa", "Tranh ảnh"];
+        const EMOJI = { "Thời Trang Nam": "👔", "Thời Trang Nữ": "👗", "Đồ đôi & Unisex": "👫", "Giày dép": "👟", "Túi": "👜", "Gia Dụng": "🏠", "Bách hóa": "🛒", "Tranh ảnh": "🖼️" };
         const K_PRODUCTS = "germany_ai_products";
 
         let products = [];
@@ -283,7 +334,12 @@
         function saveSettings() { try { localStorage.setItem(K_SETTINGS, JSON.stringify(settings)); } catch (e) {} }
         function getCatOrder() {
             let order = (settings.catOrder || []).filter(c => CATS.indexOf(c) > -1);
-            CATS.forEach(c => { if (order.indexOf(c) < 0) order.push(c); });
+            CATS.forEach((c, ci) => {
+                if (order.indexOf(c) < 0) {
+                    let prev = ci > 0 ? order.indexOf(CATS[ci - 1]) : -1;
+                    if (prev > -1) order.splice(prev + 1, 0, c); else order.push(c);
+                }
+            });
             return order;
         }
         let storeCat = "Tất Cả";
@@ -351,17 +407,21 @@
         }
 
         function fillCatSelect() {
-            let sel = document.getElementById('pfCat');
-            let cur = sel.value;
-            sel.innerHTML = getCatOrder().map(c => `<option value="${c}">${c}</option>`).join("");
-            if (cur) sel.value = cur;
+            let opts = getCatOrder().map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join("");
+            ['pfCat', 'selCat'].forEach(id => {
+                let sel = document.getElementById(id);
+                if (!sel) return;
+                let cur = sel.value;
+                sel.innerHTML = opts;
+                if (cur) sel.value = cur;
+            });
         }
 
         // ===== CỬA HÀNG =====
         function renderStore() {
             let chips = document.getElementById('storeChips');
             chips.innerHTML = ["Tất Cả"].concat(getCatOrder()).map(c =>
-                `<button class="chip ${c === storeCat ? 'on' : ''}" onclick="setStoreCat('${c}')">${EMOJI[c] ? `<span style="font-size:15px;line-height:1;">${EMOJI[c]}</span>` : ''}<span>${c}</span></button>`
+                `<button class="chip ${c === storeCat ? 'on' : ''}" onclick="setStoreCat('${esc(c)}')">${EMOJI[c] ? `<span style="font-size:15px;line-height:1;">${EMOJI[c]}</span>` : ''}<span>${esc(c)}</span></button>`
             ).join("");
 
             let kw = (document.getElementById('storeSearch').value || "").trim().toLowerCase();
@@ -369,14 +429,18 @@
             let grid = document.getElementById('storeGrid');
 
             if (list.length === 0) {
+                document.getElementById('storeMore').classList.add('hidden');
                 grid.innerHTML = `<div class="col-span-2 text-center text-gray-400 py-12 text-sm"><svg viewBox="0 0 24 24" aria-hidden="true" style="width:2.5rem;height:2.5rem;display:block;margin:0 auto 8px;"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 8l9-4 9 4v9l-9 4-9-4V8zM3 8l9 4 9-4M12 12v9"/></svg>Chưa có sản phẩm nào trong mục này.</div>`;
                 return;
             }
             // Cả ô sản phẩm là một nút bấm: chạm vào là nhảy sang link đã gắn
+            let totalCount = list.length;
+            list = list.slice(0, storeLimit);
+            document.getElementById('storeMore').classList.toggle('hidden', totalCount <= storeLimit);
             grid.innerHTML = list.map(p => `
                 <div class="pcard" onclick="buyProduct('${esc(p.id)}')">
                     <div class="bg-gray-100" style="aspect-ratio:1/1;">
-                        <img src="${esc(imgFor(p))}" alt="${esc(p.name)}" class="w-full h-full object-cover" onerror="this.style.visibility='hidden'">
+                        <img loading="lazy" src="${esc(imgFor(p))}" alt="${esc(p.name)}" class="w-full h-full object-cover" onerror="this.style.visibility='hidden'">
                     </div>
                     <div class="p-2.5 space-y-1">
                         <p class="pname">${esc(p.name)}</p>
@@ -385,7 +449,9 @@
                 </div>`).join("");
         }
 
-        function setStoreCat(c) { storeCat = c; renderStore(); }
+        let storeLimit = 40;
+        function setStoreCat(c) { storeCat = c; storeLimit = 40; renderStore(); }
+        function showMoreStore() { storeLimit += 40; renderStore(); }
         function openShopeeStore() { window.open(SHOPEE_STORE_LINK, "_blank"); }
         function buyProduct(id) {
             let p = products.find(x => x.id === id);
@@ -567,7 +633,7 @@
             document.getElementById('adminView').classList.toggle('hidden', !on);
             document.getElementById('shopView').classList.toggle('hidden', on);
             document.getElementById('navBar').classList.toggle('hidden', on);
-            if (on) { renderAdminProducts(); renderCatAdmin(); } else renderStore();
+            if (on) { renderCatAdmin(); showAdminTab('hub'); } else renderStore();
             window.scrollTo(0, 0);
         }
 
@@ -599,12 +665,46 @@
         }
 
         function resetProductForm() {
-            ['pfId', 'pfName', 'pfPrice', 'pfImgUrl', 'pfLink'].forEach(i => document.getElementById(i).value = "");
+            ['pfId', 'pfName', 'pfPrice', 'pfType', 'pfPos', 'pfImgUrl', 'pfLink'].forEach(i => document.getElementById(i).value = "");
             document.getElementById('pfImgFile').value = "";
-            document.getElementById('pfCat').value = CATS[0];
+            document.getElementById('pfCat').value = getCatOrder()[0];
             document.getElementById('pfImgPreview').classList.add('hidden');
             document.getElementById('prodFormTitle').innerText = "+ Thêm sản phẩm mới";
+            document.getElementById('pfDelBtn').classList.add('hidden');
             pendingImageData = "";
+        }
+
+        // Mở cửa sổ thêm (id = null) hoặc sửa sản phẩm
+        function openProdModal(id) {
+            resetProductForm();
+            fillTypeList();
+            if (id) {
+                let p = products.find(x => x.id === id);
+                if (!p) return;
+                document.getElementById('pfId').value = p.id;
+                document.getElementById('pfName').value = p.name;
+                document.getElementById('pfCat').value = p.cat;
+                document.getElementById('pfType').value = p.type || "";
+                document.getElementById('pfPrice').value = Math.round(Number(p.price) || 0).toLocaleString('vi-VN');
+                document.getElementById('pfLink').value = p.link;
+                document.getElementById('pfImgUrl').value = (p.img && p.img.indexOf('data:') !== 0) ? p.img : "";
+                document.getElementById('pfPos').value = String(products.indexOf(p) + 1);
+                previewProductImage(imgFor(p));
+                document.getElementById('prodFormTitle').innerText = "✎ Sửa sản phẩm";
+                document.getElementById('pfDelBtn').classList.remove('hidden');
+            } else {
+                if (adminFilter !== "all") document.getElementById('pfCat').value = adminFilter;
+                if (adminType !== "all" && adminType !== "__none") document.getElementById('pfType').value = adminType;
+            }
+            document.getElementById('prodModal').classList.remove('hidden');
+        }
+
+        function closeProdModal() { document.getElementById('prodModal').classList.add('hidden'); }
+
+        function fillTypeList() {
+            let set = {};
+            products.forEach(p => { if (p.type) set[p.type] = true; });
+            document.getElementById('pfTypeList').innerHTML = Object.keys(set).sort((a, b) => a.localeCompare(b, 'vi')).map(t => `<option value="${esc(t)}"></option>`).join("");
         }
 
         function saveProduct() {
@@ -612,71 +712,114 @@
             let name = document.getElementById('pfName').value.trim();
             let price = parsePrice(document.getElementById('pfPrice').value);
             let link = document.getElementById('pfLink').value.trim();
+            let type = document.getElementById('pfType').value.trim();
+            let pos = parsePrice(document.getElementById('pfPos').value);
             let img = pendingImageData || document.getElementById('pfImgUrl').value.trim();
 
             if (!name) return alert("Nhập tên sản phẩm!");
             if (!price) return alert("Nhập giá bán!");
             if (!/^https?:\/\//i.test(link)) return alert("Dán link sản phẩm bắt đầu bằng http:// hoặc https://");
 
-            let data = { id: id || ("P" + Date.now()), name: name, cat: document.getElementById('pfCat').value, price: price, img: img, link: link };
+            let data = { id: id || ("P" + Date.now()), name: name, cat: document.getElementById('pfCat').value, type: type, price: price, img: img, link: link };
             let backup = products.slice();
             if (id) {
                 let idx = products.findIndex(p => p.id === id);
-                if (idx > -1) { if (!img) data.img = products[idx].img; products[idx] = data; }
+                if (idx > -1) {
+                    if (!img) data.img = products[idx].img;
+                    products.splice(idx, 1);
+                    let at = pos ? Math.max(0, Math.min(products.length, pos - 1)) : idx;
+                    products.splice(at, 0, data);
+                }
+            } else if (pos) {
+                products.splice(Math.max(0, Math.min(products.length, pos - 1)), 0, data);
             } else {
                 let last = -1;
                 products.forEach((q, i) => { if (q.cat === data.cat) last = i; });
                 if (last > -1) products.splice(last + 1, 0, data); else products.push(data);
             }
             if (!saveProducts()) { products = backup; return; }
-            resetProductForm();
+            closeProdModal();
             renderAdminProducts();
             schedulePush();
             alert("Đã lưu sản phẩm!");
         }
 
-        function editProduct(id) {
-            let p = products.find(x => x.id === id);
-            if (!p) return;
-            document.getElementById('pfId').value = p.id;
-            document.getElementById('pfName').value = p.name;
-            document.getElementById('pfCat').value = p.cat;
-            document.getElementById('pfPrice').value = Math.round(Number(p.price) || 0).toLocaleString('vi-VN');
-            document.getElementById('pfLink').value = p.link;
-            pendingImageData = "";
-            document.getElementById('pfImgFile').value = "";
-            document.getElementById('pfImgUrl').value = (p.img && p.img.indexOf('data:') !== 0) ? p.img : "";
-            previewProductImage(p.img);
-            document.getElementById('prodFormTitle').innerText = "✎ Đang sửa sản phẩm";
-            window.scrollTo(0, 0);
-        }
-
         function deleteProduct(id) {
-            if (!confirm("Xóa sản phẩm này khỏi cửa hàng?")) return;
+            if (!confirm("Xóa sản phẩm này khỏi cửa hàng?")) return false;
             products = products.filter(p => p.id !== id);
             selected.delete(id);
             saveProducts();
             renderAdminProducts();
             schedulePush();
+            return true;
+        }
+        function deleteFromModal() {
+            let id = document.getElementById('pfId').value;
+            if (id && deleteProduct(id)) closeProdModal();
         }
 
-        // ===== SẮP XẾP VỊ TRÍ SẢN PHẨM =====
+        // ===== TAB PREMIUM HUB TRONG ADMIN: LỌC, TÌM, SẮP XẾP, THAO TÁC HÀNG LOẠT =====
         let selected = new Set();
-        let adminFilter = "all";
+        let adminFilter = "all";   // danh mục đang lọc
+        let adminType = "all";     // "all" | "__none" | tên loại
+        let adminSearch = "";
+        let adminLimit = 20;
+        let adminCatList = [];
+        let adminTypeList = [];
+        let searchTimer = null;
 
-        function visibleProducts() { return adminFilter === "all" ? products : products.filter(p => p.cat === adminFilter); }
+        function stripAccents(t) {
+            return String(t == null ? "" : t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase();
+        }
+
+        // Danh sách sản phẩm đang hiển thị theo bộ lọc (kèm vị trí thật trong kho)
+        function visibleEntries() {
+            let kw = stripAccents(adminSearch).trim();
+            let out = [];
+            for (let i = 0; i < products.length; i++) {
+                let p = products[i];
+                if (adminFilter !== "all" && p.cat !== adminFilter) continue;
+                if (adminType === "__none") { if (p.type) continue; }
+                else if (adminType !== "all" && (p.type || "") !== adminType) continue;
+                if (kw && stripAccents(p.name + " " + (p.type || "")).indexOf(kw) < 0) continue;
+                out.push({ p: p, i: i });
+            }
+            return out;
+        }
+        function visibleProducts() { return visibleEntries().map(e => e.p); }
+
         function commitOrder() { saveProducts(); renderAdminProducts(); schedulePush(); }
-        function setAdminFilter(v) { adminFilter = v; renderAdminProducts(); }
+
+        function showAdminTab(t) {
+            document.getElementById('adminHub').classList.toggle('hidden', t !== 'hub');
+            document.getElementById('adminSettings').classList.toggle('hidden', t !== 'settings');
+            document.getElementById('adminTabHub').className = "py-2.5 rounded-xl " + (t === 'hub' ? "bg-slate-900 text-white" : "bg-white text-gray-700 border border-gray-300");
+            document.getElementById('adminTabSet').className = "py-2.5 rounded-xl " + (t === 'settings' ? "bg-slate-900 text-white" : "bg-white text-gray-700 border border-gray-300");
+            if (t === 'hub') renderAdminProducts(); else renderCatAdmin();
+            window.scrollTo(0, 0);
+        }
+
+        function setAdminFilter(i) { adminFilter = adminCatList[i] || "all"; adminType = "all"; adminLimit = 20; selected.clear(); renderAdminProducts(); }
+        function setAdminType(i) { adminType = adminTypeList[i] || "all"; adminLimit = 20; selected.clear(); renderAdminProducts(); }
+        function onAdminSearch() {
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(function() {
+                adminSearch = document.getElementById('adminSearch').value;
+                adminLimit = 20; selected.clear(); renderAdminProducts();
+            }, 200);
+        }
+        function showMoreAdmin() { adminLimit += 20; renderAdminProducts(); }
 
         function updateSelBar() {
             document.getElementById('selCount').innerText = selected.size;
             document.getElementById('selBar').classList.toggle('hidden', selected.size === 0);
+            document.getElementById('selSpacer').classList.toggle('hidden', selected.size === 0);
         }
         function toggleSel(id, on) { if (on) selected.add(id); else selected.delete(id); updateSelBar(); }
         function clearSelection() { selected.clear(); renderAdminProducts(); }
-        function selectVisible() { visibleProducts().forEach(p => selected.add(p.id)); renderAdminProducts(); }
+        function selectVisible() { visibleEntries().forEach(e => selected.add(e.p.id)); renderAdminProducts(); }
 
-        // dir: -1 / 1 = lên / xuống 1 bậc so với món kế bên đang hiển thị; 'top' / 'bottom' = đầu / cuối cả danh sách
+        // dir: -1 / 1 = lên / xuống 1 bậc so với món kế bên đang hiển thị; 'top' / 'bottom' = đầu / cuối cả kho
         function moveProduct(id, dir) {
             let i = products.findIndex(p => p.id === id);
             if (i < 0) return;
@@ -691,17 +834,6 @@
                 let j = products.findIndex(p => p.id === nb.id);
                 products.splice(dir < 0 ? j : j + 1, 0, item);
             }
-            commitOrder();
-        }
-
-        // Gõ số vị trí cho từng món (số 1 = đầu tiên)
-        function movePos(id) {
-            let n = parsePrice(document.getElementById('pos_' + id).value);
-            if (!n) return alert("Hãy gõ số vị trí muốn chuyển đến (ví dụ 3).");
-            let i = products.findIndex(p => p.id === id);
-            if (i < 0) return;
-            let item = products.splice(i, 1)[0];
-            products.splice(Math.max(0, Math.min(products.length, n - 1)), 0, item);
             commitOrder();
         }
 
@@ -724,7 +856,35 @@
             commitOrder();
         }
 
-        // Xếp lại một lần toàn bộ sản phẩm theo thứ tự danh mục ở thẻ phía trên (quần áo, giày dép lên đầu...)
+        function changeCatSelected() {
+            let c = document.getElementById('selCat').value;
+            if (!c || selected.size === 0) return;
+            if (!confirm("Chuyển " + selected.size + " sản phẩm sang danh mục \"" + c + "\"?")) return;
+            products.forEach(p => { if (selected.has(p.id)) p.cat = c; });
+            selected.clear();
+            commitOrder();
+        }
+
+        function setTypeSelected() {
+            if (selected.size === 0) return;
+            let t = document.getElementById('selType').value.trim();
+            let msg = t ? "Gán loại \"" + t + "\" cho " + selected.size + " sản phẩm?" : "Xóa loại của " + selected.size + " sản phẩm?";
+            if (!confirm(msg)) return;
+            products.forEach(p => { if (selected.has(p.id)) p.type = t; });
+            selected.clear();
+            document.getElementById('selType').value = "";
+            commitOrder();
+        }
+
+        function deleteSelected() {
+            if (selected.size === 0) return;
+            if (!confirm("Xóa " + selected.size + " sản phẩm đã chọn? Việc này không hoàn tác trong app (GitHub vẫn giữ lịch sử các lần lưu).")) return;
+            products = products.filter(p => !selected.has(p.id));
+            selected.clear();
+            commitOrder();
+        }
+
+        // Xếp lại một lần toàn bộ sản phẩm theo thứ tự danh mục ở thẻ Thiết lập (quần áo, giày dép lên đầu...)
         function sortByCategory() {
             if (!confirm("Xếp lại toàn bộ sản phẩm theo thứ tự danh mục? Trong mỗi danh mục vẫn giữ nguyên thứ tự hiện có.")) return;
             let ord = getCatOrder();
@@ -735,7 +895,7 @@
 
         // Xếp xen kẽ: lần lượt mỗi danh mục 1 món rồi lặp lại, khách thấy nhiều loại hàng ngay màn hình đầu
         function interleaveByCategory() {
-            if (!confirm("Xếp xen kẽ các danh mục? Thứ tự danh mục theo thẻ phía trên, trong mỗi danh mục vẫn giữ thứ tự hiện có.")) return;
+            if (!confirm("Xếp xen kẽ các danh mục? Thứ tự danh mục theo tab Thiết lập, trong mỗi danh mục vẫn giữ thứ tự hiện có.")) return;
             let ord = getCatOrder();
             let groups = ord.map(c => products.filter(p => p.cat === c));
             let others = products.filter(p => ord.indexOf(p.cat) < 0);
@@ -750,51 +910,76 @@
             commitOrder();
         }
 
-        function renderAdminProducts() {
-            document.getElementById('prodCount').innerText = products.length + " sản phẩm";
-            let sel = document.getElementById('adminFilterCat');
-            if (sel) {
-                sel.innerHTML = `<option value="all">Tất cả danh mục (${products.length})</option>` + getCatOrder().map(c =>
-                    `<option value="${c}">${c} (${products.filter(p => p.cat === c).length})</option>`).join("");
-                sel.value = adminFilter;
+        function chipStyle(on) {
+            return (on ? "background:#0f172a;color:#fff;" : "background:#f1f5f9;color:#334155;") + "white-space:nowrap;border-radius:9999px;padding:6px 12px;font-size:11px;font-weight:700;flex-shrink:0;";
+        }
+
+        function renderAdminChips() {
+            let ord = getCatOrder();
+            adminCatList = ["all"].concat(ord);
+            let counts = {};
+            products.forEach(p => { counts[p.cat] = (counts[p.cat] || 0) + 1; });
+            document.getElementById('adminCatChips').innerHTML = adminCatList.map((c, i) => {
+                let n = c === "all" ? products.length : (counts[c] || 0);
+                return `<button onclick="setAdminFilter(${i})" style="${chipStyle(c === adminFilter)}">${c === "all" ? "Tất cả" : esc(c)} (${n})</button>`;
+            }).join("");
+
+            let pool = adminFilter === "all" ? products : products.filter(p => p.cat === adminFilter);
+            let tc = {}, none = 0;
+            pool.forEach(p => { if (p.type) tc[p.type] = (tc[p.type] || 0) + 1; else none++; });
+            let types = Object.keys(tc).sort((a, b) => tc[b] - tc[a] || a.localeCompare(b, 'vi'));
+            adminTypeList = ["all"].concat(types);
+            if (none && types.length) adminTypeList.push("__none");
+            let row = document.getElementById('adminTypeChips');
+            if (types.length === 0) {
+                row.classList.add('hidden');
+                adminType = "all";
+            } else {
+                row.classList.remove('hidden');
+                if (adminTypeList.indexOf(adminType) < 0) adminType = "all";
+                row.innerHTML = `<span class="text-[11px] font-black text-gray-500" style="flex-shrink:0;">Loại:</span>` + adminTypeList.map((t, i) => {
+                    let label = t === "all" ? "Mọi loại" : (t === "__none" ? "Chưa phân loại" : esc(t));
+                    let n = t === "all" ? pool.length : (t === "__none" ? none : tc[t]);
+                    return `<button onclick="setAdminType(${i})" style="${chipStyle(t === adminType)}">${label} (${n})</button>`;
+                }).join("");
             }
+        }
+
+        function renderAdminProducts() {
+            let hub = document.getElementById('adminProductList');
+            if (!hub) return;
+            renderAdminChips();
+            let entries = visibleEntries();
             selected.forEach(id => { if (!products.some(p => p.id === id)) selected.delete(id); });
             updateSelBar();
-            let box = document.getElementById('adminProductList');
-            if (products.length === 0) {
-                box.innerHTML = `<p class="text-center text-gray-400 text-xs py-6">Chưa có sản phẩm nào. Thêm sản phẩm ở form phía trên.</p>`;
+            let shown = entries.slice(0, adminLimit);
+            document.getElementById('hubSummary').innerText = "Hiện " + shown.length + " / " + entries.length + " kết quả (tổng " + products.length + " sản phẩm)";
+            document.getElementById('adminMore').classList.toggle('hidden', entries.length <= adminLimit);
+            document.getElementById('adminMore').innerText = "Xem thêm " + Math.min(20, entries.length - shown.length) + " sản phẩm";
+            if (entries.length === 0) {
+                hub.innerHTML = `<p class="text-center text-gray-400 text-xs py-8">${products.length === 0 ? "Chưa có sản phẩm nào. Bấm + Thêm để bắt đầu." : "Không có sản phẩm nào khớp bộ lọc."}</p>`;
                 return;
             }
-            box.innerHTML = products.map((p, idx) => {
-                if (adminFilter !== "all" && p.cat !== adminFilter) return "";
-                let id = esc(p.id);
+            hub.innerHTML = shown.map(e => {
+                let p = e.p, id = esc(p.id);
                 return `
-                <div class="p-2.5 border rounded-xl bg-gray-50 space-y-2">
-                    <div class="flex items-center" style="gap:10px;">
-                        <input type="checkbox" ${selected.has(p.id) ? 'checked' : ''} onchange="toggleSel('${id}', this.checked)" style="width:20px;height:20px;flex-shrink:0;">
-                        <span class="text-[11px] font-black text-gray-400 text-center" style="width:26px;flex-shrink:0;">${idx + 1}</span>
-                        <img src="${esc(imgFor(p))}" class="w-14 h-14 rounded-lg object-cover bg-gray-200 shrink-0" onerror="this.style.visibility='hidden'">
-                        <div class="flex-1 min-w-0 text-xs">
-                            <p class="font-bold text-gray-900 truncate">${esc(p.name)}</p>
-                            <p class="text-gray-500">${esc(p.cat)}</p>
-                            <p class="text-red-600 font-bold">${money(p.price)}</p>
+                <div class="flex items-center bg-white border border-gray-200 rounded-xl p-2" style="gap:8px;">
+                    <input type="checkbox" ${selected.has(p.id) ? 'checked' : ''} onchange="toggleSel('${id}', this.checked)" style="width:22px;height:22px;flex-shrink:0;">
+                    <div class="flex items-center flex-1 min-w-0" style="gap:8px;cursor:pointer;" onclick="openProdModal('${id}')">
+                        <span class="text-[10px] font-black text-gray-400 text-center" style="width:30px;flex-shrink:0;">${e.i + 1}</span>
+                        <img loading="lazy" src="${esc(imgFor(p))}" class="rounded-lg object-cover bg-gray-200" style="width:46px;height:46px;flex-shrink:0;" onerror="this.style.visibility='hidden'">
+                        <div class="flex-1 min-w-0">
+                            <p class="text-xs font-bold text-gray-900" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.3;">${esc(p.name)}</p>
+                            <p class="text-[10px] text-gray-500 truncate">${esc(p.cat)}${p.type ? " • " + esc(p.type) : ""}</p>
+                            <p class="text-xs font-black text-red-600">${money(p.price)}</p>
                         </div>
                     </div>
-                    <div class="grid grid-cols-6 gap-1 text-[11px] font-bold">
-                        <button onclick="moveProduct('${id}','top')" class="bg-slate-700 text-white py-1.5 rounded" title="Lên đầu">⤒</button>
-                        <button onclick="moveProduct('${id}',-1)" class="bg-slate-700 text-white py-1.5 rounded" title="Lên 1 bậc">▲</button>
-                        <button onclick="moveProduct('${id}',1)" class="bg-slate-700 text-white py-1.5 rounded" title="Xuống 1 bậc">▼</button>
-                        <button onclick="moveProduct('${id}','bottom')" class="bg-slate-700 text-white py-1.5 rounded" title="Xuống cuối">⤓</button>
-                        <button onclick="editProduct('${id}')" class="bg-blue-600 text-white py-1.5 rounded">Sửa</button>
-                        <button onclick="deleteProduct('${id}')" class="bg-red-600 text-white py-1.5 rounded">Xóa</button>
-                    </div>
-                    <div class="flex items-center text-[11px] font-bold" style="gap:8px;">
-                        <span class="text-gray-600">Đến vị trí</span>
-                        <input type="text" inputmode="numeric" id="pos_${id}" placeholder="số" class="border border-gray-300 rounded-lg p-1.5 bg-white text-gray-900 text-center" style="width:64px;">
-                        <button onclick="movePos('${id}')" class="bg-emerald-600 text-white rounded-lg px-4 py-1.5">OK</button>
+                    <div class="flex flex-col" style="gap:4px;flex-shrink:0;">
+                        <button onclick="moveProduct('${id}',-1)" class="bg-slate-700 text-white rounded" style="width:32px;height:26px;font-size:11px;">▲</button>
+                        <button onclick="moveProduct('${id}',1)" class="bg-slate-700 text-white rounded" style="width:32px;height:26px;font-size:11px;">▼</button>
                     </div>
                 </div>`;
-            }).join("") || `<p class="text-center text-gray-400 text-xs py-6">Danh mục này chưa có sản phẩm.</p>`;
+            }).join("");
         }
 
         // ===== KẾT NỐI GITHUB: TỰ LƯU SẢN PHẨM VÀ ẢNH LÊN WEB =====
