@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-28T06:12:37.356Z",
+ "updatedAt": "2026-11-28T06:15:47.953Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -211,8 +211,9 @@
    "id": "P1794401758507",
    "name": "[THẾ GIỚI ĐỒ MẸ & BÉ 2] Chậu tắm ếch cho bé, Làn đi",
    "cat": "Gia Dụng",
-   "price": 202860,
-   "img": "images/P1794401758507-1794401761337.jpg",
+   "type": "",
+   "price": 225000,
+   "img": "images/P1794401758507-1795846544798.jpg",
    "link": "https://vt.tiktok.com/ZS9f5khjMfKh5-HVrwj/"
   },
   {
