@@ -25,6 +25,9 @@
         .sec-num { color:#A8832E; font-weight:700; font-size:12px; letter-spacing:.2em; margin-bottom:6px; }
         .sec-title { color:#7A5714; font-weight:800; font-size:16px; line-height:1.4; margin-bottom:10px; }
         .slogan { text-align:center; color:#7A5714; font-weight:800; font-size:12.5px; letter-spacing:.14em; line-height:1.8; padding:8px 10px 0; }
+        .chip.sub { padding:6px 14px; font-size:12px; }
+        .cat-tile { display:flex; align-items:center; gap:10px; background:#ffffff; border:1px solid #E5E7EB; border-radius:12px; padding:11px 12px; font-size:13px; font-weight:600; color:#18181B; text-align:left; }
+        .cat-tile:active { background:#FBF6E8; }
         .share-btn { width:100%; display:flex; align-items:center; justify-content:center; gap:8px; background:#ffffff; border:1.5px solid #C9A961; color:#8F6B1F; font-weight:800; font-size:14px; padding:13px 16px; border-radius:14px; }
         .share-btn:active { background:#FBF6E8; }
         .kw { color:#0A0A0A; font-weight:700; }
@@ -58,7 +61,13 @@
             <div class="sec-card">
                 <h3 class="sec-title">Hợp tác gợi ý nguồn hàng uy tín — Kết nối trực tiếp gian hàng gốc</h3>
                 <p class="sec-body"><span class="brand">GERMANY AI PREMIUM HUB</span> là hệ sinh thái mua sắm do chúng tôi tuyển chọn, hợp tác giới thiệu sản phẩm cùng Shopee, TikTok Shop và các nhãn hàng, đơn vị cung ứng uy tín. Chúng tôi <span class="kw">không bán hàng trực tiếp</span> và <span class="kw">không thu bất kỳ phí trung gian nào</span> — khi lựa chọn tại đây, bạn được dẫn thẳng tới gian hàng gốc để tự do mua sắm và hưởng đầy đủ các chính sách bảo vệ người tiêu dùng như <span class="kw">đồng kiểm, bảo hành, đổi trả</span> theo đúng quy định minh bạch của sàn và shop.</p>
-                <p class="sec-body" style="margin-top:12px;">Giữa thị trường đa dạng hiện nay, <span class="brand">GERMANY AI PREMIUM HUB</span> đóng vai trò như một cầu nối, giúp bạn tiết kiệm thời gian tìm kiếm bằng cách giới thiệu sản phẩm uy tín, được sàng lọc kỹ lưỡng theo nhu cầu thực tế và xu hướng tiêu dùng mới nhất — giúp bạn dễ dàng <span class="kw">chọn đúng món đồ chất lượng với mức giá hợp lý</span> ngay từ lần chạm đầu tiên.</p>
+                <p class="sec-body" style="margin-top:12px;">Giữa thị trường đa dạng hiện nay, có rất nhiều sản phẩm giống nhau về kiểu dáng, mẫu mã, nhưng chất lượng thực tế của mỗi gian hàng lại có thể khác nhau. Chỉ nhìn bằng mắt thường, rất khó để phân biệt đâu là lựa chọn xứng đáng. Vì vậy, <span class="brand">GERMANY AI PREMIUM HUB</span> đóng vai trò như một cầu nối, giúp bạn tiết kiệm thời gian tìm kiếm bằng cách giới thiệu sản phẩm uy tín, được sàng lọc kỹ lưỡng theo nhu cầu thực tế và xu hướng tiêu dùng mới nhất — giúp bạn dễ dàng <span class="kw">chọn đúng món đồ chất lượng với mức giá hợp lý</span> ngay từ lần chạm đầu tiên.</p>
+            </div>
+
+            <div class="sec-card">
+                <h3 class="sec-title">Tìm sản phẩm thật dễ</h3>
+                <p class="sec-body" style="margin-bottom:12px;">Bấm vào danh mục bạn quan tâm để xem ngay:</p>
+                <div id="homeCats" class="grid grid-cols-2 gap-2"></div>
             </div>
 
             <button onclick="shareSite()" class="share-btn">
@@ -72,7 +81,7 @@
             <!-- Tìm kiếm -->
             <div class="relative">
                 <svg class="ico absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-                <input type="text" id="storeSearch" oninput="storeLimit=40;renderStore()" placeholder="Tìm kiếm sản phẩm, thương hiệu..." class="w-full bg-white border border-gray-200 rounded-2xl py-3 pl-11 pr-4 text-sm text-gray-900 focus:outline-none focus:border-amber-400">
+                <input type="text" id="storeSearch" oninput="storeLimit=40;renderStore()" placeholder="Tìm kiếm sản phẩm..." class="w-full bg-white border border-gray-200 rounded-2xl py-3 pl-11 pr-4 text-sm text-gray-900 focus:outline-none focus:border-amber-400">
             </div>
 
             <!-- Bộ sưu tập mở rộng: bấm là sang trang collshp của Cụ -->
@@ -89,11 +98,14 @@
             </div>
 
             <!-- Danh mục -->
-            <div class="scroll-x sticky-chips flex space-x-2" id="storeChips"></div>
+            <div class="sticky-chips">
+                <div class="scroll-x flex space-x-2" id="storeChips"></div>
+                <div class="scroll-x flex space-x-2 hidden" id="storeTypes" style="margin-top:8px;"></div>
+            </div>
 
             <!-- Sản phẩm -->
             <div class="grid grid-cols-2 gap-2.5" id="storeGrid"></div>
-            <button id="storeMore" onclick="showMoreStore()" class="hidden w-full bg-white border border-gray-200 text-gray-800 font-bold text-sm rounded-2xl py-3">Xem thêm sản phẩm</button>
+            <div id="storeMore" class="hidden" style="text-align:center;color:#9ca3af;font-size:12px;padding:14px 0;">Đang tải thêm sản phẩm…</div>
         </div>
 
         <!-- ========== TAB 3: CỘNG ĐỒNG ========== -->
@@ -232,7 +244,7 @@
             </div>
 
             <div class="space-y-1.5" id="adminProductList"></div>
-            <button id="adminMore" onclick="showMoreAdmin()" class="hidden w-full bg-white border border-gray-300 text-gray-800 text-xs font-bold rounded-xl py-3">Xem thêm</button>
+            <div id="adminMore" class="hidden" style="text-align:center;color:#9ca3af;font-size:12px;padding:14px 0;">Đang tải thêm…</div>
 
             <div class="bg-white rounded-2xl p-3 border border-gray-200 space-y-2">
                 <p class="text-[11px] font-black text-gray-700 uppercase">Sắp xếp cả kho hàng</p>
@@ -311,7 +323,7 @@
         // ===== CẤU HÌNH =====
         // Link gian hàng Shopee của Cụ trên collshp (sửa link ở đây khi cần)
         const SHOPEE_STORE_LINK = "https://collshp.com/germany.ai?view=storefront";
-        const CATS = ["Thời Trang Nam", "Thời Trang Nữ", "Đồ đôi & Unisex", "Giày dép", "Túi", "Gia Dụng", "Bách hóa", "Tranh ảnh"];
+        const CATS = ["Thời Trang Nam", "Thời Trang Nữ", "Đồ đôi & Unisex", "Giày dép", "Túi", "Tranh ảnh", "Gia Dụng", "Bách hóa"];
         const EMOJI = { "Thời Trang Nam": "👔", "Thời Trang Nữ": "👗", "Đồ đôi & Unisex": "👫", "Giày dép": "👟", "Túi": "👜", "Gia Dụng": "🏠", "Bách hóa": "🛒", "Tranh ảnh": "🖼️" };
         const K_PRODUCTS = "germany_ai_products";
 
@@ -328,6 +340,13 @@
             let r = Object.assign({ pinHash: "", pinSalt: "", catOrder: [], groupAll: false, zalo: DEFAULT_ZALO }, o || {});
             if (!r.zalo) r.zalo = DEFAULT_ZALO;
             r.catOrder = (r.catOrder || []).map(c => c === "Tạp hóa" ? "Bách hóa" : c);
+            // Thứ tự mặc định cũ (chưa do Cụ tự sắp) thì chuyển sang thứ tự mặc định mới
+            let oldDefaults = [
+                "Thời Trang Nam|Thời Trang Nữ|Giày dép|Túi|Gia Dụng|Bách hóa",
+                "Thời Trang Nam|Thời Trang Nữ|Giày dép|Túi|Gia Dụng|Bách hóa|Tranh ảnh",
+                "Thời Trang Nam|Thời Trang Nữ|Đồ đôi & Unisex|Giày dép|Túi|Gia Dụng|Bách hóa|Tranh ảnh"
+            ];
+            if (oldDefaults.indexOf(r.catOrder.join("|")) > -1) r.catOrder = [];
             if (!r.pinHash) { r.pinHash = DEFAULT_PIN_HASH; r.pinSalt = DEFAULT_PIN_SALT; }
             return r;
         }
@@ -386,6 +405,7 @@
                 else { products = local || []; settings = normalizeSettings(localSettings); }
             }
             let priceFixed = normalizeProducts(products);
+            setupObservers();
             fillCatSelect();
             renderStore();
             renderAdminProducts();
@@ -415,17 +435,49 @@
                 sel.innerHTML = opts;
                 if (cur) sel.value = cur;
             });
+            renderHomeCats();
         }
 
         // ===== CỬA HÀNG =====
+        let storeLimit = 40;
+        let storeType = "all";
+        let storeTypeList = [];
+        let storeObserver = null, adminObserver = null;
+
         function renderStore() {
             let chips = document.getElementById('storeChips');
             chips.innerHTML = ["Tất Cả"].concat(getCatOrder()).map(c =>
                 `<button class="chip ${c === storeCat ? 'on' : ''}" onclick="setStoreCat('${esc(c)}')">${EMOJI[c] ? `<span style="font-size:15px;line-height:1;">${EMOJI[c]}</span>` : ''}<span>${esc(c)}</span></button>`
             ).join("");
 
-            let kw = (document.getElementById('storeSearch').value || "").trim().toLowerCase();
-            let list = products.filter(p => (storeCat === "Tất Cả" || p.cat === storeCat) && (!kw || (p.name || "").toLowerCase().includes(kw)));
+            // Hàng "Loại": chỉ hiện khi khách đã chọn một danh mục có phân loại
+            let pool = storeCat === "Tất Cả" ? [] : products.filter(p => p.cat === storeCat);
+            let tc = {}, none = 0;
+            pool.forEach(p => { if (p.type) tc[p.type] = (tc[p.type] || 0) + 1; else none++; });
+            let types = Object.keys(tc).sort((a, b) => tc[b] - tc[a] || a.localeCompare(b, 'vi'));
+            storeTypeList = ["all"].concat(types);
+            if (none && types.length) storeTypeList.push("__none");
+            let typeRow = document.getElementById('storeTypes');
+            if (types.length === 0) {
+                typeRow.classList.add('hidden');
+                storeType = "all";
+            } else {
+                typeRow.classList.remove('hidden');
+                if (storeTypeList.indexOf(storeType) < 0) storeType = "all";
+                typeRow.innerHTML = storeTypeList.map((t, i) =>
+                    `<button class="chip sub ${t === storeType ? 'on' : ''}" onclick="setStoreType(${i})">${t === "all" ? "Tất cả" : (t === "__none" ? "Khác" : esc(t))}</button>`
+                ).join("");
+            }
+
+            // Tìm không cần gõ dấu, theo tên, loại và danh mục
+            let kw = stripAccents(document.getElementById('storeSearch').value).trim();
+            let list = products.filter(p => {
+                if (storeCat !== "Tất Cả" && p.cat !== storeCat) return false;
+                if (storeType === "__none") { if (p.type) return false; }
+                else if (storeType !== "all" && (p.type || "") !== storeType) return false;
+                if (kw && stripAccents(p.name + " " + (p.type || "") + " " + p.cat).indexOf(kw) < 0) return false;
+                return true;
+            });
             let grid = document.getElementById('storeGrid');
 
             if (list.length === 0) {
@@ -447,11 +499,41 @@
                         <p class="pprice">${money(p.price)}</p>
                     </div>
                 </div>`).join("");
+            rewatch(storeObserver, 'storeMore');
         }
 
-        let storeLimit = 40;
-        function setStoreCat(c) { storeCat = c; storeLimit = 40; renderStore(); }
+        function setStoreCat(c) { storeCat = c; storeType = "all"; storeLimit = 40; renderStore(); }
+        function setStoreType(i) { storeType = storeTypeList[i] || "all"; storeLimit = 40; renderStore(); }
         function showMoreStore() { storeLimit += 40; renderStore(); }
+
+        // Từ Trang chủ bấm danh mục: nhảy sang tab Premium Hub đã chọn sẵn danh mục
+        function goToCategory(c) {
+            storeCat = c; storeType = "all"; storeLimit = 40;
+            document.getElementById('storeSearch').value = "";
+            showTab(2);
+        }
+
+        function renderHomeCats() {
+            let box = document.getElementById('homeCats');
+            if (!box) return;
+            box.innerHTML = getCatOrder().map(c =>
+                `<button class="cat-tile" onclick="goToCategory('${esc(c)}')"><span style="font-size:19px;line-height:1;">${EMOJI[c] || ''}</span><span>${esc(c)}</span></button>`
+            ).join("");
+        }
+
+        // Tự tải thêm khi cuộn gần cuối (khách và admin không phải bấm "Xem thêm")
+        function rewatch(obs, id) {
+            if (!obs) return;
+            let el = document.getElementById(id);
+            if (!el) return;
+            obs.unobserve(el);
+            obs.observe(el);
+        }
+        function setupObservers() {
+            if (!('IntersectionObserver' in window)) { storeLimit = 1e9; adminLimit = 1e9; return; }
+            storeObserver = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) showMoreStore(); }, { rootMargin: '700px' });
+            adminObserver = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) showMoreAdmin(); }, { rootMargin: '700px' });
+        }
         function openShopeeStore() { window.open(SHOPEE_STORE_LINK, "_blank"); }
         function buyProduct(id) {
             let p = products.find(x => x.id === id);
@@ -763,7 +845,7 @@
         let adminFilter = "all";   // danh mục đang lọc
         let adminType = "all";     // "all" | "__none" | tên loại
         let adminSearch = "";
-        let adminLimit = 20;
+        let adminLimit = 40;
         let adminCatList = [];
         let adminTypeList = [];
         let searchTimer = null;
@@ -799,16 +881,16 @@
             window.scrollTo(0, 0);
         }
 
-        function setAdminFilter(i) { adminFilter = adminCatList[i] || "all"; adminType = "all"; adminLimit = 20; selected.clear(); renderAdminProducts(); }
-        function setAdminType(i) { adminType = adminTypeList[i] || "all"; adminLimit = 20; selected.clear(); renderAdminProducts(); }
+        function setAdminFilter(i) { adminFilter = adminCatList[i] || "all"; adminType = "all"; adminLimit = 40; selected.clear(); renderAdminProducts(); }
+        function setAdminType(i) { adminType = adminTypeList[i] || "all"; adminLimit = 40; selected.clear(); renderAdminProducts(); }
         function onAdminSearch() {
             clearTimeout(searchTimer);
             searchTimer = setTimeout(function() {
                 adminSearch = document.getElementById('adminSearch').value;
-                adminLimit = 20; selected.clear(); renderAdminProducts();
+                adminLimit = 40; selected.clear(); renderAdminProducts();
             }, 200);
         }
-        function showMoreAdmin() { adminLimit += 20; renderAdminProducts(); }
+        function showMoreAdmin() { adminLimit += 40; renderAdminProducts(); }
 
         function updateSelBar() {
             document.getElementById('selCount').innerText = selected.size;
@@ -955,11 +1037,11 @@
             let shown = entries.slice(0, adminLimit);
             document.getElementById('hubSummary').innerText = "Hiện " + shown.length + " / " + entries.length + " kết quả (tổng " + products.length + " sản phẩm)";
             document.getElementById('adminMore').classList.toggle('hidden', entries.length <= adminLimit);
-            document.getElementById('adminMore').innerText = "Xem thêm " + Math.min(20, entries.length - shown.length) + " sản phẩm";
             if (entries.length === 0) {
                 hub.innerHTML = `<p class="text-center text-gray-400 text-xs py-8">${products.length === 0 ? "Chưa có sản phẩm nào. Bấm + Thêm để bắt đầu." : "Không có sản phẩm nào khớp bộ lọc."}</p>`;
                 return;
             }
+            rewatch(adminObserver, 'adminMore');
             hub.innerHTML = shown.map(e => {
                 let p = e.p, id = esc(p.id);
                 return `
