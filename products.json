@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-28T05:21:31.100Z",
+ "updatedAt": "2026-11-28T05:40:39.215Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -51,7 +51,8 @@
    "cat": "Giày dép",
    "price": 462000,
    "img": "images/P1794090377356-1794118902278.jpg",
-   "link": "https://vt.tiktok.com/ZS9fYBp6uFFUL-IJWNp/"
+   "link": "https://vt.tiktok.com/ZS9fYBp6uFFUL-IJWNp/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794162118707",
@@ -118,7 +119,8 @@
    "cat": "Giày dép",
    "price": 169000,
    "img": "images/P1794088578479-1794088581581.jpg",
-   "link": "https://vt.tiktok.com/ZS9fY6Xdks6Qa-A3ZRB/"
+   "link": "https://vt.tiktok.com/ZS9fY6Xdks6Qa-A3ZRB/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794161012042",
@@ -185,7 +187,8 @@
    "cat": "Giày dép",
    "price": 640000,
    "img": "images/P1794088131761-1794088134619.jpg",
-   "link": "https://vt.tiktok.com/ZS9fYjUhXFkve-iT874/"
+   "link": "https://vt.tiktok.com/ZS9fYjUhXFkve-iT874/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794158860352",
@@ -252,7 +255,8 @@
    "cat": "Giày dép",
    "price": 983100,
    "img": "images/P1794087792971-1794087797023.jpg",
-   "link": "https://vt.tiktok.com/ZS9fY2haydSJW-Rqbd7/"
+   "link": "https://vt.tiktok.com/ZS9fY2haydSJW-Rqbd7/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794158567471",
@@ -319,7 +323,8 @@
    "cat": "Giày dép",
    "price": 616000,
    "img": "images/P1794086135290-1794086138253.jpg",
-   "link": "https://vt.tiktok.com/ZS9fY8XrbkNx3-QXIcD/"
+   "link": "https://vt.tiktok.com/ZS9fY8XrbkNx3-QXIcD/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794157965133",
@@ -377,7 +382,8 @@
    "cat": "Giày dép",
    "price": 2031376,
    "img": "images/P1793888018041-1793888021753.jpg",
-   "link": "https://vt.tiktok.com/ZS9yEwfbuwoWW-nP3G9/"
+   "link": "https://vt.tiktok.com/ZS9yEwfbuwoWW-nP3G9/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794119439067",
@@ -435,7 +441,8 @@
    "cat": "Giày dép",
    "price": 624000,
    "img": "images/P1794084556357-1794084561231.jpg",
-   "link": "https://vt.tiktok.com/ZS9fYJBjNjwT7-nF7Ea/"
+   "link": "https://vt.tiktok.com/ZS9fYJBjNjwT7-nF7Ea/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794118814623",
@@ -493,7 +500,8 @@
    "cat": "Giày dép",
    "price": 525000,
    "img": "images/P1794083407943-1794083410771.jpg",
-   "link": "https://vt.tiktok.com/ZS9fFK3opsvqJ-nQnkv/"
+   "link": "https://vt.tiktok.com/ZS9fFK3opsvqJ-nQnkv/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794080128654",
@@ -551,7 +559,8 @@
    "cat": "Giày dép",
    "price": 1240000,
    "img": "images/P1794063281957-1794063285790.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNwS62Jo1V-5cb3V/"
+   "link": "https://vt.tiktok.com/ZS9fNwS62Jo1V-5cb3V/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794079172799",
@@ -609,7 +618,8 @@
    "cat": "Giày dép",
    "price": 175000,
    "img": "images/P1794062238406-1794062241447.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNcL8m2CrJ-wEgoz/"
+   "link": "https://vt.tiktok.com/ZS9fNcL8m2CrJ-wEgoz/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794078880074",
@@ -667,7 +677,8 @@
    "cat": "Giày dép",
    "price": 521640,
    "img": "images/P1794062741873-1794062745107.jpg",
-   "link": "https://vt.tiktok.com/ZS9fN3VbA4xQr-EaftU/"
+   "link": "https://vt.tiktok.com/ZS9fN3VbA4xQr-EaftU/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794078105995",
@@ -725,7 +736,8 @@
    "cat": "Giày dép",
    "price": 309001,
    "img": "images/P1793983626194-1793983629101.jpg",
-   "link": "https://vt.tiktok.com/ZS9fd7uhe34w2-cr5L8/"
+   "link": "https://vt.tiktok.com/ZS9fd7uhe34w2-cr5L8/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794077809111",
@@ -1159,7 +1171,8 @@
    "cat": "Giày dép",
    "price": 1155198,
    "img": "images/P1793981527684-1793981531904.jpg",
-   "link": "https://vt.tiktok.com/ZS9fdpeKJgAe5-nayb1/"
+   "link": "https://vt.tiktok.com/ZS9fdpeKJgAe5-nayb1/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794398422830",
@@ -1201,7 +1214,8 @@
    "cat": "Giày dép",
    "price": 569400,
    "img": "images/P1793979420112-1793979423510.jpg",
-   "link": "https://vt.tiktok.com/ZS9fdVnvk73Hg-xe6zb/"
+   "link": "https://vt.tiktok.com/ZS9fdVnvk73Hg-xe6zb/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794398221771",
@@ -1243,7 +1257,8 @@
    "cat": "Giày dép",
    "price": 301220,
    "img": "images/P1793976750231-1793976753819.jpg",
-   "link": "https://vt.tiktok.com/ZS9fdmJ7GEnqe-fY74s/"
+   "link": "https://vt.tiktok.com/ZS9fdmJ7GEnqe-fY74s/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794397996912",
@@ -1285,7 +1300,8 @@
    "cat": "Giày dép",
    "price": 381999,
    "img": "images/P1793898029523-1793898033646.jpg",
-   "link": "https://vt.tiktok.com/ZS9yoPTCtTBum-cWLvq/"
+   "link": "https://vt.tiktok.com/ZS9yoPTCtTBum-cWLvq/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794397791769",
@@ -1327,7 +1343,8 @@
    "cat": "Giày dép",
    "price": 592200,
    "img": "images/P1793893155068-1793893158028.jpg",
-   "link": "https://vt.tiktok.com/ZS9yojrJoeYnx-08FtD/"
+   "link": "https://vt.tiktok.com/ZS9yojrJoeYnx-08FtD/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794397624483",
@@ -1369,7 +1386,8 @@
    "cat": "Giày dép",
    "price": 530000,
    "img": "images/P1793891362143-1793891365102.jpg",
-   "link": "https://vt.tiktok.com/ZS9yoLRqnfets-i4xIV/"
+   "link": "https://vt.tiktok.com/ZS9yoLRqnfets-i4xIV/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794397480908",
@@ -1411,7 +1429,8 @@
    "cat": "Giày dép",
    "price": 452844,
    "img": "images/P1793889952088-1793889955049.jpg",
-   "link": "https://vt.tiktok.com/ZS9yoe18wYatu-pTRJa/"
+   "link": "https://vt.tiktok.com/ZS9yoe18wYatu-pTRJa/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794397286874",
@@ -1453,7 +1472,8 @@
    "cat": "Giày dép",
    "price": 169000,
    "img": "images/P1794715714933-1794715717934.jpg",
-   "link": "https://vt.tiktok.com/ZS9fsUckoQXAQ-SExhE/"
+   "link": "https://vt.tiktok.com/ZS9fsUckoQXAQ-SExhE/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794397115130",
@@ -1537,7 +1557,8 @@
    "cat": "Giày dép",
    "price": 145000,
    "img": "images/P1794929137566-1794930152662.jpg",
-   "link": "https://vt.tiktok.com/ZS9fKSEJGrFDj-edgYn/"
+   "link": "https://vt.tiktok.com/ZS9fKSEJGrFDj-edgYn/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794396742625",
@@ -1579,7 +1600,8 @@
    "cat": "Giày dép",
    "price": 178000,
    "img": "images/P1795444826452-1795444829275.jpg",
-   "link": "https://vt.tiktok.com/ZS9PftnQs8RPa-yrBbU/"
+   "link": "https://vt.tiktok.com/ZS9PftnQs8RPa-yrBbU/",
+   "type": "Giày dép nam"
   },
   {
    "id": "P1794396559446",
