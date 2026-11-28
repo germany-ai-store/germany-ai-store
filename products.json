@@ -1,7 +1,7 @@
 {
  "app": "GERMANY_AI",
  "version": 4,
- "updatedAt": "2026-11-28T05:40:39.215Z",
+ "updatedAt": "2026-11-28T05:41:32.558Z",
  "settings": {
   "pinHash": "a24bcb447c48da3b54555deecc81db89bb7ccf86a7765f0ea3dcd4a1c02132bb",
   "pinSalt": "436ff09be75b3a24",
@@ -787,7 +787,8 @@
    "cat": "Giày dép",
    "price": 628228,
    "img": "images/P1794068620699-1794068624242.jpg",
-   "link": "https://vt.tiktok.com/ZS9fFjydcesEs-jtsUZ/"
+   "link": "https://vt.tiktok.com/ZS9fFjydcesEs-jtsUZ/",
+   "type": "Giày dép nữ"
   },
   {
    "id": "P1794077341797",
@@ -837,7 +838,8 @@
    "cat": "Giày dép",
    "price": 434600,
    "img": "images/P1794067988622-1794067991631.jpg",
-   "link": "https://vt.tiktok.com/ZS9fFYQrTxJT7-5yYBd/"
+   "link": "https://vt.tiktok.com/ZS9fFYQrTxJT7-5yYBd/",
+   "type": "Giày dép nữ"
   },
   {
    "id": "P1794077118823",
@@ -887,7 +889,8 @@
    "cat": "Giày dép",
    "price": 196310,
    "img": "images/P1794060292414-1794061239301.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNGgxnTBQB-xn25f/"
+   "link": "https://vt.tiktok.com/ZS9fNGgxnTBQB-xn25f/",
+   "type": "Giày dép nữ"
   },
   {
    "id": "P1794076100440",
@@ -937,7 +940,8 @@
    "cat": "Giày dép",
    "price": 357764,
    "img": "images/P1794059887576-1794059890457.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNsuXc6Gud-8HNMj/"
+   "link": "https://vt.tiktok.com/ZS9fNsuXc6Gud-8HNMj/",
+   "type": "Giày dép nữ"
   },
   {
    "id": "P1794075106469",
@@ -987,7 +991,8 @@
    "cat": "Giày dép",
    "price": 167200,
    "img": "images/P1794058842315-1794058845518.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNbstk4Ms5-LnM1o/"
+   "link": "https://vt.tiktok.com/ZS9fNbstk4Ms5-LnM1o/",
+   "type": "Giày dép nữ"
   },
   {
    "id": "P1794074852006",
@@ -1037,7 +1042,8 @@
    "cat": "Giày dép",
    "price": 269000,
    "img": "images/P1794058261774-1794058264777.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNqRMePg7s-23iu1/"
+   "link": "https://vt.tiktok.com/ZS9fNqRMePg7s-23iu1/",
+   "type": "Giày dép nữ"
   },
   {
    "id": "P1794071343467",
@@ -1087,7 +1093,8 @@
    "cat": "Giày dép",
    "price": 239000,
    "img": "images/P1794057652176-1794057655295.jpg",
-   "link": "https://vt.tiktok.com/ZS9fN4ybWdM2c-RBz1s/"
+   "link": "https://vt.tiktok.com/ZS9fN4ybWdM2c-RBz1s/",
+   "type": "Giày dép nữ"
   },
   {
    "id": "P1794398694781",
@@ -1129,7 +1136,8 @@
    "cat": "Giày dép",
    "price": 145000,
    "img": "images/P1794050221293-1794050227633.jpg",
-   "link": "https://vt.tiktok.com/ZS9fNrPNgmLmp-p2Sgf/"
+   "link": "https://vt.tiktok.com/ZS9fNrPNgmLmp-p2Sgf/",
+   "type": "Giày dép nữ"
   },
   {
    "id": "P1794398582809",
